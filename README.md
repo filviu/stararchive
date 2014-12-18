@@ -1,5 +1,7 @@
 Snapshot of http://starchive.cs.umanitoba.ca/startrek/ from around 2013. I think the last update was in 2008 so it should be as recent as possible.
 
+Browse the contents here : http://silviuvulcan.github.io/stararchive/
+
 The original copyright makes me believe sharing all those files should be fine:
 
 ```
