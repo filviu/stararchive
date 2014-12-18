@@ -1,0 +1,1201 @@
+
+                       =================================
+                          STARDATES IN STAR TREK FAQ
+                                  Version 1.6
+                       by Andrew Main <zefram@fysh.org>
+                       1997-02-09, stardate [-31]8857.62
+                       =================================
+
+
+                          ---------------------------
+                          PART I: PRELIMINARY MATTERS
+                          ---------------------------
+
+
+I.1.  TABLE OF CONTENTS
+
+Part I: PRELIMINARY MATTERS
+I.1.     Table of contents
+I.2.     Introduction to this FAQ
+I.3.     Abbreviations
+
+Part II: THEORIES OF STARDATES
+II.1.    The official explanation
+II.2.    Subjective stardates
+II.3.    Mission-based stardates
+II.4.    Modified Julian dates
+II.5.    Hexadecimal stardates, ten year centuries and other rubbish
+II.6.    Recalibration of the warp factor scale
+
+Part III: INVESTIGATION INTO STARDATES
+III.1.   Time standards
+III.2.   Principles for the investigation
+III.3.   Reference points: the original series
+III.4.   First period of stardates: the original series
+III.5.   Reference points: the classic films
+III.6.   Third period of stardates: the classic films
+III.7.   Second period of stardates: intermediate, ST:TOS to TCFS
+III.8.   Reference points: the next generation
+III.9.   Fifth period of stardates: the next generation
+III.10.  Fourth period of stardates: intermediate, TCFS to ST:TNG
+III.11.  Zeroth period of stardates: before the original series
+
+Part IV: CONSEQUENCES OF THE THEORY
+IV.1.    Conjectural history of stardates
+IV.2.    Date calculations
+IV.3.    Stardates in the twentieth century
+
+Part V: OBJECTIONS TO THE THEORY
+V.1.     The Klingons wouldn't use a human-based system
+V.2.     There aren't really any stardates below 1000
+V.3.     The 4 at the beginning of TNG stardates means 24th century
+V.4.     It wasn't winter on stardate 44012.3
+V.5.     Riker's beard was four years old, but this system makes it five
+V.6.     This system gets Sarek's age wrong
+V.7.     Sisko said his wife died four years before stardate 47329.4
+V.8.     Stardate 49263.8 was an anniversary of the arrival of the Emissary
+V.9.     Stardates in the 30000s were 35 years before stardate 47254.1
+
+Part VI: POINTS OF ORDER
+VI.1.    Obtaining the latest version of this FAQ
+VI.2.    Obtaining this FAQ in other formats
+VI.3.    Related material
+VI.4.    Contacting the author
+VI.5.    Acknowledgements
+VI.6.    History of the text
+VI.7.    Legal notice
+
+
+I.2.  INTRODUCTION TO THIS FAQ
+
+There are a number of conflicting theories concerning the meaning of
+stardates.  This is primarily because no entirely perfect system is possible.
+However stardates are defined, the definition must have changed more than once
+during established Trek history.
+
+This FAQ is an attempt to answer once and for all questions concerning the
+nature of stardates.  The system worked out is as satisfactory as is possible
+in these conditions of confusing and conflicting data.  Unlike most FAQs, the
+sections do not cover completely separate questions; rather, the implied `big
+question' has been divided into logical subtopics.
+
+Part II explains why stardates are so confusing, by describing some popular
+theories (and why they don't work).  Part III follows its own narrative
+structure, and presents an investigation into stardates.  Part IV describes
+the major implications of the system derived in part III.  Part V presents a
+number of possible objections to the system, and refutes them.
+
+IMPORTANT NOTE: if this version of this text is more than a month old, it may
+be out of date.  See part VI for information on getting the latest version.
+You can contact the author by email at <zefram@fysh.org>.
+
+
+I.3.  ABBREVIATIONS
+
+Note the following abbreviations, which will be used without further
+explanation:
+
+FTB         Federation Timebase
+SD          stardate
+
+ST:TOS      "Star Trek" (the original TV series)
+ST:TAS      "Star Trek" (the animated TV series)
+ST:TNG      "Star Trek: The Next Generation" (TV series)
+ST:DS9      "Star Trek: Deep Space Nine" (TV series)
+ST:VOY      "Star Trek: Voyager" (TV series)
+TCFS        the classic film series (ST:TMP to STVI:TUC)
+
+ST:TMP      "Star Trek: The Motion Picture" (feature film)
+STII:TWOK   "Star Trek II: The Wrath of Khan" (feature film)
+STIII:TSFS  "Star Trek III: The Search for Spock" (feature film)
+TVH:STIV    "The Voyage Home: Star Trek IV" (feature film)
+STV:TFF     "Star Trek V: The Final Frontier" (feature film)
+STVI:TUC    "Star Trek VI: The Undiscovered Country" (feature film)
+ST:G        "Star Trek: Generations" (feature film)
+ST:FC       "Star Trek: First Contact" (feature film)
+
+
+                        ------------------------------
+                        PART II: THEORIES OF STARDATES
+                        ------------------------------
+
+
+II.1.  THE OFFICIAL EXPLANATION
+
+Originally, stardates were used so that Star Trek could be established as
+taking place a long way into the future without actually being pinned down to
+a particular time.  The stardates were arbitrary, chosen without regard to
+consistency.  The only thing that was consistent was that the stardates
+generally increased.  However, because episodes got out of order in the
+production sequence, and were shown in a different order again, even this
+could not be relied upon from week to week.
+
+Furthermore, even ignoring obvious verbal slips, the stardate ranges of
+episodes occasionally overlapped, and stardates sometimes even decreased
+within the confines of a single episode.  When pressed for an explanation,
+Gene Roddenberry said:
+
+          This time system adjusts for shifts in relative time which
+          occur due to the vessel's speed and space warp capability.
+          It has little relationship to Earth's time as we know it.
+          One hour aboard the U.S.S.Enterprise at different times
+          may equal as little as three Earth hours.  The stardates
+          specified in the log entry must be computed against the
+          speed of the vessel, the space warp, and its position
+          within our galaxy, in order to give a meaningful reading.
+
+Roddenberry went on to explain that stardates would be different in different
+parts of the galaxy at any one time.  He admitted that he didn't really
+understand this, and would rather forget about the whole thing.  And that was
+when there was only ST:TOS to consider.
+
+Roddenberry's explanation does make some sense.  It seems to suggest that
+stardates are completely subjective.  This will be dealt with in the next
+section.  Contradicting this, however, is the suggestion that position is
+relevant to the calculation.  This part of his explanation, at least, must be
+discounted on the grounds of absurdity.  His explanation is not canonical, so
+it may be treated like any other theory.
+
+
+II.2.  SUBJECTIVE STARDATES
+
+A common theory, picking up on part of Roddenberry's explanation, is that
+stardates are measured subjectively by each different starship.  This means
+that relativistic time distortions, caused by travelling at impulse speeds,
+cause stardate rates to vary from an objective point of view.
+
+Such a system would be useless across the Starfleet, because stardate X to the
+Enterprise would be stardate Y to the Potemkin, and stardate Z to the
+Sutherland.  This situation is obviously not very helpful when arranging a
+rendezvous.
+
+To be useful, stardates must be universal, and the computers will have to
+allow for time dilation.  The computers available in the 20th century are
+capable of compensating for this effect, so it is certainly possible in the
+23rd century.
+
+
+II.3.  MISSION-BASED STARDATES
+
+Another theory is that stardates refer only to the ship's current mission, but
+increase at an objectively constant rate.  This is an improvement over the
+previous theory, because different ships' stardates would differ by constant
+values only.  This theory has also been used to give some very plausible
+relative dates for ST:TOS.
+
+However, it doesn't account for the Earthbound use of stardates, or the
+demonstrated universality of stardates in ST:TNG.  Furthermore, if each ship
+has its own subjective epoch, it seems most odd that all stardates would
+increase at the same rate.  The only type of stardates that would be of any
+use would be those referring to a single standard timebase (i.e., the
+Federation Timebase), and having the same origin for everyone.
+
+The constraint of universality makes matters a little complicated, because it
+means that the rate of increase of stardates is not totally constant.  For
+example, the duration of the ST:TNG series is confirmed within itself to have
+lasted about seven years, during which time the stardate has increased almost
+7000 units.  This is irreconcilable with the fact that SD 5943.7 to SD 7411.4
+was more than two years (ST:TMP).
+
+
+II.4.  MODIFIED JULIAN DATES
+
+It has been suggested in numerous places that stardates are actually Julian
+dates, as used by 20th century astronomers, modulo 10000.  This would make
+each stardate unit exactly 24 hours.  This works well at some points in Trek
+history.  Unfortunately, it makes the `five-year mission' some thirteen years
+long.
+
+
+II.5.  HEXADECIMAL STARDATES, TEN YEAR CENTURIES AND OTHER RUBBISH
+
+It has been suggested, in jest, that stardates are actually hexadecimal, and
+that it is merely coincidence that only decimal digits have been heard so far.
+This is worth mentioning, in order to point out that this FAQ proceeds on the
+basis that all stardates are specified in decimal.
+
+It is interesting to note, however, that the distribution of digits is far
+from uniform.  A canonical stardate ending in ".8" is a real rarity, though
+not totally unknown.  The distribution of single decimal digit fractional
+parts, according to the most up-to-date episode list I can get at the time of
+writing, is thus:
+
+     Digit  Occurrences  Proportion
+         0            8       2.34%
+         1           54      15.79%
+         2           73      21.34%
+         3           58      16.96%
+         4           48      14.04%
+         5           34       9.94%
+         6           17       4.97%
+         7           28       8.19%
+         8            6       1.75%
+         9           16       4.68%
+     Total          342     100.00%
+
+It used to be widely stated that the first digit of ST:TNG stardates was 4
+because it was set in the 24th century.  Obviously, this idea can have no
+place in a proper theory, because it would make each century ten years long.
+It is, however, the way this digit was decided initially for ST:TNG.  The
+Voyager episode "Basics, Part II" finally canonically laid this bit of bunkum
+to rest, when it announced a stardate of 50032.7, while remaining firmly in
+the 24th century (2373 to be precise).
+
+
+II.6.  RECALIBRATION OF THE WARP FACTOR SCALE
+
+Many people have noted that between ST:TOS and ST:TNG, as well as the stardate
+system being revised, the warp factor scale changed.  The warp scale had
+previously had no upper bound on warp factors, but the new scale has a maximum
+of warp 10, which is defined as infinite speed.  (See the Warp Speeds FAQ for
+futher information.)  It has been suggested that both changes happened a the
+same time, possibly as the result of the same new knowledge about the nature
+of time, warp drive, and the interaction of the two.
+
+However, it actually appears that the warp scale changed sometime during the
+classic film series, well before TNG stardates were used.  Consequently the
+two changes can not have occurred at the same time.
+
+
+                    --------------------------------------
+                    PART III: INVESTIGATION INTO STARDATES
+                    --------------------------------------
+
+
+III.1.  TIME STANDARDS
+
+This FAQ addresses the problem of what stardates mean.  Of course, considering
+that stardates are merely a way to refer to points in time, any meaningful
+answer must refer to some other standard way to refer to time.  The adage
+about standards is especially true here -- there are so many to choose from.
+
+Ultimately, it is desired that stardates be related to a standard currently in
+use.  For example, Greenwich Mean Time (GMT).  This is defined as local mean
+time at the Royal Observatory in Greenwich, London.  Local mean time is
+defined in terms of the observed noon on each day.  Consequently, each day of
+GMT is a slightly different length, and not even an integral number of
+seconds.  (Otherwise the second would vary in length from day to day, which
+would be even worse.)  This is, therefore, in its strictest form, not a very
+good standard.
+
+UTC (Universal Coordinated Time) is a better standard.  The second is the unit
+of time defined by the SI, and can be regarded as having a fixed duration.
+Each day is exactly 86400 seconds, except for the occasional day of 86401
+seconds used to keep in line with GMT (to within one second).  To date there
+have been thirty such leap seconds, the most recent on 1995-12-31.
+Theoretically there may also be days of 86399 seconds, though there have not
+been any so far, and it is not anticipated that any will be needed.  This is a
+better standard for specifying time, but still suffers from variable day
+lengths, which makes its handling awkward.
+
+However, both GMT and UTC suffer from a more fundamental flaw: they depend on
+observations made from a single planet.  If the planet is changed
+significantly, or is destroyed, then the time standard is meaningless.
+Furthermore, anyone in a different reference frame (i.e., anyone not on Terra)
+will disagree with Terrans about the order of certain events.  This is a
+fundamental aspect of relativity.
+
+Fortunately, Treknology provides a solution.  For FTL travel to avoid
+violating causality, it has to take place in such a way that all FTL
+travellers have the same frame of reference.  (Refer to Jason Hinson's
+"Relativity and FTL" FAQ for the explanation of all this.)  The only standard
+timebase that could be considered universal would be one based in this frame
+of reference.  It has been established numerous times in ST:TNG that there is
+a Federation Timebase, which presumably is arranged in just this way.
+
+Thus it is established that stardates are linked to the FTB.  But what about
+Terran calendars?  Because this standard reference frame is currently unknown
+to Terran science, it can be conveniently assumed to be close to the reference
+frame of Terra.  Because the relation to Terran time is only approximate, the
+choice of GMT or UTC is irrelevant, and the distinction will be ignored from
+here on.
+
+This makes it possible to refer to points in time -- unambiguously -- using
+the Gregorian calendar, which is what will be done for the remainder of this
+FAQ.  The Gregorian calendar is chosen because it is the most widely used on
+Terra.  Furthermore, it will be assumed that every day is exactly 86400
+seconds long.
+
+
+III.2.  PRINCIPLES FOR THE INVESTIGATION
+
+Since there must be some basis for a system, the following will be assumed, in
+decreasing order of importance:
+
+1.  Nothing will be arbitrary, unless it is unavoidable.  The idea is that
+anyone working from the same data, using the same principles, will come to the
+same conclusion.
+
+2.  Stardates occur in the `right' order.  That is, the stardate will always
+increase numerically in the direction of advancing time.  From time to time it
+will be necessary for the stardate to be reset to zero, but only on a finite
+set of occasions.  On the principle that the system be as simple as possible,
+this set should be as small as possible.
+
+3.  Stardates will, in general, increase at a constant rate relative to the
+Federation Timebase.  From time to time this rate may vary, but only on a
+finite set of occasions.  On the principle that the system be as simple as
+possible, this set should be as small as possible.
+
+4.  Stardate rates will be round numbers relative to Terran phenomena such as
+days or years.
+
+Given the above assumptions -- and working by the principle that the system
+should be as simple as possible -- what follows is the investigation of the
+stardate system.  ST:TOS stardates will be discussed first; the ST:TNG
+stardates can be added to the system later (and relatively easily).  Note:
+unless otherwise stated, all stardates specified are exact.  As discussed in
+the previous section, Terran times given are necessarily approximate.
+
+The system worked out below does not attempt to explain known writing errors.
+Just as Data's remark in "Encounter at Farpoint" ("Starfleet class of '78...")
+is commonly ignored, errors of stardate such as those in "Dark Page" are
+ignored here.  Verbal bloopers are also ignored, naturally.  Also, because of
+their irreconcilable inconsistency, stardates other than the main one for each
+episode must be ignored.
+
+
+III.3.  REFERENCE POINTS: THE ORIGINAL SERIES
+
+Going by the Star Trek Chronology, the first and last episodes are "The
+Corbomite Maneuver" (SD 1512.2; assumed to take place 300 years after it aired
+in September 2266) and "Turnabout Intruder" (SD 5928.5; early 2269).
+
+This choice of episodes has some faults.  "Turnabout Intruder" was the last
+episode aired, but the stardate of "All Our Yesterdays" was later (stardate
+5943.7 against 5928.5).  Under the principle that stardates occur in the right
+order, "All Our Yesterdays" must be taken as the end-point for the mission.
+(It makes little difference anyway, because the actual date is only
+conjecture.)
+
+Similarly, there is room for dispute over which episode comes first.  "The
+Corbomite Maneuver" (SD 1512.2) was first in regular production, but that
+doesn't necessarily mean anything.  Similarly, "The Man Trap" (SD 1513.1), the
+first episode aired, is not a good starting point.  "Where No Man Has Gone
+Before" (SD 1312.4) was first overall in both production and stardate, but is
+generally regarded as being quite distinct from the rest of the series.
+"Mudd's Women" (SD 1329.1) has the earliest stardate of the episodes in
+regular production, providing another possible starting point.  However, the
+episode "Charlie X" (SD 1533.6) contains a clear reference to Terran dates,
+making all this arbitrariness unnecessary.
+
+[Note: the Chronology lists the stardate of "The Man Trap" as 1513.1, but the
+Star Trek Compendium says 1531.1.  I would appreciate it if someone could
+check with the episode itself, to confirm one date or the other.]
+
+At one point in "Charlie X", Kirk states that it is Thanksgiving day on Earth.
+For those not familiar with American customs, Thanksgiving day is the fourth
+Thursday in November.  Assuming Kirk was indeed referring to that same
+Thanksgiving day (which seems likely), and accepting the Chronology's
+calculation of year, this pins down the date of Kirk's statement to
+2266-11-22.  Let this be the day after the initial statement of the stardate
+for the episode, and the conclusion is reached that the episode started on
+2266-11-21.  This is only two months different from the Chronology's
+conjecture, and has the advantage of being almost completely non-arbitrary.
+
+
+III.4.  FIRST PERIOD OF STARDATES: THE ORIGINAL SERIES
+
+Stardate 1533.6 was sometime during 2266-11-21.  According to the Chronology,
+the end of the series (SD 5943.7) was in early 2269.  The is approximately
+4400 units spanning two and a half years.  A nice round number close to this
+rate is 5 units per day.  (4.8 units/day -- 0.2u/hour -- is also within the
+possible range.  It would be less plausible, however, because it relates to
+hours, which are purely a human invention, whereas days are a natural
+phenomenon.)
+
+With this rate, to make things easier, it can be assumed that any exact
+multiple of 5 units is midnight.  So the Thanksgiving day in question,
+2266-11-22, runs from exactly SD 1535 to just before SD 1540.  Therefore, SD
+5940 is 00:00 on 2269-04-21 ("All Our Yesterdays" is on that day).
+
+This rate puts "Where No Man Has Gone Before" in 2266, in contradiction to the
+speculative date in the Chronology.  (This is not a problem, because there is
+no stronger evidence to back up that particular speculation.)  It also set
+dates for a number of other events that the Chronology has assigned
+conjectural dates.  It gives us a date of 2270-02-09 for ST:TMP, which is not
+acceptable.  ST:TMP should occur in late 2271, to give Kirk time to have "not
+logged a single star hour in two and a half years".  So the stardate rate must
+have changed at some stardate between 5943.7 and 7411.4.
+
+
+III.5.  REFERENCE POINTS: THE CLASSIC FILMS
+
+Going by the Star Trek Chronology again, these dates may be useful.  "Star
+Trek: The Motion Picture" (SD 7411.4) was in late 2271, at least 30 months
+after the end of the original TV series.  "Star Trek III: The Search For
+Spock" (SD 8210.3) was in late 2285.  "Star Trek VI: The Undiscovered Country"
+(SD 9521.6) was in 2293.  These dates are conjectural, but they have a solid
+basis.  They may be moved a little without contradicting anything other than
+the Chronology itself.
+
+(By the way, ST:TMP really does have a stardate of 7411.4, despite the manuals
+that say 7412.6.  One of the barely-audible messages at the Epsilon 9 station
+mentions a rendezvous between two Federation ships to take place on stardate
+7411.4.  If you listen carefully it is also possible to make out the ships'
+names and registry numbers -- scout Columbia NCC-621 and scout Revere NCC-595.
+These names and numbers match those in the list of scouts in the "Star Fleet
+Technical Manual".)
+
+TVH:STIV is about 3 months after STIII:TSFS according to Captain Kirk's log,
+but this reference can be ignored because he may have meant Vulcan months.
+
+
+III.6.  THIRD PERIOD OF STARDATES: THE CLASSIC FILMS
+
+It turns out that the stardate rate has to change sometime between ST:TMP and
+STII:TWOK, as well as sometime before ST:TMP.  The details of that period,
+encompassing ST:TMP, can't be calculated until this bit, for the remainder of
+the classic films, has been done.
+
+The reference points to use for this are STIII:TSFS (SD 8210.3; late 2285) and
+STVI:TUC (SD 9521.6; conjectured to be 2293).  The gap is 1311.3 units,
+covering 7-8 years.  A suitable rate is 0.5 units per day.  (0.48u/d --
+0.02u/hour -- is also within the possible range.)
+
+Similarly to the first period of stardates, it can be assumed that any exact
+multiple of 0.5 units is midnight.  This means that the days on which
+STIII:TSFS and STVI:TUC start will start at stardates 8210.0 and 9521.5
+respectively.  The calculation of exactly which dates these are must wait
+until the details of the intermediate stardate rate have been calculated.
+
+
+III.7.  SECOND PERIOD OF STARDATES: INTERMEDIATE, ST:TOS TO TCFS
+
+Neither of the periods of stardates discussed above gives a satisfactory date
+for ST:TMP.  It is therefore necessary to have an intermediate period of
+stardates to link the two.  It is possible to make this link with a single
+intermediate period.  This period must use up stardates much more slowly than
+either of the adjacent periods.
+
+This intermediate period can have a rate of about 0.156u/d at the most.  To
+have a rate any higher, this period would have to extend into ST:TOS or beyond
+STII:TWOK.  It would be possible to use a rate of 0.15u/d (which has the
+advantage of making a standard 8-hour shift exactly 0.05 units long), but this
+makes the day length messy.  (3u/d or 0.3u/d would be more manageable, but it
+isn't possible in this case.)  The most logical rate to use is 0.1u/d.
+
+Now to place ST:TMP...  It must be a fair bit more than 30 months after "All
+Our Yesterdays", ideally in late 2271.  To make the changeover point from
+ST:TOS stardates to this period an exact midnight -- it would be madness to do
+otherwise -- it must be a multiple of 5 units.  This means that moving it one
+day forward or back changes the date of ST:TMP by 49 days, because the
+stardate rates differ by a factor of 50.  The most reasonable date possible
+for ST:TMP under this limitation is 2272-01-10, with the changeover at SD
+7340.0 (2270-01-26).  This is not quite in 2271, but close enough not to cause
+problems with later dates.
+
+And for the second changeover...  It turns out that fairly sensible dates for
+STIII:TSFS and STVI:TUC can be obtained by putting the second changeover at SD
+7840.0 (2283-10-05) -- exactly 5000 days (500 units) after the first
+changeover.  This makes it all look designed.  This puts STIII:TSFS at
+2285-10-14, consistent with the Chronology.  It also makes STVI:TUC
+2292-12-19, which is not quite the conjectural 2293, but is close enough.
+
+
+III.8.  REFERENCE POINTS: THE NEXT GENERATION
+
+Throughout ST:TNG stardates have increased at approximately 1000 units per
+year.  (In fact, during ST:TNG, the second digit of the stardate indicated the
+season.)  From these facts, the Chronology has conjectured that ST:TNG
+stardates increase at exactly 1000 units per year.  Numerous references within
+the series supports this conjecture.  Of course, they support it because the
+shows were written with that system in mind.  It would be difficult to
+contradict this.
+
+However, there are a few inconsistencies in this respect within the series.
+In "Eye of the Beholder" (ST:TNG, SD 47622.1; incidentally, this is the second
+of (so far) three very near title clashes in Star Trek -- there was an
+animated Star Trek episode called "The Eye of the Beholder") an incident at
+Utopia Planitia is referred to both as stardate 40987 and as eight years ago;
+allowing for rounding, this gives a year length of between 704.4 and 954.4
+units.  In "The Pegasus" (ST:TNG, SD 47457.1), the disappearance of the
+Pegasus was stardate 36764 and twelve years ago; this gives a range of 807.8
+to 974.4 units per year.  In "Second Sight" (ST:DS9, 47329.4), the battle of
+Wolf 359 (SD approximately 44002) was exactly four years ago, giving a year
+length of 832 to 834.75 units.
+
+There are some other references consistent with an 833 unit year, but most are
+not so clearly referring to Terran years.  In any case, the vast majority of
+references support 1000 units per year, leaving these other references as
+isolated mistakes.
+
+In "The Neutral Zone" (SD 41986.0), Data stated that the year was 2364.  This
+almost solves the problem of year calculations.  The only problem is that Data
+did not go on to say exactly what day of the year it was, so there is an
+uncertainty of one year when calculating dates from this.
+
+
+III.9.  FIFTH PERIOD OF STARDATES: THE NEXT GENERATION
+
+Note that ST:TNG stardates have five digits before the decimal point, where
+ST:TOS stardates have four.  This would seem to suggest a change of outlook on
+the part of the Federation, from short-term to long-term.  This coincides with
+the change from stardate units being convenient fractions of Terran days to
+being a convenient fraction of a year.  Also, the length of stardates in
+ST:TOS could allow for up to about 5.4 years before needing to be reset to
+zero, whereas the ST:TNG stardates only need to be reset once a century.
+(Presumably one often needed to specify which period of 5.4 years one meant by
+a particular stardate.)
+
+The Chronology proceeds under the assumption that all first season stardates
+were in the year 2364, and then all second season in 2365, and so on.  There
+isn't really any evidence to support this, but it makes things neat.  The
+production crew have occasionally calculated exact dates on this basis.  In
+order to keep things simple, it will be assumed that this is how the stardates
+actually work.  This makes stardate 00000.0 midnight at the beginning of
+2323-01-01.
+
+Stardate 99999.9 should be about 50 minutes before midnight on 2422-12-31,
+after which the stardates get reset to zero again.  However, it is not
+possible to state this as being exact, because not all centuries are the same
+length.  Every fourth century contains 25 leap years; the rest have 24 each.
+The difference in the lengths of individual years creates a more immediate
+problem: the 1000s of units can't match up exactly with calendar years.
+
+Obviously, one solution would be for the stardate rate to vary from year to
+year, making each year 1000 units whether it is 365 or 366 days long.  This is
+not acceptable as a universal time system, however.  The rate changing every
+fourth Terran year makes things difficult for the Vulcans, and the Andorains,
+and in fact almost every member of the Federation.
+
+So the rate must make 1000 units fit a mean solar year of 365.2425 days
+exactly.  (Actually that's not quite exact, but that is the exact mean length
+of a year by the Gregorian calendar.  This is more appropriate, because the
+Gregorian calendar is being used to specify dates.)  400 years is exactly
+146097 days, no matter which 400 years one counts.  By a happy coincidence,
+this is exactly 20871 weeks.  (This fact is of no practical use, except in the
+construction of perpetual calendars.)
+
+For convenience, it can be conjectured that starships on extended voyages --
+and maybe some civilians too -- use a standard year of length 365.2425 days.
+This doesn't mean they add on an extra 5.82 hours at the end of the year, but
+that they distribute it evenly throughout the year.  This makes each day about
+57.4 seconds longer than 24 hours.  In fact, to make chronometers visually
+indistinguishable from those previously in use, the second would get longer.
+
+This standard year is exactly 31556952 SI seconds long, but is internally
+divided into the usual 31536000 seconds.  This makes the `chronological
+second' approximately 1.00066 SI seconds, and even Data would have difficulty
+distinguishing the two.
+
+The two calendar styles could coexist quite easily, because they would rarely
+be more than a few hours different.  In order for them to coexist over a long
+period of time, they must agree on what day of the week any particular date
+falls on.  (A consequence of this is that existing perpetual calendars will
+still be applicable to the new calendar.)  Where there would be a leap day in
+the old-style Gregorian calendar, there is merely a jump in the day of the
+week.  For example, Wednesday 2396-02-28 would be followed by Friday
+2396-03-01, missing out Thursday 2396-02-29 which would appear in the
+Gregorian calendar.
+
+This new calendar will hereafter be called the "quad-cent calendar".  It comes
+exactly into line with the old-style calendar every 400 years.  Since the
+origin for ST:TNG stardates is 2323-01-01, that must be when the two calendars
+match up.  (The next time will be 2723-01-01.)  Hereafter, quad-cent calendar
+dates will be written like 2323*01*01, instead of 2323-01-01.
+
+
+III.10.  FOURTH PERIOD OF STARDATES: INTERMEDIATE, TCFS TO ST:TNG
+
+SD 9521.5 corresponds to the date 2292-12-19.  The digits run out and are
+reset to zero on 2295-08-03.  This starts a special `issue' of stardates,
+whose sole purpose is to bridge the gap to 2323-01-01, when the new-style
+stardates take over.  In this new issue, SD 5000.0 is 2322-12-20, almost
+exactly 30 years after STVI:TUC.  This makes 2323-01-01 SD 5006.0.  So
+stardate 5006.0 in that issue became stardate 00000.0, and the date,
+2323-01-01, became 2323*01*01 for the purposes of stardates.
+
+If Thanksgiving were twelve days later, these numbers would be unbelievably
+neat.  So neat, in fact, that one might well reach the conclusion that this
+system was actually designed to work this way.
+
+
+III.11.  ZEROTH PERIOD OF STARDATES: BEFORE THE ORIGINAL SERIES
+
+From the ST:TOS stardates we know that SD 1530 is 2266-11-21.  Extending this
+back, SD 0000 is 2266-01-19, well after the beginning of the five-year
+mission.  To go further back, we must go into an earlier issue of stardates.
+In this earlier issue, SD 9995 must be 2266-01-18 (one day before the ST:TOS
+stardate 0000).  This makes SD 0000 in this issue 2260-07-29.  Continuing this
+process backward, it should be possible to find a sensible starting point for
+all stardates.
+
+The theory is here supported by the ST:DS9 episode "Equilibrium", which puts
+Joran Bella's birthdate at stardate 0024.7, and notes that this is in 2260.
+(This theory makes it 2260-08-02.)  However, the same episode puts his death
+as stardate 8615.2 and 2286.  This is not quite consistent with this theory,
+being two years out.
+
+None of the major real-life space events is a 0000.  The 43rd issue before the
+classic series has its 0000 on 2030-08-04, and 2030 is supposed to be the year
+of Zefram Cochrane's birth; this is a rather implausible candidate for the
+origin.  The 37th issue before the classic series has its 0000 on 2063-06-12,
+just a couple of months after Cochrane's first demonstration of warp drive
+(2063-04-05, according to ST:FC).  I think the powers that be here missed a
+great opportunity here.  It looks like stardates just aren't based on any
+significant event in space travel.
+
+The 19th issue before the ST:TOS stardates has its SD 0000 on 2162-01-04,
+which is tantalisingly close to 2161 (Federation incorporation).  Taking this
+as the origin of stardates, it could mean that Starfleet originally used
+old-style Terran dates, but found them inappropriate for deep-space use.  A
+few months after incorporation, then, they started up stardates.
+
+If we call these first stardates `zeroth-issue', which will be written like
+[0]0000, ST:TOS uses 19th-issue stardates (e.g., [19]1530 is 2266-11-21).  The
+partial issue to link the TCFS stardates with the ST:TNG stardates is the 20th
+issue, and ST:TNG stardates are 21st issue.  This notation provides a
+convenient way to refer to stardates a long way from the current time.
+
+
+                      -----------------------------------
+                      PART IV: CONSEQUENCES OF THE THEORY
+                      -----------------------------------
+
+
+IV.1.  CONJECTURAL HISTORY OF STARDATES
+
+Before the Federation was founded, everyone involved in space travel used
+their own time system.  Terrans used the Gregorian calendar and UTC; Vulcans
+used their own calendar.  Initially the Federation used the Terran calendar,
+just as it used the Terran language and had its headquarters on Earth.  This
+system proved to be extremely unpopular, especially with the Vulcans, who
+liked a calendar to have some logic about it.  (Alternating 30-day months with
+31 is fine, but sticking a 28 in the middle of that lot is just silly.)
+
+Starfleet bureaucrats quickly devised a compromise system -- which didn't
+match anyone's calendar.  Midnight on 2162-01-04 (only a few months after the
+incorporation of the Federation) was arbitrarily declared to be stardate zero,
+and stardates increased at the arbitrary rate of five units per Terran day.
+This recognised the importance of Terra to the Federation, but also allowed
+anyone to convert stardates to their own calendar by simple mathematical
+formulae.
+
+The system having been cobbled together in a rush, the numbers became
+unmanageable fairly soon.  What would have been stardate 10000 (midnight on
+2167-06-27) was made stardate 0000 again.  The first group of stardates could
+be referred to, when necessary, as zeroth-issue stardates, such as [0]1234,
+and the new issue as first-issue stardates, such as [1]1234.  This reset to
+zero continued to occur every five and a half years, until 2266, when the 19th
+issue of stardates started.  The Federation now having survived a little over
+a century, referral to stardates several issues ago was becoming increasingly
+common.  That year, Starfleet put together a committee to investigate what
+type of stardate system would be more acceptable.
+
+The committee's report, in 2267, recommended that the stardate rate be slowed
+to 0.1 units per day.  This would make the same number of digits as had been
+previously used, and had covered five and a half years, cover two and a half
+centuries.  It was decided that this system should be field-tested between
+stardates [19]7340 and [19]7840 -- 500 units, 5000 days.  So from 2270-01-26
+to 2283-10-05 this system was used.  It proved to be unpopular, because one
+always had to specify an extra digit after the decimal point in order to get
+the sort of precision one had had with the older stardates.  Terrans who had
+grown accustomed to the five-per-day rate found it difficult to adjust.
+
+As a result, it was decided in 2280 that at the end of the test period (SD
+[19]7840) the new rate should not continue.  Instead, a 0.5 units per day rate
+would be used, which would solve the main problems of both earlier systems.
+Four digits (before the decimal point) would last more than fifty years; it
+would rarely be necessary to use extra digits; and the five-per-day rate would
+be preserved.  (Five of a different digit, but still five.)  This system was
+used from stardate [19]7840, and was intended to be a permanent change.
+
+With the length of starships' missions continually increasing, it started to
+look rather comic for starships to keep in time with the daily cycle of a
+planet they would sometimes have no contact with for years at a time.  Keeping
+to its yearly cycle still had some logic, but keeping to a 24-hour day as well
+-- which necessitated the use of leap days -- was just silly.  In 2318, over
+150 years after the incorporation of the Federation, it was decided that
+starships should start to use a rationalised calendar, which would keep the
+years the right length but make the day slightly longer.
+
+In keeping with this longer-term view of time, the stardates would be
+increased to five digits, and the rate changed to match this new rationalised
+year.  A rate of 1000 units per mean year would be convenient.  This would
+make it impossible to instantly work out the time of day from the stardate,
+but Terrans tend to prefer the traditional hours, minutes and seconds for
+specifying times anyway.
+
+What would have been stardate [20]5006.0 -- midnight on 2323-01-01 -- became
+stardate [21]00000.  At the same time, all Earth ships switched to the
+new-style calendar, and the stardate rate was changed to match it.  This
+system has remained in use up to the present (SD [21]51000, 2374*01*01).
+
+
+IV.2.  DATE CALCULATIONS
+
+Here's when the classic movies are set:
+
+Star Trek: The Motion Picture           7411.4  2272-01-10
+Star Trek II: The Wrath of Kahn         8130.3  2285-05-07
+Star Trek III: The Search For Spock     8210.3  2285-10-14
+The Voyage Home: Star Trek IV           8390    2286-10-09
+Star Trek V: The Final Frontier         8454.1  2287-02-14
+Star Trek VI: The Undiscovered Country  9521.6  2292-12-19
+
+Helpfully, STV:TFF occurs in 2287, as the Chronology conjectures.  These dates
+make Vulcan months about four times as long as Terran ones.  Kirk's birthday
+(STII:TWOK) is the 7th of May.  (The 22nd of March, conjectured in the
+Chronology, is taken from William Shatner's birthday.)  "The Deadly Years" (SD
+3478.2) was 2267-12-15, and Kirk was 34 then, which means that his birthdate
+must be 2233-05-07.  The year is consistent with the Chronology.
+
+In ST:TNG, date calculations are much easier, because of the 1000 units per
+year rate and the quad-cent calendar.  The year can be obtained from the first
+two digits, and the day from the rest -- there is no need to consider leap
+years.  Here are a few significant dates:
+
+Enterprise-D commissioned              40759.5  2363*10*05
+Encounter at Farpoint                  41153.7  2364*02*26
+Datalore                               41242.4  2364*03*30
+Skin of Evil                           41601.3  2364*08*08
+Future Imperfect                       44286.5  2367*04*15
+Emissary (ST:DS9)                      46379.1  2369*05*19
+Descent, Part II                       47025.4  2370*01*10
+Parallels                              47391.2  2370*05*23
+Caretaker (ST:VOY)                     48315.6  2371*04*26
+Star Trek: Generations                 48632.4  2371*08*19
+Enterprise-D destroyed                 48650.1  2371*08*26
+The Way of the Warrior (ST:DS9)        49011.4  2372*01*05
+Enterprise-E launched                  49027.5  2372*01*11
+Star Trek: First Contact               50893.5  2373*11*23
+
+The commissioning date of the Enterprise bears a suspicious resemblance to the
+launch date of Sputnik I (1957-10-04).  This is designed; in fact the
+Enterprise date was supposed to be 2363*10*04, but a mistake was made.  There
+is a trap when calculating these dates that would make any stardate appear to
+represent a date one day earlier than it should.  It would appear that
+Sternbach and Okuda fell right in it.
+
+The "Future Imperfect" date is Riker's birthday; his 32nd according to the
+Chronology (the Chronology lists a birth year of 2335, but no date).
+"Parallels" is Worf's birthday.  Using the "Datalore" and "Descent, Part II"
+stardates, Lore's lifespan can be calculated at 5 years, 286 days.
+
+The Organian peace treaty between the UFP and the Klingon Empire lasted from
+SD [19]3198.4 ("Errand of Mercy", ST:TOS) to [21]49011.4 ("The Way of the
+Warrior", ST:DS9).  This is a little over 104 years, from October 2267 to
+January 2372.
+
+There is a slight problem with some of the ST:TNG first season stardates.
+"The Battle" (SD 41723.9), "The Big Goodbye" (SD 41997.7), "Angel One" (SD
+41636.9) and "The Arsenal of Freedom" (SD 41798.2) all have stardates after
+"Skin of Evil" (SD 41601.3), but show Tasha Yar alive.  It seems that the
+production crew learnt from this, because they have kept stardates in order
+ever since.  To make these stardates make sense, we must assume them to be
+slips of the captain's tongue.  (More obvious verbal errors were made in "The
+Deadly Years", "Datalore" and "Birthright, Part II".)
+
+Data stated in ST:FC that he had not used his "multiple techniques" for "8
+years, 7 months, 16 days, 4 minutes, 22 [seconds]".  That would be a date of
+approximately 2365*04*07, or a stardate of approximately 42263.4.  This is
+early second season, between episodes, well after Yar's death and well before
+"In Theory" -- an as-yet unrevealed lover.
+
+
+IV.3.  STARDATES IN THE TWENTIETH CENTURY
+
+It has been calculated that stardates begin on 2162-01-04.  It is quite
+possible, of course, to continue stardates back in time from that point, using
+negative issue numbers.  Within each issue the stardates will still increase
+in the direction of advancing time; only the issue numbers will be unusual.
+
+To start with, midnight on 2162-01-04 is stardate [0]0000.  This means that
+midnight on 2162-01-03 can be referred to as stardate [-1]9995.  SD [-1]0000,
+consequently, was 2156-07-14.  The fact that stardates were not actually in
+official use at that time is irrelevant.
+
+It seems possible that negative-issue stardates are used in the 23rd century
+to refer to events prior to 2162.  When going as far back as the 20th century,
+though, the old-style Gregorian calendar has always been used by the crew of
+the Enterprise.  In fact, they have never been canonically observed to use
+stardates to refer to any time earlier than 2260.  Of particular interest is
+the final log entry in ST:FC: "Captain's log, April 5th, 2063...", indicating
+that in official contexts stardates are not used for dates that early, or at
+least are not universally used.
+
+It is possible to continue stardates back to the 20th century, but the issue
+numbers get sufficiently large (in the negative direction) to be awkward.
+This table shows the issue origins for the next few years:
+
+[-36]0000  1964-11-18       [-24]0000  2030-08-04       [-12]0000  2096-04-19
+[-35]0000  1970-05-11       [-23]0000  2036-01-25       [-11]0000  2101-10-11
+[-34]0000  1975-11-01       [-22]0000  2041-07-17       [-10]0000  2107-04-03
+[-33]0000  1981-04-23       [-21]0000  2047-01-07        [-9]0000  2112-09-23
+[-32]0000  1986-10-14       [-20]0000  2052-06-29        [-8]0000  2118-03-16
+[-31]0000  1992-04-05       [-19]0000  2057-12-20        [-7]0000  2123-09-06
+[-30]0000  1997-09-26       [-18]0000  2063-06-12        [-6]0000  2129-02-26
+[-29]0000  2003-03-19       [-17]0000  2068-12-02        [-5]0000  2134-08-19
+[-28]0000  2008-09-08       [-16]0000  2074-05-25        [-4]0000  2140-02-09
+[-27]0000  2014-03-01       [-15]0000  2079-11-15        [-3]0000  2145-08-01
+[-26]0000  2019-08-22       [-14]0000  2085-05-07        [-2]0000  2151-01-22
+[-25]0000  2025-02-11       [-13]0000  2090-10-28        [-1]0000  2156-07-14
+
+Looking at today's date, 1994-05-23 is SD [-31]3890.  Right now, 12:43pm UTC,
+is SD [-31]3892.64.  The first episode of Star Trek aired on stardate
+[-36]3300.31.
+
+
+                       --------------------------------
+                       PART V: OBJECTIONS TO THE THEORY
+                       --------------------------------
+
+
+V.1.  THE KLINGONS WOULDN'T USE A HUMAN-BASED SYSTEM
+
+Objection: this stardate system makes stardates round numbers of Terran days,
+but the Klingons and Romulans and so on wouldn't use such a system.
+
+We've never seen Romulans use a stardate.  In fact, the only occasion when a
+non-Federation person used a stardate was in the seventh season ST:TNG episode
+"Liaisons".  In that episode, an alien was trying to imitate a Federation
+civilian.  He had obtained logs from a crashed Federation ship, and had also
+had some official contact with the Federation.  So it seems clear that
+stardates are a Federation invention, but their use is not limited to
+Starfleet.
+
+
+V.2.  THERE AREN'T REALLY ANY STARDATES BELOW 1000
+
+Objection: this system has stardates starting at zero, but there hasn't been
+any canonical stardate below 1000.
+
+This is a valid objection.  There is really no evidence either way, so it was
+decided that stardates would do what it looks like they ought to.  The
+rationale is that stardates will be handled primarily by computers, and
+computers like to start counting at zero.  Zero-based counting actually makes
+a lot more sense than one-based counting, so now that we have the concept it
+makes sense that a new time standard will use it.
+
+
+V.3.  THE 4 AT THE BEGINNING OF TNG STARDATES MEANS 24TH CENTURY
+
+Objection: the 4 at the beginning of TNG stardates is supposed to represent
+the 24th century.  This means that one year has to be 100 units, not 1000.
+
+Or: the digit after the first 4 is the season number, so what happens when
+they get to season 10?  Does the stardate become 410xxx?
+
+The 4 at the beginning of TNG stardates was originally (in real life) decided
+on for two reasons.  First, it showed that TNG was a lot later than the films
+and the original series.  Second, 4 was chosen specifically because TNG
+supposedly took place in the 24th century.  This does *not* mean that that is
+the Star Trek universe's reason for the 4.  4 just happened to come up shortly
+before the Enterprise-D was launched.
+
+The second digit was originally chosen to correspond to season numbers, but
+that doesn't mean that it will always be like that.  It was merely a
+convenience, which still works (albeit in a modified form) for ST:DS9 and
+ST:VOY.  We have now reached what would have been ST:TNG's tenth season, and
+the stardates are of the form 50xxx.  This does not mean that they have
+reached the 25th century.  (2401*01*01 will be SD [21]78000.  And no, the 25th
+century will *not* start in 2400.  And 2400 *will* be a leap year in the
+Gregorian calendar.)
+
+
+V.4.  IT WASN'T WINTER ON STARDATE 44012.3
+
+Objection: in the fourth season ST:TNG episode "Family", Picard visits his
+family in Labarre, France, Terra.  This being stardate [21]44012.3, this
+theory makes the date 2367*01*05, which should be winter in that part of the
+world.  In the episode it was very clearly not winter.
+
+This is a strong objection.  In fact, it seems likely that the writers simply
+made a mistake -- the production team worked on the basis of stardates
+divisible by 1000 being the beginning of the year, though they never got that
+information onto the screen.  This system assumed that that was the case
+primarily for simplicity.  Other things being equal, this consideration would
+be overridden by the on-screen evidence.  However, in this case other things
+are not equal.
+
+In TVH:STIV (stardate [19]8390, 2286-10-09), the `Whalesong' probe visited
+Terra.  It was observed to cause severe atmospheric disturbance at the time.
+It has been conjectured that it had more severe climatic effects than were
+readily apparent.  The novel "Probe" (entirely non-canonical, of course) sets
+out some of these ideas.  (It's also a good novel.)  It is conceivable that
+the effects of the probe included a shift in Terra's orbit, or permanent
+climatic change, such that in January 2367 the atmospheric conditions in
+France resembled a 20th century summer.
+
+This does seem a little far-fetched, and requires justification.  The only
+other way to avoid this problem is to have stardate issue 21 start in the
+middle of 2322, instead of at the beginning of 2323.  This would mean that the
+change to the new system would occur sometime around SD [20]4930.  That is no
+neater than SD [20]5006.0, so there would be no reason at the time to use it.
+(The use of SD [20]5006.0 is justified only by the fact that it is the
+beginning of a year.)
+
+Another suggested explanation is that the Earth's weather modification system
+-- mentioned in the TNG epiode "True Q", and hinted at in TVH:STIV -- was used
+to change the climate in France deliberately.  The ST:TNG episode "Sub Rosa"
+supports this hypothesis, by confirming that Federation technology would be
+sufficiently powerful to do this.  It seems unlikely, though, that the UFP
+would want to make such a major change to the climate.  This must also be
+taken into consideration when evaluating the "Probe" explanation above -- why
+wasn't the weather modification system used to repair the climate after the
+probe changed it?  It is possible that the weather modification system is not
+capable of making such major changes.
+
+If you do the calculation, you will find that allowing the 20th issue of
+stardates to continue to its natural end before starting the 21st issue would
+put "Family" in mid-May.  Unfortunately, it would be May of 2394, so that idea
+must be discarded.
+
+Intriguingly, a correspondent notes other time evidence in the episode.  At
+the end of the episode, we see Rene outside, and observe a shooting star
+passing the constellation of Orion.  Orion is, of course, only visible in the
+northern hemisphere during winter, further substantiating the January date.
+This seems to support the deliberate weather modification theory.
+
+
+V.5.  RIKER'S BEARD WAS FOUR YEARS OLD, BUT THIS SYSTEM MAKES IT FIVE
+
+Objection: in the seventh season ST:TNG episode "The Pegasus", stardate
+47457.1, Riker stated that he had had his beard for four years.  If 1000 units
+is one year then he'd had it for at least five years.
+
+During season one, he was clean shaven.  The beard first appeared in season
+two (earliest known stardate 42073.1), but was not fully grown.  (It had to be
+kept slightly short for the entire season for continuity purposes.)  From the
+beginning of season three, stardate 43125.8, the beard has been fully grown.
+
+It is possible that Riker was referring to the fully grown beard, which he had
+had less than five years.
+
+
+V.6.  THIS SYSTEM GETS SAREK'S AGE WRONG
+
+Objection: in the ST:TOS episode "Journey to Babel", SD [19]3842.3
+(2268-02-26), Sarek states that he is 102.437 years old.  In "Sarek", SD
+[21]43917.400000 (2366-12-01), he is said to be 202 years old.  That is an age
+difference of 100 years, but the episodes took place 98 years apart.
+
+It is possible -- in fact, very likely -- that these are references to Vulcan,
+not Terran, years.  As it is entirely possible that only one (most likely the
+second) age reference is in Vulcan years, it is not possible to reliably
+determine the length of the Vulcan year from these data.
+
+There is another possibility.  As the discrepancy is only two years in a
+hundred, it is conceivable that one or both references were to Sarek's
+subjective age, with the discrepancy accounted for by relativistic effects.
+
+
+V.7.  SISKO SAID HIS WIFE DIED FOUR YEARS BEFORE STARDATE 47329.4
+
+Objection: in the second season ST:DS9 episode "Second Sight" (stardate
+47329.4), Sisko states that it is the fourth anniversary of his wife's death.
+From "Emissary" it is known that Jennifer Sisko died in the battle of Wolf
+359.  That was sometime between the starts of the fourth season ST:TNG
+episodes "The Best of Both Worlds, Part II" (SD 44001.4) and "Family" (SD
+44012.3).  This dating information makes four years something between 3328 and
+3339 units, and one year something in the range 832 to 834.75 units.  This is
+incompatible with the notion that 1000 units is a year.
+
+The real reason is (probably) that the writers made a mistake.  An isolated
+case like this might normally be ignored, but in this case there is an
+explanation.
+
+It has been established that Deep Space Nine works to Bajoran time, with 26
+hours per day.  It seems logical to extend this to years, in which case Sisko
+may have been referring to Bajoran, not Terran, years.  This explanation has
+the helpful consequence that we now know a Bajoran year to be about 304 Terran
+days long.  One might also conclude that a Bajoran year is also (usually) 281
+Bajoran days long, but that conclusion relies upon Bajoran hours being the
+same length as Terran hours.
+
+
+V.8.  STARDATE 49263.8 WAS AN ANNIVERSARY OF THE ARRIVAL OF THE EMISSARY
+
+Objection: in the fourth season ST:DS9 episode "Starship Down" (stardate
+49263.8), Major Kira states that it is an anniversary of the arrival of the
+Emissary (Sisko).  Sisko arrived in "Emissary", stardate 46379.1.  The
+difference, 2884.7 units, is incompatible with the Bajoran year length
+calculated in section V.6, around 833 units.
+
+Once again, the writers simply ignored precedent when adding this minor
+subplot to the episode.  There is no way to reconcile the problem, as stated
+above, with the other known data concerning Bajoran time.  The best
+explanation available is that the anniversary was not of Sisko's actual
+arrival on DS9, but of some event that took place shortly after that.
+
+Given the Bajoran year length of between 832 and 834.75 units, calculated in
+section V.7, the date in question must include some stardate between 46759.5
+and 46767.8.  This is approximately in the middle of the first season of DS9.
+There is no known event at that point in the first season that might be given
+this kind of significance, but that doesn't mean there wasn't one.
+
+
+V.9.  STARDATES IN THE 30000S WERE 35 YEARS BEFORE STARDATE 47254.1
+
+Objection: in the seventh season ST:TNG episode "Dark Page" (SD 47254.1),
+Lwaxana Troi's personal log entries for stardates in the 30000s were seen.
+These were described without hesitation as being from 35 years previous.  This
+makes each year about 500 units.  Of course, these could have been Betazoid
+years.
+
+The Revised Chronology explains that the correct stardates -- around 05000 for
+the dates 42 years ago -- would have risked confusion with ST:TOS stardates.
+They therefore ignored the logical system, and caused even more confusion.
+
+
+                           ------------------------
+                           PART VI: POINTS OF ORDER
+                           ------------------------
+
+
+VI.1.  OBTAINING THE LATEST VERSION OF THIS FAQ
+
+This FAQ is posted to the USENET newsgroup rec.arts.startrek.tech every 30
+days.  It is cross-posted to rec.answers and news.answers.  It can be found by
+searching any of these newsgroups for the subject line "Stardates in Star Trek
+Mini-FAQ" (without the quotes).  Depending on the configuration at your site,
+it is possible that it may be expired earlier than intended, and therefore not
+be available.
+
+It is also available for anonymous FTP from rtfm.mit.edu (18.70.0.209) as file
+/pub/usenet/news.answers/star-trek/stardates.  This will contain the last
+version to be distributed via USENET.  rtfm.mit.edu also has a number of
+mirrors, in which it is archived as star-trek/stardates.  These URLs point to
+a selection of mirrors around the world -- pick the one closest to you:
+
+<URL:ftp://rtfm.mit.edu/pub/usenet/news.answers/star-trek/stardates>
+<URL:ftp://src.doc.ic.ac.uk/usenet/news-faqs/news.answers/star-trek/stardates>
+<URL:ftp://ftp.pasteur.fr/pub/FAQ/star-trek/stardates>
+<URL:ftp://ftp.sunet.se/pub/usenet/news.answers/star-trek/stardates>
+<URL:ftp://hwarang.postech.ac.kr/pub/usenet/news.answers/star-trek/stardates>
+
+If you do not have access to FTP, you can obtain a copy from rtfm.mit.edu by
+email.  To do so, send an email message to <mail-server@rtfm.mit.edu>
+containing the line:
+
+send usenet/news.answers/star-trek/stardates
+
+As a last resort, you can obtain the latest version direct from the author by
+email.  To do so, send an email message to <zefram@fysh.org>, with the subject
+line "send stardates".  Messages for the attention of the author should be
+sent to the same address, using some other subject line.
+
+
+VI.2.  OBTAINING THIS FAQ IN OTHER FORMATS
+
+The canonical version of this FAQ will always be the plain ASCII text version,
+as posted to USENET.  Conversions to other formats may become available from
+time to time, however.
+
+An HTML version can be found at Joseph Creighton's Star Trek web page,
+<URL:http://www.ee.umanitoba.ca/~djc/startrek/>.  (At the time of writing this
+is actually an encapsulation of the ASCII version, but it should become a
+proper HTML conversion soon.)
+
+
+VI.3.  RELATED MATERIAL
+
+A stardate calculation computer program is available.  To get the program in
+the form of a compressed `tar' archive, send email to <zefram@fysh.org> with
+the subject line "send stardates.tar.gz".  To get the program as a DOS zip
+file, use the subject line "send stardates.zip", and to get a Unix shell
+archive use the subject line "send stardates.shar".
+
+
+VI.4.  CONTACTING THE AUTHOR
+
+Comments on this FAQ are always welcome.  Send email to <zefram@fysh.org>.
+PGP encrypted mail is welcome: the author's PGP public key may be obtained
+from any of the PGP public key servers, and the key fingerprint confirmed by
+fingering his address.
+
+
+VI.5.  ACKNOWLEDGEMENTS
+
+Major thanks to Jason Hinson <hinson@physics.purdue.edu>, for writing the
+Relativity and FTL FAQ.  (That document is recommended reading for all
+Treknologists.)
+
+Credits go to the following people on the Internet, either for interesting
+USENET postings or for helpful email messages:
+
+Dewitte A. Baisch, Jr  <dbaisch@osf1.gmu.edu>
+Greg Berigan           <gberigan@cse.unl.edu>
+Joseph Chen            <jchen1@fate.eng.buffalo.edu>
+Ted Clancy             <s341282@student.uq.edu.au>
+Edgar Governo          <arphaxad@cyberspc.mb.ca>
+Scott F. Ichniowski    <sichniow@umuc.umd.edu>
+Krauss                 <Krauss5667@aol.com>
+Joseph M. Osborne      <jmosbo0@sac.uky.edu>
+Steve Pugh             <ptolemy@meta.physics.ox.ac.uk>
+Boris Skrbic           <ibctel@ibctel.anet.cz>
+Michael M. Welch       <mwelch@netcom.com>
+
+
+VI.6.  HISTORY OF THE TEXT
+
+Version 0.*
+     Pre-release versions.  Mostly consisted of a few thousand digits on a lot
+     of paper.
+
+Version 1.0 (1994-05-23, SD [-31]3892.64, 400 lines, 21kB)
+     The initial release version.  This version is in the public domain.
+
+Version 1.1 (1994-11-05, SD [-31]4723.71, 449 lines, 23kB)
+     Minor changes were made to clean up small sections.  Section numbering, a
+     table of contents, and the history section were added.  This version was
+     the first to be posted to the USENET newsgroup rec.arts.startrek.tech,
+     and is in the public domain.
+
+Version 1.2 (1994-12-05, SD [-31]4872.95, 709 lines, 36kB)
+     A fairly extensive revision, including a rewrite of almost all of the
+     text.  The introductory sections were slightly rearranged, and the main
+     investigative sections were renamed to be more consistent.  New sections
+     were a detailed description of 20th century stardates and a C program to
+     calculate contemporary stardates.  The document became a FAQ.
+
+Version 1.3 (1995-01-08, SD [-31]5042.92, 883 lines, 43kB)
+     An intermediate release.  The previous flat numbering scheme was changed
+     to a two-layer hierarchical system, making the document easier to use.  A
+     new section on time standards was added, and the section on other
+     stardate theories was expanded to become a major division.
+
+Version 1.4 (1995-04-19, SD [-31]5547.00, 1782 lines, 77kB)
+     A new part was added to the document, detailing and explaining away some
+     objections to the theory.  The stardate program was improved and moved to
+     a new part, and another related program was added.  An error in the
+     original calculation was discovered while testing the new stardates
+     program: the 20th-issue stardate for 2323-01-01 was previously given as
+     [20]5006.5, whereas it is actually [20]5006.0.  This change does not have
+     any significant effects.
+
+Version 1.5 (1996-03-28, SD [-31]7269.00, 1139 lines, 57kB)
+     A revision of the previous version.  The only major change is that the
+     stardate calculation programs added in the previous version are now
+     distributed separately.  (They took up a lot of room, and seemed out of
+     place in a textual document.)  Parts of the text have been reworded, and
+     some minor sections have been added.
+
+Version 1.6 (1997-02-09, SD [-31]8857.62, 1199 lines, 61kB)
+     A revision of the previous version.  A few new points of information are
+     added.  Some dates from ST:FC are used.  We have also finally passed
+     stardate 50000 in the current episodes.  The major change is the
+     redesigned stardate program, in the addendum (now available in several
+     formats).
+
+
+VI.7.  LEGAL NOTICE
+
+This document, entitled "Stardates in Star Trek FAQ, Version 1.6", is
+Copyright (C) 1994, 1995, 1996, 1997 by Andrew Main.  It may not be
+distributed or incorporated into another document without the explicit
+permission of the copyright holder.
+
+Permission is granted to distribute this document, unmodified, in its
+entirety, by (i) any means provided that no profit is generated from the
+distribution; (ii) normal USENET means; (iii) making it available for file
+transfer from an installation offering unrestricted anonymous file transfer on
+the Internet.
+
+This article is provided as is, without any express or implied warranty.
+
+All trademarks, registered and unregistered, are properties of their
+respective holders.  Failure to indicate the status of a trademark should not
+be interpreted as a challenge on that status.
+

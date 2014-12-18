@@ -1,0 +1,1951 @@
+From: hinson@london.physics.purdue.edu (Jason W. Hinson)
+Newsgroups: rec.arts.startrek.tech
+Subject: Subspace Physics
+Date: Thu, 11 Jan 2001 20:56:49 +0000 (UTC)
+
+This is the version 2.0 of this post.  It has changed from version 1.0 
+in that I have added three new sections and change a few things in 
+some of the other sections accordingly.  Two of these new sections 
+deal with subspace itself as well as how one might fictionally produce 
+subspace fields.  The other added section (Section 7) deals with the 
+question of angular momentum conservation, which is ignored elsewhere 
+in the post.  I hope you enjoy it.
+
+
+
+So, what's all this then?
+ 
+     The following is a mixture of concepts mentioned in canon and
+simi-canon sources combined with a healthy dose of physical reasoning
+and a big spoonful of personal speculation to help it all go down.  It
+looks at the properties that subspace fields and warp fields are
+supposed to possess, and examines how these properties might live in
+harmony with certain physical laws (specifically, with conservation of
+energy and momentum).
+     The discussion is mainly written as if it were addressing a 
+twenty-fourth century audience, and so the concepts I have developed 
+for explaining various aspects of subspace physics are stated as 
+facts.  In reality, even though the main properties of the subspace 
+and warp fields come directly from canon sources, many of the other 
+aspects of these fields are developed from physical reasoning with a 
+spattering of my own personal tastes.
+     For example, we know that to sustain a subspace or warp field, it
+is necessary to continually feed it energy.  So, where does this
+energy go?  Does the field continually build up energy, storing all of
+the energy being poured into it.  Even if this were the case, what
+happens to all that energy when the field is shut off.  The best
+answer to me seems to describe the field as "unstable" in that it
+doesn't stick around if you stop feeding it energy.  Instead, we might
+say that it continually "bleeds" this energy back into normal space in
+the form of heat in the field coils, electromagnetic radiation, and/or 
+(perhaps) subspace radiation which can couple its energy back to 
+normal space (like the shock wave in Star Trek VI).
+     Please let me know if you find any problems with the explanations
+I give (either problems related to the physics or problems with
+contradicting canon sources).  I tried to keep in mind all the various
+aspects given by canon sources, but I could have trampled over a few.
+For example, one part of the Technical Manual (page 49) mentions
+symmetric fields as non-propulsive (indicating that a propulsive field
+could be created by producing an asymmetric field).  However, in
+another section (page 54) it indicates that the key to "non-Newtonian"
+propulsion (which would seem to me to be a propulsive warp field) "lay
+in the concept of nesting many layers of warp field energy."  I
+therefore tried to incorporate both ideas into my explanation of warp
+propulsion.
+     Oh, one other thing before we get to the discussion.  I have
+assumed in writing this that the reader has read my monthly
+"Relativity and FTL Travel" post.  In the discussion below, I assume
+concepts discussed in the Relativity post (specifically, the idea of
+subspace providing a special frame of reference for the purpose of
+faster than light travel such that warp fields "plug into" that frame
+of reference).  The Relativity post should be posted at approximately
+the same time as this discussion, so if you haven't read it, you may
+want to give it a look.
+     So, I hope you enjoy this fairly lengthy discussion of subspace
+and warp fields.  Even if you disagree with the way some of the
+concepts are explained, at least understand that a lot of thought has
+gone into them in order to make the abilities of subspace and warp
+fields fit in with the concepts of momentum and energy conservation.
+     Okay, prepare to take a little excursion.  As always, your
+thoughts and criticisms are welcome.
+ 
+ 
+ 
+ 
+               A Discussion of Subspace and Warp Fields
+    (Especially as they Apply to Momentum and Energy Conservation)
+ 
+Contents:
+1. Introduction:
+2. Subspace and its Frame of Reference:
+3. Creating Subspace Fields:
+3.1  Creating a Simple Subspace Field
+3.2  Creating a Warp Field
+4. General Aspects of Subspace Fields:
+5. Simple Subspace Fields:
+5.1  Momentum and Energy Conservation with Simple Subspace Fields
+5.1.1  Momentum conservation
+5.1.2  Energy Conservation
+5.1.3  Some Examples
+5.2  Technical Notes for this Section (Simple Subspace Fields)
+6. Warp Fields:
+6.1  Warp Propulsion
+6.1.1  Single-Layered Warp Fields
+6.1.2  Multi-Layered Warp Fields
+6.1.3  Development of Modern Warp Propulsion Fields
+6.1.4  Modern Warp Propulsion Field Generation
+6.2  Momentum and Energy Conservation with Warp Propulsion
+6.2.1  Some Examples
+6.3  Technical Notes for this Section (Warp Fields)
+(7. Angular Momentum Conservation--for the 20th Century reader:)
+8. Conclusions
+ 
+ 
+ 
+
+1. Introduction:
+     In this discussion we will examine some of the basics of both
+simple subspace fields as well as warp fields.   In particular, we
+wish to look at how momentum and energy conservation come into play
+with the use of these fields.
+     Before discussing the subspace fields, we first want to talk in 
+general about subspace and its frame of reference.  We will then see 
+how the definition of the frame of reference of subspace allows for 
+the creation of subspace fields (both simple subspace fields and warp 
+fields).
+     After mentioning some general aspects that both types of fields
+possess, we will look individually at each type of field.  In each
+case, we will first go over some of the major characteristics of the
+particular field of interest.  We will then discuss how momentum and
+energy conservation come into play with that particular type of field.
+Finally, we will look at examples to further examine the conservation
+of momentum and energy with each type of field.
+     In addition to this, there are also a few technical notes at the
+end of some sections (specific to each section) which will be referred
+to at various times.  These will go into more technical detail
+concerning specific topics.
+     (A note to the 20th century reader:  The final section before the 
+conclusion deals with the question of angular momentum conservation.  
+Throughout the other sections of the discussion, "momentum" is used to 
+refer to linear momentum only.  This section will discuss for the 20th 
+century reader why angular momentum has been left out everywhere 
+else.)
+ 
+ 
+ 
+
+2. Subspace and its Frame of Reference:
+
+     Subspace is a continuum that exist in conjunction with our own 
+space-time continuum.  Every point in our universe has a corresponding 
+point in subspace.  Also, at every point in our universe, subspace has 
+a particular frame of reference.  One could imagine subspace to be 
+vaguely similar to a huge cloud-like field that pervades the known 
+universe.  The particles in one area of such a cloud would be moving 
+at some particular velocity, while the particles in another area may 
+be moving at another particular velocity.  Similarly, at every point 
+in our space, subspace has a particular "velocity" or frame of 
+reference.
+     This fact is very important, because this feature of subspace is 
+what allows us to travel faster than light without having to worry 
+about such things as traveling back in time to meet ourselves every 
+time we jump into warp.  The reason this is so will not be covered in 
+this discussion, but there are texts available which explain why this 
+is.
+
+     So, what is the frame of reference of subspace at a particular 
+point in our universe?  Well, the frame of reference is defined by the 
+local distribution of mass.  More specifically, it is defined by the 
+distribution of mass and energy which is mathematically defined by 
+what is known as the stress-energy tensor of local energy 
+distributions.  However, for our purposes here, we will explain how 
+the subspace frame of reference is approximately defined by using the 
+less complicated concept of mass distribution.  
+     There is one other note that needs to be made before we get into 
+defining the subspace frame of reference.  In subspace physics, there 
+are three meanings to the word mass.  Classically, there are two 
+"types" of mass theoretically believed to be equivalent.  They are 
+gravitational mass and inertial mass.  With subspace physics, there is 
+also the concept of subspace-equivalent mass.  This is the mass 
+subspace "sees" which defines its frame of reference.  Generally, 
+this mass is equivalent to the gravitational and inertial mass; 
+however, it can be different under certain circumstances.  Similarly, 
+there is also a concept of the subspace-equivalent stress-energy 
+tensor.
+
+     Now we will describe how someone can find the speed of the frame 
+of reference of subspace with respect to their own frame of reference.
+     First, imagine dividing all the mass in the universe into 
+sufficiently small chunks of mass "dm".  We then number each chunk so 
+that the "i-th" chunk would have a mass of "dm_i".  We also note that 
+for objects in the universe which are basically spherical and uniform, 
+we can define the whole object as one of our chunks of mass (provided 
+the object isn't a spherical shell which we might happen to be inside 
+of).
+     So, we will be in one particular frame of reference (call it O). 
+We want to find the speed of the frame of reference of subspace (in 
+our frame of reference) at some point in the universe.  Well, in our 
+frame of reference, the i-th chunk of mass (dm_i) has a particular 
+velocity in the x direction (Vx_i).  It also has a particular distance 
+away from the point of interested (R_i).  For each chunk, we then 
+calculate the quantity:
+
+   dm_i * Vx_i
+  -------------.
+     (R_i)^2
+
+Once we calculate this quantity for every chunk of mass, we then sum 
+up all the various quantities and call this sum "S":
+
+     +---
+      \    dm_i * Vx_i
+  S = /   ------------ .
+     +---    (R_i)^2
+       i
+
+     Now, we want to consider another frame of reference which is 
+moving with respect to our own.  We could figure out what velocities 
+and distances would be measured for each chunk of mass in that frame, 
+and we can calculate the sum, S, in that frame as well.  If we 
+continue to do this for various frames of reference, then we will 
+eventually find the frame of reference in which the absolute value of 
+S is minimized.  The x velocity of that frame of reference will then 
+be the x velocity of the of the subspace frame of reference as 
+measured in our frame. We could then do similar calculations to find 
+the y and z components of the velocity of the subspace frame of 
+reference.
+
+(A note to the 20th century reader:  For now, this is only a         ) 
+(preliminary way for determining the frame of reference of subspace. ) 
+(There may be unforeseen problems in this definition, and I'll have  ) 
+(to take some time to consider various aspects of this definition to ) 
+(see if it is really what we want to use.                            )
+
+     So, what does all that mean?  Well, consider a bit of matter that 
+is very close to the point of interest in the frame of reference you 
+are considering (i.e. R_i for that bit of matter is quite small in 
+that frame of reference).  That means that bit of matter provides a 
+fairly large contribution to the sum, S, UNLESS the velocity of that 
+bit of matter is very small in the frame of reference you are 
+considering.  So, the speed of the subspace frame of reference will 
+likely be close to the speed of that nearby bit of matter.  (Note: 
+this is why we say that the subspace frame depends on the local 
+distribution of mass.  For chunks of matter that are very far from 
+you, their contribution to S is generally negligible.)  
+     However, also note that if there are many chunks of matter at 
+some average distance from you which are all traveling at the same 
+speed (like all the chunks of matter in a nearby star, for example) 
+then all that mass provides a large contributes to the sum.  This 
+means that the subspace frame of reference will be close to the frame 
+of reference of those chunks (so that Vx in that frame of reference is 
+small in order to canceling the large contribution created by the 
+large mass).
+
+     Obviously, we could discuss the determination of the frame of 
+reference of subspace for some time; however, for our purposes, it is 
+only important to remember a couple of things about this 
+determination: In the simplest idea, the subspace frame of reference 
+is determined by the nearby distribution of mass.  However, in 
+actuality, it is the distribution in the more complex structure known 
+as the stress-energy tensor that determines the subspace frame of 
+reference.
+
+
+
+
+3. Creating Subspace Fields:
+
+     The creation of simple subspace fields as well as warp fields is 
+closely related to the way in which the subspace frame of reference is 
+defined (as described above).  Here we will look first at the creation 
+of a simple subspace field and second at the creation of a warp field 
+to show how these fields are produced.
+
+
+3.1  Creating a Simple Subspace Field
+     Inside of a subspace field generator, generally a plasma stream 
+is used to create a particular stress energy tensor within the 
+generator.  Within the area of space where this stress-energy tensor 
+is strongest, the frame of reference of subspace defined by the tensor 
+is made to be radically different from the subspace frame of reference 
+just outside of this area.  Thus, when produced correctly, the stress-
+energy tensor creates a large change in the frame of reference of 
+subspace over a small area of space.
+     One might think that this could have the effect of "tearing" 
+subspace in that area if it weren't for the fact that subspace has a 
+natural mechanism for preventing this.  It creates what we call a 
+subspace field which surrounds the offensive stress-energy tensor.  
+This field reduces the effect that the tensor has on the definition of 
+the subspace frame of reference.  Basically, this reduces the effects 
+of the subspace-equivalent stress-energy tensor.  However, at this 
+point the subspace-equivalent stress energy tensor is still directly 
+related to the real-space stress-energy tensor.  So, the field also 
+lowers the effects of the stress-energy tensor as viewed in normal 
+space (outside of the subspace field) as well.
+     By correctly producing the stress-energy tensor, one can create a 
+subspace field which extends well beyond the localized area of the 
+tensor (large enough, in fact, to surround a ship).  If we replace the 
+concept of the stress-energy tensor for a moment with the simpler 
+concept of mass, we see that this has the effect of lowering the 
+apparent mass of anything within the subspace field.  In essence, the 
+subspace field "submerges" a fraction of the mass into subspace so 
+that it does not have to be considered as real-space mass when 
+defining the subspace frame of reference.  Details on how momentum and 
+energy remain conserved with this apparent mass reduction will be 
+covered in a later section.
+
+     So, we see that by correctly manipulating the normal space 
+effects which dictate the local frame of reference of subspace, we can 
+create a simple subspace field.
+
+
+3.2  Creating a Warp Field
+     The creation of the warp field isn't all that different in 
+principle from the creation of a simple subspace field. The major 
+differences are in the energy and configuration of the plasma stream 
+and the exotic nature of the stress-energy tensor needed.
+     For the purposes of illustration, we will concentrate here on 
+producing a warp field which is used for propulsion.  Other warp 
+fields are produced in a similar manner by producing different stress-
+energy tensors.  Here we discuss the most basic components of warp 
+field production; however, in section 6 we will mention a few more 
+aspects that can come into play when producing warp fields.
+     Generally, to create a warp field, the plasma is injected into 
+warp field coals which are made of an appropriate material.  The 
+material in the warp field coil is important because as the plasma is 
+injected, the combination of the configuration of the plasma stream 
+and the coil through which the plasma passes is what creates the 
+exotic stress-energy tensor needed to produce the warp field.  
+     The energizing of the field coil material with a properly 
+configured plasma stream creates a stress-energy tensor that produces 
+a much more violent change in the frame of reference of subspace over 
+a much smaller area than is needed to produce a simple subspace field.  
+To counteract this violent change, subspace produces what we call a 
+warp field, shifting the energy frequencies of the plasma deep into 
+the subspace domain.  This shift has the effect of completely removing 
+the significance of the stress energy tensor from the determination of 
+the subspace frame of reference.
+     As with subspace fields, it is then possible to produce a warp 
+field which extends far beyond the local area effected by the exotic 
+stress-energy tensor.  When such a field surrounds an entire ship, 
+everything within that ship can be removed from the determination of 
+the subspace frame of reference.  This brings up two points to be 
+discussed:
+
+     First we consider the frame of reference of the ship.  Because of 
+the warp field, subspace and outside observers no longer consider the 
+frame of reference of the ship when determining the subspace frame.  
+Instead, they considers all other "bits of matter" and determine the 
+frame of reference from them.  Does the ship then NOT have a frame of 
+reference from the point of view of subspace and outside observers?  
+Not exactly.  The frame of reference of the ship instead becomes the 
+frame of reference of subspace as it is defined without the ship's 
+contribution.  Then, obviously subspace does not have to consider the 
+ship when determining the subspace frame, because the ship's frame of 
+reference perfectly matches the subspace frame of reference as it is 
+determined from all other factors in the universe.  In other words, 
+the ship's frame of reference is made to be such that it does not 
+contribute to the sum, S, discussed earlier.  The only way this is 
+possible is if the ship's frame of reference seems to be exactly the 
+frame of reference of subspace defined as if the ship were not there.
+     Therefore, a warp field couples the frame of reference of 
+everything inside the warp field to the frame of reference of 
+subspace.  This becomes true regardless of what the frame of reference 
+of the ship would be without the warp field there (i.e. it is true 
+regardless of the actual speed of the ship with respect to subspace).  
+Thus, while the warp field is active, the ship's frame of reference 
+remains the frame of reference of subspace and is NOT dependent on the 
+ships speed.  This is what places the ship outside of the realm of 
+relativity and allows it to travel faster than light without gross 
+violations of causality.
+
+     Second, we note that this sounds like the warp field is 
+completely removing the mass of the ship as viewed from outside of the 
+warp field; however, this isn't the case.  Theory tells us that in 
+order to completely remove the effects of a ship's mass from the 
+universe, one would have to expend an infinite amount of energy.  What 
+the warp field does is to de-couple the relationship between subspace-
+equivalent mass/stress-energy and normal space mass/stress-energy.  
+The subspace-equivalent mass becomes zero, while the normal space mass 
+is reduced (in the eye of the outside observer) much like it is in the 
+case of simple subspace fields.
+
+     So, this is how simple subspace fields and warp fields are formed 
+by manipulating normal space material to produce desired effects on 
+the frame of reference of subspace.  Next we will discuss certain 
+aspects of these fields.
+
+
+
+
+4. General Aspects of Subspace Fields:
+     All forms of subspace fields (be they simple subspace fields or
+warp fields) have certain general aspects.  For example, all subspace
+fields have effects in both space and subspace and form an interaction
+between the two.  We thus talk about such things as the shape of the
+field as it exists in the normal space domain or the subspace domain.
+The two shapes can be different, and a particular mapping will exist
+that maps one shape to the other.  The shape of the field in subspace
+will be mentioned later, but for other aspects of subspace fields, we
+will generally discuss only the effects they have in normal space.
+     All forms of subspace fields have three basic layers--the
+interior layer, the exterior layer, and the interaction layer.  
+     The interior layer is generally surrounded by the interaction
+layer.  Though the interior layer is usually normal space, there are
+some cases in which the field changes the characteristics of the space
+within the interior layer (such as the subspace fields used with
+today's faster than light computer cores which will be discussed
+later).  More often, the interior layer is basically a "bubble" of
+normal space surrounded by the interaction layer of the field.
+     The exterior layer is the part of the field which extends beyond
+the interaction layer.  This layer is generally filled with normal
+space with certain aspects of the interaction layer spilling over and
+mixing in with the normal space.
+     In the interaction layer, space and subspace combine.  The
+interaction of space and subspace within this layer is what gives
+subspace fields their unique capabilities.  For example, observers
+outside of the subspace field see various effects (such as a reduction
+of mass) when viewing objects within the subspace field.  The outside
+observers see these effects because they are viewing the objects
+through the influence of the interaction layer.  Also, the effects of 
+the interaction layer are what causes subspace to ignore (to some 
+extent) masses (or more appropriately, stress-energy tensors) which 
+are inside of a subspace field, as mentioned earlier.  Subspace does 
+this because it too is "viewing" those objects through the effects of 
+the interaction layer.
+
+     With these common basics in mind, we can now discuss specific 
+aspects of simple subspace fields and warp fields independently.
+ 
+ 
+ 
+ 
+5. Simple Subspace Fields:
+     A subspace field which is symmetric in the subspace domain causes
+subspace to (in essence) act as an energy reservoir.  Such a field is
+referred to as a simple subspace field (or just "a subspace field").
+To outside observers, anything within such a field will appear to
+"loose" some of its mass energy to subspace while the field is
+active (as discussed earlier.  (Equivalently, one could say that the 
+field masks out part of the mass of objects inside the field as they 
+are viewed from normal space.)  The amount of interior mass energy 
+"placed" into subspace is dependent on the strength of the subspace 
+field.  For all practical purposes, while the field is active, this 
+mass energy disappears from normal space (see Technical Note 1 for 
+this section).  However, it should be noted that when one compares the 
+normal-space energy and momentum of a closed system before a subspace 
+field is activated with that of the system after the field is 
+deactivated, energy and momentum conservation must apply.  We will now 
+look at momentum and energy conservation considerations with respect 
+to simple subspace fields.
+
+
+5.1  Momentum and Energy Conservation with Simple Subspace Fields
+     Here we will look separately at momentum conservation and energy
+conservation as they apply to subspace fields.  At the end of this
+section, examples will be considered to illustrate these conservation
+considerations.
+
+5.1.1  Momentum Conservation
+     Consider a ship of mass M which surrounds itself in a simple
+subspace field.  To outside, normal space, the mass of the ship
+becomes m < M once the field is active.  This new, lower mass is
+called the apparent rest mass of the ship (or simply its "apparent
+mass").  If the normal space manifestation of the subspace field can
+be shaped so that the ship's fuel is kept outside of the field, the
+ratio of fuel mass to ship mass will be greatly increased.  In
+accordance with momentum conservation, fuel expelled with a given
+momentum will cause the ship to have an equivalent momentum in the
+opposite direction (thus conserving momentum).  However, with the
+subspace field activated, the speed this momentum gives to the ship
+would be calculated using the apparent (lower) rest mass of the ship.
+Thus, with the use of a subspace field one can achieve greatly
+improved acceleration rates as well as greatly lowered energy costs
+for reaching a given speed.
+     As long as the field is active, kinematic considerations of the
+ship will be calculated with the ship's apparent mass.  However, when
+the subspace field is deactivated, the masked mass of the ship
+returns.  The results of this returning mass as it applies to momentum
+conservation will be considered in the examples given after the energy
+conservation considerations have been discussed.
+
+5.1.2  Energy Conservation
+     Once a subspace field is activated, energy conservation can be
+realized only if one includes the mass energy which is "submerged"
+into subspace.  This will be demonstrated in examples given at the end
+of this section.
+     There are, however, energy considerations other than kinematic
+ones.  Some of the energy that is internal to the ship must go into
+producing the subspace field.  Currently, subspace field generators
+produce unstable fields which continually "bleed" their energy back
+into normal space.  (This energy generally manifests itself as a 
+combination of heat within the subspace generator, electromagnetic 
+radiation, and/or subspace radiation which can couple its energy into 
+normal space.  Also, this energy bleeds off symmetrically so that 
+momentum is conserved.)  Because of this bleed off, subspace field 
+generators must continually supply energy to the subspace fields.  The 
+same amount of energy supplied to the field is eventually bled back 
+into regular space, thus conserving energy.
+     The final energy consideration involves internal ship energy
+which remains internal (producing life support, etc.).  Because the
+ship is within the interior of the subspace field, it appears to
+itself to be in a normal-space "bubble."  This means, for example,
+that to the ship's crew, the matter and antimatter on board do not
+loose any mass.  Objects on board the ship only seems to loose mass
+into subspace when the observer views the ship through the masking of
+the subspace field's interaction layer.  Inside the ship, the
+available energy does not change, and energy conservation goes on as
+it always did.
+     We can, however, show that even when viewed from normal space
+outside the subspace field, the energy released by the interaction of
+matter and anti-matter on board the ship is the same as if the matter
+and anti-matter hadn't "lost" mass to subspace.  It is true that once
+the field is activated, the matter and anti-matter aboard the ship
+will seem to "loose" some of its mass energy to subspace in the point
+of view of the outside observer.  For the outside observer to realize
+that energy has been conserved, he must remember that this mass energy
+did not actually disappear from existence, but has simply been
+submerged into subspace.  However, as the matter and anti-matter
+interact, their mass is turned into other forms of energy.  Since this
+energy is no longer in the form of mass, the subspace field no longer
+masks part of that non-mass energy from the outside observer.  So, as
+the matter and anti-matter interact, the outside observer not only
+sees the reduced masses of the matter and anti-matter turn into other
+forms of energy, he also sees mass energy that had been masked by
+subspace being converted into normal, non-mass energy.  The result is
+that he sees as much normal, non-mass energy being produced as any
+inside observer would see, thus conserving energy from all points of
+view.
+
+5.1.3  Some Examples
+     To analyze the conservation of energy and momentum involved with
+subspace fields, we will look at two examples.  In each example we
+will consider a ship which encloses itself within a subspace field and
+then expels fuel in order to take a trip.  At each step of the trip we
+will show that energy and momentum are conserved.
+ 
+Example 1
+     In these examples, the ship of mass M begins in one particular
+frame of reference.  All energies and momentums will be calculated in
+this frame.  Initially, the ship's energy consists of its mass energy
+(M*c^2) and internal energy (E(int)--which will be used for various
+purposes).  During the trip, part of the internal energy will be used
+for on-ship purposes, and while this energy may change form (becoming
+heat and eventually being radiated into space, for example) we know
+that this energy is always present in some form.  Thus this part of
+the internal energy is preserved.  The rest of the energy involved
+will be considered at each step to show that it is also conserved
+along with momentum.
+ 
+Step 1: 
+     The ship uses part of its internal energy to create a subspace
+field.  As explained above, this energy is bled back into space, thus
+this energy is conserved.  As the field is turned on, part of the
+ship's mass is masked from outside observers, and the apparent mass of
+the ship becomes m.  To realize the conservation of energy, we must
+remember that this mass energy is still "present", but is submerged in
+subspace.  This submerged energy is the difference between the mass
+energy of the ship initially and its mass energy now--(M - m)*c^2.
+This makes it obvious that the energy is conserved (since the
+submerged energy of the ship plus its energy now is the same as its
+initial mass energy).
+ 
+Step 2:
+     The ship uses part of its internal energy to produce a high
+energy photon (as fuel) with a certain momentum in a particular
+direction.  In accordance with conservation of momentum, the ship must
+gain an equivalent momentum in the opposite direction.  In accordance
+with conservation of energy, the internal energy used must be equal to
+the energy given to the photon plus the change in energy of the ship
+(which now has more energy since it is moving in the original frame of
+reference).  (See Technical Note 2 for this section.)  The change in
+energy of the ship is calculated with the ship's apparent mass (m),
+and the energy submerged in subspace is still equal to (M - m)*c^2.
+     So, part of the internal energy goes into the energy of the
+photon and increases the energy of the ship, while the energy
+submerged in subspace is still the same.  Meanwhile, the momentum of
+the photon is canceled out by the momentum of the ship.  Thus, energy
+and momentum are conserved.
+ 
+Step 3:
+     As the ship travels, it may experience "collisions" with other
+objects.  As long as these collisions do not collapse the subspace
+field, the ship's apparent rest mass will still be m as far as the
+collisions are concerned.
+     This is no violation of energy or momentum, because for all
+intents and purposes, the missing mass of the ship has been "left"
+sitting still in the original frame of reference by keeping it
+submerged in subspace.  Thus the ship should interact with other
+objects as if its mass is m.
+ 
+Step 4:
+     Part of the internal energy is used to produce another photon for
+fuel which brings the ship back to rest in the original frame of
+reference.  Energy and momentum are conserved here in the same way
+they were conserved in step 2.
+ 
+Step 5:
+     The subspace field is disengaged, and the energy which had been
+submerged in subspace is returned to the mass energy of the ship. This
+is just the reverse of the first step, and energy is obviously
+conserved.
+ 
+ 
+Example 2
+     This example is identical to the first example up to and
+including Step 3.  We will begin here with a new Step 4.
+ 
+Step 4:
+     In the previous example, the ship "decelerated" to get back to
+the original frame of reference and then shut off its subspace field.
+Here we examine what happens if the subspace field is shut off
+(intentionally or accidentally) while the ship is still moving in the
+original frame of reference.
+     As the field is deactivated, the mass energy which was submerged
+in subspace will be added back to the ship.  This mass energy can be
+modeled as actual mass which is sitting at rest in the original frame
+of reference.  In this model, as the field dies, it is as if the ship
+runs into a portion of matter with a mass of (M - m).  This is not as
+harmful as it may seem.  A ship which actually runs into a chunk of
+matter with significant mass will be crushed because the force applied
+to the front of the ship will have to be transferred to the back of
+the ship before the back will stop moving.  This produces the crushing
+effect.  In our case, the mass is "added" throughout any objects
+within the subspace field at the same moment as the field is
+deactivated.  All particles throughout the interior of the subspace
+field are decelerated at the same time and at the same rate.
+     It is not that obvious what exactly takes place in this case to
+allow for the conservation of momentum and energy.  We can deduce what
+would happen by considering the model of the situation in which a ship
+runs into a mass of (M - m).  In this case, a ship of mass m and
+momentum p inelastically collides with an object of mass (M - m) which
+is at rest.  After the collision, the combined clump of ship plus
+object has a mass of M and a momentum p (to conserve momentum).  But,
+the energy of a mass m with momentum p plus the energy of a mass (M -
+m) does not generally equal to the energy of a mass M with a momentum
+p.  In order to conserve energy in this case, the final system must
+have internal energy in addition to its mass energy and kinetic
+energy.  (See Technical Note 3 for this section.)  In our model, the
+collision will generally cause heating to produce this internal
+energy.  In the actual situation, the system after the subspace field
+has died will include electromagnetic radiation, and/or subspace
+radiation, and/or heat inside the ship to make up the extra energy
+needed for energy conservation.
+ 
+ 
+     In short, we have shown energy and momentum conservation in these
+examples with the following comparisons.  Turning on the subspace
+field is compared to a situation where the ship removes part of its
+mass, leaving it at rest in its original frame of reference.  The ship
+then continues along its trip, just as if it had a lower mass. Turning
+off the subspace field can then be compared to adding back on the
+previously removed mass which is still at rest in the original
+reference frame.  With these comparisons, one can see how energy and
+momentum are conserved in the use of simple subspace fields.
+ 
+ 
+ 
+---------------------------------------------------------------------
+5.2  Technical Notes for this Section (Simple Subspace Fields)
+ 
+*Technical Note 1
+     We say that when a subspace field is activated, part of the mass
+energy of objects within the field disappears from normal space for
+all practical purposes (as seen by outside observers).  We should
+note, however, that other aspects of this matter (charge, baryon
+number, lepton number, etc.) are unaffected.
+     For example, an electron sitting within a subspace field will
+still seem to outside observers to have a charge of -1, a lepton
+number of 1, etc.  However, it will seems as if the normal rest mass
+of the electron has been reduced.
+     So, when a ship in a subspace field seems to loose part of its
+mass as seen by outside observers, it is not as if the ship has lost
+some of its particles.  Instead, it is as if all the particles
+individually became particles of lower rest mass.
+ 
+ 
+ 
+*Technical Note 2
+     Here we examine the amount of energy needed to propel a ship with
+a reduced mass of m to a velocity v by expelling a photon.  We will be
+using regular relativistic equations for momentum and energy with the
+following notations:
+ 
+   c    = the speed of light
+   v    = the velocity of the ship
+   beta = v/c
+                 1
+   gamma = ---------------.
+             ____________
+           \/ 1 - beta^2
+ 
+     Now, at some point the ship (whose reduced mass is m) uses part
+of its internal energy to expel a photon in a particular direction.
+If the photon is created correctly, afterwards the ship will be moving
+with the desired velocity v.  Its momentum and energy will thus be
+given by the following:
+ 
+   p(ship) = gamma*m*v    (the relativistic momentum of the ship)
+   E(ship) = gamma*m*c^2  (the relativistic energy of the ship)
+ 
+     Now, in order to conserve momentum, the photon's momentum will
+have to be equal and opposite to that of the ship.  The energy of the
+photon can then be calculated from its momentum.  We can thus write
+the following:
+ 
+   p(photon) = p(ship) = gamma*m*v
+   E(photon) = p(photon)*c = gamma*m*v*c
+ 
+     It is now possible for us to calculate how much of the internal
+energy of the ship would have to be used to expel this photon.  Before
+the photon was expelled, the energy of the system included the mass
+energy of the ship (m*c^2), the internal energy of the ship which
+would be used to expel the photon (E(fuel)), and some other internal
+energy which wouldn't be changed.  After the photon is expelled, the
+energy of the system includes the larger energy of the ship
+(gamma*m*c^2), the energy of the photon (gamma*m*v*c), and that part
+of the internal energy which wasn't changed.  The energy used to expel
+the photon must make up for the difference in energy between these two
+situations.  We can thus write the following:
+ 
+   E(fuel) = (gamma*m*c^2 + gamma*m*v*c) - (m*c^2)
+           = [gamma*(1 + beta) - 1]*m*c^2.
+ 
+     The interesting thing to note here is that if the subspace field
+hadn't been used to lower the apparent mass of the ship, this energy
+would be calculated with the same formula, except m would be replaced
+by M.  This means that the subspace field allows a savings of energy
+given by
+ 
+   E(saved) = [gamma*(1 + beta) - 1]*(M - m)*c^2.
+ 
+As long as the energy needed to produce and maintain the field is less
+than this energy, then there is an overall savings in energy for this
+particular example.
+     It should also be noted that for significantly high velocities,
+the E(fuel) could still be impractically high unless the apparent mass
+(m) is significantly small.  As it turns out, mass masking by subspace
+fields can provide the needed lowering in mass to make large changes
+in the velocity of the ship a practical ability.
+ 
+ 
+ 
+*Technical Note 3
+     Here we examine the momentum and energy considerations of a
+collision between a mass m with momentum p and a mass (M - m) at rest.
+Consider the following diagrams of the situations before and after the 
+collision:
+ 
+Before:
+            m                                  O   M - m
+            O----------> p                    O O  P = 0
+                                               O
+(The total internal energy of these systems = E(int-before).)
+ 
+ 
+After:
+                       O  M
+                      OOO---------->p
+                       O
+             Internal energy = E(int-after).
+ 
+     The momentum of the larger mass M (after the collision) will be
+equal to the momentum of the mass m (before the collision) in order to
+conserve momentum.  We are interested in the difference in the Energy
+between the two situations.  We will calculate this energy using the
+following notations:
+ 
+   gamma = the relativistic gamma factor for the mass m
+   GAMMA = the relativistic gamma factor for the mass M 
+ 
+We can then write the difference in energy as follows:
+ 
+   E(After) - E(Before) =
+    [E(int-after) + GAMMA*M*c^2] - [E(int-before) + gamma*m*c^2 + 
+                                                          (M-m)*c^2]
+ 
+Conservation of energy requires this difference to be zero.  Using
+this, we will isolate the internal energies of the systems on one side
+of the equation.  This will be the difference in the internal energies
+before and after the collision (Delta(E-int)).  We thus write the
+following:
+ 
+   Delta(E-int) = E(int-after) - E(int-before)
+                = gamma*m*c^2 + (M-m)*c^2 - GAMMA*M*c^2
+                = [(M-m) - (GAMMA*M - gamma*m)]*c^2
+ 
+     Now, we can rewrite the gammas by remembering that for any system
+of mass m and momentum p, the energy can be written as
+                       ___________________
+   E = gamma*m*c^2 = \/p^2*c^2 + m^2*c^4
+ 
+We can thus write gamma for such a system as the following:
+             ___________________
+   gamma = \/ p^2/(m^2*c^2) + 1
+ 
+Since the momentum of both m and M are the same in our example, we can
+rewrite the change in internal energy as the following:
+                             _______________    _______________
+  Delta(E-int) = [(M-m) - (\/ p^2/c^2 + M^2 - \/ p^2/c^2 + m^2  )]*c^2
+ 
+Now, since M > m, and both momenta (p) above are the same, we can draw
+the following diagram representing the relationships between M, m, and
+p as follows:
+
+             +     -                       +
+            /|     |                      /|
+           / |     |                     / | 
+          /  |     |                    /  | M-m
+         /   |     |M                  /   |
+        H    + -   |        =>        H    +
+       /   / | |   |                 /   /
+      /  h   | |m  |                /  h
+     / /     | |   |               / /
+    //       | |   |              //
+   o---p/c---+ -   -             o
+
+               _______________               _______________
+  Note:  H = \/ p^2/c^2 + M^2    and   h = \/ p^2/c^2 + m^2
+
+Looking at the right hand diagram, it's simple to show that
+
+   H <= h + (M-m)
+so
+   (M-m) >= H - h
+or              _______________     _______________
+   (M-m) >=  (\/ p^2/c^2 + M^2  - \/ p^2/c^2 + m^2 ).
+ 
+(where ">=" denotes greater than or equal to).  Thus,
+             _______________     _______________
+   [M-m - (\/ p^2/c^2 + M^2  - \/ p^2/c^2 + m^2 )]*c^2
+ 
+is always greater than or equal to zero.
+     So, we see that the change in internal energy is always positive.
+That means that in order for energy and momentum to be conserved in
+this type of collision regardless of the masses and momentum involved,
+the overall system must increase in internal energy.  Generally, this
+would mean that the collision would cause heating and this additional
+heat would allow for energy to be conserved.
+---------------------------------------------------------------------
+ 
+ 
+ 
+ 
+6. Warp Fields:
+     There is one major difference between simple subspace fields and
+warp fields.  A field is labeled as a warp field when it produces a 
+reference-frame coupling.  The reference frame of objects within the 
+real-space manifestation of the warp field must be coupled in some way 
+to the reference frame of subspace, as discussed in section 3.
+     In section 3 we mentioned that we would discuss other aspects of 
+warp field production in this section.  What we want to consider is 
+the difference in the "exotic" nature of the stress-energy tensors 
+needed to produce simple subspace fields and those needed to produce 
+warp fields.  There are essentially two ways in which one could 
+imagine changing a subspace-field-producing stress-energy tensor so 
+that it becomes a warp-field-producing stress-energy tensors.  
+     As it turns out, the easiest way to do this is to change the 
+exotic nature of the tensor so as to skew the subspace manifestation 
+of the subspace field until it is no longer symmetric in that domain.  
+Interestingly, manipulating a subspace-field-producing tensor in this 
+way creates an exotic enough effect to produce a reference-frame 
+coupling at the interaction layer of the field.  Observers in the 
+interior of such a field will measure space and time outside of the 
+field as if they were viewing it from within the subspace frame of 
+reference--regardless of the velocity of these observers.  This 
+feature is what allows for the faster than light travel on which we so 
+depend.
+     Another useful features of skewed subspace fields is that the 
+depositing of mass energy into subspace which occurs is not symmetric.
+This asymmetric placing of energy into subspace manifests itself as
+momentum transfer, and this causes subspace to act as a momentum
+reservoir as well as an energy reservoir.  Momentum is essentially
+deposited within subspace, and to conserve overall momentum, the
+combination of all objects within the warp field will gain an
+equivalent momentum in the opposite direction.  Only when the momentum
+transferred into subspace is taken into account can momentum
+conservation be realized.  At the time the ship's momentum is changed, 
+no actual fuel is expelled to produce this momentum, and normal-space-
+only momentum conservation is essentially ignored as long as subspace 
+is masking the momentum.  Therefore, this method of warp travel is 
+labeled as non-Newtonian propulsion.  The use of warp propulsion will 
+be discussed in a later subsection.
+     It is also possible to change the exotic nature of the stress-
+energy tensor in order to produce warp fields which are non-
+propulsive.  This is generally done simply by intensifying the exotic 
+nature of the tensor by increasing its strength alone, and without 
+skewing the subspace field.  Such tensors are generally called 
+subspace-symmetric warp tensors, and they produces a field which 
+provides a reference frame coupling while the subspace manifestation 
+of the field is still symmetric.  By changing the characteristics of 
+such tensors, one can produce many different varieties of these 
+fields, and even though they are technically warp fields (because they 
+produce a reference frame coupling) certain varieties are sometimes 
+still referred to simply as subspace fields (because of they are in 
+fact symmetric within the subspace domain.)
+     Perhaps the most useful non-propulsive warp fields in use today
+are ones which provide a subspace reference frame coupling to every 
+point within the interior of the field as views by every other point
+within the interior of the field. Unlike the warp propulsion field,
+this field allows objects within its interior to travel faster than
+light with respect to one another. These fields are the ones in which
+modern shipboard computer cores are placed so that signals can be sent
+faster than light between various computer components.
+     Another type of symmetric, non-propulsive field which has been
+studied with interest are known as static warp bubbles.  These have
+been known to have the odd effect of coupling people inside the field
+not back to real space-time, but to a virtual space-time created
+within the bubble.
+     There are, as mentioned, many different types of non-propulsive
+warp fields, and we will not consider them all here.  What we wish to
+stress here is that the one major component which all warp fields
+share (propulsive/asymmetric or non-propulsive/symmetric) is a
+reference frame coupling of one type or another.
+ 
+ 
+ 
+6.1  Warp Propulsion
+     Producing a warp propulsion field causes subspace to act as both
+an energy and a momentum reservoir.  The ship within the warp field
+will have a lower apparent mass, and it will gain a momentum
+equivalent to and in the opposite direction of the momentum placed
+into subspace.  Because there is also a reference frame coupling, the
+relationship between the momentum and the velocity of the ship is not
+calculated using Einsteinian physics.  This allows the ship to have a
+real (non-imaginary) momentum and energy even though its apparent
+speed is greater than the speed of light.  Energy and momentum
+conservation will be discussed in a later subsection.
+
+
+6.1.1  Single-Layered Warp Fields
+     First we will consider warp propulsion produced with a single-
+layer warp field.  As such a field is activated, the momentum of the
+ship (and thus its speed) will increase.  At first, the ship will be
+traveling at slower than light speeds, and the energy of the ship
+increases dramatically as its speed approaches that of light.  Only
+after the jump to faster than light speeds occurs will the reference
+frame coupling take full effect, and the energy of the ship be
+completely outside of the realm of Einsteinian physics.
+     Once the reference frame coupling takes effect, all measurements 
+with respects to the ship are done as if the ship is in the frame of 
+reference of subspace.  That means that at any particular moment, 
+properties such as distances, times, etc. are measured just as if the 
+ship were sitting still for that moment in the frame of reference of 
+subspace.  As in illustration, one could imagine taking a snapshot of 
+a ship in warp and finding that it is indistinguishable for that one 
+moment from a ship who is not moving with respect to the subspace 
+frame of reference.  Yet, we attribute kinetic energy (energy of 
+motion) to such a ship, even if we view it from the subspace frame of 
+reference.  This is because the kinetic energy of the ship is actually 
+held within the warp field itself.
+     Thus, to keep the ship at a certain speed, one must keep the warp 
+field at a constant energy level which is seen as the energy of the 
+ship itself.  But, today's warp field generators produce unstable 
+fields (similar to subspace field generators.)  Thus, warp fields also 
+bleed off there energy back to the normal universe (in the form of 
+heat in the field coils, electromagnetic energy given off nearby the 
+ship, etc.).  Therefore, the warp field must be given a constant 
+supply of energy from the ship.  (This, too, will be discussed in a 
+later subsection. The important thing to understand here is that the 
+warp field does need a constant supply of energy).
+     To increase the speed of the ship, one must increase the energy 
+level of the warp field.  However, at higher energy levels, a warp 
+field becomes much less efficient (bleeding off its energy at much 
+larger rates).  Therefore, the power output of the ship must increase 
+dramatically to hold the warp field at a higher energy level (thus 
+holding the ship at a large velocity).
+     For our examples, we will use a model which approximates warp
+field energy levels in certain geometries.  The power (the amount of
+energy given to the field per unit time) given to a field layer
+depends on the energy of that layer, and in our model that dependence
+is as follows:
+    Power = P_0*(E/E_0)^3 
+Where E is the energy of the layer (and thus the energy of the ship)
+and P_0 & E_0 are a power level and an energy level intrinsic to the
+model.
+      For example, a ship traveling at a particular warp velocity may
+have an energy of 2*E_0 associated with its motion.  In order to keep
+the warp field up, the ship would have to output energy at a
+particular rate, providing a power of 8*P_0.  If the ship increases
+its speed so that its energy is now 4*E_0 (twice as much as before),
+the ship will have to provide a power of 64*P_0 (8 times as much as
+before) in order to keep the warp field up.  The energy of the ship
+itself (associated with its velocity) has only increased by a factor
+of 2, while the warp engines are now having to output eight times as
+much power into the warp field because the higher energy warp field is
+much less efficient (quickly bleeding its energy back into normal
+space).
+ 
+ 
+6.1.2  Multi-Layered Warp Fields
+     As the ship's speed increases, the correlation between space and
+subspace at the interaction layer becomes greater and greater.  More
+and more of the ship's mass energy is masked by (or submerged into)
+subspace, and more and more momentum is placed into subspace.  We thus
+say that the ship is submerged to a deeper subspace level as its speed
+increases.  (We should, however, remember that the interior of the
+warp field is essentially still normal space. It is only the
+relationship between the interior and exterior of the field that
+becomes deeper interlaced with subspace.)  We can use this analogy to
+understand why multi-layer warp fields are used today for warp
+propulsion.
+     By correctly setting up the geometry of the stress-energy tensor 
+within a warp field generator, one could produce a double layered warp 
+field which conceptually divides subspace into two levels (an "upper" 
+level and a "lower" level).  This is basically done by creating a two 
+stage stress energy tensor which when both stages are active looks 
+like the usual warp-field-creating stress energy tensor.  However, 
+when only one stage of the tensor is active, its effects would not be 
+able to "submerge" a ship deeper than the "bottom" of the upper level 
+of subspace, regardless of how much energy was provided to the tensor.  
+For our purposes we will say that if the ship were "submerged" as deep 
+as this first stage could take it, it would have an energy of E_th 
+(the threshold energy between the two subspace levels).  Then, when 
+the first layer of the warp field was active, the ship's energy would 
+be between zero and E_th. For illustration, we can assume that E_th is 
+a particular value, say 4*E_0 (where E_0 comes from our model 
+mentioned above).
+     With the first warp layer active, one can supply it with more and
+more power up to the point where the energy in that layer is 4*E_0. At
+that point, one would be supplying a power of 64*P_0 (as seen 
+earlier).  This is no different from having a single-layer geometry to 
+the warp field rather than a double-layer warp field.  The difference 
+will be evident if one attempts to supply even more power to the first 
+layer of the double-layer warp field.  With only the first layer 
+active, the energy of the warp field can be no higher than 4*E_0 (the 
+energy associated with being "half way deep" into subspace).  Any 
+power supplied to the layer above 64*P_0 will be instantly bleed back 
+into normal space rather than pushing the warp field to a higher 
+energy.
+     In order to push the ship deeper into subspace and further
+increase its energy, the second warp field layer needs to be 
+activated.  One therefore turns on the second stage of the stress-
+energy tensor, creating the second warp field layer.  This can only 
+happen once the first layer has taken the ship deep enough into the 
+first level of subspace to "jump" into the second level as the second 
+layer is activated.  This is due to the fact that if one tries to 
+energize the second stage of a two-stage stress-energy tensor before 
+the first stage is sufficiently energized, the overall tensor will not 
+have the geometry needed to sustain a warp field.  However, once the 
+first stage is sufficiently energized, the second stage will 
+complement the overall geometry of the tensor, producing the second 
+field layer.  Once the second layer is activated, the total energy of 
+the warp field is _divided_ among the two stages of the tensor, and 
+thus among the two layers of the subspace field.
+     In our example, one could hold the ship just above 4*E_0 (close 
+enough for us to estimate it with 4*E_0) with each layer holding 2*E_0 
+of energy apiece.  This means that the power needed by each of the two 
+layers is only 8*P_0 apiece (as calculated in our model) for a total 
+of 16*P_0 rather than 64*P_0.  This is a substantial savings in power 
+consumption.
+     To sum up... As one pushes one layer of a warp field to higher
+and higher energies, the efficiency of that layer drops dramatically.
+However, one can use multi-layer warp fields to divide subspace into
+many levels.  By adding enough energy to the warp field while N layers
+are active, one can go deeper and deeper into level N of subspace.
+Once one is close enough to level N + 1, one can activate the next
+warp field layer and "jump" into the next subspace level. This divides
+the energy of the warp field among more layers, lowering the energy
+level of each individual layer.  This in turn increases the efficiency
+of each individual layer (thus increasing the overall efficiency of
+the warp field as a whole).
+     The actual calculation of the power requirements for a warp field
+is more complicated than in our simple model.  However, the principle
+is the same, and multi-layer warp fields do increase power efficiency.
+When this discovery was made, it had a profound effects on the future
+of Warp Propulsion.
+ 
+ 
+6.1.3  Development of Modern Warp Propulsion Fields
+     Just after the discovery of increased efficiency with the use of
+multi-layer warp fields, many research teams started working to
+produce various multi-layer strategies and maximizing there
+efficiencies.  One particular team jumped ahead of the rest and fairly
+easily developed a 9 layer warp field design (the first layer
+beginning at the speed of light).  While work started on maximizing
+the efficiency of this new 9 layer design, still other teams moved on
+to try and produce strategies with even higher numbers of layers.
+However, no such attempts were successful.
+     Work done to maximize the 9 layer design soon lead to theories
+which suggested that the success of the 9 layer strategy wasn't simply
+luck or coincidence.  These theories suggested that subspace actually
+possessed an intrinsic 9 level nature--that there really were 9
+preexisting subspace levels.  Such theories correctly predicted the
+proper method for maximizing the 9 layer warp field design, and they
+suggested that it was impossible to produce warp fields with more than
+9 levels.
+     Today, many aspects of these theories are widely accepted, and
+the 9 layer warp field is the standard by which warp factors are
+defined.  The full development of the first warp field layer (Warp 1)
+in today's warp systems constitutes the entrance into the first level
+of subspace.  Each consecutive warp factor constitutes the entrance
+into the next consecutive subspace level.  As one approaches warp 10,
+one presses deeper towards the "bottom" of the ninth subspace level,
+and warp 10 corresponds to being fully submerged into subspace.  Thus,
+fully submerging a vessel into subspace theoretically gives the vessel
+infinite velocity, requires an infinite amount of energy to get the
+vessel there, and requires an infinite output of power to hold the
+ship there.
+     Unfortunately, the 9 levels of subspace (which is theoretically
+natural and cannot be bypassed) is the limiting factor of the speeds
+maintainable by today's warp vessels.  Past warp 9 the power
+requirements for higher warp speeds continues to increase without
+another power threshold like those found at the integer warp factors.
+The fact that current theory rules out the possibility of producing a
+tenth highly efficient warp factor is generally referred to as the
+"warp 10 barrier." (Note: Sometimes this phrase is used to refer to
+the infinite speed one would theoretically obtain at warp 10.
+However, this is a less proper use of the phrase.  Thus, the statement
+"perhaps one day we will break the warp 10 barrier" would more likely
+refer to the possibility of finding an efficient means for traveling
+much faster than warp 9 rather than referring to the possibility of
+traveling faster than infinite speed.)
+     Though our current technology still supports the theories behind
+the warp 10 barrier, certain brushes with advanced non-federation
+technology suggests that some linking of warp field production and
+strong gravimetric distortion may hold the key to producing fantastic
+speeds through energy and power outputs easily attainable by today's
+starships.  Still, skepticism abounds, and only time will tell whether
+we will every be able to "break" the warp 10 barrier.
+ 
+ 
+6.1.4  Modern Warp Propulsion Field Generation
+     There was one very important problem with multi-layered warp 
+fields that we have yet to mention.  The geometry of a multi-stage 
+stress-energy tensor inherently produces a warp field which is 
+symmetric in the subspace domain.  That means that the multi-layered 
+warp field produced by such a tensor cannot be propulsive.
+     In order for propulsive fields to gain the benefits which multi-
+layered warp fields possess, a new way to produce multi-layered fields 
+needed to be found.  As it turns out, the key to regaining the non-
+Newtonian drive came in nesting many layers of warp field energy 
+within one another.  In today's warp engines, a series of single-stage 
+tensors are activated in a particular way to produce a warp field 
+which has the desired effects.  We will now examine how the "trick" of 
+producing multi-layered, propulsive warp fields is performed by 
+considering an example using 3 single layer field generators.
+     The 3 field generators are placed in a row with a particular 
+distance between each of them.  The generators are then activated in 
+sequence, one after the other, at a particular frequency.  This means 
+that plasma is ejected for a moment into each field coil, and then it 
+is quickly shut off.  Each coil then produces its own warp field layer 
+which dissipates energy as it expands and eventually disappears once 
+it has lost all its energy.  Before the field layer produced by the 
+first generator dies, the second field generator is activated, and so 
+on.
+     Because the tensors used to create the 3 fields are each single-
+stage tensors, the three fields themselves do not form a three layer 
+warp field like we have previously described.  Instead, they act as 
+three separate, nested layers of warp field energy.  However, when the 
+frequency at which the three fields are produced is just right (the 
+actual value depends on the precise geometry of the situation) the 
+nested field layers form at just the right spacing so that they 
+interact to produce a single warp field.  At that point, the three 
+nested field layers appear to subspace to be one warp field which 
+consists of the first layer of a multi-layer design.  If the tensors 
+used to produce the fields have the correct geometry (which in part 
+depends on the number and placements of the field coils), then this 
+multi-layer design seen by subspace will be the natural 9 layer design 
+which we want.  Also, because the nested layers that make up this 
+field are produced at different points in space (and thus at different 
+corresponding points in subspace) the overall warp field appears to be 
+asymmetric in the subspace domain.  Thus, this "first-level" warp 
+field will be a propulsive field.
+     At this point, we could increase the energy input to each of the 
+field coils in order to make the field press deeper into subspace.  
+However, when we do this we increase the energy of the overall warp 
+field being created, thus lowering the efficiency of the overall 
+field.  This means that each nested field layer will dissipate its 
+energy more rapidly, thus expanding and dying more rapidly.  Remember 
+that the key to having the 3 nested layers act as a single warp field 
+was that they were created with just the right spacing to interact 
+properly.  Thus, because the higher energy field layers are expanding 
+more rapidly, we must produce the layers at a higher frequency if we 
+still want them to interact properly and form a single warp field.
+     At some point, the energy in the overall warp field will be 
+enough to press the ship into the second level of subspace.  When this 
+happens, we will have a second-level warp field--subspace will see the 
+three nested field layers as a single warp field consisting of 2 un-
+nested field layers.  Conceptually we can then think of the total 
+energy of the field being divided among these two "virtual" un-nested 
+field layers, thus increasing the total efficiency of the warp field 
+as discussed earlier.  With the efficiency increased, each layer now 
+dissipates and expands more slowly.  However, in the second level of 
+subspace, each field layer needs to interact more strongly with the 
+next, and thus they must be created closer together.  The combination 
+of slower expansion and the need to create the fields closer together 
+exactly cancel each other out such that the frequency just before 
+interring the second level is approximately equal to the frequency 
+just after interring the second level.
+     This process can be continued--increasing the energy of the warp 
+field and increasing the frequency at which the nested layers are 
+created--in order to press deeper into subspace and pass through the 
+higher efficiency points at the integer warp values.
+     And there we have it--the effects of a multi-layered warp field 
+design which is produced with some number of nested layers of warp 
+field energy, each created at a different point in space and subspace 
+such that the field is asymmetric (and thus propulsive).  We should 
+note that this means that the asymmetry of the field (and thus the 
+direction of propulsion) is not controlled by changing the complex 
+geometry of the tensor used to create the field, but rather by 
+sequencing the field coils in a particular way.  With modern ship 
+design, an optimal number of field coils are placed within two warp 
+nacelles on either side of the ship.  This means that by properly 
+sequencing the coils in the two nacelles, the ship will be able to 
+maneuver in various directions during warp.  We could also produce 
+maneuverability in a single nacelle design by changing the geometry of 
+the tensors used such that they give a left-right asymmetry.  However, 
+this has been found to be much less efficient and much more difficult 
+than simply using two nacelles and sequencing the field coils properly 
+to produce the desired effects.
+     Finally, we should note that in this modern design, the momentum
+coupling (the placement of momentum into subspace as mentioned
+earlier) manifests itself as a force coupling between the various
+layers of warp field energy.  During the coupling, part of the mass
+energy of the ship becomes masked by (or submerged into) subspace in 
+an asymmetric way (because of the geometry of the field) to produce 
+the momentum masking which creates the non-Newtonian propulsion.
+ 
+ 
+ 
+6.2  Momentum and Energy Conservation with Warp Propulsion
+     In this section we will consider the conservation of momentum and
+energy as it applies to warp propulsion.  When we did this with normal 
+subspace fields, we looked separately at each issue (energy and 
+momentum), however, here they are so integrated that it will be easier 
+to consider them both at once.
+     Again, we look at two types of energy separately--the internal
+energy of the ship, and the energy associated with the mass of the
+ship and its motion.  The momentum is, of course, closely related to
+the energy of the ship and its motion, so we will look at the two
+together.  For the internal energy of the ship, the conservation of
+energy takes place much the same way it did with subspace fields.  The
+mass of any matter/anti-matter is lowered, but energy is seen to be
+conserved by all observers, just as it is with subspace fields.  Part
+of the internal energy will go to produce the warp field, and this
+will eventually be bleed back into real space.
+     (Note: Since the warp field produces the motion of the ship in
+real space, and this bleeding off of energy makes it necessary to
+output energy at a constant rate in order to keep moving, one can also
+explain this as "continuum drag."  This is done by associated the
+motion of the ship to the motion of a classic vessel moving through
+the use of friction.  In this model, subspace is said to provides a
+constant force against the ship while the ship provides a constant
+force in order to keep moving at a constant velocity.  (See Technical
+Note 1 for this section.))
+     Just as it was with simple subspace fields, a warp field masks
+part of the mass of the enclosed ship from outside observers.  This
+leaves a ship of mass M with a new "apparent mass" of m.  Again,
+overall energy conservation can be realized only when one takes into
+account the mass energy submerged into subspace.
+     Now, it is the kinematic energy of the ship that is associated
+with its momentum.  They both increase as the actual velocity of the
+ship increases.  However, the velocity increases as the warp field
+increases, and this reduces the ship's apparent mass.  All of this can
+be accounted for with a simple association.  We associate the actual,
+faster than light velocity of the ship (v) with a slower-than-light,
+"energy-equivalent" velocity (v').  We then use the actual mass of the
+ship (M) and the energy-equivalent velocity (v') in conjunction with
+normal, relativistic equations to calculate the momentum and energy of
+the ship.  (Note: the relationship between v and v' is discussed in
+Technical Note 2.)  This association allows us to easily calculate the
+momentum and energy of the ship, and all the complexity of increasing
+the actual velocity while decreasing the apparent momentum are all
+rolled into the association.
+     So, where does this energy and momentum of the ship come from,
+and how are they conserved?  Well, remember that part of the internal
+energy goes into maintaining the warp field at a constant energy
+level.  That means that part of the internal energy must go into the
+warp field to raise it to that constant energy level in the first
+place.  As mentioned earlier, this constant energy level of the warp
+field IS the energy of the ship's motion.  They are one and the same.
+     The momentum comes directly from the fact that a propulsive warp
+field causes subspace to act as a momentum reservoir.  There is a
+momentum being masked by subspace which is equal but opposite to the
+momentum of the ship.  Only when this masked momentum is taken into
+account can conservation of momentum be realized.  One could think of
+this situation as equivalent to a Newtonian drive situation by
+equating the momentum masked by subspace to the momentum of the
+expelled fuel in a Newtonian drive situation.  However, there is a
+major difference--anything in normal space which has momentum also has
+energy, and the energy of the expelled fuel in the Newtonian drive
+situation must come from the ship's internal energy. However, the
+momentum masked by subspace has no energy associated with it, and so
+it doesn't take away from the ship's internal energy.  
+     The fact that subspace takes up for the momentum of the ship
+(momentum which seems to come from nowhere in the eyes of outside
+observers who only consider normal-space momentum) has some rather
+interesting effects, as we will see in examples below.
+ 
+ 
+6.2.1  Some Examples
+     To analyze the conservation of energy and momentum involved with
+warp propulsion fields, we will look at two examples (similar to what
+we did when considering simple subspace fields).  In each example we
+will consider a ship which takes a trip using warp.  At each step of
+the trip we will show that energy and momentum are conserved.
+
+
+Example 1
+     In these examples, the ship of mass M begins in one particular
+frame of reference.  All energies and momentums will be calculated in
+this frame.  Initially, the ship's energy consists of its mass energy
+(M*c^2) and internal energy (E(int)--which will be used for various
+purposes).  During the trip, part of the internal energy will be used
+for on-ship purposes, and while this energy may change form (becoming
+heat and eventually being radiated into space, for example) we know
+that this energy is always present in some form.  Thus this part of
+the internal energy is preserved.  The rest of the energy involved
+will be considered at each step to show that it is also conserved.
+ 
+Step 1: 
+     The ship uses part of its internal energy to create a warp
+field.  As discussed above, part of this energy is bled back into
+space, while the rest accounts for the kinematic energy of the ship,
+thus this energy is conserved.  As the field is turned on, part of the
+ship's mass is masked from outside observers, and the apparent mass of
+the ship becomes m.  To realize the conservation of energy, we must
+remember that this mass energy is still "present", but is submerged in
+subspace.  This submerged energy is the difference between the mass
+energy of the ship initially and its mass energy now--(M - m)*c^2.
+This makes it obvious that this energy is conserved (since the
+submerged energy of the ship plus its energy now is the same as its
+initial mass energy).
+     The warp field also causes subspace to act as a momentum
+reservoir, and so a certain momentum becomes masked by subspace.  As
+mentioned above, this momentum has no energy associated with it.  To
+conserve overall momentum, the ship gains an equivalent momentum in an
+opposite direction.  The motion of the ship gives the ship kinematic
+energy.  Again, this energy is part of the energy contained in the
+warp field, and thus it comes from part of the internal energy.
+     We have thus shown overall conservation of momentum and energy in
+this step.
+ 
+Step 2:
+     As the ship travels, it may experience "collisions" with other
+objects.  Though these collisions may not collapse the warp field,
+they would have interesting effects.  We will wait to consider
+these effects in example 2.
+     Collisions which do collapse the warp field can have very 
+damaging effects.  (See Technical Note 3 for this section.)
+ 
+Step 3:
+     As the ship comes to its destination, it shuts down its warp
+field.  As this is done, the momentum masked by subspace becomes
+unmasked, and the ship in turn looses its momentum. The energy
+contained in the warp field is bleed back into normal space as the
+warp field collapses.  Remember that this energy also accounts for the
+energy of the ships motion, thus as the ship looses momentum, it also
+loses its kinematic energy which is bleed back into normal space.
+Finally, the mass energy that was masked by subspace returns to the
+ship, bringing its mass back to the original M.
+     So, here we again see that the overall energy and momentum are
+conserved.
+ 
+ 
+ 
+Example 2
+     The first step in this example is identical to the previous
+example.  We will thus start with the second step and more closely
+examine the collisions mentioned in step 2 of example 1.
+ 
+Step 2:
+     During the travel, the ship encounters a large object.  For 
+convenience, we will assume that the object is at rest in the original 
+rest frame of the ship so that it must be deflected away from the path 
+of the ship.  As the object is deflected, the ship's momentum is 
+effected as if it were a ship with a momentum calculated by using its 
+energy-equivalent velocity (v').  That is, the ship acts no different 
+(kinematically speaking) from a ship of mass M and velocity v'.
+     Deflected the object will give it energy and momentum.  The 
+energy can come in part from the kinematic energy of the ship and in 
+part from the internal energy of the ship (if a tractor beam is used 
+to deflect the object, for example).  But, in addition, internal 
+energy must be transferred to the warp field in order to keep it from 
+collapsing during the interaction with the object.  How much internal 
+energy needs to be expended and why will be explained as we look at 
+momentum conservation.
+     To conserve momentum, the total change of the ship's momentum 
+will be equal and opposite to the change in the momentum of the 
+object.  The deflection of the object will cause the warp field to 
+become imbalanced in the direction of the ship's change in momentum.  
+This happens as the additional energy is feed to the warp field to 
+keep it from collapsing.  After the interaction, the ship can do one 
+of two things.  First, it could continue on its changed course, coming 
+out of warp at some later point in time; or, second, it could use its 
+warp field to adjust its momentum (and its course) to get to its 
+original destination.
+     In the first case, the ship will continue its journey along its 
+changed course until step 3.  In the second case, the ship will use 
+the warp field to readjust its course.  As this readjustment is made, 
+the imbalanced warp field deposits actual momentum into space 
+(generally in the form of photons) rather than "putting" the momentum 
+into subspace.  This means that the real change in momentum of the 
+object will be counteracted by the real momentum of the expelled 
+photons--thus conserving normal space momentum.  
+     The energy needed to produce these photons comes from the energy 
+placed into the warp field (to keep it from collapsing) as the 
+interaction with the object took place.  Also note that as the photons 
+are emitted, the ship gains back the momentum it lost during the 
+collision.  That means that it must also gain back the kinetic energy 
+that it lost.  This energy must also be supplied by the energy stored 
+in the warp field while the interaction took place.  Since this energy 
+is exactly the energy lost to the object during the interaction, the 
+object's energy eventually comes from the internal energy of the ship.  
+Therefore, as the object is deflected, the energy feed into the warp 
+field is just enough to produce photons (whose momentum will be equal 
+and opposite to the change in the object's momentum) and to restore 
+the kinematic energy lost by the ship.
+     (Note: The ship could continually adjust its warp field during
+the collision so that its momentum and velocity don't change.  In 
+this case, energy is still feed to the warp field during the 
+interaction, but the continually adjusting warp field will continually 
+use that energy to immediately create the photons necessary to 
+conserve momentum. The end result is the same--the ship has changed 
+the momentum of the object, a momentum equal and opposite to that of 
+the change becomes real in the form of photons, and the ship's 
+momentum remains unchanged.  Meanwhile, the internal energy of the 
+ship has been used to produce the photons and to give the object its 
+energy.)
+     So, energy and momentum in real space are conserved during and 
+after a "collision" with an object.
+
+Step 3:
+     The ship reaches its destination and shuts off its warp field.  
+What happens here will depend on which of the two cases (mentioned 
+above) was chosen.  If the ship changed its course after the 
+collision (thus completely making up for the collision), then as the 
+ship comes out of warp it will come back to rest in its original frame 
+of reference (just as it did in example 1).  However, if the ship did 
+not change its course, then it will have to make up for the collision 
+as it comes out of warp.  As the imbalanced warp field collapses, the 
+energy that was placed in the warp field during the interaction will 
+produce the photons necessary to make up for the real momentum given 
+to the object.  As the momentum of these photons gives momentum back 
+to the ship, the ship will gain energy which must also come from the 
+energy stored in the warp field during the interaction.  Then the re-
+balanced warp field can completely collapse, bringing the ship to rest 
+in its original frame (just as it did in example 1).
+     Note, that if the energy needed to create the photons and restore 
+the ships lost kinetic energy were not stored in the warp field during 
+the collision, then they would have to be supplied by the internal 
+energy of the ship as the warp field collapses.  That means that one 
+would actually have to expend energy just to shut off the warp field 
+(which makes no sense because the warp field must collapse when you 
+stop feeding energy to it, even if you have no more energy left to 
+create photons, etc.).  This is why it is important that all the 
+energy needed to make up for the collision is stored in the warp field 
+during the collision.
+     
+
+     So, we see conservation of energy and momentum in all the stages 
+of this example as well.
+
+
+
+
+---------------------------------------------------------------------
+6.3  Technical Notes for this Section (Warp Fields)
+ 
+*Technical Note 1
+     Here we consider the model of warp travel which involves the
+concept of continuum drag.  In this model, the constant power supplied
+to the warp field to keep the ship at a constant speed is required
+because a constant force (continuum drag) is said to be applied to the
+ship.  To examine this, we consider a classical case of supplying a
+constant force against a friction force in order to maintain a
+constant velocity.
+     In this situation, a vehicle which has already reached a
+particular velocity (v) continues to supply a constant force equal and
+opposite to an opposing frictional force to maintain its velocity.  So
+we write
+   _             _
+   F(vehicle) = -F(friction) = constant (in, say, the x direction).
+ 
+     Now, if the vehicle starts at a position x = 0 and at some point
+the vehicle has traveled to the position x, then we can calculate the
+amount of work done by (and thus the amount of energy supplied by) the
+vehicle during the trip:
+ 
+       x
+       /
+   E = | F(x') dx'   (the integral from 0 to x of F(x'), dx').
+       /
+       0
+ 
+But since the force is constant over time (and thus over distance),
+this reduces to the following:
+ 
+   E = F*x
+ 
+Finally, we can calculate the amount of power output one would need to
+keep supplying this force during the whole trip:
+ 
+       dE     dx
+   P = -- = F*-- = F*v
+       dt     dt
+ 
+     Under normal circumstances, the vehicle would not be able to get
+to a velocity grater than c, and so this formula (though it itself
+doesn't indicate a problem at v = c) would never be used for such a
+velocity.  In our case, however, this formula works for our continuum
+drag model.
+     For a particular warp factor, the ship travels at a particular
+velocity v, and there is an associated continuum drag "force" F.
+Given those, one can calculate the power output needed to keep the
+ship at that warp factor.  For modern multi-layered warp fields, the
+force of the continuum drag is lowest at the integer warp values.
+Thus, this model gives alternate explanations for the concepts
+discussed in this section.
+ 
+ 
+ 
+*Technical Note 2
+     Consider a ship of mass M traveling in warp with a faster than
+light velocity v.  The apparent mass of the ship will be m < M, and
+the momentum and energy of the ship depends directly on its apparent
+mass m and velocity v in a non-trivial way.  Also note that since the
+apparent mass m depends on the strength of the warp field (and thus on
+the warp factor), it can then be seen as dependent on the ship's
+velocity v.
+     The easiest way to incorporate all the velocity dependence and
+calculate the momentum and energy of the ship is to make an
+association between the actual, faster than light velocity (v) and an
+"energy-equivalent" velocity (v').  Using this velocity and the actual
+mass of the ship (M), one can calculate the momentum and energy of the
+ship.
+     We could calculate the momentum and energy using the apparent
+mass of the ship and the actual, faster than light velocity.  However,
+the equations would look much different from those we are used to
+seeing in relativistic physics.  When the ship exchanges momentum and
+energy with an outside object, the exchange will be governed by these
+non-relativistic equations.  
+     In the end, the ship does not act like a relativistic ship with a
+mass equal to the reduced apparent mass of the ship.  So, though the
+ship does have a lower apparent mass which facilitates the slippage of
+the ship through subspace, from the kinematics point of view, the
+ship's mass is M and its velocity is v'.  Of course, this is only the
+case with propulsive warp fields (where the momentum and energy
+calculations are outside of the realm of relativistic physics).  With
+non-propulsive warp fields and with simple subspace fields, the mass
+reduction carries over into the kinematics of the situation.
+     So, how is this energy-equivalent velocity (v') calculated?  As
+an example, we consider a simple model that is actually useful with
+certain warp field geometries.  In this model the relationship between
+v' and v is given as follows:
+ 
+   v' = (1 - exp(-A*v/c))*c
+ 
+where A is a constant intrinsic to the model and c is the speed of
+light.  Notice that as the actual velocity of the ship approaches
+infinity, the energy-equivalent velocity will approach the speed of
+light.  Thus, as the velocity of the ship approaches infinity, so does
+its energy and momentum.
+     To use this formula in an example, consider this.  A poorly
+designed warp field geometry might yield an A value of 1.  In that
+case, at a speed of only 2.01c (less than warp 2), the energy-
+equivalent velocity will be 0.866c.  At this velocity the energy of
+the ship would be
+ 
+   E = gamma*M*c^2 = 2*M*c^2.
+ 
+Before the warp field was active, the energy of the ship was M*c^2.
+This means that the ship now has an additional energy equivalent to
+the mass energy of the entire ship, and this incredible amount of
+energy would have to come from the energy reserves of the ship itself.
+     A more desirable geometry might yield an A value of 0.0001.  In
+that case, at a speed of 1000c the energy-equivalent velocity would be
+0.95c.  In such a case, the energy of the ship is only 1.005 times the
+mass energy of the ship.  Still, an additional 0.005*M*c^2 of energy
+can be a phenomenal amount of energy for a large ship.  Half of a
+percent of the entire mass of the ship would need to be matter and
+anti-matter just to have enough energy to get the ship to this
+velocity (not counting the additional energy needed to sustain the
+warp field during the acceleration).
+     Today's warp fields (if modeled in this simplistic way) would
+yield extremely small A values so that a typical ship would easily be
+able to produce the energy needed to travel at high warp velocities.
+ 
+ 
+ 
+*Technical Note 3
+     Fortunately, the energy contained in the motion of a ship in warp
+is not very great (as discussed in the previous technical note).  If
+this were not the case, the ship would have to supply an extreme
+amount of energy in order to accelerate to a given warp speed.
+     The small energy of the ship translates into a small momentum as
+well.  That is, ships in warp do not carry a large amount of momentum.
+However, we should not discount the amount of damage that can be done
+by a warp collision.  To examine the damage potential of a warp
+collision, we will consider the following example.
+     During a battle with a hostile ship, our ship finds itself
+outmatched, and it is decide to ram the hostile ship in the hopes of
+crippling its ability to cause more harm.  In addition to a warp core
+breach and the associated explosion to follow, we also want the actual
+collision to cause as much damage as possible.
+     In the time one has to accelerate before the collision, one could
+use the impulse engines to accelerate to a significant velocity.
+However, the quick acceleration is only possible because a subspace
+field is used to greatly reduce the apparent mass of the ship.  The
+lower mass means that the momentum, energy, and damage potential are
+not necessarily that great.
+     On the other hand, one could jump into maximum warp to ram the
+hostile ship.  Again, a quick acceleration (this time, to a faster
+than light velocity) is possible.  However, the velocity v translates
+to a fairly small energy-equivalent velocity v', and (as we have
+discussed) the momentum and energy of the ship's motion are again
+fairly small.
+     However, we have left out one part of the collision.  As the
+subspace field or warp field interacts with the hostile ship, it will
+deposit energy into the ship and collapse.  In the case of the
+subspace field, the collapse of the field will cause the mass energy
+of our ship to be returned (however momentum will be conserved) and
+will produce an increase in internal energy or radiated energy (which
+can have some damaging effects on the hostile ship).  In addition, the
+energy held in the field itself can be partially transferred to the
+hostile ship.
+     In the case of the warp field, as the field collapses, the mass
+energy and the momentum held in the field will return to the ship.
+Here, there has been no fuel expelled, and so there is no real
+momentum held in the ship's motion.  The momentum is completely held
+within subspace while the warp field is active.  However, as the warp
+field interacts with the hostile ship, the momentum that is held
+within the field can be coupled onto the hostile ship.  As the field
+collapses, rather than slow the motion of the ramming ship, the
+momentum in the field can be imparted to part of the hostile ship,
+causing more damage.  In addition, the energy held within the warp
+field (which is generally larger than the energy held in a subspace
+field) is imparted onto the hostile ship.
+     As it turns out, with everything taken into consideration, the
+damage potential is significantly greater when one chooses to use warp
+drive to ram the hostile ship.
+---------------------------------------------------------------------
+
+
+
+
+(7. Angular Momentum Conservation--for the 20th Century reader:
+
+     Throughout the other sections of this discussion, the term 
+"momentum" was used to mean linear momentum only.  The reason why we 
+haven't discussed angular momentum conservation as well is that it 
+doesn't seem it can exist if we want to get the effects we desire.  
+Here I will point out why this is, and I will try to explain why it 
+might not be so bad.
+     I will look at one specific example where angular momentum cannot 
+be conserved in all frames of reference if we want to get a desired 
+effect.  This is an example where a subspace field is used to lower 
+the apparent mass of the ship in order to make it easier to get from 
+place to place.  What I will do is look at the situation in one frame 
+of reference where we can have angular momentum conservation.  Then I 
+will transform into another frame of reference and show that angular 
+momentum conservation in this frame requires that we use just as much 
+energy to move the ship as if its mass during the trip were the total 
+mass that it begins and ends with (before and after the subspace field 
+is activated).  Thus I will show that we cannot gain any advantage by 
+using subspace fields if we want to have angular momentum 
+conservation.
+     Before I can do this, however, I must give the equations that are  
+used to relativistically transform positions, times, momentums, and 
+energies.  In relativity, transformations generally concern four 
+related properties.  If four particular properties can be transformed 
+in a particular way into another frame of reference, then each of the 
+four properties is a component of a "four-vector"--one component in 
+the "t" direction, one in the x direction, one in the y direction and 
+one in the z direction.  The transformations which relate to these 
+four properties are usually written to transform from one frame into 
+another frame which is moving in the x direction with respect to the 
+first.
+     For example, consider some four-vector that might be denoted (Ft, 
+Fx, Fy, Fz) in one frame of reference.  Consider a second frame of 
+reference moving with respect to the first at a velocity v in the x 
+direction.  Then, the four components of this arbitrary four-vector in 
+this second frame of reference can be found with the following 
+formulas:
+
+  Ft' = gamma*(Ft - beta*Fx)
+  Fx' = gamma*(Fx - beta*Ft)
+  Fy' = Fy
+  Fz' = Fz
+
+where
+
+  beta  = v/c
+  gamma = 1/SQRT(1-beta^2)
+  c     = the speed of light.
+
+A note here--these transformations assume that the space-time involved 
+is "flat" (meaning that it is not very curved by gravitational 
+effects).  
+     Now, it turns out that if an event occurs in one frame of 
+reference at a time t and at a position (x,y,z), then we can use these 
+four properties to form a proper four-vector in the following way: 
+  "position" four-vector = (c*t, x, y, z).
+That means that if we transform the occurrence of this event into 
+another frame of reference moving with velocity v in the x direction 
+(with respect to the first frame), then the occurrence of the event in 
+this second frame is given by
+  
+  c*t' = gamma*(c*t - beta*x)
+    x' = gamma*( x  - beta*c*t)
+    y' = y
+    z' = z.
+
+     One can also form a proper four-vector using the energy and 
+momentum of an object in the following way:
+  "momentum" four-vector = (E/c, Px, Py, Pz),
+where Px, Py, and Pz are the three spatial components of the momentum. 
+So, to find the energy and momentum of the object in another frame of 
+reference moving with velocity v in the x direction (with respect to 
+the first frame), we use the formulas
+
+  E'/c = gamma*(E/c - beta*Px)
+   Px' = gamma*(Px  - beta*E/c)
+   Py' = Py
+   Pz' = Pz.
+
+     With these transformations understood, we can now look at our 
+example.  In this example. we will first consider a frame of reference 
+in which a ship is initially at rest.  At some point in time, the ship 
+activates its subspace field and emits a photon in the -y direction 
+(thus giving the ship some momentum in the +y direction).  After some 
+time, the ship will emit a second photon in the +y direction to bring 
+the ship to a halt.  Then, the ship will shut off its subspace field.
+     What we will do is to write down the time for each occurrence of 
+these events.  We will also note the positions, energies, and 
+momentums of each of the objects involved.  Next we will compute the 
+angular momentums at the beginning and end of this sequence of events, 
+and see what is necessary for them to be the same.  Finally, we will 
+transform all of the information to another frame of reference and see 
+what is necessary for the angular momentum to be conserved in that 
+second frame of reference as well.
+
+
+Frame 1:
+
+Time: t0 = 0
+     The ship is at a position x0 = 0, y0 = 0, z0 = 0; its momentum is 
+also zero; and its energy is a combination of mass energy and internal 
+energy which together give it an energy of E0.
+  Four-vectors:
+   Ship's position: (c*t, x, y, z) = (0, 0, 0, 0)
+   Ship's momentum: (E/c, Px, Py, Pz) = (E0/c, 0, 0, 0)
+
+Time: t1
+     The ship has turned on its subspace field.  This means that we 
+will not be able to look at normal-space-only momentum and energy 
+conservation between this time and time t0.  Once the subspace field 
+is off (at t3), then we can look at the momentum and energy and 
+compare it to time t0.
+     At time t1, the ship emits a photon (labeled A) from its position 
+with momentum -Py in the y direction.  At that split second, the ship 
+is still at its original position, but it has just gained a momentum 
+equal to Py in the y direction.  We also note that the energy of the 
+photon can be given by the magnitude of its momentum times the speed 
+of light so that E(A) = c*Py (or E(A)/c = Py).  So we have the 
+following four-vectors at this moment.
+  Four-vectors:
+   Ship's position: (c*t1, 0, 0, 0)
+   Ship's momentum: (E1/c, 0, Py, 0)
+   Photon A's position: (c*t1, 0, 0, 0)
+   Photon A's momentum: (Py, 0, -Py, 0)
+
+Time: t2
+     The ship has traveled to a new position, y2, at which point it 
+emits a photon (labeled B) with a momentum of Py.  (again, we can 
+calculate E(B)/c for this photon to be the magnitude of its momentum, 
+Py) This brings the ship to rest in frame 1.  Meanwhile, photon A has 
+been traveling in the negative x direction at speed c since it was 
+created at time t1.  That means that its position in y is now given by 
+-c*(t2-t1).
+  Four-vectors:
+   Ship's position: (c*t2, 0, y2, 0)
+   Ship's momentum: (E2/c, 0, 0, 0)
+   Photon A's position: (c*t2, 0, -c*(t2-t1), 0)
+   Photon A's momentum: (Py, 0, -Py, 0)
+   Photon B's position: (c*t2, 0, y2, 0)
+   Photon B's momentum: (Py, 0, Py, 0)
+
+Time: t3
+     Finally, the ship turns off its subspace field, bringing its mass 
+energy back to what it was earlier.  It has not changed its position 
+or momentum, but the positions of the photons have changed as they 
+kept moving between t2 and now, t3.  Photon A's position can be found 
+by realizing that it has been moving in the negative y direction at 
+speed c from its starting point of y = 0 for a time (t3-t1).  Photon B 
+started at the position y2 and has been moving in the +y direction for 
+a time (t3-t2).
+  Four-vectors:
+   Ship's position: (c*t2, 0, y2, 0)
+   Ship's momentum: (E3/c, 0, 0, 0)
+   Photon A's position: (c*t3, 0, -c*(t3-t1), 0)
+   Photon A's momentum: (Py, 0, -Py, 0)
+   Photon B's position: (c*t3, 0, y2 + c*(t2-t1), 0)
+   Photon B's momentum: (Py, 0, Py, 0)
+
+Now, we can look at the original situation (t0) and this final 
+situation (t3) to look at conservation of energy and momentum.  First 
+we can sum together the energies and momentums in the momentum four-
+vectors of situation t0 and then we can do the same with t3.
+
+Sum of four-momentums:
+ t0:  Sum = (E0/c,        0, 0, 0)
+ t3:  Sum = (E3/c + 2*Py, 0, 0, 0)
+
+The momentum conservation is obvious, and the energy conservation 
+requires that 
+  E0/c = E3/c + 2*Py.
+We can rewrite this as
+  E0 - E3 = 2*Py*c
+which says that difference in the energy associated with the ship 
+between the two times must be made up by the energy that produced the 
+two photons.
+
+Next we can look at the angular momentum (about the origin) between 
+the two situations.  Since all motions are in the x, y plane, the 
+angular momentum of each object will either be in the plus or minus z 
+direction.  To calculate the angular momentum of an object at position 
+x, y and with momentum Px, Py we would perform a vector operation 
+known as the cross product:
+
+Angular momentum in the z direction = Lz = x*Py - y*Px.
+
+We therefore find that the angular momentums in situations t0 and t3:
+
+Sum of Lz's:
+ t0:  Lz(total) = Lz(Ship) = 0*Py - 0*0 = 0
+ t3:  Lz(total) = Lz(Ship) + Lz(A) + Lz(B) 
+                = 0*0 - y2*0 + (-0*Py - -c*(t2-t1)*0) + 
+                                        (0+Py - (y3 + (c*(t3-t2))*0)
+                = 0
+
+So, obviously we have angular momentum conservation for this frame of 
+reference.
+
+
+Now let's transform all the four-vectors from t0 and t3 into another 
+frame of reference which is moving with velocity Vx in the x 
+direction.  Doing so we find the following:
+
+
+Frame 2:
+
+ t0 Four-vectors:
+   Ship's position: (0, 0, 0, 0)
+   Ship's momentum: (gamma*E0/c, -gamma*beta*E0/c, 0, 0)
+
+ t3 Four-vectors:
+   Ship's position: (gamma*c*t3, -gamma*beta*c*t3, y2, 0)
+   Ship's momentum: (gamma*E3/c, -gamma*beta*E3/c, 0, 0)
+   Photon A's position: (gamma*c*t3, -gamma*beta*c*t3, -c*(t3-t1), 0)
+   Photon A's momentum: (gamma*Py, -gamma*beta*Py, -Py, 0)
+   Photon B's position: (gamma*c*t3, -gamma*beta*c*t3, y2+c*(t3-t2),0)
+   Photon B's momentum: (gamma*Py, -gamma*beta*Py, Py, 0)
+
+Again, let's compare the sums of the four-momenta for each situation:
+
+Sum of four-momentums: 
+ t0:  Sum = (gamma*E0/c,         -gamma*beta*E0/c,        0, 0)
+ t3:  Sum = (gamma*(E3/c + 2*Py),-gamma*beta*(E3 + 2*Py), 0, 0)
+
+Note that this says that if E0/c = E3/c + 2*Py (which was what we said 
+was true to conserve energy in frame 1) then both linear momentum and 
+energy will also be conserved in this frame.  It turns out that if we 
+have energy and linear momentum conservation in one frame, then we 
+have it in all frames.  But this is not so with angular momentum, as 
+we will now see.
+
+We will now calculate the total Lz for t0 and t3 in this second frame:
+
+Sum of Lz's:
+ t0:  Lz(total) = Lz(Ship) = 0
+ t3:  Lz(total) = Lz(Ship) + Lz(A) + Lz(B) 
+                = gamma*beta*[(y2*E3/c) + (Py*c*t3 - Py*c*(t3-t1))
+                                      + (-Py*c*t3 + Py*(y2+c*(t3-t2))]
+                = gamma*beta*[y2*E3/c - Py*c*t3 + Py*c*t1 + Py*y3
+                                      + Py*c*t3 - Py*c*t2]
+                = gamma*beta*[y2*E3/c - Py*c*(t2 - t1) + Py*y2]
+
+If these two total angular momentums are to be equal, then we must set 
+the t3 angular momentum to zero.  We then divide by gamma*beta and 
+find that
+
+  y2*E3/c - Py*c*(t2 - t1) + Py*y2 = 0
+
+so
+ 
+  y2*(E3/c + Py) = Py*c*(t2 - t1)
+
+But to conserve linear momentum and energy we have shown that 
+E3/c + 2*Py  = E0/c.  So we can say that E3/c + Py = E0/c - Py.  
+Applying this above we find
+
+  y2*E0/c - y2*Py = Py*c*(t2 - t1)
+
+Again we rewrite this to get
+
+  y2*E0 = Py*c*(y2 + c*(t2-t1))
+or
+  Py*c = energy of each photon = E0/[1 + c*(t2-t1)/y2]
+
+     So, what does all this mean?  Well, this says that if we are 
+going to have conservation of angular momentum in this second frame of 
+reference, then the energy we must use to produce each photon must be 
+related to the ORIGINAL energy of the ship, the distance the ship 
+travels during its motion (y2), and the time it takes for the trip to 
+travel that distance (t2-t1) in the first frame of reference.
+     But that means that if angular momentum is to be conserved in all 
+frames of reference, then the amount of energy we expend to get the 
+ship from place to place cannot be dependent on the mass energy the 
+ship has with its subspace field active, but rather on the energy it 
+has before it activates its field.  And there you have it--we cannot 
+gain anything with the use of subspace fields and also have angular 
+momentum in all frames of reference.
+     The only thing left to note here is that the subspace field might 
+somehow change the way we transform momentums and energies.  However, 
+we were transforming at two situations (t0 and t3) which could be a 
+long time before and a long time after the local subspace field is 
+active.  Therefore, the transformations we have performed should hold.
+
+     One could perform similar sorts of transformations to show that 
+angular momentum also poses problems with any type of FTL travel and 
+with any type of non-Newtonian based travel as well.  It would thus 
+seem that in the future depicted on Star Trek, real-space angular 
+momentum conservation simply doesn't occur when using subspace and 
+warp fields.
+     Is this such a bad thing, though?  For the purposes of the 
+science fiction, perhaps not.  You see, I don't see how non-
+conservation of angular momentum would allow for any fantastic things 
+such as infinite energy supplies which would make the science fiction 
+future to "easy" a place to live.  All and all, we may just have to 
+live with the idea that angular momentum is not conserved with the use 
+of subspace and warp fields.  If I find the time (yeah, right) I might 
+try to look further into the consequences of that.                   )
+
+
+
+
+8. Conclusion:
+     In this discussion, we have considered the basics of simple
+subspace fields and warp fields.  We have discussed at length how
+energy and momentum are conserved with the use of these fields.  In
+the end, we find that with simple comparisons to normal space
+situations, one can understand how momentum and energy conservation
+occurs with the various uses of these fields.
+ 
+ 
+                                                  Jason Hinson
+ 
+ 
+{Author's Note: Some Final Words:
+     Well, there it is.  Please let me know what you think of the
+ideas and the reasoning (as they relate to canon sources as well as to
+real physics).  I'll try to refine the concepts as much as possible
+and I'll make this little excursion into the physics of Star Trek's
+science fiction a regular monthly post.}
+
+
+-Jay
+ 
+
+

@@ -1,0 +1,953 @@
+Newsgroups: rec.arts.startrek.tech
+Subject: REC.ARTS.STARTREK.TECH FAQ: Warp Velocities
+From: inexorabletash@hotmail.com (Joshua Sean Bell)
+Reply-To: inexorabletash@hotmail.com (Joshua Sean Bell)
+Expires: 21 May 2003 00:01:07 CDT
+X-Original-File: warp_velocities-faq.htm
+Organization: Section 31
+
+                              Warp Velocities FAQ
+                                       
+   Last modified: Friday, 25 April 2003 02:03 AM -0700
+   Maintained by: Joshua Bell, inexorabletash@hotmail.com
+   Archive site (WWW): http://www.calormen.net/Star_Trek/
+   FTP site (text versions): ftp://ftp.cc.umanitoba.ca/startrek/minifaqs/
+     _________________________________________________________________
+   
+   Copyright (c) 1994-2003, Joshua Bell. Not in the public domain.
+   Permission to distribute this document, unedited and including this
+   copyright notice is granted, provided no fees are charged for access
+   beyond charges for downloading or connection time from a commercial
+   information service. Publication of this document in a magazine or
+   journal (in any media format) must be approved by the author.
+   
+   Star Trek (R), Star Trek: The Next Generation (R), Star Trek: Deep Space
+   Nine (R) and Star Trek: Voyager (R) are trademarks of Paramount Pictures
+   registered in the United States Patent and Trademark Office.
+     _________________________________________________________________
+   
+   This FAQ does not discuss subspace or the mechanics of warp travel.
+   See the Warp and Subspace FAQ for discussions of the how warp drive
+   works, and what subspace actually is.
+     _________________________________________________________________
+   
+Contents:
+
+    1. TOS-era: The Original Series
+    2. TNG-era: The Next Generation, Deep Space Nine, and Voyager
+    3. AGT-era: "All Good Things..." (TNG final episode)
+    4. VOY-era: Transwarp Frogs In Spaaaaaaace!
+    5. Speed Limits
+    6. Q & A
+    7. Contributors
+    8. Glossary
+    9. References
+     _________________________________________________________________
+   
+   In all of the formulas in this FAQ, the following hold:
+   
+   v   velocity
+   c   speed of light in vacuum
+   W   Warp factor
+   ~   approximate
+   ^   exponential operator ("to the power of")
+   log log base 10
+   ln  log base e
+     _________________________________________________________________
+   
+   "Who the heck is Mike?"
+   
+   Mike is Michael Okuda, a member of the Star Trek television production
+   crew as a scenic artist and technical advisor. He designs the computer
+   displays and alien writing seen in TNG, DS9 and VOY. He is also
+   co-author of the TNG Technical Manual, which mentions that the the TNG
+   Warp formula exists in a Excel spreadsheet on his Macintosh. Thus,
+   when it comes to warp calculations, Mike is god. At the very least, a
+   patron deity. He is also co-author of the Encyclopedia and Chronology.
+   
+   "So who's Rick?"
+   
+   Rick is Rick Sternbach, the "other" author of the TNG Technical
+   Manual, and the main writer of the DS9 Technical Manual. He is also a
+   member of the Star Trek television production crew, designing most of
+   the ships and props seen in TNG and VOY.
+     _________________________________________________________________
+   
+1. TOS-era: The Original Series
+
+   The original series warp equation is generally accepted to be:
+       v = (W ^ 3) * c
+
+   But this has never appeared in any episode. However, it has such wide
+   acceptance that it has pretty much stuck. It's even in the
+   Encyclopedia.
+   
+   Boris S. writes:
+   
+     The equation is almost certainly the work of TOS producers. Stephen
+     Whitfield extensively researched the show in the period of 1967-68
+     and published the information in his book The Making of Star Trek
+     (1968). He states that Warp 1 is the speed of light, Warp 3, 24
+     times the speed of light, Warp 6, 216c and Warp 8, 512c. With the
+     exception of the value for Warp 3 (which should be 27c), the W^3*c
+     formula holds. Whitfield almost certainly obtained the numbers from
+     the TOS writer's guide which contained a small technical manual.
+     
+   This chart compares TOS-era Warp speeds with the speed of light:
+   
+   Warp Factor Velocity
+   1           1        Speed of Light
+   2           8
+   3           27
+   4           64
+   5           125
+   6           216      Maximum stable speed of NCC-1701
+   7           343
+   8           512      Emergency speed of NCC-1701
+   9           729
+   10          1000
+   11          1331
+   12          1728
+   13          2197
+   14.1        2803     "That Which Survives" [TOS]
+   
+   It is also generally accepted that the TOS scale was also used for the
+   first few movies. Since speeds are rarely quoted in the movies,
+   however, that's only speculation.
+   
+   Joe Chiasson, describing Star Trek Maps, a map and manual combination
+   by Bantam Books from 1980, offers:
+   
+     The booklet contains quite a lot of written information on the
+     development of warp drive systems and how warp travel is affected
+     by matter density in a given area of space. The above formula was
+     written as v = Wf^3 * c. This was further modified to include the
+     Greek letter chi (X), which was a variable denoting the local
+     density of matter, which changed depending on where you happened to
+     be. So the proper formula for TOS level warp drive is
+        v = c * Wf^3 * X
+
+     where Wf was the warp factor, and c was the speed of light.
+     Included was a table of corrected warp speed for a given average
+     value of X.
+     
+   Wf Wf^3 X * Wf^3 Time per parsec
+   hrs min sec
+   1 1 1,292.7238 22 05 29
+   2 8 10,341.7904 02 45 41
+   3 27 34,903.5426 00 49 05
+   4 64 82,734.3232 00 20 43
+   5 125 161,590.4750 00 10 36
+   6 216 279,228.3407 00 06 08
+   7 343 443,404.2634 00 03 52
+   8 512 661,874.5856 00 02 35
+   9 729 942,395.6502 00 01 49
+   10 1000 1,292,723.8    00 01 19
+   
+   This correction factor does make a lot of sense, given that v = W ^ 3
+   by itself is almost ludicrously slow given the speeds quoted by TOS.
+   Joe also suggests that by the time of TNG warp fields have been
+   refined to the point that the chi factor is dropped from the formula.
+   I think that the numbers are a little too high, however, when compared
+   to TNG speeds.
+   
+   As a side note, wf(n) = n * c appears in James Blish's TOS script
+   adaptations, which have been widely read, so you may see that formula
+   cropping up from time to time as well. Those speeds would be
+   ridiculously slow, so that formula isn't really worth considering.
+   (Thanks to Taki Kogoma for pointing that out.)
+   
+   John "Eljay" Love-Jensen points out that in "By Any Other Name" [TOS]
+   the Kelvans were using there technology to propel the Enterprise "to
+   Andromeda, 300 years of travel". Andromeda is 2.3 million light-years
+   away. For 300 years of travel, that translates into Warp 19.7! They
+   probably intended to accelerate to that speed once they made it
+   outside the galaxy, and the Enterprise didn't end up going that fast
+   during the episode, but it means they thought it was possible for the
+   ship to make it.
+     _________________________________________________________________
+   
+2. TNG-era: The Next Generation, Deep Space Nine, Voyager
+
+   By the time of Star Trek: The Next Generation, the warp scale has
+   changed. Warp 1-9 are roughly the same, but Warp 10 is infinite speed.
+   Going Warp 10 or faster is hogwash on the TNG scale. It isn't a speed
+   barrier that can be or needs to be broken, but an energy barrier.
+   
+   At least, that's what the Tech Manual says. Many fans disagree, saying
+   that this has been contradicted on air, most clearly by the episode
+   "Where No One Has Gone Before" [TNG] where someone says "We are
+   passing Warp 10." See the Warp and Subspace FAQ for more discussion of
+   this.
+   
+  Graph
+  
+   Here's the graph of warp vs. speed and warp vs. power consumption from
+   the Technical Manual:
+
+
+  Chart
+  
+   This chart was compiled with data from episodes, the Encyclopedia, and
+   the TNG Technical Manual:
+   
+   Warp Factor Velocity Source  Comment
+   1           1        TM      Speed of Light
+   2           10       TM
+   3           39       TM
+   4           102      TM
+   5           214      TM      Federation speed limit (2370)*
+   6           392      TM
+   7           656      TM
+   8           1024     TM
+   9           1516     TM      Defiant maximum speed**
+   9.2         1649     Encyc
+   9.6         1909     Encyc
+   9.9         3053     Encyc   NCC-1701-D maximum speed
+   9.975       ?        Episode Voyager "cruise velocity"***
+   9.99        7912     Encyc
+   9.9997      ~198696  TM      (derived) Subspace radio speed
+   9.9999      199516   Encyc   Maximum boosted subspace radio speed
+   
+     * * "Force of Nature" [TNG]
+     * ** "The Sound of Her Voice" [DS9]
+     * *** "Caretaker" [VOY]
+       
+  Sources
+  
+   The Tech Manual (on page 111) says that a subspace radio signal
+   travels at Warp 9.9997, and takes 45 minutes to reach 17 light years,
+   which works out to 198696c.
+   
+   As an interesting anomaly, Pete Carr also points out the following
+   tidbit from the Tech Manual:
+       ______________________________________________________________
+     
+     ... the TM goes on to say that TNG Warp 9.7 is about 14.1 on the
+     TOS scale. So [TNG Warp] 9.7 ~= 14.1^3 [c] and 14.1^3 [c] = 2803
+     [c]. I went and graphed the new value with our current values.
+     Unfortunately the new value doesn't fit into the exponential curve
+     ... it should be lower.
+       ______________________________________________________________
+     
+   I suspect Mike made a rounding error; TOS Warp 14.1 is much closer to
+   TNG Warp 9.8 by all of the accurate formulas that have been found or
+   sheer reckoning off the graph.
+   
+  Formulae
+  
+   Unlike TOS (where we have a formula but no scale), for TNG we have a
+   scale but no formula! The reason for this is that the graph was drawn
+   by Mike Okuda rather than calculated, as is related in the following:
+   
+   On June 22, 1995, Jeff Reinecke forwarded the following letter from
+   Michael Okuda to rec.arts.startrek.tech:
+       ______________________________________________________________
+     
+     Date: Fri, Jan 27, 1995 02:09 AM EST
+     From: MOkuda
+     Subj: Re: Star Trek Warp
+     To: Yar of Spit
+     
+     The warp factors we've used in ST:TNG were computed in an arbitrary
+     way to fit some specific characteristics we needed.
+     
+     First, the speed for any given warp factor had to be greater than
+     it was in the original Star Trek series. This was primarily to
+     satisfy fan expectations.
+     
+     Second, the new warp speeds couldn't be TOO much faster, or it
+     would be possible for the ship to cross the galaxy in a fairly
+     brief time. (In a way, maintaining this restriction made Voyager's
+     story situation possible. If we hadn't done this, Voyager could
+     have gotten home too quickly.)
+     
+     We used an exponent of (I think) 3.33 or 3.33333... for warp
+     factors less than 9.
+     
+     Between 9 and 10, I gradually increased the exponent so that it
+     approached infinity as the warp factor approached 10. Lacking
+     knowledge of calculus, I just drew what looked to me to be a
+     credible curve on graph paper, then pulled the points from there. I
+     think I re-created the curve fairly accurately in the Star Trek:
+     The Next Generation Technical Manual.
+     
+     Hope this helps.
+     
+     -Mike
+       ______________________________________________________________
+     
+   So it looks like there isn't a grand formula to end all formulas after
+   all!
+   
+   On May 29th, 1996, Dominic Berry wrote:
+       ______________________________________________________________
+     
+     Since Mike calculated the speeds for the various warp factors up to
+     9 simply using the exponent 10/3, it is more sensible to use a
+     piecewise function for the speeds that gives an exponent of 10/3
+     for W<9 and gives higher exponents for higher warp factors. My
+     suggestion is
+                                                   n
+                ( 10/3  +  u(W-9) * A * (-ln(10-W))  )
+          v = W
+
+     where u is the step function, i.e. u(x)=0 for x<0 and u(x)=1 for
+     x>0. Note that the term multiplying the step function is zero at
+     W=9, so the step function introduces no discontinuity in the
+     formula. If the value of n used is greater than 1, then both the
+     function and its derivative are continuous at W=9. (In order to
+     have continuous higher order derivatives a function like c(w) could
+     be used.)
+     
+     [Martin Shields amends that with:
+     
+     There is a better alternative to the step function as follows:
+       / 0 ; x <= 0
+       |
+u(x) = <
+       |
+       \ e ^ ( -1 / (bx^2)) ; x > 0
+
+     Where b is a constant whose value remains to be determined. This
+     function is "infinitely smooth" (that is, no matter how many times
+     you differentiate it, the value of the differential is 0 at x=0).
+     As b approaches infinity, the function approaches the pure step
+     function.
+     
+     ]
+     
+     I take A and n as
+                      A = 0.03684678
+                      n = 1.791275
+
+     I then get the correct warp factors for W<9, and for the warp
+     factors above 9 I get
+                    Warp | Actual   Formula   Modified*
+                  -------------------------------------
+                  9.2000 |   1649      1641      1640
+                  9.6000 |   1909      2019      2017
+                  9.9000 |   3053      3035      3029
+                  9.9900 |   7912      7939      7912
+                  9.9997 | 198696     79352     79240
+                  9.9999 | 199516    199415    199516
+
+     [* Martin Shields offers A = 0.036528749373 and n = 1.79522947028
+     which are slightly better for some values.]
+     
+     My formula agrees with the values for warp factors of 9.2, 9.9,
+     9.99 and 9.9999 to within 0.6%, though it is about 6% out at 9.6
+     and it is way out at 9.9997. If you calculate the exponents for the
+     data points at 9.9997 and 9.9999, however, you get 5.29826 and
+     5.30000, suggesting that the exponent 5.3 was used to calculate the
+     speed at both of these warp factors. Since the exponent should be
+     increasing with the warp factor, one of these data points should be
+     ignored. Ignoring the data point for W=9.9997, my formula is
+     perfect for W<9, and is slightly better than that of Tahk for W>9.
+     
+     Now the exponent corresponding to the speed given for W=9.2 was
+     about 3.33810. If we linearly extrapolate this to W=9.6 then the
+     exponent should be about 3.34763. The exponent corresponding to the
+     speed for W=9.6 is 3.34002, which is slightly less! This means that
+     a formula for the exponent that gives values similar to the given
+     values for warp factors of 9, 9.2 and 9.6 must have a derivative
+     that decreases. (This means that the function for the exponent
+     would have to curve downwards between 9.2 and 9.6.) Since this is
+     not a desirable property if we want an exponent that gradually
+     increases, I also left out the data point for W=9.6 in fitting the
+     curve.
+     
+     I mentioned before that the speeds for W=9.9997 and W=9.9999 seemed
+     to have both been calculated using an exponent of 5.3. If you
+     calculate the exponents corresponding to the other warp factors
+     above 9, you get:
+                     Warp  | Exponent
+                    -----------------
+                    9.2000 |  3.33810
+                    9.6000 |  3.34002
+                    9.9000 |  3.50000
+                    9.9900 |  3.89998
+
+     The speeds for warp factors of 9.6, 9.9 and 9.99 were obviously
+     calculated using exponents of 3.34, 3.5 and 3.9 respectively, and
+     the speed for a warp factor of 9.2 was probably calculated using an
+     exponent of 3.338. Therefore it is not reasonable to ascribe any
+     greater accuracy to the warp factors given than is implied by the
+     number of significant digits in the exponents used to calculate
+     them. By this criterion my formula gives speeds well within the
+     uncertainty for warp factors of 9.9, 9.99 and 9.9999, although it
+     gives an exponent of about 3.336 for W=9.2, which is a little low.
+     Since the points were originally taken off a hand drawn curve, this
+     is still reasonable accuracy.
+       ______________________________________________________________
+     
+   I used to have a bunch of formulae in here from various posters who
+   made some pretty good attempts at finding the Holy Grail of an
+   accurate formula. However, due to length considerations I'm only going
+   to keep the current best. Older formulae (basically an excised chunk
+   of this FAQ) can be found at
+   http://www.calormen.net/Star_Trek/FAQs/warp_formulae.html, but that
+   page will probably never look too pretty.
+   
+   Martin Shields has a warp speed calculator up on his web site:
+   http://www-personal.usyd.edu.au/~mshields/TV/ along with discussion of
+   the formula used.
+   
+  Evidence
+  
+   Do any of these values actually match up with what we've seen on the
+   show? There are often claims that these speeds are much to slow to
+   allow the kind of adventuring that the Star Trek series portrays. But
+   amazingly enough, when they do quote numbers and we can time things
+   without cuts (wherein we may miss hours of ship-time), the numbers do
+   match up:
+     * "The Most Toys" [TNG]:
+       Ges Seger offers:
+       
+     The numbers I remember were about how far a ship doing warp 3 for
+     23 hours would travel, and the answer they came up with was 0.102
+     light-years. I worked the math just now and got 0.1022 light-years.
+     * "Bloodlines" [TNG]:
+       Riker calculated in his head the time required for the Enterprise
+       to travel 300 billion kilometers at Warp 9, and gets 20 minutes:
+       Warp 9 = (300e12 m) / (20 min * 60s/min) ~= 2.5e11 m/s
+       From the chart: Warp 9 = 1516c ~= 4.548e11 m/s
+       Discrepancy? Riker did the calculations in his head in about 5
+       seconds given arbitrary numbers. He's within a factor of two, so I
+       won't complain. Bok's ship was "holding position", so it was a
+       simple flight path.
+     * "Emergence" [TNG]:
+       The Enterprise jumped to Warp 7.3, and traveled 30 billion
+       kilometers in a couple of minutes.
+       All of the formulas we have for warp speeds predict Warp 7.3 to be
+       approximately 746c. Using c = 3e8 m/s, we get v = 2.24e11 m/s. 30
+       billion km = 3e13m. So t = 134s, or just over two minutes.
+     * "Allegiance" [TNG]
+       c/o Boris S.:
+       
+     Wesley gives the ETA of the Enterprise to Lonka Pulsar as 34
+     minutes at Warp 7. When Picard orders Warp 2 instead, he comments
+     that at that speed it would take 31 hours to get there. Using the
+     first two data points, 34 minutes at Warp 7, I calculated a
+     distance of 4.012e14 m. At Warp 2, it would take the Enterprise 37
+     hours to travel that distance. This clearly shows that the TNG
+     production staff used the established warp scale when they
+     calculated the travel time, and the 6-hour discrepancy can be
+     explained by the use of a less accurate value for the speed of
+     light.
+     * "Clues" [TNG]
+       c/o Boris S.:
+       
+     the Enterprise is transported 0.54 parsecs by the Paxans. Riker
+     says something like "nearly a day's travel in 30 seconds" (I cannot
+     give you the exact quote since I am watching TNG on German TV). At
+     Warp 6 (Enterprise cruising speed), the Enterprise would need 1.6
+     days to travel that distance. Given that Riker calculated the
+     travel time without a computer in a couple of seconds, you can
+     allow for the deviation. On the other hand, if you calculate the
+     travel time at Warp 7, you get 23.5 hours, which fits the quote.
+     * "Caretaker" [VOY]
+       The basic numbers involved in Voyager's journey home support the
+       TNG formula. Voyager is transported 70,000 LY from home, and
+       expects to take 70 years to make the journey. This speed of 1000c
+       corresponds closely to Warp 8, a high but conceivable average
+       speed for a long journey for an Intrepid-class ship.
+     * "The 37s" [VOY]
+       Paris states that Warp 9.9 is equal to 4 billion miles per second.
+       Unfortunately, that turns out to be over 20,000c, which doesn't
+       fit in at all. Bummer. But then, Paris is an idiot.
+     * "Maneuvers" [VOY]
+       Kim states the ships speed as 2 billion km/s, which is 2*10^12
+       m/s, which is roughly 6667c. This is in the same ballpark as what
+       Warp 9.975 (Voyager's top cruise speed), it turns out.
+       Boris S. speculates that if Okuda picked an exponent of 3.83 (a
+       nice roundish number off the graph) for Warp 9.975, you get 6696c.
+       Pretty close to the value above.
+     * "Threshold" [VOY]
+       Commentary aboard the ship confirms that Warp 10 is indeed
+       infinite speed.
+     * "Dreadnought" [VOY]
+       c/o Boris S.:
+       
+     B'Elanna gives the distance to Rakosan system as more than 10
+     light-years. A day or so later Chakotay states that the vessel has
+     resumed its journey at Warp 9 and will reach Rakosan V in 51 hours,
+     which works out to a distance of 8.8 light-years.
+       
+  Counter Evidence
+  
+   There have been several times where the warp velocities proposed don't
+   match what we see on-screen. The most blatant example of this kind is
+   a call by the captain to head somewhere at Warp 1, or some other
+   ridiculously slow speed. This happened several times in TOS, but does
+   crop up from time to time. Here are some examples:
+     * "Where Silence Has Lease" [TNG]:
+       Roger M. Wilcox offers:
+       
+     The Enterprise-D gets sucked into a black nebulous void. Before
+     Nagilum announces his/her/its presence to our intrepid crew, they
+     find an opening in the void "1.3 parsecs away". (1.3 parsecs would
+     be 4.243 light-years.) Picard orders the crew to head for the
+     opening at Warp 2.
+       
+   It may be best to just pretend that these didn't happen, or
+   rationalize them on a case by case basis (going Warp 1 until outside
+   of the solar system, then switching to a higher speed "off camera").
+   
+   ...
+   
+   A bigger problem which crops up on rec.arts.startrek.tech is the size
+   of the Federation. Sizes of up to 10,000 LY across have been quoted as
+   diameters, and this corresponds to the occasional graphic displayed on
+   screen showing the Federation's size and position within the galaxy.
+   Other evidence points to a somewhat smaller size, but such questions
+   as the distance from Earth to Bajor appear to present a paradox: some
+   routes between Federation locations which are known to be far apart
+   are traveled much more quickly than the TNG formula appears to allow.
+   
+   The leading speculation on the newsgroup is a concept called "Warp
+   Highways". Distinct from wormholes, these "highways" represent either
+   natural (pre-existing) or artificial (thanks to heavy traffic)
+   pathways where warp travel is much faster than the TNG formula, which
+   represents a baseline.
+   
+   The highways do not require additional technology beyond warp drive.
+   Highways are not easily detectable in unknown space. This means that
+   an exploration ship, such as the Enterprise, or a ship in unknown
+   territory, such as Voyager, will travel between two arbitrary points
+   at the nominal velocities presented in the TNG formula. A well-known
+   region of space - such as the route from Bajor to Earth - would
+   probably contain several well-known warp highways and allow less
+   powerful ships to make the route in weeks rather than years, and
+   top-of-the-line Starfleet ships to make the trip in mere days. Contact
+   with local civilizations would allow Voyager to take shortcuts through
+   the Delta Quadrant - which they frequently seem to.
+   
+   Perhaps the Hekaras Corridor in "Force of Nature" [TNG] is one such
+   route, explaining the frequent travel in that area. The whole notion
+   of starship travel affecting local subspace properties in a permanent
+   way supports the notion that at least some warp highways are created
+   by frequent warp travel - that is, as a route is used it becomes more
+   efficient. Other speculation includes the notion that gaseous
+   anomalies are indicators of the presence of warp travel. Why else
+   would Excelsior - one of Starfleet's latest ships - be engaged in
+   charting such anomalies in Star Trek IV?
+   
+   This is strongly reminiscent of the X (chi) factor first presented in
+   Star Trek Maps, where the warp equation varies with local spatial
+   conditions.
+   
+   (Other speculation or comments?)
+   
+  Why did it change?
+  
+     * In terms of a real-world "Star Trek is just a TV show" reason,
+       Gene Roddenberry himself put Warp 10 at infinite speed, according
+       to the TNG Tech Manual. To keep the scale fluid, Mike and Rick
+       made it asymptotic at Warp 10, while starting off similar to the
+       TOS scale.
+     * From the characters' perspective, the best explanation is that the
+       TOS scale was established before warp was fully understood.
+       Looking at the graph, you can see that the energy costs for
+       cruising at integral Warp values are much lower than for
+       non-integral Warp factors. The first explorers to travel past Warp
+       1 must have realized this. Since for Warp values in the 1-3 range
+       follow the v = (W ^ 3) * c formula, it makes sense that a scale
+       based on the formula would come into use.
+       When ships started cruising at Warp values larger than 5, the
+       difference between what v = (W ^ 3) * c predicted to be the most
+       energy efficient speeds and what actually were must have become
+       noticeable. It may have taken a long time for a new, accurate
+       scale based on new observations came into use. (Look at the USA
+       and SI, for an example of a large sociopolitical body taking a
+       long time to adopt a more useful, universally used scale.)
+       Sulu's readings of Warp velocity in Star Trek IV seem to hint that
+       the Klingons had moved to an accurate scale by the 2280s, but the
+       Federation didn't catch up until much later, even though it must
+       have been painfully obvious that the old scale was next to
+       useless. Fortunately, some time before TNG, the new accurate scale
+       was adopted by Starfleet.
+     _________________________________________________________________
+   
+3. AGT-era: "All Good Things..." (TNG final episode)
+
+   Quoted in the final episode of Star Trek: The Next Generation, in a
+   possible or imaginary future, is the speed Warp 13. Both Admiral Riker
+   and Captain Beverly Picard call for this speed, and at another point
+   in the episode, Admiral Riker calls for "maximum warp", which is
+   either Warp 13 or greater.
+   
+   While we haven't a clue how fast this is, they're presumably faster
+   than Warp 9 on the TNG scale, and necessarily slower than Warp 10 on
+   the TNG scale (since TNG Warp 10 is infinite speed). A few
+   possibilities present themselves:
+     * Just another technical muck-up. (But that won't stop this intrepid
+       FAQ maintainer!)
+     * Warp 10-13+ are shorthand for Warp 9.x. One possibility is that
+       9.90 is called Warp 10, 9.91 is called Warp 11, etc.
+     * New warp technologies provide at least 13 power usage minima
+       between c and infinite speed, instead of the 9 possible with old
+       warp technologies.
+     * Further research revealed that there were more than 9 minima
+       accessible with traditional drives, and that they simply required
+       more power to attain than had been previously attempted, but less
+       power to maintain than 9.x values.
+     * The Federation switched back to the TOS scale.
+       
+   The last one is demonstrably incorrect (see below). Among the others,
+   there's no way to tell which is correct. Sharp-eyed Boris S. found the
+   following explanation by Andre Bormanis, Star Trek's science advisor:
+   
+     I raised that question in a TECH note. Basically, the idea there
+     was that they recalibrated the warp scale. I don't think that ended
+     up in the final draft teleplay, but the idea there was that if
+     you've got ships that can routinely travel at speeds in excess of
+     Warp 9, then maybe it makes sense to recalibrate your speed scale
+     so that Warp 10 is no longer infinite velocity. Maybe Warp 15 will
+     be the ultimate speed limit, and Warp 13 in that scale will be the
+     equivalent of warp 9.95 or something like that.
+     
+                                                     OMNI, October 1995.
+     
+  Evidence
+  
+   Tom Bagwell writes:
+   
+     I timed the interval in AGT between when Data reported the second
+     Klingon ship to be disengaging and when Riker's helmsman reported
+     it to be a "half a light year away" at about 22 seconds, so I
+     calculated the speed assuming 20 seconds to reach 1/2 a light year
+     and assuming 30 seconds to reach 1/2 a light year.
+     
+     At 30 seconds, the velocity would be approximately 525,960c which
+     equates to roughly Warp 9.97244 on the TNG scale and approx. Warp
+     81 on the TOS scale.
+     
+     At 20 seconds, the velocity would be approximately 788,940c which
+     equates to roughly Warp 9.97535 on the TNG scale and approx. Warp
+     92.4 on the TOS scale.
+     
+   Martin Shields updates that with:
+   
+     Assuming 30 seconds to travel 1/2 a light year, v = 525,960c which
+     he estimates is Warp 9.97244 on the TNG scale. However, the Tech
+     Manual and Encyclopedia tell us that Warp 9.9999 (a higher warp
+     factor) is set at 199,516c (less than half the speed calculated).
+     This figure comes from the M = -11/3 equation. My equation gives
+     the TNG warp factor of 9.999974 (approx.) which better fits the
+     known data.
+     
+   If a damaged AGT-era Klingon ship can limp home at TOS Warp 81, while
+   a Federation ship trying to be sneaky can only manage TOS Warp 13, the
+   Klingons have nothing to worry about. I consider this adequate
+   evidence that the TOS scale was not returned to use in the AGT future.
+     _________________________________________________________________
+   
+4. VOY-era: Transwarp Frogs In Spaaaaaace!
+
+   As you may have guessed, the .tech community was less than impressed
+   with "Threshold" [VOY] in which Voyager - a ship running low on
+   supplies, with half its crew dead, stranded away from repair or
+   research facilities, on the other side of the Galaxy from the
+   Federation - manages to upgrade one of its never-ending supply of
+   shuttles to make a Transwarp flight, something that has defied the
+   best minds in the Federation for a century. Things go
+   higglety-pigglety after that, and many people (including some of the
+   production crew) just pretend it didn't happen.
+   
+   Forgiving that, however, the episode's technobabble isn't too bad. The
+   Voyager crew mention how Warp 10 = Infinite Speed = being everywhere
+   at once. An interesting tidbit is that once Transwarp drive is active,
+   the shuttle's speed registers at Warp 10.
+     _________________________________________________________________
+   
+5. Speed limits
+
+   "What's this about a Warp 10 barrier?"
+   
+   In the TNG scale, Warp 10 is infinite speed. As you approach a
+   position on the graph corresponding to Warp 10, your power
+   requirements increase astronomically compared to your increase in
+   speed. But you can keep speeding up forever, unlike the light barrier,
+   which keeps you from getting to the speed of light.
+   
+   In other words, keep piling on the 9s. Warp 9.99 is a lot faster than
+   Warp 9.9, while Warp 3.99 is only marginally faster than Warp 3.9. The
+   barrier is only one of energy, not velocity.
+   
+   Once again, in case you missed it, TNG Warp 10 is not a speed barrier;
+   it cannot be broken like the sound barrier. Any warp factor greater
+   than 10 must be on a different scale than the TNG scale (either TOS or
+   AGT or something else), since a speed faster than infinite speed is
+   nonsensical.
+   
+   ....
+   
+   "But in "Is There in Truth no Beauty?" [TOS] and "That Which Survives"
+   [TOS], the old Enterprise went over Warp 14!"
+   
+   Yes, but that's on the old scale. By the new scale, that translates to
+   about Warp 9.7 (TM), which the Enterprise-D can do for brief periods.
+   The original Enterprise was being shaken apart. Voyager can cruise at
+   that speed without blinking.
+   
+   ....
+   
+   "But in "Where No One Has Gone Before" [TNG] they went past Warp 10!"
+   
+   Chalk this one up to instrument failure. While Geordi did say they'd
+   passed Warp 10, later in the episode they were booting along at some
+   outrageously huge speed, while the instruments only read Warp 1.5. So
+   there's canonical evidence that the Traveler's tweaking of the warp
+   drive and the Enterprise's speedometer don't get along well.
+   
+   Daryle Walker points out that the real-world explanation for this is
+   probably that the Warp 10 rule hadn't been established yet - this was
+   an early first-season episode.
+   
+   ....
+   
+   "This new Warp 5 speed limit - what's up with that?"
+   
+   In "Force of Nature" [TNG] it is discovered that in the Hekaras
+   Corridor, a region of space where warp travel is hindered except for a
+   narrow path the intense use of warp drives in an already sensitive
+   area can (over time) cause subspace rifts to form, where subspace
+   manifests itself in real space on a macroscopic scale. This is not a
+   good thing.
+   
+   "Does this take effect everywhere?"
+   
+   Yes. In "The Pegasus" [TNG] an Admiral Pressman gives Picard
+   permission to travel faster than Warp 5 for the duration of the
+   mission. Ditto in "Eye of the Beholder" [TNG], when Picard is given
+   permission to exceed the speed limit to delivery needed medical
+   supplies. The Encyclopedia concurs as well, naming Warp 5 as the new
+   cruising speed for starships. Overkill? Probably. Typical bureaucratic
+   overcompensation? Yep.
+   
+   ....
+   
+   "So what about in "All Good Things..." [TNG] and post-TNG shows?"
+   
+   It's safe to say that the U.S.S. Pasteur and U.S.S. Enterprise,
+   cruising at Warp 13, were able to ignore the Warp 5 limitation
+   enforced by Starfleet. While the limitation was mentioned in a few
+   later TNG episodes, it was ignored in DS9 and VOY episodes set only a
+   few years later. There are a few possible explanations. The first is
+   that Starfleet simply repealed the ruling, and is allowing ships to
+   muck up subspace. That isn't what we'd expect in the eco-friendly Star
+   Trek Universe, however.
+   
+   Another is that changes to warp technology allow warp travel without
+   the nasty side effects. Rumors abound that Voyager's folding nacelles
+   and/or warp core design mitigate the effect, although Rick Sternbach
+   (the designer of Voyager) isn't so sure. The most probable explanation
+   is that internal technological changes allow warp drive without
+   damaging subspace.
+   
+   Franz Joseph's "Field Restoration" nacelle end-cap, anyone? (Star
+   Fleet Technical Manual)
+     _________________________________________________________________
+   
+6. Q & A
+
+   "What causes fractional warp speeds?"
+   
+   As you can see from the above chart, travelling at integral Warp
+   factors is much more energy efficient. But there are times when a
+   fractional value must be used - for example, staying a certain
+   distance from another ship, or keeping pace with some phenomenon.
+   Also, beyond Warp 9, only fractional speeds are possible. (Modulo "All
+   Good Things..." [TNG], of course.)
+   
+   ....
+   
+   "Why not use impulse drive within the warp field to create a higher
+   velocity?"
+   
+   There's no reason to think that a Newtonian drive (Impulse) would
+   augment a non-Newtonian drive (warp). Also, consider that the maximum
+   velocity attainable with a Newtonian drive is c. At Warp 2, which is
+   ~= 10c, this gives you a whole 11c at maximum (overloading, fuel
+   wasting) impulse. Warp 2.1 is about 12c anyway, so overloading the
+   impulse drive doesn't get you much.
+   
+   "What about "The Corbomite Maneuver" [TOS] or The Voyage Home?"
+   
+   Kirk and Sulu use a combination of warp drive and Impulse to break
+   free of the First Federation pilot craft. The combination of a tractor
+   beam, impulse drive, and warp drive would be very strange, and many
+   explanations come to mind, such as the warp field causing the tractor
+   effect to "slip" away, while the impulse provides propulsion, or the
+   impulse fighting the tractor beam inertially while the warp drive
+   provides propulsion, etc.
+   
+   In The Voyage Home, for the trip back to the future, thrusters are
+   used by Spock to get the last burst of speed just before entering time
+   warp. Also, during both trips, the ship is brought out of time warp by
+   braking thrusters. The H.M.S. Bounty is visibly moving slower than the
+   speed of light toward the sun and certainly slower than the Warp 8
+   quoted by Sulu, so the time warp slingshot (in an intense gravity
+   well) may be one case where Impulse drives are useful to augment warp
+   drives.
+   
+   ....
+   
+   "Whoah! Hold on! They must be moving faster - look at the stars that
+   shoot past while they're in warp!"
+   
+   Joseph Haller offers:
+   
+     The most extreme ship induced speed discussed ... is W(ST:TNG) =
+     9.97535, or 788,940c.
+     
+     This would give a characteristic angular speed for nearby stars of
+     1578 arc-seconds per second or 1 degree every 2.3 seconds. This is
+     indeed verified in the simulations. Travel at high warp speeds, on
+     the ST:TNG warp scale, does not match very well the appearance of
+     the bridge view screen on a typical episode. Indeed, most visible
+     stars are not nearby but are further away with correspondingly
+     lower angular speeds. I offer no solutions to this discrepancy
+     other than the dramatic necessity that stars go whooshing by at
+     high warp speed.
+     
+   Or should we give up so easily?
+   
+   There's a lot of support on rec.arts.startrek.tech for the notion that
+   those things aren't really stars. For one, as the Enterprise drops out
+   of warp (with the camera tagging along for the ride) some of the
+   "stars" do some pretty strange things, such as suddenly angling off in
+   various directions, disappearing, etc.
+   
+   Also, in Star Trek: First Contact, the Phoenix barely breaks Warp 1
+   and stays relatively close to Earth, but we still see the streaks.
+   Definitely not stars.
+   
+   The predominant theory is that what we're seeing are free particles in
+   space interacting with the expanding boundaries of the warp field. As
+   they cross the warp field, they are repeatedly accelerated to FTL
+   velocities and then slowed to STL speeds, and start spewing out
+   something like Cerenkov radiation, a (real!) bluish light emitted when
+   particles moving faster than the local speed of light (in a dense
+   medium) are forced to slow down. If not exactly Cerenkov radiation,
+   then something similar.
+   
+   Jon Mitchell tells me that in the TNG video game for the Sega Genesis
+   console platform states the streaks are part of the visual
+   manifestation of Einsteinian space in subspace. So people other than
+   us .techers have noticed this problem too.
+   
+   As a side note, in "The Cage" [TOS], the moving particles seen through
+   the forward view-screen are explicitly identified as meteoroids.
+     _________________________________________________________________
+   
+7. Contributors:
+
+   John "Eljay" Love-Jensen Daryle Walker
+   Roger M. Wilcox          Jon Mitchell
+   Jonah Rapp               Boris S.
+   Dominic Berry            Alex Tahk
+   Jeff Reinecke            Martin Shields
+   Joe Chiasson             Jason Hinson
+   Greg Berigan             A.J. Madison
+   Axis                     Sharon Collicutt
+   Ges Seger                Michael M. Welch
+   Tom Bagwell              Joseph Haller
+   Chris Franklin           Pete Carr
+   Taki Kogoma
+     _________________________________________________________________
+   
+8. Glossary:
+
+   c
+          Speed of Light ( ~= 3 x 10^8 m/s )
+          
+   FTL
+          Faster Than Light (usually communication or travel)
+          
+   warp
+          One method of FTL travel used in Star Trek, in which nested
+          subspace fields create a propulsive effect.
+          
+   Warp
+          "Unit" for warp factor, as opposed to the technology.
+     _________________________________________________________________
+   
+9. References:
+
+   See the Reading List FAQ for more details on the reference volumes
+   mentioned above and below.
+   
+   The question of "what is canon" has been argued for years in the Star
+   Trek newsgroup hierarchy. In the realm of technical discussions, this
+   can be refined to the question of "what evidence is factual, and what
+   is apocryphal". These FAQs follow the currently dominant notion that
+   "canon" is aired live-action material and nothing more, with the
+   caveat that materials produced off-camera by the production crew are
+   often (but not always) reliable predictors of the direction future
+   canonical material will follow, and are therefore granted a special
+   "quasi-canonical" status. Any other material falls into the realm of
+   speculation - it may be perfectly well grounded speculation useful for
+   building up technical arguments, or wild flights of fancy that have no
+   rational basis.
+   
+   In addition, more recently presented information is considered to
+   supercede old information, unless the weight of the evidence supports
+   the original data. While this may seem highly biased and may be eyed
+   with some skepticism as a form of Orwellian "newthink", it is a more
+   useful predictor of what those directly responsible for the creation
+   of the series are likely to include as canonical material in the
+   future.
+   
+   For example, the excellent and groundbreaking Star Fleet Technical
+   Manual, by Franz Joseph created in the 1970's was a very well thought
+   out look at the technical world of Starfleet just slightly beyond what
+   was seen in the original series. Unfortunately, and perhaps for purely
+   arbitrary reasons, the future development of "canon" Star Trek
+   diverged from this speculation. This in no way implies that there was
+   anything wrong with that volume or any others, merely that due to
+   later "evidence", it can no longer be regarded as an authoritative
+   overview of Trek technology. On the other hand, the author performed a
+   lot of research to create it, and therefore its speculation should not
+   be dismissed out of hand.
+   
+   That said, we are dealing with a universe in the process of being
+   created by scores of (usually) non-technical people, aiming to provide
+   weekly entertainment for a mass audience. There are many
+   inconsistencies even amid the canonical material, and often times the
+   wildest speculation on the newsgroup makes more sense than what we see
+   in the episodes.
+   
+   Canonical material:
+     * Star Trek: Voyager [VOY]
+     * Star Trek: Deep Space Nine [DS9]
+     * Star Trek: The Next Generation [TNG]
+     * Star Trek feature films
+     * Classic Star Trek [TOS]
+       
+   Quasi-canonical material:
+     * The Star Trek Encyclopedia: A Reference Guide to the Future
+     * Star Trek Chronology: The History of the Future
+     * Star Trek: The Next Generation Technical Manual
+     * Star Trek: Deep Space Nine Technical Manual
+     * The Making of Star Trek
+     * Other "behind the scenes" information from the production crew,
+       including:
+          + Newsgroup postings
+          + Convention presentations
+          + Interviews
+          + Email conversations
+       
+   Highly regarded, but non-canonical material:
+     * Star Trek: The Animated Series [TAS]
+     * Mr. Scott's Guide to the Enterprise
+     * Star Fleet Technical Manual
+     * Starlog's Star Trek: The Next Generation Technical Journal
+     * Other "reference" guides
+     * Novels, incl. novelizations of films and episodes
+     * Blueprints, drawings, photographs, models, etc.
+     _________________________________________________________________
+   
+   Joshua Bell, inexorabletash@hotmail.com
+

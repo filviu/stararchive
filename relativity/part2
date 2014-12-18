@@ -1,0 +1,910 @@
+From: hinson@london.physics.purdue.edu (Jason W. Hinson)
+Newsgroups: rec.arts.startrek.tech,rec.answers,news.answers
+Subject: Relativity and FTL Travel--PART II  (optional reading)
+Followup-To: rec.arts.startrek.tech
+Date: Thu, 11 Jan 2001 20:56:36 +0000 (UTC)
+
+Archive-name: star-trek/relativity_FTL/part2
+Posting-Frequency: bimonthly for r.a.s.tech, monthly for news.answers
+
+
+=============================================================================
+                          Relativity and FTL Travel
+                                 
+               by Jason W. Hinson (hinson@physics.purdue.edu)
+-----------------------------------------------------------------------------
+                                 
+                    Part II: More on Special Relativity
+                                 
+=============================================================================
+Edition: 5.1
+Last Modified: August 26, 2000
+URL: http://www.physics.purdue.edu/~hinson/ftl/
+FTP (text version): ftp://ftp.cc.umanitoba.ca/startrek/relativity/
+
+
+
+     This is Part II of the "Relativity and FTL Travel" FAQ. It is an
+"optional reading" part of the FAQ in that the FTL discussion in Part II
+does not assume that the reader has read the information discussed below. If
+your only interest in this FAQ is the consideration of FTL travel with
+relativity in mind, then you may only want to read Part I: Special
+Relativity and Part IV: Faster Than Light Travel--Concepts and Their
+"Problems".
+     In this part, we look more deeply into some points of special
+relativity. By completing our discussion on the space time diagram as well
+as explaining some of the paradoxes involved with SR, it should give the
+reader a better understanding of the theory.
+     For more information about this FAQ (including copyright information
+and a table of contents for all parts of the FAQ), see the Introduction to
+the FAQ portion which should be distributed with this document.
+
+
+Contents of Part II:
+Chapter 3: Completing the Space-Time Diagram Discussion
+     3.1 Comparing Time for O and O'
+     3.2 Comparing Space for O and O'
+     3.3 Once Again: The Light Cone
+Chapter 4: Paradoxes and Solutions
+     4.1 The "Twin Paradox"
+          4.1.1 Viewing it with a Space-Time Diagram
+          4.1.2 Explaining the "First Part"
+          4.1.3 Explaining the "Second Part"
+          4.1.4 Some Additional Notes
+     4.2 The "Car and Barn Paradox"
+          4.2.1 Viewing it with a Space-Time Diagram
+          4.2.2 The explanation
+
+
+
+
+
+Chapter 3: Completing the Space-Time Diagram Discussion
+
+     Here we will complete the discussion of the space-time diagrams which
+we began in the previous chapter. We will do this by completely comparing
+the coordinates our observers have for a particular event. To make that
+comparison we will need to see how the lengths which represent one unit of
+space and time in the reference frame of O compare with the lengths
+representing the same units in O'. The easiest way for us to do this is to
+use information we have already seen--in particular, we use the fact that a
+clock moving with respect to an observer seems to be running slowly to that
+observer and a pole moving with respect to that observer seems to be shorter
+to that observer by a factor of gamma. (Note: this was explained in Chapter
+1. of this FAQ.) Understanding how to use this in the space-time diagram in
+order to completely construct the two observers' coordinate systems should
+give some solid insight into time dilation and length contraction in special
+relativity.
+
+
+
+3.1 Comparing Time for O and O'
+
+     So, how do we show time dilation on our space-time diagram. Well, the
+key to this can be found by expressing time dilation in the following way:
+In the O observer's frame of reference, let the tick t1 of his clock be
+simultaneous with the tick t1' of the O' observer's clock. Also, let the
+tick t2 of his (the O observer's) clock be simultaneous with the t2 tick of
+the O' observer's clock. Then, we would find that
+
+  (Eq 3:1)
+    t2'- t1'= (t2 - t1)/gamma
+
+where gamma (as defined in Section 1.4) would be calculated using the
+relative velocity of O and O'. What Equation 3:1 says is that in the O
+observer's frame of reference, the difference in the ticks of the O'
+observer's clock is smaller than the difference in the O observer's own
+ticks by a factor of gamma. Thus, we see that in the frame of O, the O'
+observer's clock is running slowly.
+     As an example, from here on we will consider the case where the
+relative velocity is 0.6 c such that gamma = 1.25. Using an example like
+this will make the procedure easier to understand for the reader; however,
+remember that we could redo this whole process with any speed (calculating a
+new gamma factor, drawing a different speed for the observers, drawing
+appropriate lines of simultaneity, etc.).
+     Now, what if we let the t1 tick be the "zero" tick. That means that at
+the origin, when both of our observers are right next to one another, t1 =
+t1' = 0. So, both of the observers agree (because there is no separation
+between them in space at the origin) that t1 and t1' are simultaneous, and
+happen at t = t'= 0. However, after some time, there will be a tick (t2) on
+the O observer's clock. In the frame of reference of O, that tick is
+simultaneous with the tick t2' of the O' observer's clock. Since t1 = t1' =
+0, and we are using gamma = 1.25, we know (from Equation 3:1) that
+
+  (Eq 3:2)
+    t2'- 0 = (t2 - 0)/1.25.
+   so
+    t2'  = 0.8*t2
+
+     So, this says that in the frame of the O observer, the tick t2 of his
+clock is simultaneous with the tick 0.8 t2 on the O' observer's clock. If we
+draw a line of simultaneity in the O observer's frame of reference such that
+it goes through the tick t2 of his clock, then it must also go through the
+tick 0.8 t2 of the O' observer's clock. If we let t2 = 1 second, then we get
+what is shown in Diagram 3-1. The distance from the origin, o, to the first
+mark along t in that diagram is defined to be 1 second for our O observer.
+Meanwhile, the distance from o to the "*" symbol along t' in that diagram is
+0.8 second FOR THE O' OBSERVER. So, we begin to see that we can relate
+distances in time along the axes of the different observers.
+
+                                 Diagram 3-1
+
+              t            t'
+              ^           /
+              |          /
+              |         /
+              |        /
+              |       /
+              |      /
+        t = 1 + - - * - - - - - - - line of simultaneity
+              |    / t' = 0.8        for O at t = 1
+              |   /
+              |  /
+              | /
+              |/
+     ---------o----------------------> x
+              |
+              |
+        (Note: The line for t' only approximately represents an observer
+         moving at 0.6 c.  It probably more closely represents 0.5 c, but
+         that's my ASCII for you.  For our example, it _should_
+         represent an observer traveling at 0.6 c in the O observer's
+         frame of reference.)
+
+
+     This puts us on our way to understanding how, for example, different
+lengths along t and t' relate to particular times on the clocks of the two
+observers. Our next step to understanding this better will be to look at the
+situation from the O' observer's frame of reference.
+     We have found what tick of the O' observer's clock is simultaneous with
+the t = 1 tick of the O observer's clock
+_in_the_O_observer's_frame_of_reference_. However, say we want to decide
+what t' tick is simultaneous with the O observer's t = 1 tick
+_in_the_O'_observer's_frame_of_reference_ (remember, the line of
+simultaneity in Diagram 3-1 is only valid for the O observer's frame). To
+figure this out, we need to draw a line of simultaneity in the O' observer's
+frame of reference which passes through the event "the O observer's clock
+ticks 1". When we do this, we want to note where that line passes the t'
+axis, because that mark points out the tick on the O' observer's clock which
+is simultaneous with O observer's t = 1 tick
+_in_the_O'_observer's_frame_of_reference_. I have drawn this line in Diagram
+3-2, but I have also left everything that was in Diagram 3-1.
+
+                                 Diagram 3-2
+
+               t            t'           line of simultaneity
+               ^           /           '  for O' at t' = 1.25
+               |          /        '
+               |         /     '
+               |        /  '
+               |       % t' = 1.25
+               |   '  /
+         t = 1 + - - * - - - - - - line of simultaneity
+               |    / t' = 0.8       for O at t = 1
+               |   /
+               |  /
+               | /
+               |/
+      ---------o----------------------> x
+               |
+               |
+         (Note: The line of simultaneity for O' is a rough approximation)
+
+
+     Now, note that I marked the "%" symbol in that diagram (where the line
+of simultaneity for O'--which goes through t = 1--crosses the t' axes) as
+the event t' = 1.25. But how did I know that? Well, because in the frame of
+reference of O', it is the O observer who is moving at 0.6 c, and thus it is
+the O observer who's clocks are running slowly by a factor of 1.25. So, in
+the frame of O', the event "t = 1 at the O observer's position" must be
+simultaneous with the event "t'= 1.25 at the O' observer's position." That
+way, in the O' observer's frame, it will be the O observer's clock which is
+running slowly by a factor of 1.25. In addition, if the diagram were drawn
+carefully I could use the length from the origin to "*" (which I know is 0.8
+seconds for the O' observer) to figure out how much time passes between the
+origin and the "%" symbol for O'. Either way, I find the same thing.
+     In Diagram 3-2, one can begin to see the power of using space-time
+diagrams to understand special relativity. Note that from one glance at that
+diagram not only can we see that in the O observer's frame of reference the
+O' observer's clock is running slow by a factor of 1.25 (i.e. the event "t =
+1" is simultaneous with the event "t'= 0.8" in the O observer's frame) but
+we also see that in the O' observer's frame it is the O observer's clock
+which is running slow by a factor of 1.25 (i.e. the event "t = 1" is
+simultaneous with the event "t'= 1.25" in the O' observer's frame). Thus, we
+can see at once on this diagram that in each observer's own frame, the other
+observer's clock is running slow. This happens to be one of the first, key
+points to understanding the twin paradox (which will be discussed fully in
+the next section).
+
+
+
+3.2 Comparing Space for O and O'
+
+     So, we have found a correlation between the lengths which represent
+certain times along the t axis for O and the lengths which represent certain
+times along the t' axis for O'. We did this by using (1) the idea of time
+dilation which was found earlier to be caused by the fact that light always
+travels at c for all inertial observers and (2) the lines of simultaneity
+for different observers which we learned how to draw by also using the fact
+that light always travels at c for all inertial observers. Similarly, we can
+find a correlation between lengths which represent certain distances along
+the x axis for O and the lengths which represent certain distances along the
+x' axis for O'. As an example, I have drawn a comparison of distances in
+Diagram 3-3 which will be explained below.
+
+                                 Diagram 3-3
+
+                    t            t'
+                    ^           /
+                    |          /|< line of constant position
+                    |         / |    for O at x = 1
+                    |        /  |
+                    |       /   |       /         x'
+                    |      /    |      /        '
+              t = 1 +     /     |     /     '        * = point where
+                    |    /      |    /  '                 x' = 0.8
+                    |   /       |   #
+                    |  /        *  /< line of constant position
+                    | /     '   | /    for O' at x' = 1.25
+                    |/  '       |/
+           ---------o-----------+-------> x
+                    |           |
+                    |         x = 1
+                    |
+              (Note: The line for x' is a rough approximation)
+
+
+     Perhaps the best way to explain this diagram is as follows: Consider a
+rod being held by the O observer such that one end of the rod follows the t
+axis (and is thus always next to the O observer) while the other end follows
+the vertical line drawn at x = 1. The rod then is obviously stationary in
+the O observer's frame of reference. Second consider a rod being held by the
+O' observer such that one end follows the t' axis and the other end follows
+the line of constant position for O' which I have drawn.
+     Well, in the O observer's frame, his rod is obviously 1 light-second
+long. But notice that in his frame the ends of the O' observer's rod are
+next to the ends of the O observer's rod at t = 0. Thus, in the O observer's
+frame, the O' observer's rod is also 1 light-second long. But length
+contraction tells us that in the O observer's frame, the O' observer's rod
+is shorter than its "rest length" by a factor of 1.25. Thus, in the O'
+observer's frame (the frame in which his rod is at rest), his rod must
+actually be 1.25 light-seconds long. That is how I know that the line of
+constant position for O' I drew was for x'= 1.25.
+     Now, look at the distance along x' from the origin (o) to the point
+marked "#". That distance represents the length of the O' observer's rod
+from his own frame of reference (i.e. 1.25 light-seconds). Also, the
+distance along x' from the origin to the point marked "*" represents the
+length of the O observer's rod in the O' observer's frame of reference. That
+distance must be 0.8 because in the O' frame, it is O and his rod which are
+moving, and thus his rod seems length contracted by a factor of 1.25 from
+its length in the frame of reference in which it is at rest (the O frame).
+That number could have also been found by using the fact that the distance
+from o to "#" was 1.25 light-seconds.
+     Finally, we again note the power of the space-time diagram. At one
+glance of Diagram 3-3 we are able to see that in the O' observer's frame,
+his rod is 1.25 light-seconds long, while in the O observer's frame it is
+only 1 light-second long. At the same time we are able to see that in the O
+observer's frame, his rod is 1 light-second long, while in the O' observer's
+frame, it is only 0.8 light-seconds long. Thus, each observer believes that
+the other observer's rod is shorter than it is in the frame of reference in
+which the rod is at rest. They each believe that the other is experiencing
+length contraction, and with a space-time diagram, we are able to see how
+that is so.
+
+
+
+3.3 Once Again: The Light Cone
+
+     Here I want to demonstrate how a light cone appears in the two
+coordinate systems. In Section 2.8 I mentioned that the light cone is drawn
+exactly the same for the two observers. Now that we understand how to draw
+the two coordinate systems completely (i.e. we can now draw "tick" marks on
+the x' and the t' axes as well as the x and t axes because of the discussion
+above) we can make a diagram which clearly shows this. To start, in Diagram
+3-4 I have shown the results of our discussion above in that I have
+indicated approximately where the tick marks (+) would appear on the x' and
+t' axes.
+
+                                 Diagram 3-4
+
+                    t               t'
+                    |              /
+                    |             +t'=2
+                    |            /
+                 t=2+           /
+                    |          /
+                    |         /                           x'
+                    |        /                          '
+                    |       /                       '
+                    |      + t'=1              +'
+                 t=1+     /                 '   x'=2
+                    |    /              '
+                    |   /         + '
+                    |  /        '  x'=1
+                    | /     '
+                    |/  '
+      --+-----------o-----------+-----------+---> x
+                '  /|           x=1         x=2
+            '     / |
+          (Note: Again, x' and t' are rough approximation for v = 0.6 c)
+
+
+     Next, in Diagram 3-5 I have drawn the x and t axes along with lines of
+simultaneity and lines of constant position (for O) at each tick mark. In
+addition, the upper half of a light cone centered at the origin is shown
+using # symbols. As you see (and as we would expect), it passes through the
+points x = 1 light-second, t = 1 second; x = 2 light-seconds, t = 2 seconds;
+etc.
+
+                                 Diagram 3-5
+
+                        t
+                        |
+                        |                                 # = Light
+            |           |           |           | #
+           -------------+-----------------------#-
+            |           |           |         # |
+            |           |           |       #   |
+            |           |           |     #     |
+            |           |           |   #       |
+          # |           |           | #         |
+           -#-----------+-----------#------------
+            | #         |         # |           |
+            |   #       |       #   |           |
+            |     #     |     #     |           |
+            |       #   |   #       |           |
+            |         # | #         |           |
+          --+-----------o-----------+-----------+----> x
+            |           |           |           |
+                        |
+
+
+     Continuing with the diagrams, Diagram 3-6 shows the x' and t' axes
+along with lines of simultaneity and lines of constant position (for O') at
+each tick mark along those axes. Again, the upper half of a light cone
+centered at the origin is also shown. As you see (and as we would again
+expect), it passes through the points x' = 1 light-second, t' = 1 second;
+etc. Note that the point x' = 1, t' = 1 is marked with an "@" symbol and the
+tick marks on the x' and t' axes are marked with "+" marks to help make it
+clear how the coordinate system works. Also notice that the light cone
+itself is drawn exactly the same as it is in Diagram 3-5.
+
+                                 Diagram 3-6
+
+                                         t'
+                                        /
+                   /    '    /         /    '    /         /
+                  / '       /         + '       /   #     / '
+                '/         /        '/         /  #     '/
+            '   /         /     '   /         / #   '   /
+               /         /  '      /         /# '      /          x'
+              /         '         /         @         /         '
+             /      '  /         /      ' #/         /      '
+                '     /         /   '   # /         /   '
+          # '        /         +'     #  /         +'        /
+            #       /       ' /     #   /       ' /         /
+              #    /    '    /    #    /    '    /         /
+                # / '       /   #     + '       /         / '
+                '/#        /  #     '/         /        '/
+            '   /   #     / #   '   /         /     '   /
+               /      #  /# '      /         /  '      /
+              /         o         /         '         /
+             /      '  /         /      '  /         /      '
+            /   '     /         /   '     /         /   '
+
+
+     Finally, I want to superimpose Diagram 3-5 and Diagram 3-6 to some
+extent onto Diagram 3-7. It would be quite cluttered to put all the lines
+included in the two diagrams, but I want to include the lines which make up
+x = 1, t = 1, x'= 1, and t'= 1. These lines are thus drawn on Diagram 3-7,
+but they terminate where they meet the light cone which is also shown. You
+should begin to see the relationship between the two different frames of
+reference and the fact that the light cone itself is exactly the same in
+both coordinate systems. This is a direct result from the fact that every
+step we took in producing these diagrams used the assumption that the speed
+of light is the same in all inertial frames of reference.
+
+                                 Diagram 3-7
+
+                    t                t'
+                    |               /
+                    |              /
+                    |             +             #
+                    |            /            #
+                    +           /           #
+                    |          /          #                   x'
+                    |         /         #                   '
+                    |        /      ' #/                '
+                    |       /   '   # /            +'
+                    |      +'     #  /          '
+                    +-----/-----#   /       '
+                    |    /    # |  /    '
+                    |   /   #   | + '
+                    |  /  #     '
+                    | / #   '   |
+                    |/# '       |
+      --+-----------o-----------+-----------+-----------+--->x
+                '  /|
+            '     / |
+
+
+     Though this concludes our discussion of space-time diagrams, we will
+continue to see them in the next section, because they can be vital tools
+for understanding paradoxes in special relativity.
+
+
+
+
+
+Chapter 4: Paradoxes and Solutions
+
+     One misleading statement many people hear in connection with relativity
+is something like this: "Time moves slower for you as your speed increases."
+It is misleading because it implies some incorrect concepts. It implies that
+there is an ABSOLUTE way to decide whether or not someone is truly at rest
+or moving (at a constant, non-zero velocity) when in reality this depends on
+your frame of reference. It implies that if you are moving at a constant
+velocity, then your clock is moving slower than some sort of "correct" clock
+which is truly not in motion. It also implies that you yourself might find
+your clock ticking slower than usual.
+     However, as I have mentioned earlier, motion is relative. There is no
+way to say that one object is truly at rest and another is truly moving at a
+constant velocity. You can only say that one object is moving at a constant
+velocity RELATIVE TO another object. You can say that in the frame of
+reference of one observer (call him Joe) another observer (call her Jane) is
+moving at a constant velocity. Then, in Joe's frame of reference, Jane's
+clock is running slowly, and she is length contracted in the direction of
+her motion. However, in Jane's frame of reference, JOE is the one who is
+moving at a constant velocity relative to her. Because the laws of physics
+are the same for all inertial frames, we must be able to apply the same laws
+to Jane as we just applied to Joe. Thus, in Jane's frame, Joe's clock is the
+one which is running slowly, and Joe is length contracted in the direction
+of his motion.
+     This leads one to question whether or not relativity contradicts
+itself. If all motion is relative, we have concluded that each observer
+believes that the other observer's clock is running slowly, and each
+believes that the other observer is length contracted in the direction of
+motion. Isn't that a contradiction? For example, how can Jane's clock be
+running slower than Joe's AND Joe's clock be running slower than Jane's?
+Well, these questions lead to various solvable paradoxes in special
+relativity.
+     As a note, the word "paradox" has a few different meanings, and when I
+use it here, I will have this meaning in mine: "a paradox is a statement
+that seems contradictory or absurd but that may in fact make sense." A
+"solvable paradox" is then a paradox that does in fact make sense when
+explained correctly, while an "unsolvable paradox" is a paradox for which
+the statement "may in fact make sense" doesn't hold (i.e. an unsolvable
+paradox is truly self-contradictory).
+     The paradoxes in special relativity are solvable, and below I will
+present two of these paradoxes along with their solutions.
+
+
+
+4.1 The "Twin Paradox"
+
+     The twin paradox deals with the question of "who's clock is running
+slower?" The story goes as followers: Two twins (say Sam and Ed) are both on
+Earth when one of them (say Sam) decides to leave the Earth by very quickly
+accelerating to a speed close to the speed of light. We then consider the
+two frames of reference after Sam has reached a constant velocity. According
+to special relativity, in Ed's frame of reference, Sam's clock is running
+slowly, while in Sam's frame of reference, it is Ed's clock which is running
+slowly.
+     Now, as long as the two are apart, it is not to hard to argue that the
+question is strictly dependent on your point of view. By this I mean that we
+can argue that there is no correct answer to the questions--that who's clock
+is running slower depends completely on what frame of reference you are in.
+However, how would we continue this argument if we added the following to
+the story:
+     At some point after Sam begins his trip away from the Earth, one of the
+twins decides to go meet with the other twin. Either Ed decides to
+accelerate away from the Earth and catch up to Sam, or Sam decides to
+accelerate back towards the Earth to go back and meet with Ed. We then ask
+this question: when the two twins are standing next to one another again,
+which one is older?
+     With the above addition to the story, there must be a definite answer
+to the final question. So, how can we continue to say that the answer
+depends on your frame of reference? Well, as we will see, the final question
+does have a definite answer, but the question of how this came about IS
+dependent on who you ask.
+
+
+
+4.1.1 Viewing it with a Space-Time Diagram
+
+     So, now we will try to understand the twin paradox by using or old
+friend, the space-time diagram. To do this, we have to decide on some
+specifics. First, we will say that the relative motion of Sam and Ed is 0.6
+c. So, after Sam has accelerated to a constant speed, he will be traveling
+at 0.6 c with respect to the Ed. (Of course, in Sam's frame, it is Ed who is
+moving at a speed of 0.6 c away from Sam.) Next, we need to decide who will
+be the one who eventually accelerates to go and meet with the other twin. In
+our case, we will look at the situation where Sam turns around to go back
+and meet with Ed. Finally, I should mention that the accelerations we will
+be using will be "instantaneous" accelerations. This means that they take no
+time to accomplish. In the real world, it would (of course) take time to
+accelerate, and while this would make the space-time diagrams look
+differently, the basic ideas we will discuss still hold.
+     Now we look at the space-time diagrams. In Diagrams 4-1 and 4-2 below,
+I have drawn the whole trip in two parts. In Diagram 4-1, you see Sam headed
+away from Ed, and in Diagram 4-2, you see Sam after he has turned around and
+is headed back to Ed.
+
+               Diagram 4-1                           Diagram 4-2
+
+       t                               !        t
+       ^                               !        ^
+       |                               !        |
+       |                               !   t=10 + t'=8
+       |                               !        |*
+       |                               !        | *
+       |                               !        |  *
+       |               t'              !        |   *
+       |              /    (t'= 4 line)!        |    *
+       |             /     /           !   t=6.8\     *
+       |            /                  !        |      *
+       |           /  /                !        |    \  *
+       |          /                    !        |        *
+    t=5+ - - - - * - - -> (t = 5 line) !     t=5+ - - - - * - - -> (t = 5
+       |        *                      !        |          \         line)
+       |    /  *                       !        |           \  \
+       |      *                        !        |            \
+  t=3.2/     *                         !        |             \     \
+       |    *                          !        |              \   (t'= 4
+  /    |   *                           !        |               \    line)
+       |  *                            !        |                \
+       | *                             !        |                 t'
+       |*                              !        |
+  -----o------------------> x          !   -----o------------------->x
+       |                               !        |
+       |                               !        |
+  (NOTE: Again, to make the ASCII diagram easy to draw, the positions drawn
+ for the "moving" observer more closely represents 0.5 c than 0.6 c for his
+ speed. I have had to try and approximate the lines of constant time for t'
+          accordingly in order to show how the paradox is solved.)
+
+
+     Now, to explain the diagrams: Ed (the twin on Earth) is represented by
+the x and t axes while x' and t' denote the coordinate system for Sam. Sam's
+motion through space-time is represented by the blue line marked t', as
+usual. Now, at the origin, Sam instantaneously accelerates to the speed of
+0.6 c. He then proceeds away from Ed until Sam sees that his own clock read
+4 years (just to pick some unit of time--which means that the distances
+would be in light-years). When Sam sees his own clock read 4, he turns
+around with an instantaneous acceleration. At that point, we switch to
+Diagram 4-2. In that diagram, Sam heads back to Ed.
+
+
+
+4.1.2 Explaining the "First Part"
+
+     Now let's concentrate on the first of the two diagrams. Just before Sam
+turns around, his clock reads 4 years. At that point I have drawn two lines
+of constant time (or lines of simultaneity)--one for each observer. The line
+parallel to the x axes is (of course) the line of simultaneity for Ed which
+passes through the event "Sam's clock reads 4 years". Note that this line of
+simultaneity for Ed also passes through the event "Ed's clock reads 5
+years". Therefore, in Ed's frame of reference, the events "Sam's clock reads
+4 years" and "Ed's clock reads 5 years" are simultaneous events. This
+diagram thus explains how in Ed's frame of reference, Sam's clock is running
+slower than Ed's by a factor of 0.8 (that's one over gamma when v = 0.6 c).
+     However, the line of simultaneity we were looking at is not a line of
+simultaneity for Sam. Sam's line of simultaneity which passes through the
+event "Sam's clock reads 4 years" is the one marked "t'= 4 line". This line
+also passes through the event "Ed's clock reads 3.2 years". Therefore, in
+Sam's frame of reference the events "Sam's clock reads 4 years" and "Ed's
+clock reads 3.2 years" are the simultaneous events. This diagram thus
+explains how in Sam's frame of reference, Ed's clock is running slower than
+Sam's by a factor of 0.8.
+     So, the idea that they each believe the other person's clock is running
+slowly can be explained. We see that it is, indeed, a question of which
+frame of reference you are in, because different events are simultaneous in
+different frames. It is interesting to note that this situation only seems
+paradoxical in the first place because we are not use to the fact that
+simultaneity isn't absolute. In everyday life, we get the idea that when two
+events happen at the same time, then that is an absolute fact. However,
+relativity shows us that this is not the case, and once we realize that, we
+can understand how each observer can believe the other observer's clock is
+running slowly.
+
+     With this "first part" of the paradox solved, we must now move to the
+second part and ask this question: "how do we explain what happens when the
+twins come back together?"
+
+
+
+4.1.3 Explaining the "Second Part"
+
+     In Diagram 4-2 Sam has seen his own clock read 4 years, and he then
+instantaneously accelerated to head back towards Ed. Right after the
+acceleration, Sam's clock still basically reads 4 years. Note, however, that
+Sam's frame of reference has changed. The inertial frame he was in before he
+turned around is different from his inertial frame after he turned around. I
+have thus drawn his new time line and a line of simultaneity (one which
+passes through the event "Sam's clock reads 4 years") for his new frame of
+reference.
+     Once again we will look at the simultaneous events in Ed's frame and in
+Sam's (new) frame. Since Ed hasn't accelerated, he has remained an inertial
+observer, and his frame of reference hasn't changed. Thus, in his frame the
+events "Ed's clock reads 5 years" and "Sam's clock reads 4 years" are still
+simultaneous. However, Sam is in a new frame of reference, and in this frame
+the events "Ed's clock reads 6.8 years" and "Sam's clock reads 4 years" are
+the simultaneous events.
+     So, each observer has his own explanation for the final outcome of the
+situation. For Ed, Sam's clock is ticking slowly before the turn-around,
+nothing significant happens when Sam turns around, and Sam's clock continues
+to tick slowly after the turn-around (because he is still moving at 0.6 c
+with respect to Ed). That is how Ed explains why he has aged 10 years and
+Sam has only aged 8 years when they get back together at the end of Sam's
+trip.
+     However, for Sam, the explanation is different. Before the turn-around,
+Sam is in a frame of reference in which Ed's clock has been ticking slow,
+and it has ticked 3.2 years while Sam's clock has ticked 4 years. After the
+turn-around, Sam is in a frame in which Ed's clock (though it is still
+ticking slowly) has already ticked 6.8 years while Sam's clock still reads
+only 4 years have passed. Note that since Ed's clock is still running slowly
+in Sam's new frame of reference, it will still only tick another 3.2 years
+(in Sam's frame) during the last half of the trip, while Sam's clock ticks
+another 4 years. However, since in Sam's new frame, Ed's clock has already
+ticked 6.8 years, the additional 3.2 years will make a total of 10 years of
+ticks for Ed's clock. Meanwhile, Sam has seen his own clock tick a total of
+only 8 years.
+     And there you have it. Each observer agrees (as it must be) that when
+the two are back together again, Ed will have aged a total of 10 years while
+Sam has only aged a total of 8 years. They each have completely different
+ways of explaining how this happened, but in the end, they each agree on the
+final outcome.
+
+
+
+4.1.4 Some Additional Notes
+
+     There are four specific things I want to make note of concerning the
+twin paradox as I have explained it.
+     First, we should note that the outcome of the above thought experiment
+(i.e. the fact that Sam ended up younger than Ed) is completely dependent on
+the fact that Sam turned around and headed back to Ed. If instead Ed had
+done the acceleration when he saw his own clock tick 4 years and had headed
+over to meet Sam, then Ed would be the one who had aged a total of 8 years
+while Sam had aged 10 years. Notice that the twin who undergoes the
+acceleration must actually have a physical force applied to him to cause
+that acceleration. During the acceleration he is no longer an inertial
+observer (this is why his frame of reference shifts while the other twin's
+frame does not shift). That differentiates his situation from the twin who
+does not accelerate, and that breaks the symmetry between the two observers.
+Unless one of them goes through an acceleration, their situations are
+completely symmetric, and there is no absolute answer to the question "which
+twin is younger?"
+     Second, I want to note something particular about the acceleration Sam
+went through. Look back at the lines of simultaneity drawn for Sam's frame
+before and after he accelerated. As we noted, the point where his "t' = 4"
+line of simultaneity cross the t axis (Ed's position) shifts upward when Sam
+turns around. Notice, however, that if Sam had taken a longer trip, then he
+would have done the acceleration when he was further from Ed. Then that
+"shift" would have been even larger, and after the acceleration, Sam's new
+frame of reference would be one in which Ed's clock had "jumped" ahead an
+even greater number of years. So, for Sam, the longer the trip he takes, the
+bigger the change will be when he switches his frame of reference, and that
+will make him an even greater number of years younger than Ed when they get
+back together. Of course, for Ed, the longer the trip is for Sam, the longer
+Sam's clock will be running slowly. So, Ed too agrees (with a different
+explanation) that Sam will be more years younger than Ed in the end if the
+trip is longer. As a final point on this, note that when Sam first
+accelerates to start his trip, he is right next to Ed, so the acceleration
+doesn't have much effect at all (as is true for his final acceleration at
+the end of the trip). That is why we basically ignored those accelerations.
+     Third, I want to note something about Sam's explanation of the events.
+Recall that when he changed frames of reference, his clock read 4 years
+while (in his new frame) Ed's clock read 6.8 years. One may think that Sam
+has thus changed to a frame where Ed's clock has been running faster;
+however, we know that in Sam's new frame, Ed is still moving with respect to
+Sam. Thus, in Sam's new frame Ed's clock has still been running slowly the
+whole time. To understand how this can be, consider a third observer (Tim)
+who has always been in the frame of reference which Sam has during the last
+part of the trip. Let's say that Tim was traveling along (going to Earth)
+when he saw Sam headed towards him, and to Tim's surprise, Sam turns around
+and joins Tim in Tim's frame of reference as the two come together. Thus,
+after Sam turns around, he and Tim are moving together, side by side. Now,
+Tim notices that right after Sam turns around, Sam's clock reads 4 years.
+Regardless of what Tim's clock reads, he can reset his clock to 4 years, and
+we can backtrack 4 years along Tim's path to identify the origin of Tim's
+frame (Sam's new frame). In Diagram 4-3 I have drawn (along with everything
+in Diagram 4-2 Tim's path, the origin (o') of Sam's new frame of reference,
+and a line of simultaneity for Tim's and Sam's frame at that origin.
+
+                                 Diagram 4-3
+
+                         t
+                         ^
+                         |
+                    t=10 + t'=8
+                         |*
+                         | *
+                         |  *
+                         |   *
+                         |    *
+                    t=6.8\     *
+                         |      *
+                         |    \  *
+                         |        *
+                      t=5+ - - - - * - - -> (t = 5
+                         |          \         line)
+                         |           \  \
+                    t=3.6|\           \
+                         |             \     \
+                         |     \        \   (t'= 4
+                         |               \    line)
+                         |          \     \
+                         |                 \
+                         |               \  \
+                    -----o-------------------o'----->x
+                         |                    \
+                         |                   (Tim's path)
+
+
+     Notice that for Sam's new frame (the frame Tim has always been in) if
+t'= 4 when Sam turns around, then the event at Ed's position which is
+simultaneous with the origin in this frame (o') is the event "Ed's clock
+reads 3.6 years". And there you have it. In Sam's new frame, while it is
+true that Ed's clock is always been running slow, at the "beginning" for
+this frame (i.e. at its origin) Ed's clock started at 3.6 years. In this new
+frame of Sam's, Ed's clock had a "head start" (so to speak) when compared to
+Tim's clock. That is why Ed's clock already reads 6.8 years while Sam's
+clock reads only 4 years in Sam's new frame. In the end, we can describe the
+events in whatever frame of reference we wish, and though they may each have
+different explanation for what actually happens, they must all agree with
+the final outcome when the two twins come back together.
+     The final note I want to make is, again, about Sam's "view" of the
+events. When we say that before Sam's turn-around he is in a frame of
+reference in which Ed's clock reads 3.2 years, and after the turn-around Sam
+is in a frame of reference in which Ed's clock reads 6.8 years, one might be
+tempted to say that as Sam accelerates, Ed's clock speeds up in Sam's frame
+of reference. Of course, this doesn't change the way Ed sees his clock
+running, but it is only the way things occur in Sam's changing frame of
+reference. However, think about what would happen if Sam quickly changed his
+mind after the turn-around and immediately turned BACK around to his
+original heading. Then, in this new acceleration, Sam went from a frame
+where Ed's clock read 6.8 years to a frame where Ed's clock reads 3.2 years
+again. One would thus argue that Ed's clock went backwards in Sam's changing
+frame of reference. Again, this doesn't have any real significance to the
+way Ed is reading his own clock, but we have to come to terms with the fact
+that Sam's new acceleration caused Ed's clock to go backwards in Sam's
+changing frame. Perhaps the best way to think about this is simply to
+realize that Sam is not in an inertial frame since he is accelerating.
+Rather, Sam is simply changing into various inertial frames, and in each of
+these inertial frames, moving clocks do tick slowly, time does goes forward
+in all frames, etc. Either way you like to think about it, in the end, we
+can explain the outcomes as needed.
+
+
+
+4.2 The "Car and Barn Paradox"
+
+     The "Car and Barn" paradox deals with the question of "whose lengths
+are shorter?" We have a barn whose front and back doors can be quickly open
+and closed. There is also a car which is just long enough so that if you try
+to fit it in the barn, and the barn doors close, they would close down on
+the front and back bumpers of the car. Now, an observer in the car (say,
+Carol) speeds the car towards the barn at a significant fraction of the
+speed of light. One might then argue the following: from the point of view
+of an observer sitting in the barn (say, Bob) the car will be length
+contracted, and at some point it will be completely inside the barn. Bob
+then reasons that he can close and open both barn doors while the car is
+completely inside the barn. However, Carol will argue that it is the Barn
+which moving with respect to here, and thus it the barn which is length
+contracted. So, she argues, if Bob tries to close both doors at the same
+time as the car goes through the barn, then the doors will smash into the
+car.
+     We thus want to ask whether or not the barn doors do smash into the car
+if Bob tries his idea, and how does each observer explain the outcome.
+
+
+
+4.2.1 Viewing it with a Space-Time Diagram
+
+     As we did with the twin paradox, here we will look at a space-time
+diagram of the car and barn experiment in order to explain the paradox. We
+will draw our diagrams such the relative velocity of Carol and Bob is 0.6 c.
+In Diagram 4-4 I have drawn the situation keeping Bob's frame of reference
+in mind. To keep the diagram from getting too cluttered, a second diagram
+(Diagram 4-5) of the same situation will be used to mark points according to
+Carol's frame of reference.
+
+              Diagram 4-4                          Diagram 4-5
+
+                  t                 !                    t
+          e       | <     x     >   !            e       | <     x     > .
+          e       |<      x    >    !            e       |<      x    4
+          e       <       x   >     !            e       <       x . >   .
+          e      <|       x  >      !            e      <|      .4  > .  .
+          e     < |       x >       !            e     < |   .   x 3  .
+          e    <  |       x>        !            e    <  |.     .3>.     .
+          3...3...|.......D         !            e   < . |   .  .D    .
+          e  <    |      >x         !            e  4    |.  .  >x .
+   -------B-2-----o-----2-C----->x  !   ---------B-<---.-o.---->-C------>x
+          e<      |    >  x         !         .  e< .  . |    1  x
+          A.......|...1...1         !      .     A  .    | . >   x
+         <e       |  >    x         !   .     . <2      .|  >    x
+        < e       | >     x         !      .  .2 e   .   | >     x
+       <  e       |>      x         !   .  .  <  e.      |>      x
+      <   e       >       x         !   .    < . 1       >       x
+     <    e      >|       x         !       1    e      >|       x
+    <     e     > |       x         !    . <     e     > |       x
+
+
+     In the diagrams we have the following: The ">" marks indicate the
+positions of the front of the car at different points in time, while the "<"
+marks show the back of the car. The e's mark the entrance to the barn, and
+the x's mark the exit of the barn. Hopefully it is apparent to the reader
+that the car travels from left to right (with respect to the barn) and
+passes through the barn. Also note that at the point where the entrance and
+exit of the barn cross the x axis (i.e. when the front and back of the barn
+are both at t = 0 in Bob's frame), both the front and back doors quickly
+close and open again. Those points are labeled B and C.
+
+
+
+4.2.2 The explanation
+
+     We are interested in six different occurrences (though only 4 are shown
+in the diagrams). The ones not shown in the diagrams are, first, the front
+of the car enters the barn, and second, the back of the car exits the barn.
+These would appear much lower and much higher (respectively) in the diagram
+than is being shown here. The four events that we do note in the diagrams
+are (A) the back of the car enters the barn, (B) the entrance door of the
+barn closes and opens again, (C) the exit door of the barn closes and opens
+again, and (D) the front of the car exits the barn. In the diagrams, I have
+marked each of these events with the letters given and drawn lines of
+simultaneity (marked with periods) for the observers.
+     In Diagram 4-4, we see that for Bob (whose lines of simultaneity are
+drawn in that diagram), (A) is the first event which happens, and everything
+that occurs simultaneous to (A) in Bob's frame of reference is marked with a
+1. The next two events in Bob's frame are (B) and (C), which occur
+simultaneously. Everything which occurs simultaneous to these events is
+marked with a 2. Finally for Bob, (D) occurs, and everything which occurs
+simultaneous to it is marked with a 3. Note that for Bob, as the back of the
+car enters the barn--event (A)--the front of the car has yet to exit the
+barn. Also, when the doors close and open--events (B) and (C)--simultaneous
+in Bob's frame, the front and back of the car are inside the barn (they are
+marked with 2's). Thus, in Bob's frame, the car is smaller than the barn,
+and it is inside the barn when the doors close and open. Finally, after both
+doors close and open, the front of the car exits the barn--event (D)--in
+Bob's frame.
+     However, in Diagram 4-5 we see simultaneous events marked from Carol's
+frame of reference. Again, the lines of simultaneity at each event are
+marked with periods (but here they are drawn from Carol's frame). Now, we
+see that the "lowest" line of simultaneity on the diagram from Carol's frame
+of reference passes through the event (C), the exit door of the barn closes
+and opens. Thus, this event occurs first in Carol's frame. Everything
+occurring simultaneous with it in Carol's frame is marked with a 1. Next in
+Carol's frame, event (D) occurs, followed by event (A), while event (B)
+occurs last. The events occurring simultaneous with these events are marked
+2, 3, and 4, respectively. Thus, according to Carol's frame, things happen
+as follows: First, while the front of the car is in the barn, but before the
+back of the car enters the barn, the exit door of the barn closes and opens.
+Next, the front of the car exits the barn. (Note that while the front of the
+car is then outside the exit of the barn at this point, the back of the car
+has yet to enter the barn in Carol's frame--look along the x' axis, for
+example. So for Carol, the barn is smaller than the car.) Next, the back of
+the car enters the barn in Carol's frame. Finally, after the front of the
+car has exited the barn and the back of the car has entered the barn, the
+entrance door of the barn closes and opens.
+     And there you have it. In the end, each observer must agree that the
+car gets through the barn without smashing into the doors. However, each
+frame of reference offers a different explanation for how this comes to be,
+because in each frame, different events are simultaneous with one another.
+In Bob's frame, the car is in the barn all at once while the doors close and
+open simultaneously. However, in Carol's frame, the doors do not close
+simultaneously, and the car is never completely in the barn.
+
+     So, I hope you have seen the power of space-time diagrams when it comes
+to explaining things in special relativity. When we simply say that moving
+clocks run slower and moving rulers length contract, we miss a real
+understanding of special relativity. That understanding comes from realizing
+that the actual coordinates in space and time for events are different for
+different observers who are moving with respect to one another. This
+relationship can be viewed with space-time diagrams, and the answers to many
+nagging questions in special relativity can be explained if one understands
+these diagrams.
+
+

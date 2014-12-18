@@ -1,0 +1,783 @@
+Newsgroups: rec.arts.startrek.tech
+Subject: Mini-FAQ: Ship Statistics (Absolutely Non-Canon!)
+Expires: 02 Oct 1994 00:00:00 GMT
+
+            Ship Statistics AbsolutelyNonCanon Mini-FAQ
+                    (updated January 19, 1994)
+
+Includes:
+	Klingon Bird of Prey (TFS/TNG)
+	Oberth Class (TFS/TNG)
+	Klingon D-7 Battlecruiser (TOS)
+	K't'inga Class (TFS/TNG)
+        Constitution Class (TOS - pre refit)
+        Constitution Class (TFS - post refit)
+        Galaxy Class (TNG)
+
+Given that the wait before we see an "official" (Okuda & Sternbach)
+publication giving detailed information about various starships,
+I thought it'd be interesting to see what we can come up with on
+rec.arts.startrek.tech. So here's a call for submissions for a
+Ship Statistics AbsolutelyNonCanon Mini-FAQ. Any sources are 
+accepted: ships from the series with stats from another source,
+FASA, Starlog, your own creations, books... anything you want!
+
+TOS, TFS, or TNG era, or ships from pre-TOS era or the time between
+TFS and TNG, anything is fine.
+
+Here's a suggested format, loosely based on the format of the TNG
+Tech Manual. Suggested as in "please suggest improvements to the
+format", not "oh, lemme send in these scribbles I jotted down one
+day, close enough." I'll get the latter whipped into shape, but
+it might take a few months. Duplicate entries will be merged and
+hacked into place, with completely arbitrary decisions as to
+which gets precedence. Likely, I'll just merge the two and give
+two sets of stats. 
+
+If you can't draw ASCII pictures, I'll try to put something I've 
+drawn in. Or you can describe it really, really well and I'll try 
+to draw something. Bribes help a lot with the latter. :)
+
+I'd also like comments on the idea as a whole. What should be 
+changed? Should I be more fascist about entries? Less fascist?
+
+
+<class name>
+<government/designer>
+
+Introduction:
+        Classification: <cruiser, scout, explorer, etc>
+        Mission:   <mission types>
+        Service:   <date of entry into service, retirement from service>
+        Design:    <where ships were designed/constructed>
+        Ships:     <list of known ships of that class>
+
+Structure:
+        X = <width>     (width)
+        Y = <height>    (height)
+        Z = <length>    (length)
+        Displacement = <volume in m^3 or kilograms (1 m^3 = 1e3 kg)>
+        Mass =  <mass in kilograms>
+        Area =  <area of decks in m^2)
+        Decks = <number of decks>
+
+<ASCII pic of starship>
+
+Warp Systems:
+        Power:     <source, eg, M/AMR, forced quantum singularity>
+        Nacelles:  <count>
+        Design:    <eg, tos/tfs/excelsior/e-c/tng>
+        Cruising:  <normal speed, in TNG scale (if TOS, it should say)> 
+        Maximum:   <maximum normal speed>       (<duration>)
+        Emergency: <maximum possible speed>     (<duration>)
+        Failure:   <theoretical integrity failure speed>
+
+<ASCII pic of warp field dynamics>
+
+Impulse Systems:
+        Power:     <source, eg, fusion, fission, ion>
+        Engines:   <count>
+        Design:    <eg, tos/tfs/tng>
+
+Tactical Systems:
+        Phasers:
+         Type: <type>
+         Loc: <count, location>
+        Photon Torpedos:
+         Type: <type>
+         Loc: <count, location>
+         Casings: <count>
+        <other weapon systems, e.g. microtorps, disruptors>
+        Shields:   <configuration>
+        <other defensive systems, e.g. cloaking>
+
+Crew and Auxiliary Systems:
+        Crew:   <standard> (typical)
+                <max> (maximum life support)
+        Medical:   <sickbay stats>
+        Transporters:       <count>
+        <whatever else, e.g. replicators, tractor beams, etc>
+
+Auxiliary Spacecraft
+        Shuttlebays:        <count, location>
+        Shuttlecraft:       <types>
+        <yachts, runabouts, etc>
+
+Sources:
+        <books, magazines, episodes, etc>
+        <contributor names & email addresses>
+
+BIRD OF PREY
+KLINGON EMPIRE
+
+Introduction:
+        Classification: scout
+        Mission:   Scout
+        Service:   2270s-2370+
+        Design:    Klingon Empire (Kronos?)
+        Ships:     Barruc
+                   Heghta'
+                   Pagh
+                   Vorn
+
+Structure:
+        Atmospheric     Spaceflight
+         X = 85m         X = 83.5m      (width)
+         Y = 16.5m       Y = 35.8m      (height)
+         Z = 51.2m       Z = 51.2m      (length)
+        Decks = 3
+
+ (Spaceflight)
+         _  ________
+     _,-'|`||||||||_\___       _,-,_
+    | /_`-'||||||||'   \\-____/_ __o`-,
+    |[__<|_|||||||| -----.______(=====/
+       |_\ \------'\____/--------\_,-'
+          `\`.      \-'
+            \ \      \
+             `\`.    \`
+               \ `-.__\
+                \______\
+                  |  ___\
+                   \(___======][]
+                    `--"
+                        ______   ______
+                      _/_/__\_\_/_/__\_\_
+                     /.--  / //-\\ \  --.\
+                    // \  |-|=====|-|  / \\
+                   || _.-' \-\_@_/-/ `-._ ||
+                  _|-'      `-----'      `-|_
+              _.-'                           `-._  
+          _.-'                                   `-._  
+      _.-'                                           `-._ 
+     /                                                   \
+   _/                                                     \_
+  (o)                                                     (o)
+  '                                                         `
+                    ,--._
+                   /(___======][]
+                 _|_____/
+                /   ___/
+              ,/ .-'  /
+             / ,'    /
+            / /     '/
+          ,/,'      /
+        _/ /       /
+       |_|_`------|
+      / .. |||||||| 
+     / (`-)||||||||\  
+    '-~-\\\||||||/  )~-.       _.----.
+      ]| -~[----'__/  . \-----/ `.--.-\
+      ]| -_[----.  \    /-----\_,`-o'-/
+    ,-_-///||||||\  )_-'        `----'
+     \ (,-)||||||||/
+      \ `'_|||||||| 
+       |_|_`------|
+         \ \       \
+          `\`.      \
+            \ \      \
+             \ `.    \`
+              `\ `-.__\
+                \______\
+                  |  ___\
+                   \(___======][]
+                    `--"
+
+ (Atmospheric flight)
+         _  ________
+     _,-'|`||||||||_\___       _,-,_
+    | /_`-'||||||||'   \\-____/_ __o`-,
+    |[__<==========|----._______(=====/
+     `-\___/`----' | ___\--------\_,-'
+                    \(___======][]
+                     `--"
+
+                        ______   ______
+                      _/_/__\_\_/_/__\_\_
+                     /.--  / //-\\ \  --.\
+      ______.-------(___,-|-|=====|-|-,___)-------.______  
+  _.-'                     \-\_@_/-/                     `-._
+ (o)                        `-----'                        (o)
+ '                                                           `
+
+
+
+Warp Systems:
+        Power:     Matter/Antimatter Reactor (dilithium mediated)
+        Nacelles:  2 (inboard)
+        Design:    TFS Bird of Prey
+        Cruising:  Warp 5
+        Maximum:   Warp 8
+        Emergency: Warp 9.6                     (< 5 min)
+        Failure:   Warp 9.92
+
+Impulse Systems:
+        Power:     fusion
+        Engines:   2
+        Design:    TFS Klingon
+
+Tactical Systems:
+        Photon Torpedos:
+         Type: matter/antimatter, variable yeild
+         Loc: forward (1)
+         Casings: 16
+        Disruptors:
+         Type: projectors
+         Loc: port/starboard wing (x1 = 2)
+        Shields:   grid-projected (TFS)
+                   distance-projected (TNG)
+        Cloak:     old Romulan design (hull conformal)
+
+Crew and Auxiliary Systems:
+        Crew:   12
+                24    (maximum life support)
+        Transporters:       1x4 person/cargo
+
+Sources:
+        Star Trek III: The Search for Spock
+        Star Trek IV: The Voyage Home
+        TNG "A Matter of Honor"
+        TNG "Redemption, Part I"
+        TNG "Unification 1"
+        Klingon Scout Vessel Blueprints, Lawrence Miller Designs
+        H. Keith Hamilton <ST21822@vm.cc.latech.edu>    
+
+OBERTH CLASS
+UNITED FEDERATION OF PLANETS
+
+Introduction:
+        Classification: Science
+        Mission:   Science, Transport
+        Service:   2270s-2370+
+        Design:    United Federation of Planets 
+        Ships:     USS Grissom
+                   SS Vico
+                   USS Tsiolkovski
+                   USS Biko
+                   USS Pegasus
+
+Structure:
+        X = 103m        (width)
+        Y =  59m        (height)
+        Z = 148m        (length)
+        Mass =  4e7 kg
+
+             __                 __
+      _  ,--'--`--.  _      ,--',_`--_____________
+     |_||____--____||_|    |____|==___________----`
+      (===(======)===)       (====(==========/ 
+       \\   `--'   //          `--'\      /   
+        \\_ ,--, _//            _,--\    /----._____ 
+         `-|    |-'           ,'_____\--/___________`---,
+            `__'              `-.____\___________,-----'
+
+             _________________
+            (==_______________|
+          ,--`.          \     
+        ,' ___ `. \\\\,,, |___
+       |  '\|/`  |      []|___`--.__ 
+       | |-(_)-| |=8= --  |___)   __)
+       |  `/|\'  |      []|___,--'   
+        `.     ,' ////''' |    
+          `--,'__________/____ 
+            (==_______________|
+
+
+Warp Systems:
+        Power:     matter/antimatter reactor (core in 2ndary hull)
+        Nacelles:  2 (inboard)
+        Design:    Oberth Class (specific)
+        Cruising:  Warp 5
+        Maximum:   Warp 8
+
+Impulse Systems:
+        Power:     fusion
+        Engines:   2
+        Design:    Oberth Class (specific)
+
+Tactical Systems:
+        Phasers: 
+         Type: transtator-induction
+         Loc: forward (x2) aft-starboard (x2) aft-port (x2)
+        Shields:   Navigation deflectors
+                   Projected tactical (hull-conforming)
+
+Crew and Auxiliary Systems:
+        Crew:   88         (typical)
+
+Sources:
+        Star Trek III: The Motion Picture
+        TNG "Hero Worship"
+        TNG "The Pegasus"
+        Starfleet Dynamics
+        Starfleet Prototypes
+        H. Keith Hamilton <ST21822@vm.cc.latech.edu>    
+
+D-7 (?) CLASS
+KLINGON EMPIRE
+
+Introduction:
+        Classification: Battlecruiser
+        Mission:   Battle, Exploration
+        Service:   ~2260-2270
+        Design:    Klingon Empire (Kronos?)
+
+Structure:
+        X = 152.4m      (width)
+        Y =  55.3m      (height)
+        Z = 214.4m      (length)
+        Displacement = 1.1e5 m^3
+
+                   .-. _ .-.     
+                  / /-'-`-\ \    
+             __.-(===========)-.__
+     ___.---'\     ( .. .. )     /`---.___
+    /.--------\_____`._O_.'_____/--------.\
+   /(                                     )\
+   \ \                                   / /
+    `'                                   `'
+
+    _                        _.-------,
+  .-.|                 _____/  \[_____|
+ ========______.------/____'---------[__
+ (    _,--------------\_`---.___________`--,
+  `--'                 `---------/  ______/
+                              __/__/_____/_____
+                             />- [      ]  |===\
+                             `-----------------'
+
+Warp Systems:
+        Power:     Matter/Antimatter Reactor
+        Nacelles:  2
+        Design:    Klingon TOS-era
+        Cruising:  Warp 5 
+        Maximum:   Warp 6
+        Emergency: Warp 8
+
+Impulse Systems:
+        Power:     fusion
+        Engines:   1
+        Design:    TOS Klingon
+
+Tactical Systems:
+        Photon Torpedos:
+         Type: M/AM, high yield
+         Loc: forward (1)
+         Casings: 50
+        Disruptors:
+         Type: projected disruption
+         Loc: starboard/port nacelle forward (x1 = 2)
+        Shields:   deflector shields (grid-projected)
+        Cloak:     early Romulan design
+        Stasis Field Generator
+
+Crew and Auxiliary Systems:
+        Crew:   454        (typical)
+        Transporters:   3x6 person
+                        1x18 person
+                        5x22 person
+                        2 cargo
+
+Sources:
+        "Federation Reference Series", Starfleet Printing Office
+        "Book of Klingon Plans", Micheal McMaster
+        TOS "Elaan of Troyas"
+        TOS "The Enterprise Incident"
+        TAS "More Tribbles, More Trouble"
+        H. Keith Hamilton <ST21822@vm.cc.latech.edu>    
+
+K'T'INGA CLASS
+KLINGON EMPIRE
+
+Introduction:
+        Classification: Battlecruiser
+        Mission:   Battle, Diplomatic, Exploration
+        Service:   ~2270-2360(?)
+        Design:    Klingon Empire (Kronos?)
+        Ships:     Kronos One 
+                   Amar
+                   Tong
+
+Structure:
+        X = 152.4m      (width)
+        Y =  57.3m      (height)
+        Z = 214.3m      (length)
+        Displacement = 1.2e5 m^3
+
+                   .-. _ .-.     
+                  / /-'-`-\ \    
+             __.-(===========)-.__
+     ___.---'\     ( .. .. )     /`---.___
+    /.--------\_____`._O_.'_____/--------.\
+   /(                                     )\
+   \ \                                   / /
+    `'                                   `'
+
+    _                        _.-------,
+  .-.|                 _____/  \[_____|
+ ========______.------/____'---------[__
+ (    _,--------------\_`---.___________`--,
+  `--'                 `---------/  ______/
+                              __/__/_____/_____
+                             />- [      ]  |===\
+                             `-----------------'
+
+Warp Systems:
+        Power:     Matter/Antimatter Reactor
+        Nacelles:  2
+        Design:    Klingon TFS-era
+        Cruising:  Warp 5 
+        Maximum:   Warp 8
+        Emergency: Warp 9
+        Failure:   Warp 9.4
+
+Impulse Systems:
+        Power:     fusion
+        Engines:   1
+        Design:    TOS Klingon
+
+Tactical Systems:
+        Photon Torpedos:
+         Type: M/AM, variable yeild
+         Loc: forward (1), aft (1)
+         Casings: 200
+        Disruptors:
+         Type: projected disruption
+         Loc: forward (x2), aft (x2), starboard/port (x2 = 4)
+        Shields:   deflector plating
+        Cloak:     early Romulan design
+
+Crew and Auxiliary Systems:
+        Crew:   375        (typical)
+
+Sources:
+        Star Trek: The Motion Picture 
+         (incl. Novelization "by" Gene Roddenberry)
+        H. Keith Hamilton <ST21822@vm.cc.latech.edu>    
+
+
+CONSTITUTION CLASS (pre-2270)
+UNITED FEDERATION OF PLANETS 
+ 
+Introduction:
+        Classification: Heavy Cruiser
+        Mission:   Multi-purpose vessel
+        Service:   Commissioned 2245 (est.) and decommissioned 2270 (est.)
+        Design:    UFP, Earth
+        Ships:     NCC-1017  USS Constellation
+                   NCC-1700  USS Constitution
+                   NCC-1701  USS Enterprise
+                   NCC-1705  USS Excalibur
+                   NCC-1706  USS Exeter
+                   NCC-1702  USS Farragut
+                   NCC-1707  USS Hood
+                   NCC-1703  USS Lexington
+                   NCC-1711  USS Potemkin
+ 
+Structure:
+        X = 127.1m      (width)
+        Y = 72.6m       (height)
+        Z = 288.6m      (length)
+        Mass = 1.9e8kg
+ 
+Constitution Class (USS Enterprise NCC-1701)
+
+   __________________          _-_               _      _-_      _            
+   \________________|)____.---'---`---.____    _(_).---'---`---.(_)_          
+                ||    \----._________.----/    \----._________.----/          
+                ||     / ,'   `---'               `\   `]-['   /'
+             ___||_,--'  -._                        `\.' _ `./'               
+            /___          ||(-                        ( (_) ) 
+                `---._____-'                           `._.'
+                                    
+    _________________       .-------. 
+   |________________|)   .-'         `-.
+                ||      /               \
+                ||     /                 \
+             ___||_,--|       _.--,       |
+            |_________|______/_.-. |      | 
+            |______   |      \_`-' |      | 
+                || `--|        `--'       |
+                ||     \                 / 
+    ____________||___   \               / 
+   |________________|)   `-.         .-' 
+                            `-------' 
+
+Warp Systems:
+        Power:     M/AMR lithium-augmented
+                   M/AMR dilithium-augmented (2267 refit)
+        Nacelles:  2
+        Design:    TOS Constitution-class
+        Cruising:  Warp 5(TOS)
+                   Warp 6(TOS) (2267 refit)
+        Maximum:   Warp 7(TOS)
+                   Warp 8(TOS) (2267 refit)
+        Emergency: Warp 8+(TOS)
+        Failure:   Warp 14.1(TOS) due to propulsion meltdown.
+ 
+Impulse Systems:
+        Power:     Fusion
+        Engines:   1 twin-port
+        Design:    TOS
+ 
+Tactical Systems:
+        Lasers (pre 2260):
+         Type: Capacitor-driven Medium power, mechanical ball turrets
+         Loc: dorsal forward (x2)
+              ventral port/starboard (x2 = 4)
+        Phasers (2260 refit):
+         Type: Warp coil-augmented from capacitors (transtator-technology)
+               Medium power
+         Loc: dorsal forward (x2) 
+              ventral port/starboard (x2 = 4)
+              ventral secondary hull port/starboard (x2 = 4)
+        Photon Torpedos:    
+         Type: M/AM warp-capable Low power
+         Loc: ventral forward, 1 twin launcher
+         Casings: 100 duranium-terminium general-purpose casings
+        Shields:   Navigation deflectors
+                   Tactical deflectors and screens (form-fitting).
+ 
+Crew and Auxiliary Systems:
+        Crew:      203 (pre-2260); 430 (2260)
+        Medical:   8-beds in Sickbay
+        Transporters:   4 Std Transporters
+                        5 Emergency
+                        2 Cargo
+        Tractor Beam: 1 emitter, ventral forward secondary hull
+
+Auxiliary Spacecraft
+        Shuttlebays:        1, Secondary hull aft
+        Shuttlecraft:       6 General-purpose shuttlecraft
+                            1 Aqua-shuttle
+ 
+Sources:
+        Franz Joseph: Technical Manual and Blueprints
+        Sternbach and Okuda: TNG Technical Manual
+        Okuda and Okuda: Chronology
+        Stephen Whitfield: The Making of Star Trek
+        All TOS Episodes
+        All TAS Episodes
+        All TNG Episodes
+        <st24n@jetson.uh.edu>
+
+ 
+CONSTITUTION CLASS (post-2270)
+UNITED FEDERATION OF PLANETS 
+ 
+Introduction:
+        Classification: Heavy Cruiser
+        Mission:   Multi-purpose military and exploration vessel.
+        Service:   (Re-)Commissioned 2270 (est.) and decommissioned 2295 (est.)
+        Design:    Earth, Starfleet
+        Ships:     NCC-1701  USS Enterprise
+                   NCC-1701A USS Enterprise
+ 
+Structure:
+        X = 140.4m      (width)
+        Y = 70.6m       (height)
+        Z = 301.9m      (length)
+        Mass = 2.2e8kg
+ 
+  ___________________          _-_                 _      _-_      _          
+  \__(==========/_=_/ ____.---'---`---.____      _|_|.---'---`---.|_|_        
+              \_ \    \----._________.----/      \----._________.----/        
+                \ \   /  /    `-_-'                  `.  `]-['  ,'
+            __,--`.`-'..'-_                            `.' _ `.'              
+           /____          ||                            | (_) | 
+                `--.____,-'                              `___' 
+                                    
+   __________________       .-------. 
+  /_________________-)   .-'         `-.
+             `.  \      /               \
+               `. \    /                 \
+            _____\ \--|       _.--,       |
+           /|________-|.-._  /_.-. |      | 
+           \|_____   -|`-'   \_`-' |      | 
+                 / /--|        `--'       |
+               ,' /    \                 / 
+  ___________,'__/___   \               / 
+  \_________________-)   `-.         .-' 
+                            `-------' 
+
+ 
+Warp Systems:
+        Power:  M/AMR dilithium-augmented linear
+                M/AMR dilithium-augmented linear/pulse (2285 refit)
+        Nacelles:  2
+        Design:    TFS Constitution-class
+        Cruising:  Warp 8 (TOS)
+                   Warp 7.4 (TNG) (2285 refit)
+        Maximum:   Warp 12 (TOS)
+                   Warp 9.0 (TNG) (2285 refit)
+        Emergency: Warp 12+ (TOS)
+                   Warp 9.2+ (TNG) (2285 refit)
+        Failure:   Warp 15+ (TOS)
+                   Warp 9.4+ (TNG) (2285 refit) due to propulsion meltdown.
+ 
+Impulse Systems:
+        Power:     Fusion
+        Engines:   1 twin-port
+        Design:    TFS
+ 
+Tactical Systems:
+        Phasers: 
+         Type: Warp coil-augmented from warp core (transtator-technology) 
+               High power mechanical ball-turrets
+         Loc: 9 banks of 2
+         Loc: dorsal/ventral forward (x2 = 4)
+              dorsal/ventral port/starboard (x2 = 8)
+              ventral secondary hull port/starboard (x2 = 4)
+              secondary hull aft (x2)
+        Photon Torpedos:
+           Type: M/AM warp-capable Medium power
+           Loc: dorsal secondary hull forward, 1 twin-launcher 
+           Casings: 100 duranium-terminium general-purpose casings
+        Shields:   Navigation deflectors
+                   Tactical deflectors and screens (form-fitting)
+ 
+Crew and Auxiliary Systems:
+        Crew:      500
+        Medical:   14-beds in Sickbay
+        Transporters:   4 Std Transporters
+                        4 Emergency
+                        2 Cargo
+        Tractor Beam: 1 emitter, ventral forward secondary hull
+ 
+Auxiliary Spacecraft
+        Shuttlebays:        1, Secondary hull aft
+        Shuttlecraft:       4 General-purpose shuttlecraft
+                            6 Workbees
+ 
+Sources:
+        Sternbach and Okuda: TNG Technical Manual
+        Shane Johnson: Mr. Scott's Guide to the Enterprise
+        Okuda and Okuda: Chronology
+        Stephen Whitfield: The Making of Star Trek
+        All TOS Episodes
+        All TAS Episodes
+        All TFS Movies
+        All TNG Episodes
+        <st24n@jetson.uh.edu>
+
+
+
+GALAXY CLASS
+UNITED FEDERATION OF PLANETS
+
+Introduction:
+        Classification: Explorer
+        Mission:   Exploration, Science, Defense
+        Service:   2360 - 
+        Design:    Utopia Planitia Fleet Yars, Mars, UFP
+        Ships:     USS Galaxy NCC-76037
+                   USS Yamato NCC-71807
+                   USS Enterprise NCC-1701-D
+
+Structure:
+        Docked          Stardrive Only
+         X = 467m        X = 259m       (width)
+         Y = 137m        Y = 126m       (height)
+         Z = 642m        Z = 360m       (length)
+        Displacement = 10e7 m^3
+        Mass =  4e9 kg
+        Area =  8e5 m^2
+        Decks = 42
+                                      _____
+                             __...---'-----`---...__
+                        _===============================
+   ,----------------._/'      `---..._______...---'
+   (_______________||_) . .  ,--'
+       /    /.---'         `/
+      '--------_- - - - - _/
+                `--------'
+                                     _____
+                                 _.-'     `-._
+                              .-'  ` || || '  `-.
+    _______________  _      ,'   \\          //  `.
+   /               || \    /'  \   _,-----._   /   \
+   |_______________||_/   /  \\  ,' \ | | / `.  //  \
+      |    |             _] \   / \  ,---.  / \   // \
+      |     \__,--------/\ `   | \  /     \  / |/   - |
+      )   ,-'       _,-'  |- |\-._ | .---, |  -|   == |
+      || /_____,---' || |_|= ||   `-',--. \|  -| -  ==|
+      |:(==========o=====_|- ||     ( O  )||  -| -  --|
+      || \~~~~~`---._|| | |= ||  _,-.`--' /|  -| -  ==|
+      )   `-.__      `-.  |- |/-'  | `---' |  -|   == |
+      |     /  `--------\/ ,   | /  \     /  \ |\   - |
+    __|____|_______  _    ] /   \ /  `---'  \ /   \\ /
+   |               || \   \  //  `._/ | | \_.'  \\  /
+   \_______________||_/    \   /    `-----'    \   /
+                            `.  //           \\  ,'
+                              `-._   || ||   _,-'
+                                  `-._____,-'
+                      ___
+         ___....-----'---`-----....___
+   =========================================
+          ___`---..._______...---'___
+         (___)      _|_|_|_      (___)
+           \\____.-'_.---._`-.____//
+             ~~~~`._ `---' _.'~~~~
+                    `-----'
+
+Warp Systems:
+        Power:     Matter/Antimatter Reactor (Secondary Hull)
+        Nacelles:  2 (Secondary Hull)
+        Design:    Galaxy Class 
+        Cruising:  Warp 6
+        Maximum:   Warp 9.6 (12 hours max)
+        Emergency: Warp 9.8
+        Failure:   Warp 9.9
+
+Impulse Systems:
+        Power:     Fusion Reactors
+        Engines:   1+2
+         One (main) on Secondary Hull, two on Primary Hull.
+        Design:    Ambassador Class
+         Impulse engines equipped with Subspace Field Sustainer Coils
+
+Tactical Systems:
+        Phasers:
+         Type: Type X, strips
+         Loc: 2 strips on Primary Hull (300 degree firing arc)
+              6 strips on Secondary Hull (one covered while docked)
+        Photon Torpedos:
+         Type: M/AM, warp sustainer coils, variable yield
+         Loc: Primary Hull, aft, 1 (covered while docked)
+              Secondary Hull, forward, 1
+              Secondary Hull, aft, 1
+         Casings: 300
+        Shields:   4 primary grids, 7.3e8 W dissipation rate
+
+
+Crew and Auxiliary Systems:
+        Crew:   760 + 252 non-Starfleet (standard)
+                5000 (maximum life support)
+        Medical:        50 beds in Sickbay + triage in holodecks
+        Transporters:   6 + 22 emergency + 8 cargo
+
+Auxiliary Spacecraft
+        Shuttlebays:    1 (main) on Primary Hull
+                        2 on Secondary Hull
+        Shuttlecraft:           10 Type-15 Shuttlepods
+                                 3 Type-7  Personnel shuttles
+                                 5 Type-6  Personnel shuttles
+                                 3 Type-9  Cargo Shuttles
+                                 4 Sphinx Workpods
+        Captain's Yacht: Docked to Primary Hull
+                         Impulse only, w/ sustainer coils
+                          X = 18m, Y = 8m, Z = 10m
+        Runabout Class Starships: 1-3, mission variable
+
+Sources:
+        Star Trek: The Next Generation Technical Manual 
+                (by Rick Sternback, Michael Okuda)
+        Star Trek: The Next Generation Technical Journal
+                (by Shane Johnson, Starlog Press)
+        Star Trek: The Next Generation Enterprise Cutaway Poster 
+                (by Christopher Cushman and Gary E. Richardson)
+        Joshua Bell <jsbell@acs.ucalgary.ca>
+        H. Keith Hamilton <ST21822@vm.cc.latech.edu>
+        Kevin A. Geiselman <kelly1@unix.cis.pitt.edu>
+----------------------------------------------------------------------
+

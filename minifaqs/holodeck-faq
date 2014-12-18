@@ -1,0 +1,739 @@
+Newsgroups: rec.arts.startrek.tech
+Subject: REC.ARTS.STARTREK.TECH FAQ: Holodeck and Computers
+From: inexorabletash@hotmail.com (Joshua Sean Bell)
+Reply-To: inexorabletash@hotmail.com (Joshua Sean Bell)
+Expires: 21 May 2003 00:01:13 CDT
+X-Original-File: holodeck-faq.htm
+Organization: Section 31
+
+                          Holodeck and Computers FAQ
+                                       
+   Last modified: Friday, 25 April 2003 02:03 AM -0700
+   Maintained by: Joshua Bell, inexorabletash@hotmail.com
+   Archive site (WWW): http://www.calormen.net/Star_Trek/FAQs/
+   FTP site (text versions): ftp://ftp.cc.umanitoba.ca/startrek/minifaqs/
+     _________________________________________________________________
+   
+   Copyright (c) 1994-2003, Joshua Bell. Not in the public domain.
+   Permission to distribute this document, unedited and including this
+   copyright notice is granted, provided no fees are charged for access
+   beyond charges for downloading or connection time from a commercial
+   information service. Publication of this document in a magazine or
+   journal (in any media format) must be approved by the author.
+   
+   Star Trek (R), Star Trek: The Next Generation (R), Star Trek: Deep Space
+   Nine (R) and Star Trek: Voyager (R) are trademarks of Paramount Pictures
+   registered in the United States Patent and Trademark Office.
+     _________________________________________________________________
+   
+Contents:
+
+    1. How real is real? - Mechanics of the Holodeck
+    2. Where does it all end? - The Holodeck and troublemakers
+    3. What if...? - Limitations and possibilities of the Holodeck
+    4. Holodoc - Voyager's Holodeck technology
+    5. Will it run Windows? - The Enterprise computers
+    6. Credits
+    7. References
+     _________________________________________________________________
+   
+1. How real is real?
+
+   "How does it work?"
+   
+   A Holodeck can create simulations in the following ways:
+     * The walls can generate holographic images which appear to extend
+       for an unlimited distance. For example, the walls in "Encounter at
+       Farpoint" and "Ship In A Bottle" [TNG].
+     * Holograms can be projected into space. For example, a when Picard
+       went horseback riding ("Pen Pals" [TNG]), most of the trees were
+       probably intangible projections since he wasn't going to run into
+       them.
+     * Holograms can be augmented with force beams to simulate solid,
+       tangible objects. An example would be the book Picard threw in
+       "Ship In A Bottle" [TNG].
+     * Holograms and force beams can be augmented with replicator
+       technology to provide actual substance. Food on the holodeck would
+       be of this nature, despite what Paris said in "The Cloud" [VOY]
+       (he was probably joking) or eating it would be very unpleasant.
+       Most inanimate objects which are likely to be eaten or have
+       properties difficult to simulate (e.g. water) would be simulated
+       in this way.
+     * An animate object is comprised of a partially stable form of
+       matter created by the Holodeck replicators for use in the Holodeck
+       only. This material is stable only within a Holodeck or holosuite,
+       and degrades into energy if removed. (Encyclopedia).
+       This is matter held in place by force beams operating at a
+       molecular level, as opposed to actually replicating the object
+       down to the molecular bonds. (Speculation based on the description
+       in "Phage" [VOY] of how the "HoloDoc" works.) Without the force
+       beams, the object disintegrates. Examples would be the gangsters
+       in "The Big Goodbye" [TNG], Picard's horse in "Pen Pals" [TNG], or
+       Minuet in "11001001" [TNG].
+       
+   Note that the wall/hologram/force beam simulations are easy for the
+   holodeck to carry out, and that the hologram/force beam/replicator
+   simulations were possible during "Encounter at Farpoint" (when Wesley
+   got soaked).
+   
+   It is possible, however, that the Holodeck-matter simulations, were
+   not possible before the upgrades made by the Bynars in "11001001"
+   [TNG]. This would explain Riker's surprise at the realism of the
+   Minuet simulation.
+   
+   Also, if an object's status changes the simulation type will change
+   seamlessly as well. For example, someone sees a distant tree (walls),
+   approaches it (hologram), leans on it (force beams), breaks off a
+   branch (Holodeck-matter), then picks and eats an apple (replicated).
+   
+   ....
+   
+   "What about eating on the Holodeck? Does Troi do it to keep thin with
+   all that chocolate she eats?"
+   
+   Any food consumed on the Holodeck would be replicated. If it were any
+   of the other types of simulation, it would dissociate or evaporate
+   when you left the holodeck, which doesn't sound at all pleasant.
+   
+   ....
+   
+   "What is this 'meat puppet' description I've heard used?"
+   
+   A 'meat puppet' is a old term resurrected to describe a replicated
+   humanoid form created on the Holodeck, and dragged around by force
+   beams. If the force beams failed, you'd be left with a limp, lifeless
+   body.
+   
+   (This dates back to before we'd ever heard of Holodeck-matter.
+   Creative, weren't we?)
+   
+   ....
+   
+   "So can you take things off of the Holodeck?"
+   
+   Yes. Any object replicated on the Holodeck may leave. Unfortunately,
+   it is sometimes hard to tell what is replicated, and what is not.
+   Snow, such as the snowball thrown by Wesley in "The Naked Now" is
+   easily replicated, and dampness is hard to simulate. The book thrown
+   by Picard in "Ship In A Bottle" [TNG] would be easily simulated by
+   force beams and thus was not replicated.
+   
+   The paper in "Elementary, Dear Data" [TNG] was likely simulated until
+   the computer realized that it was going to be carried off the
+   Holodeck, at which point it would have been seamlessly replaced with a
+   replicated copy.
+   
+   ....
+   
+   "Didn't Picard lie to Moriarty (in "Elementary, Dear Data" [TNG])?"
+   
+   According to various reliable sources, that was Gene Roddenberry's
+   intention. If the paper could have left, Moriarty should have been
+   able to, goes the logic. Fortunately, this scene was cut, and as
+   always, canon is what we see on the screen, big or small. This means
+   the whole argument against replicating people holds - that the
+   computer cannot store that much information.
+   
+   ....
+   
+   "What about beaming things off the Holodeck (ala "Ship In A Bottle"
+   [TNG])?"
+   
+   This has never been tried, as explained in the episode, which is why
+   the computer was unable to simulate the results. Replicated objects
+   should be able to be transported out of the Holodeck, but anything
+   relying on the force beams would instantly collapse.
+   
+   As for uncoupling the Heisenberg Compensators - that would give a
+   random quantum state to each particle in the transported object. It
+   would be akin to a molecular-resolution transport - probably deadly
+   for any living being.
+   
+   ....
+   
+   "Now wait a second. How come something simple like the chair in "Ship
+   In A Bottle" [TNG] wasn't replicated?"
+   
+   They were testing beaming something composed of the 5th type of
+   simulation; an object made of Holodeck matter, just like Moriarty and
+   the Countess. Obviously a purely replicated chair wouldn't do for this
+   experiment, so Geordi probably tweaked the chair to be the right kind
+   of simulation to use for the test.
+   
+   ....
+   
+   "What's this about 'HoloSex'?"
+   
+   If current trends are a pattern for the future to follow, then Virtual
+   Reality Sex will be alive and well long into the 24th century. Quark's
+   bar on DS9 has personal holosuites on the second floor. Various
+   stimulating programs are available.
+   
+   In "The Perfect Mate" [TNG], Riker manages to croak out something
+   about "I'll be in Holodeck 4..." after an encounter with the
+   metamorph. No proof that he did anything, true. Minuet (in "11001001"
+   [TNG]) was "As real as you need me to be." Uh-huh. Geordi doesn't seem
+   to have much luck off the 'deck, it seems, nor does Reginald Barclay.
+   
+   Zek in "The Nagus" [DS9] certainly enjoys those holosuites!
+   
+   Draw what conclusions you will.
+   
+   ....
+   
+   "What if you urinate/defecate/excrete whatever on the Holodeck?"
+   
+   One would hope the Holodeck is smart enough to clean up after you. It
+   probably gets transmuted into some form the bulk matter stores can
+   use, and saved for later use by replicators or the Holodeck again. The
+   ultimate in recycling.
+   
+   And, er, if another real person in the Holodeck is the... recipient of
+   your, er, donation? The Holodeck doesn't interfere, and we have that
+   little charmer, Alexander, to prove it. (Thanks to Benjamin Chee for
+   pointing this one out.)
+   
+   ....
+   
+   "Can you get hurt on the Holodeck?"
+   
+   Yes. Even when it isn't malfunctioning, the simulation can't protect
+   you from your own stupidity. Broken ribs and arms from cliff diving
+   and other sports practiced on the Holodeck are often seen treated in
+   Sick Bay.
+   
+   ....
+   
+   "But the replicators can't even make unhealthy food!"
+   
+   Replicators can (within limits of technology and energy) produce
+   anything for which they have a pattern. Certain objects may need
+   security clearance. But you can have the replicator make a glass of
+   water, and use the glass as a weapon - it may be smart, but it's not
+   foolproof.
+   
+   ....
+   
+   "What happened to the "arch" they used in the first season?"
+   
+   Its intended use was as a way to program the Holodeck and access the
+   ship's computer, as well as a virtual reality "safeword". In later
+   episodes, they just used the "exit" and programmed the computer by
+   voice. It is still around, recently seen in "Ship In A Bottle" [TNG].
+   The arch was how Moriarty first learned that he was a simulation, and
+   gained control of the ship in "Elementary, Dear Data" [TNG], and it
+   was seen in Star Trek: Generations as well.
+     _________________________________________________________________
+   
+2. Where does it all end?
+
+   "How do they manage to keep walking for hours and hours?"
+   
+   The Holodeck has a force field treadmill. If its occupants get too
+   close to the walls, they are shifted away. Since the Holodeck can
+   modify its gravity in 3 dimensions, the occupants won't notice any
+   inertial change. The novel "Reunion" [TNG] (while non-canon) goes into
+   details about this.
+   
+   ....
+   
+   "But what about the walls seen in "Encounter at Farpoint" [TNG] and
+   "Ship In A Bottle" [TNG], demonstrated by Data?"
+   
+   In "Encounter at Farpoint" [TNG], Data threw a Holodeck-generated rock
+   at the wall. There are a few possibilities. Either the computer
+   realized the intent of the demonstration, and didn't replace the rock
+   with an image on the Holodeck wall; or the "simple pattern" of that
+   simulation didn't allow for treadmill-scrolling; or the Holodeck
+   computer wasn't quite powerful enough, pre-Bynar intervention.
+   
+   In "Ship In A Bottle" [TNG], Data throws his own communicator at the
+   wall. The Holodeck must have safeguards not to summarily destroy
+   things it didn't create, so it didn't do anything to affect the
+   communicator.
+   
+   ....
+   
+   "What happens if two real people enter a Holodeck and start running
+   away from each other?"
+   
+   The simplest answer is that the Holodeck "compartmentalizes", in
+   effect becoming a separate Holodeck for each person within it. In
+   reality, the two people would probably be only a few meters apart, but
+   would be separated by a Holodeck-projected "wall". If they turned to
+   look at each other, they would see an image of the other projected on
+   that wall.
+   
+   Benjamin Chee points out that Star Trek: Generations strongly supports
+   this notion; whilst on the simulation of the seagoing Enterprise,
+   Picard calls for the Holodeck arch and it appears on the ship's deck.
+   But earlier, Worf and Crusher were sent overboard, below the level of
+   the ship's deck and therefore below the floor of the Holodeck, unless
+   the holodeck does compartmentalize to some degree.
+   
+   ....
+   
+   "What if they take a real rock in with them, walk away from each other
+   (past the physical limits of the Holodeck) and then toss the rock back
+   and forth?"
+   
+   This one is too easy. The holodeck could treat the rock in just the
+   same way as it would treat a person. When it leaves the hand of the
+   thrower, the Holodeck "wraps" it in its own miniature simulation, and
+   hides it from the two people, who (in their own mini-Holodeck) see
+   only an image of the rock. The rock is then moved (with force beams)
+   from the thrower to the catcher, given the appropriate kinetic energy
+   along the way. From the rock's point of view nothing out of the
+   ordinary happens.
+   
+   ....
+   
+   "So what if two people take a long rope, and start walking away from
+   each other?"
+   
+   The answer in this instance could be that the Holodeck hides part of
+   the rope, and projects an image of a tightening rope along with force
+   beam-generated tension.
+   
+   In general, though, the answer to these "boggle the Holodeck"
+   questions is that no, it's not perfect. You will encounter limitations
+   to the technology, and gaps in the 'reality' will become apparent.
+   However, you really do have to be looking for problems to find them,
+   such as the left-right reversal in "Ship In A Bottle" [TNG]. (Benjamin
+   Chee)
+     _________________________________________________________________
+   
+3. What if...?
+
+   "Can you go swimming on the Holodeck?"
+   
+   Yes. Cliff diving has been mentioned as a recreation sport aboard the
+   Holodeck (in "Conundrum" [TNG]), as has kayaking ("Transfigurations"
+   [TNG]). Worf and Beverly also take a dip in Star Trek: Generations.
+   
+   "So does it replicate all of that water?"
+   
+   Probably not. What would likely happen is that a "personal space" of
+   water would be replicated around the person, and the rest of the water
+   in the pool, river, etc, would be a visual and auditory simulation.
+   There is no canon evidence one way or the other, however, although in
+   "Encounter at Farpoint" [TNG], there was enough real water present to
+   soak Wesley.
+   
+   "So what if someone is scuba diving, and the Holodeck door opens?"
+   
+   Very likely, the force beams would give the sensation of a water
+   surface over the doorway. Depending on the simulation, it might be
+   possible for someone to wander onto a Holodeck, in normal duty
+   uniform, and walk around someone who is swimming several meters below
+   the "surface" of the pool. Only the swimmer would feel the sensation
+   of water around them. Again, no canonical evidence either way.
+   
+   ....
+   
+   "How about a Holodeck within the Holodeck?"
+   
+   This is done in "Ship In A Bottle" [TNG]. They end up with a Holodeck
+   (in which Picard was in control, and sent Moriarty away) inside a
+   Holodeck (the real one, in which Moriarty took control) by the end of
+   the episode. Is there a limit? Probably. No evidence for what that
+   limit might be.
+   
+   ....
+   
+   "Can you get the Holodeck to simulate someone?"
+   
+   Yes. Although done numerous times, including "Ship In A Bottle" [TNG]
+   and "A Matter of Perspective" [TNG], and "The Siege" [DS9]; "Hollow
+   Pursuits" [TNG] is the prime example of this, and brings up the
+   question...
+   
+   "Is it ethical to simulate someone without their permission?"
+   
+   Systems of ethics are by no means universal across cultural lines. Nor
+   can we extend our 20th century foibles to the 24th century, where such
+   things may be common place. In every instance, however, people thusly
+   simulated have reacted negatively when they find out - for example,
+   Troi, Riker, and Picard in "Hollow Pursuits" [TNG] and Dr. Leah Brahms
+   in "Booby Trap" [TNG] and "Galaxy's Child" [TNG].
+   
+   "So does the computer stop these simulations?"
+   
+   Nope. Moriarty was able to do it in "Ship In A Bottle" [TNG], without
+   any special permissions. It is amusing, however, to watch the episode
+   again, and see how the simulated characters appear slightly stiff.
+   
+   ....
+   
+   "Could you simulate the Enterprise bridge from the Holodeck, and use
+   it to take over?"
+   
+   The simulation would not be a problem - the Enterprise computer has
+   extensive files of all Federation starship layouts, as shown in
+   "Relics" [TNG].
+   
+   In three episodes, the Enterprise has been controlled from the
+   Holodeck - by Barclay in "The Nth Degree" [TNG], with a neural
+   interface; in "Elementary, Dear Data" [TNG], where Moriarty somehow
+   cracked the security codes via the Holodeck Arch; and in "Ship In A
+   Bottle" [TNG], where Picard inadvertently gave Moriarty the security
+   codes.
+   
+   ....
+   
+   "Why not just have single-person Holodecks? For interaction, the
+   computer could just link them all together!"
+   
+   According to the TNG Tech Manual, there are four primary Holodecks and
+   a number of personal ones. They could indeed be linked, but part of
+   the fun of a Holodeck is the interaction with other people, knowing
+   that they are real.
+   
+   These do exist on Deep Space 9 in Quark's Bar, and are called
+   holosuites. Some are quite small ("A Man Alone" [DS9]), others large
+   enough for a number of people ("Blood Oath" [DS9]).
+   
+   ....
+   
+   "Why do people get dressed up before going to the Holodeck? Can't it
+   provide the period costumes?"
+   
+   Yes. In First Contact Picard has clothing simulations created for
+   himself and Lilly. But for the most part, the crew probably wants to
+   get "into character" before entering the simulation.
+   
+   ....
+   
+   "How do you fit two entire baseball teams (real people, not
+   holographic extras) into one of Quark's Holosuites?" "Take Me Out To
+   The Holosuite" [DS9]
+   
+   We do know that Quark's holosuites come in various sizes. If you're
+   talking about at least 18 people, each would require almost 4 square
+   meters of area, or 72 square meters - and that's conservative. Imagine
+   they all start walking out the door in single file - the computer has
+   to shuffle each player's compartment around so that they end up by the
+   door in the order they decide to leave! (In the episode, we never see
+   a mass entrance or exodus, so it's possible that the holosuite does
+   have some limitations). That's about a 9 meter by 9 meter space - a
+   full sized holodeck by any account. But then again, there's no
+   evidence that Quark doesn't have something of that size tucked in the
+   back - for use only by clients with sufficient Latinum, of course.
+   
+   The poster who asked this question on the newsgroup (Marco Antonio
+   Checa Funcke) after seeing the preview for the episode proposed that
+   perhaps the docked Vulcan starship's holodeck was used. Michael Welch
+   answers that they definitely did not use the Vulcan ship because at
+   the beginning of the episode, the Vulcan captain tells Sisko he needs
+   to schedule holosuite use and Sisko refers him to Quark. The Vulcan
+   captain at that point tells Sisko that it's a baseball program he's
+   developed.
+   
+   ....
+   
+   "Wasn't there a Holodeck on the original Enterprise? I'm sure I
+   remember...."
+   
+   Not in TOS. However, in "The Practical Joker" [TAS] the recreation
+   deck had an environment simulator that used holograms and "stock"
+   effects to produce an effect similar to the Holodeck, but not as
+   realistic or convincing. The in that episode the computer
+   malfunctions, trapping Uhura, Sulu and McCoy in a series of hostile
+   environments.
+   
+   This is probably what most people remember, and also the inspiration
+   for the Holodeck itself on TNG.
+   
+   Sources like "Mr. Scott's Guide to the Enterprise" mention similar
+   things, including rooms with hologram projectors for the walls alone,
+   but no canonical evidence exits.
+     _________________________________________________________________
+   
+4. Holodoc - Voyager's Holodeck technology
+
+   "Phage" [VOY] describes Voyager's medical holographic technology in
+   explicit detail. Unfortunately, I missed the episode. I'm indebted to
+   Allen G. Newman who wrote most of the following as an article in
+   rec.arts.startrek.tech:
+   
+     Voyager's explanation is actually the best yet; it works the best
+     for explaining all the old questions about holo-matter from TNG.
+     Apparently, matter on the Holodeck has the potential to be as
+     detailed as real matter down to the level of molecular resolution.
+     Instead of being composed of molecules, full-resolution
+     holo-objects are composed of molecule-sized magnetic bubbles which
+     can be individually manipulated through three dimensions by the
+     computer.
+     
+     The fact that the movement of individual holo-molecules can be
+     controlled is of vital importance to the holo-lung being able to
+     work. Replicators cannot create living matter because it is beyond
+     the ability of the computer to "jump-start" all the necessary
+     electron shell activity and atomic motions that determine
+     biochemical activity (movement and transformation of molecules
+     through the system). This limitation is irrelevant to the
+     simulation of a lifeform on the Holodeck, though; since the
+     Holodeck can move, reshape, create and destroy the magnetic-bubble
+     molecules at will, there is no need to worry about the subatomic
+     physics that make biochemistry happen on its own in real
+     life-forms.
+     
+     Even so, simulating even relatively simple lifeforms (such as
+     humanoid lungs) stretches the capabilities of the system to the
+     limit. Neelix had to be held motionless because it was beyond the
+     ability of the computer to dynamically reorient such a complex,
+     high-resolution construct. This same limitation makes it currently
+     impossible to do something as incredible as having the Holodeck
+     reanimate the complete transporter pattern of a person who had
+     died, which could theoretically allow a person a kind of
+     immortality within a Holodeck's simulated confines. (An afterlife
+     in which a person could forever live in whatever environment the
+     person chose, while still interacting with real people and objects
+     visiting the Holodeck may become possible with exponential advances
+     in computer processing.)
+     
+     Note that holo-matter only has the potential to be detailed down to
+     the molecular level. In most cases, the computer would have an
+     easier time by using much larger magnetic bubbles that merely
+     simulated surfaces and textures that can be seen and felt by people
+     in everyday interactions. The image of the holo-doctor is almost
+     certainly just an empty shell because there's no reason to waste
+     computer power simulating the workings of internal organs.
+     
+   Allen makes the assumption that Voyager's sick-bay holographic system
+   works the same way as the main Holodeck on board Voyager, and that
+   this is the same again as the Enterprise's Holodecks. On the other
+   hand, I think the system has just evolved over time, and that
+   Voyager's sick bay is using the latest and greatest technology.
+   
+   ....
+   
+   "Why are they being so liberal with the Holodeck on Voyager? Aren't
+   they short on energy?"
+   
+   In "Parallax" [VOY] it is mentioned that the crew tried to hook the
+   Holodeck power systems to the main power systems of Voyager and blew
+   out a conduit due to incompatibilities. The Holodeck having its own
+   power source may not make much sense, but at least the production crew
+   justified the crew's use of it.
+     _________________________________________________________________
+   
+5. Will it run Windows?
+
+   "So tell me about the computers."
+   
+   According to the TNG TM, the Enterprise has three main computers. Two
+   reside in the Primary Hull (the saucer); they are vertical cylinders,
+   about 8 decks high, and located on opposite sides of the saucer,
+   flanking the bridge. The third computer is located in the Secondary
+   Hull (engineering), and is smaller than the other two cores; it
+   controls the Stardrive section when the ship separates.
+   
+   We've seen the computer cores a number of times. In "Evolution" [TNG]
+   the nanites were attacked in the computer cores. The set is probably
+   meant to be just one deck of the multi-deck computer core, with the
+   room seen the hollow central portion.
+   
+   The computers are networked with each other, and with the rest of the
+   ship via the ODN - the Optical Data Network. The ODN has enough
+   processing power on its own to take over limited control of the ship
+   in case of a complete computer failure.
+   
+   ....
+   
+   "Why do the displays and touch pads work when the computers are down?"
+   
+   The displays use "nanoprocessors" - cell sized mechanical computers -
+   to display information. The display itself contains data polled from
+   the ODN, and based on user selections, displays whatever is
+   appropriate. So even if the computers go down, whatever information is
+   (1) already on the ODN (or ODN backups) or (2) in the display itself
+   can be selected and displayed.
+   
+   ....
+   
+   "Why aren't the computers distributed?"
+   
+   The three main computer cores are equipped with low level subspace
+   field generators. This allows signal propagation within the cores at
+   Faster-Than-Light (FTL) speeds, allowing the computers to perform much
+   faster than anything constructable given 20th century technology, even
+   theoretically. This cannot be applied (by 24th century technology) to
+   smaller computers.
+   
+   Once again, the ODN has enough distributed computational power on its
+   own to run the ship, if all the cores are rendered inoperable. So the
+   redundancy is there; look at how often on the show the computers are
+   inaccessible, yet the ship can still be controlled. Also, all of the
+   consoles are also operating independently. They have nanoprocessors
+   and are always receiving a flood of data from the network, and
+   interpreting and displaying it as the user wants it. So the
+   computation as we think of it is distributed. Think of it as using a
+   workstation farm for interfaces and data visualization, while running
+   big jobs on a few networked Crays.
+   
+   ....
+   
+   "Why the redundancy in the primary hull? Shouldn't the cores be in the
+   secondary hull?"
+   
+   We're not sure. The TNG Blueprints have the secondary hull computer
+   core to one side of the ship centerline, and an equal-sized ballast
+   space on the other. Galaxy-class ships do appear to be designed by
+   committee, so maybe it was just cost.
+   
+   ....
+   
+   "How big is a kiloquad?"
+   
+   This hasn't been answered, and in the Encyclopedia, it says:
+   
+     No, we don't know how many bytes are in a kiloquad. We don't even
+     want to know. The reason the term was invented was specifically to
+     avoid describing the data capacity of Star Trek's computers in
+     20th-century terms. It was feared ... that any such attempt would
+     look foolish in just a few years, given the current rate of
+     progress in that field.
+     
+   However, many r.a.st.tech contributors have converged on kiloquad to
+   mean 1000 (kilo) * 1 quadrillion bytes (or bits, but we'll stick with
+   bytes for the explanation), the premise being that the phrase "quad"
+   came into use instead of "pet" for Petabyte, since that sounds dumb.
+   Then the kilo-, Mega- and Giga- prefixes were recycled.
+   
+   Depending on where you live, a quadrillion is either 10^15 (American
+   definition) or 10^24 (European definition). If Americans came up with
+   this definition, that makes a kiloquad 10^18 bytes, which is around
+   2^60 bytes, which is about a billion gigabytes. If a European came up
+   with this definition, we're talking about 2^90 bytes, which is a
+   trillion gigabytes. Either way, we're talking a lot of bits.
+   
+   Is this technologically feasible, given that an isolinear chip, quoted
+   at 2.15 kiloquad in the TNG TM is about the size of a microscope
+   slide?
+   
+   From H. Peter Anvin:
+   
+     ...The 2.15 kqd isolinear chips [would have] a bit density of
+     2.94e+15 bits/mm^3 (I have assumed the dimensions to be 90x30x2.5
+     mm, this is probably on the high side if you exclude the part where
+     you handle the chip); that means each bit could form a cube 7.0 nm
+     (70 [angstrom]) to the side. The chips are optical, which I assume
+     means they are read and written with electromagnetic radiation that
+     behaves somewhat approximately like light. 7 nm is in the far
+     ultraviolet region-near X-ray region (visible light ends at about
+     200 nm) which is really pushing the limit. Assuming some form of
+     multi-state encoding that may exist may push this down to near UV
+     which would then be a bit more practical to deal with, and more
+     "optical", but that is irrelevant.
+     
+     Hence, what we "know" about ST computer technology seems to
+     correlate pretty well to the definition 1 quad = 1 quadrillion
+     [American] bytes. It may be bits or bytes (it is only a factor of
+     8, obviously... it changes 7 nm to 14 nm if it is bits not bytes),
+     but it seems to fit pretty well.
+     
+   ....
+   
+   "But a quad is a unit of energy!"
+   
+   Words can have more than one meaning.
+   
+   ....
+   
+   "In "The Nth Degree" [TNG] when Barclay was taking over the core, why
+   not just disconnect that core and use one of the other two?"
+   
+   I can't remember the details, but presumably he took over the entire
+   ODN as well. He'd have to in order to run the ship through the
+   Holodeck (which have, BTW, their own almost-distinct computers (c.f.
+   "Emergence" [TNG])).
+     _________________________________________________________________
+   
+6. Credits:
+
+     * Michael M. Welch, mwelch@netcom.com
+     * John F. Meyer Jr., gtd322a@prism.gatech.edu
+     * H. Peter Anvin, hpa@ahab.eecs.nwu.edu
+     * Benjamin Chee, cheeweit@iscs.nus.sg
+     * Charles Anthe, anthec@libertynet.org
+     * Allen G. Newman, anewman@charlie.usd.edu
+     _________________________________________________________________
+   
+7. References:
+
+   See the Reading List FAQ for more details on the reference volumes
+   mentioned above and below.
+   
+   The question of "what is canon" has been argued for years in the Star
+   Trek newsgroup hierarchy. In the realm of technical discussions, this
+   can be refined to the question of "what evidence is factual, and what
+   is apocryphal". These FAQs follow the currently dominant notion that
+   "canon" is aired live-action material and nothing more, with the
+   caveat that materials produced off-camera by the production crew are
+   often (but not always) reliable predictors of the direction future
+   canonical material will follow, and are therefore granted a special
+   "quasi-canonical" status. Any other material falls into the realm of
+   speculation - it may be perfectly well grounded speculation useful for
+   building up technical arguments, or wild flights of fancy that have no
+   rational basis.
+   
+   In addition, more recently presented information is considered to
+   supercede old information, unless the weight of the evidence supports
+   the original data. While this may seem highly biased and may be eyed
+   with some skepticism as a form of Orwellian "newthink", it is a more
+   useful predictor of what those directly responsible for the creation
+   of the series are likely to include as canonical material in the
+   future.
+   
+   For example, the excellent and groundbreaking Star Fleet Technical
+   Manual, by Franz Joseph created in the 1970's was a very well thought
+   out look at the technical world of Starfleet just slightly beyond what
+   was seen in the original series. Unfortunately, and perhaps for purely
+   arbitrary reasons, the future development of "canon" Star Trek
+   diverged from this speculation. This in no way implies that there was
+   anything wrong with that volume or any others, merely that due to
+   later "evidence", it can no longer be regarded as an authoritative
+   overview of Trek technology. On the other hand, the author performed a
+   lot of research to create it, and therefore its speculation should not
+   be dismissed out of hand.
+   
+   That said, we are dealing with a universe in the process of being
+   created by scores of (usually) non-technical people, aiming to provide
+   weekly entertainment for a mass audience. There are many
+   inconsistencies even amid the canonical material, and often times the
+   wildest speculation on the newsgroup makes more sense than what we see
+   in the episodes.
+   
+   Canonical material:
+     * Star Trek: Voyager [VOY]
+     * Star Trek: Deep Space Nine [DS9]
+     * Star Trek: The Next Generation [TNG]
+     * Star Trek feature films
+     * Classic Star Trek [TOS]
+       
+   Quasi-canonical material:
+     * The Star Trek Encyclopedia: A Reference Guide to the Future
+     * Star Trek Chronology: The History of the Future
+     * Star Trek: The Next Generation Technical Manual
+     * Star Trek: Deep Space Nine Technical Manual
+     * The Making of Star Trek
+     * Other "behind the scenes" information from the production crew,
+       including:
+          + Newsgroup postings
+          + Convention presentations
+          + Interviews
+          + Email conversations
+       
+   Highly regarded, but non-canonical material:
+     * Star Trek: The Animated Series [TAS]
+     * Mr. Scott's Guide to the Enterprise
+     * Star Fleet Technical Manual
+     * Starlog's Star Trek: The Next Generation Technical Journal
+     * Other "reference" guides
+     * Novels, incl. novelizations of films and episodes
+     * Blueprints, drawings, photographs, models, etc.
+     _________________________________________________________________
+   
+   Joshua Bell, inexorabletash@hotmail.com
+

@@ -1,0 +1,1347 @@
+From: hinson@london.physics.purdue.edu (Jason W. Hinson)
+Newsgroups: rec.arts.startrek.tech,rec.answers,news.answers
+Subject: Relativity and FTL Travel--PART IV  (suggested reading)
+Followup-To: rec.arts.startrek.tech
+Date: Thu, 11 Jan 2001 20:56:46 +0000 (UTC)
+
+Archive-name: star-trek/relativity_FTL/part4
+Posting-Frequency: bimonthly for r.a.s.tech, monthly for news.answers
+
+
+=============================================================================
+                          Relativity and FTL Travel
+                                 
+               by Jason W. Hinson (hinson@physics.purdue.edu)
+-----------------------------------------------------------------------------
+                                 
+      Part IV: Faster Than Light Travel--Concepts and Their "Problems"
+                                 
+=============================================================================
+Edition: 5.1
+Last Modified: August 26, 2000
+URL: http://www.physics.purdue.edu/~hinson/ftl/
+FTP (text version): ftp://ftp.cc.umanitoba.ca/startrek/relativity/
+
+
+
+     This is Part IV of the "Relativity and FTL Travel" FAQ. It discusses
+the various problems involved with FTL travel and how they apply to
+particular FTL concepts. This part of the FAQ is written under the
+assumption that the reader understands the concepts discussed in Part I of
+this FAQ which should be distributed with this document.
+     For more information about this FAQ (including copyright information
+and a table of contents for all parts of the FAQ), see the Introduction to
+the FAQ portion which should be distributed with this document.
+
+
+Contents of Part IV:
+Chapter 6: Introduction to the FTL Discussion
+     6.1 A Few Notes On The Meaning of FTL Travel
+Chapter 7: The First Problem: The Light Speed Barrier
+     7.1 Effects as One Approaches the Speed of Light
+Chapter 8: The Second Problem: FTL, Causality, and Unsolvable Paradoxes
+     8.1 What is Meant Here by Causality and Unsolvable Paradoxes
+     8.2 How FTL Travel Implies Violation of Causality
+     8.3 How We Get Unsolvable Paradoxes
+Chapter 9: FTL Concepts with these Problems in Mind
+     9.1 Tachyons (Without Special Provisions)
+     9.2 Using a Special Field/Space/etc. (W/o Special Provisions)
+     9.3 "Folding" Space (Without Special Provisions)
+     9.4 Space-Time Manipulation (Without Special Provisions)
+     9.5 Special Provisions
+          9.5.1 Parallel Universes
+          9.5.2 Consistency Protection
+          9.5.3 "Producing" Restricted Space-Time Areas
+          9.5.4 A Special Frame of Reference for the purpose of FTL Travel
+Chapter 10: Some Comments on FTL Travel in Star Trek
+     10.1 Which Provision is Best for Explaining Warp Travel
+     10.2 Subspace as a Special Frame of Reference
+     10.3 The "Picture" this Gives Us of Warp Travel
+     10.4 Some Notes on Non-Warp FTL Travel and Time Travel in Trek
+     10.5 To sum up...
+Chapter 11: Conclusion
+
+
+
+
+
+Chapter 6: Introduction to the FTL Discussion
+
+     The following discussion completes the purpose of this FAQ by
+considering faster than light travel with relativity in mind. After this
+brief introduction, I will discuss the general problems associated with FTL
+travel. These problems will apply differently to different FTL concepts, but
+I need to go over the general idea behind the problems first. After this
+general discussion of the problems, we will consider their applications to
+specific FTL concepts. We will also consider possible, conceptual
+"solutions" to the particular problem that seems to plague all FTL concepts.
+Finally, because this FAQ is written for the rec.arts.startrek.tech
+newsgroup, I will go over some notes and arguments for why "warp" drive
+should be explained in a particular way in order to get around the FTL
+problems and give us what is seen on the show.
+
+
+
+6.1 A Few Notes On The Meaning of FTL Travel
+
+     Before we begin the discussion, I wanted to go over the basic idea of
+what we mean by FTL travel. To do so, we should start by noting that most of
+space-time through which we would want to travel is fairly flat. For those
+who have not read Part III of this FAQ, that means that special relativity
+describes the space-time fairly well without having resorting to general
+relativity (which applies when a gravitational field is present). Sources of
+gravity are few and far between, and even if you travel "close" to one, it
+would have to be a significant source of gravity in order to destroy our
+flat space-time approximation. Now, some FTL travel concepts we consider
+will involve using certain areas of space-time which are not flat (and I
+will go over them when we get there); however, the important thing for us is
+that all around these non-flat areas, the space-time can be approximated
+fairly well as being flat.
+     Thus, for our purposes, we can use the following to describe FTL
+travel. Consider some observer traveling from point A to point B. At the
+same time this observer leaves A, a light beam is sent out towards the
+destination, B. This light travels in the area of fairly flat space-time
+outside of any effects that might be caused by the method our observer uses
+to travel from A to B. If the observer ends up at B in time to see the light
+beam arrive, then the observer is said to have traveled "faster than light".
+     Notice that with this definition we don't care where the observer is
+when he or she does the traveling. Also, if some space-time distortion is
+used to drive the ship, then even if the ship itself doesn't move faster
+than light within that distortion, the ship still travels faster than the
+light which is going through the normal, flat space-time that is not
+effected by the ship's FTL drive. Thus, this ship still fits our definition
+of FTL travel.
+     So, with this basic definition in mind, let's take a look at the
+problems involved with FTL Travel.
+
+
+
+
+
+Chapter 7: The First Problem: The Light Speed Barrier
+
+     In this section we discuss the first thing (and in some cases the only
+thing) that comes to mind for most people who consider the problem of faster
+than light travel. I call it the light speed barrier. As we will see by
+considering ideas discussed in Part I, Chapter 1 of this FAQ, light speed
+seems to be a giant, unreachable wall standing in our way. I note that
+various concepts for FTL travel may deal with this problem, but here we
+simply want to talk about the problem in general.
+
+
+
+7.1 Effects as One Approaches the Speed of Light
+
+     To begin, consider two observers, A and B. Let A be here on Earth and
+be considered at rest for now. B will be speeding past A at a highly
+relativistic speed as he (B) heads towards some distant star. If B's speed
+is 80% that of light with respect to A, then gamma for him (as defined in
+Section 1.4) is 1.6666666... = 1/0.6. So from A's frame of reference, B's
+clock is running slow and B's lengths in the direction of motion are shorter
+by a factor of 0.6. If B were traveling at 0.9 c, then this factor becomes
+about 0.436; and at 0.99 c, it is about 0.14. As the speed gets closer and
+closer to the speed of light, A will see B's clock slow down infinitesimally
+slow, and A will see B's lengths in the direction of motion becoming
+infinitesimally small.
+     In addition, If B's speed is 0.8 c with respect to A, then A will see
+B's energy as a factor of gamma larger than his rest-mass energy (Note, I
+use an equation for energy here defined in Section 1.5, Equation 1:8):
+
+  (Eq 7:1)
+   E(of B in A's frame)  =  gamma*m(B)*c^2  =  1.666*[m(B)*c^2]
+
+where m(B) is the mass of observer B. At 0.9 c and 0.99 c this factor is
+about 2.3 and 7.1 respectively. As the speed gets closer and closer to the
+speed of light, A will see B's Energy become infinitely large.
+     Obviously, from A's point of view, B will not be able to reach the
+speed of light without stopping his own time, shrinking to nothingness in
+the direction of motion, and taking on an infinite amount of energy.
+     Now let's look at the situation from B's point of view, so we will now
+consider him to be at rest. First, notice that the sun, the other planets,
+the nearby stars, etc. are not moving very relativistically with respect to
+the Earth; so we will consider all of these to be in the same frame of
+reference. Remember that to A, B is traveling past the earth and toward some
+nearby star. However, in B's frame of reference, the earth, the sun, the
+other star, etc. are the ones traveling at highly relativistic velocities
+with respect to him. So to him the clocks on Earth are running slow, the
+energy of all those objects becomes greater, and the distances between the
+objects in the direction of motion become smaller.
+     Let's consider the distance between the Earth and the star to which B
+is traveling. From B's point of view, as the speed gets closer and closer to
+that of light, this distance becomes infinitesimally small. So from his
+point of view, he can get to the star in practically no time. (This explains
+how A seems to think that B's clock is practically stopped during the whole
+trip when the velocity is almost c. B notices nothing odd about his own
+clock, but in his frame the distance he travels is quite small.) If (in B's
+frame) that distance shrinks to zero as his speed with respect to A goes to
+the speed of light, and he is thus able to get there instantaneously, then
+from B's point of view, c is the fastest possible speed.
+
+     From either point of view, it seems that the speed of light cannot be
+reached, much less exceeded. This, then, is the "light speed barrier", but
+most concepts people have in mind for producing FTL travel explicitly deal
+with this problem (as we will see). However, the next problem isn't
+generally as easy to get away with, and it probably isn't as well known
+among the average science fiction fan.
+
+
+
+
+
+Chapter 8: The Second Problem: FTL, Causality, and Unsolvable Paradoxes
+
+     In this section we will explore a problem with FTL travel that doesn't
+always seem to get consideration. The problem involves ones ability to
+violate causality in certain frames of reference with the use of FTL travel.
+While this in itself doesn't necessarily make FTL travel impossible, the
+ability to go further and produce an unsolvable paradox would make the FTL
+travel prospect logically self contradictory. So, I will start by discussing
+the meaning of causality and the problems of an unsolvable paradox. I will
+then try to show how any form of FTL travel will produce violation of the
+causality principle. Finally, I will explain how, without special provisions
+being in place, FTL travel can go further to produce an unsolvable paradox.
+
+
+
+8.1 What is Meant Here by Causality and Unsolvable Paradoxes
+
+     The principle of causality is fairly straight forward. According to
+causality, if there is some effect which is produced by some cause, then the
+cause must precede the effect. So, if for some observer (in some frame of
+reference) an effect truly happens before its cause occurs, then causality
+is violated for that observer. Now, recall our discussion in Section 1.1
+concerning when occurrences happen in a frame of reference. There I took a
+moment to explain that when I talk about the order of events in some frame
+of reference, I mean their actual order, and not necessarily the order in
+which they are seen. One can imagine a situation whereby I could first
+receive light from the effect and later receive light from the cause.
+However, This might be because the effect is simply much closer to me than
+the cause (so that light takes less time to travel from the effect I
+observer, and I see it first). After I take into account the time it took
+the light to travel from each event, then I will find the order in which the
+events truly occurred, and this will determine whether or not there is a
+true violation of causality in my frame. This true violation of causality is
+what I will be talking about, NOT some trick concerning when observers see
+events, but a concept concerning the actual order of the events in some
+frame of reference.
+     Now, one can argue that the idea of causality violation doesn't
+necessarily destroy logic. The idea seems odd--to have an effect come first,
+and then have the cause occur--but it doesn't have to produce a
+self-contradictory situation. An unsolvable paradox, however, is a
+self-contradictory situation. It is a situation which logically forbids
+itself from being. Thus, when one shows that a particular set of
+circumstances allows for an unsolvable paradox, then one can argue that
+those circumstances must logically be impossible.
+
+
+
+8.2 How FTL Travel Implies Violation of Causality
+
+     I refer you back to Diagram 2-9 (reproduced below as Diagram 8-1) so
+that I can demonstrate the causality problem involved with FTL travel. There
+you see two observers passing by one another.
+
+                                 Diagram 8-1
+                            (Copy of Diagram 2-9)
+
+                                    t     t'
+                                    |    /
+                                    +   /
+                                    |  /       __--x'
+                                    + /   __C'-
+                                    |/__--
+                       -+---+---+-__o---+---+---+- x
+                           *  __-- /|
+                          __--    / +
+                        --       /  |
+                                /   +
+                               /    |
+
+
+The origin marks the place and time where the two observers are right next
+to one another. The x' and t' axes are said to represent the frame of
+reference of O' (I'll use Op--for O-prime--so that I can easily indicate the
+possessive form of O as O's and the possessive form of O' as Op's). The x
+and t axes are then the reference frame of the O observer. We consider the O
+system to be our rest system, while the Op observer passes by O at a
+relativistic speed. As you can see from the two coordinate systems, the two
+observers measure space and time in different ways. Now, consider again the
+event marked "*". Cover up the x and t axis and look only at the Op system.
+In this system, the event is above the x' axis. If the Op observer at the
+origin could look left and right and see all the way down his space axis
+instantaneously, then he would have to wait a while for the event "*" to
+occur. Now cover up the Op system and look only at the O system. In this
+system, the event is below the x axis. So to O, the event has already
+occurred by the time the two observers are passing one another.
+     Normally, this fact gives us no trouble. If you draw a light cone (as
+discussed in Section 2.8) through the origin, then the event will be outside
+of the light cone. As long as no signal can travel faster than the speed of
+light, then it will be impossible for either observer to know about or
+influence the event. So even though it is in one observer's past, he cannot
+know about it, and even though it is in the other observer's future, he
+cannot have an effect on it. This is how relativity saves its own self from
+violating causality.
+     However, consider the prospect of FTL travel with this diagram in mind.
+As O and Op pass by one another, the event "*" has not happened yet in Op's
+frame of reference. Thus, if he can send an FTL signal fast enough, then he
+should be able to send a signal (from the origin) which could effect "*".
+However, in O's frame, "*" has already occurred by the time O and Op pass by
+one another. This means that the event "Op sends out the signal which
+effects *" occurs after the event which it effects, "*", in O's frame. For
+O, The effect precedes the cause. Thus, the signal which travels FTL in Op's
+frame violates causality for O's frame. Similarly, since "*" has already
+occurred in O's frame when O and Op pass one another, then in his frame an
+FTL signal could be sent out from "*" which could reach O and tell him about
+the event as the two observer's past. However, for Op, the event "O learns
+about * as O and Op pass one another" comes before * itself. Thus, the
+signal which is FTL in O's frame violates causality in Op's frame.
+     In short, for any signal sent FTL in one frame of reference, another
+frame of reference can be found in which that signal actually traveled
+backwards in time, thus violating causality in that frame.
+     Notice that in this example I never mentioned anything about how the
+signal gets between the origin and *. I didn't even require that the signal
+be "in our universe" when it was "traveling" (remember our definition of FTL
+travel in Section 6.1). The only things I required were that (1) the
+signal's "sending" and "receiving" were events in our universe and (2) the
+space-time between the origin and "*" is flat (i.e. it is correctly
+described by special relativity diagrams). Some FTL ideas may invalidate the
+second assumption, but we will consider them a bit later. We will find,
+however, that violation of causality still follows from all the FTL travel
+concepts.
+
+
+
+8.3 How We Get Unsolvable Paradoxes
+
+     As I mentioned before, violations of causality (as strange as they may
+be) do not have to truly, logically contradict themselves. However, it isn't
+too difficult to show (starting with the above arguments) that FTL travel
+can be used to produce an unsolvable paradox (a situation which contradicts
+its own existence). As a note, in the past I have called such situations
+"gross" violations of causality.
+     I'll illustrate the point with an example (again referring to Diagram
+8-1) Remember we said that as O and Op pass, Op can send an FTL message out
+(from his frame of reference) which effects "*". However, rather than having
+him send a message out, let's say that Op sends out a bullet that travels
+faster than the speed of light. This bullet can go out and kill someone
+light-years away in only a few hours (for example) in Op's frame of
+reference. So, say he fires this bullet just as he passes by O. Then the
+death of the victim can be the event (*). Now, in O's frame of reference,
+the victim is already dead ("*" has occurred) when Op passes by. This means
+that another observer (stationary in O's frame) who was at the position of
+the victim when the victim was shot could have sent an FTL signal just after
+the victim's death, and that signal could reach O before Op passed by him.
+So O can know that Op will shoot his gun as they pass each other.
+     To intensify the point I will make, we can let the signal which was
+sent to O be a picture of the victim, or even an ongoing video signal of the
+victim's body. Thus, O has evidence of the victim's death before Op has
+fired the weapon (a plain ol' violation of causality). However, at this
+point O can decide to stop Op from firing the gun. But if the bullet doesn't
+go out, and the victim never dies, then why (and how) would a video
+signal/picture of the victim's dead body ever be sent to O? And yet, O has
+that video/picture.
+     In the end, it is the death of the victim which causes O to prevent the
+victim's death, and that is a self contradicting situation. Thus, if there
+are no special provisions (which we will discuss later ) FTL travel will not
+only allow violation of causality, but it can also produce unsolvable
+paradoxes.
+     At this point, I want to clearly list the various events which must
+happen to produce an unsolvable paradox in our "FTL bullet" example. Through
+the rest of our FTL discussion, this will be helpful as a reference listing.
+
+Event Listing and Comments:
+
+  1. As observers O and Op pass by one another (as they are shown in Diagram
+     8-1) Op uses some method to send out an FTL bullet from his reference
+     frame. The event "O and Op pass one another" will be called the
+     "passing event" from here on.
+  2. The bullet strikes and kills a victim who's death is the event marked
+     "*" in Diagram 8-1. This event occurs after the passing event in Op's
+     frame of reference, but it occurs before the passing event in O's
+     frame.
+  3. A third observer is at the victim's side as he dies and thus he
+     witnesses the death. This third observer is stationary in O's frame of
+     reference (i.e. his frame is the same as O's), so the victims death
+     ("*") occurs before the passing event (when the bullet was fired) in
+     this third observer's frame. Thus, the third observer has witnessed a
+     result which comes from an event in his future--he has information
+     about a future event in his frame of reference.
+  4. The third observer sends this information about the future to O using
+     an FTL signal, and in the third observer's frame of reference, O can
+     receive this information before the passing event occurs (and thus
+     before the bullet is fired).
+  5. O receives the message and learns of the victims death before the
+     bullet is fired. He thus knows about the bullet being fired--an event
+     in his own future which will occur at his very location.
+  6. O uses this information to prevent Op from firing the bullet, thus
+     causing a self-inconsistent situation--an unsolvable paradox.
+
+     It is important to note that the real crux of this problem does not
+come from the form of the FTL travel used, but from the relationship between
+the two, ordinary frames of reference for observers (O and Op) who never
+themselves travel FTL. This ordinary relationship (determined by relativity)
+can be demonstrated through experiments today, and as long as the exact same
+experiments can be performed in the future to yield the same results, then
+this argument must still hold. This is the power of this problem, and we
+will see that the special provisions we will discuss later must concern
+themselves with the ability of the observers to use the relationship between
+themselves in order to produce unsolvable paradoxes. Thus, the provisions
+will not be specifically concerned with the form of FTL travel used or the
+future theories which might suggest FTL travel, because the problem we have
+discussed here will be present regardless of either of these considerations.
+
+     And so, we have discussed the two problems which arise with FTL travel.
+Our next job is to consider various, specific FTL concepts in light of these
+problems. If your not interested in the discussion of the various forms of
+FTL travel, and you want to take my word for it that they will all suffer
+from the problem discussed above, then you may want to skip to the "Special
+Provisions" section.. I'll leave that to the reader.
+
+
+
+
+
+Chapter 9: FTL Concepts with these Problems in Mind
+
+     Next, we want to ask about how one might try to get around these
+problems. Many of you have heard of ideas which get around the light speed
+barrier problem. For example, if we can do our traveling in some other,
+parallel "space", then we won't be bothered by the light speed barrier in
+our own space. However, these ideas have a much harder time getting around
+the second problem. In fact, to get around the second problem, we will see
+that special provisions will have to be made.
+     Therefore, the format of this discussion will involve the following.
+First, we will look at the various concepts which exist for possibly
+allowing FTL travel. I will show how each of them allows one to get around
+the light speed barrier problem, and I will explain how (without special
+provisions) none of them can bypass the second problem--producing unsolvable
+paradoxes. Finally, I will introduce some special provisions (beyond the
+basic assumptions made for the FTL concepts) and show how one can imagine
+using these provisions in conjunction with some of the FTL concepts to get
+around the second problem.
+
+
+
+9.1 Tachyons (Without Special Provisions)
+
+     Tachyons are hypothetical/theoretical particles which would travel FTL.
+The concept of the tachyon attempts to get around the infinite energy
+requirements which the light speed barrier problem poses on a particle as it
+approaches the speed of light. This was accomplished by demanding that the
+particle have certain characteristics which we will discuss here.
+
+     First, consider the energy and momentum. Recall that we can write the
+energy (E) and the momentum (p) of a particle of mass m as expressed in
+Equation 1:8 and Equation 1:6 which are duplicated here:
+
+  (Eq 9:1--Copy of Eq 1:8)
+   E  =  gamma * m * c^2
+
+
+  (Eq 9:2--Copy of Eq 1:6)
+   p  =  gamma * m * v
+
+Where gamma is defined in Equation 1:5 as gamma = 1/(1 - v^2/c^2)^0.5. From
+this we find that |p*c|/|E| = |v|/|c|, which is greater than 1 if v is
+greater than c. We can thus write
+
+  (Eq 9:3)
+   E^2 < p^2*c^2  (for an FTL particle).
+
+
+But since we can also express the energy squared as defined in Equation 1:7:
+
+  (Eq 9:4--Copy of Eq 1:7)
+   E^2  =  p^2 * c^2  +  m^2 * c^4
+
+we find that the only way to get E^2 < p^2*c^2 is if the mass squared is
+negative (because then m^2*c^2 reduces the sum in Equation 9:4). The mass
+would then be the square root of a negative number, and such an obviously
+unreal number is called an imaginary number (imaginary numbers may seem odd,
+but they have important uses in mathematics). In general we express such
+imaginary numbers as a product of a real number multiplied by something that
+symbolizes the imaginary square-root of negative one: i = sqrt(-1). So, the
+mass of a tachyon is imaginary. Further, from the equation for gamma, we
+find that it too is imaginary if v is greater than c, but it is also
+negative because we have the i in the denominator of gamma, and 1/i = -i.
+(We can show this as follows: start with 1/i = 1/sqrt(-1) and multiply and
+divide the right-hand side by sqrt(-1) (which doesn't change the value): i =
+sqrt(-1)/(sqrt(-1)*sqrt(-1)). The top of that equation is just i, and the
+bottom is sqrt(-1)^2 = -1. Thus 1/i = i/(-1) = -i.) That would mean that
+from Equation 9:1, the energy would still be a real, positive number
+(because to get E we multiply the i in the imaginary m by the -i in gamma to
+get -i^2 = -(sqrt(-1)^2) = -(-1) = +1). The same would be true for the
+momentum, p = gamma*m*v.
+     I would like to note that I have read elsewhere that the energy would
+be negative for a tachyon, but this doesn't seem to be the case.
+     The final interesting property of tachyons I will mention comes from
+noting that as their velocity increases, the value of their gamma will
+become a smaller, negative, imaginary number (because when v/c > 1,
+1/sqrt(1-v^2/c^2) is a negative, imaginary number that decreases as v gets
+larger). That means that the value of a tachyons energy will decrease as the
+speed of the tachyon increases--or in other words, as the tachyon loses
+energy, it gains speed. One result of this is that if a charged tachyon were
+to exist, then because it would travel faster than light, it would give off
+a radiation known as Cherenkov radiation. This would take energy away from
+the tachyon and cause it to go faster and faster, continually giving off
+more and more energy. Neutral tachyons, however, wouldn't do this.
+
+     In any case, we can consider the possibility that tachyons exist and
+always travel faster than light. They then never have to cross the light
+speed barrier, and they do not have infinite energy (but their mass is
+imaginary and their energy decreases as their velocity increases). However,
+they still cause trouble because of the second problem--if you can use them
+for FTL communication, they can be used to create unsolvable paradoxes using
+the same arguments as we used in our "FTL bullet" example.
+     To explore the question of using tachyons for FTL communication, one
+can apply quantum mechanics to the energy equation of the tachyon. What one
+finds is that either (1) the tachyons cannot be localized, or (2) the actual
+effects of a tachyon cannot themselves move faster than light. In either of
+these cases, the tachyon cannot be used to produce an FTL signal.
+     A third idea would also allow the tachyon to exist without the
+possibility of using the tachyon to send FTL signals. The basic idea is that
+there would be no way to distinguish between the situation through which you
+could receive a tachyon and the situation though which you could transmit a
+tachyon. To show what I mean, consider Diagram 8-1 yet again. From the O
+frame of reference, a tachyon could be sent "from" * and "to" the origin.
+However, as long as you cannot distinguish between the transmitter and the
+receiver, then the Op observer could reinterpret this as a tachyon being
+sent "from" the origin "to" *. Neither, then, will believe that the tachyon
+went backwards in time. Obviously, there is no way for a message to be sent
+(because then you could identify the sender and decide which way the tachyon
+"really" went), and it wouldn't be quite right to call this FTL travel.
+However, it would allow tachyons to exist (though uselessly) without causing
+any problems.
+     And so, we find that with tachyons, one of the following must be true:
+
+  1. Tachyons do not exist,
+  2. Tachyons exist but cannot be used to send FTL signals, or
+  3. Tachyons exist and can be used to send FTL signals, but some special
+     provision will keep anyone from using them to produce an unsolvable
+     paradox.
+
+
+
+9.2 Using a Special Field/Space/etc. (W/o Special Provisions)
+
+     This next concept is often found in FTL travel methods of science
+fiction. The basic idea is that a ship (for example) can use a special field
+or travel in another space/dimension in order to "leave" the physics of our
+universe and thus not be limited by the speed of light.
+     Again, we see that this concept is basically designed to get around the
+light speed barrier problem; however, it doesn't deal very well with the
+problem of producing unsolvable paradoxes.
+     Though the FTL observer or signal which travels using this concept
+would leave the realm of our physics, the relationship between two observers
+(like O and Op) who stayed behind (within the realm of our physics) would
+not be effected. This means (if you recall the points made earlier about the
+"second problem") that the arguments for producing an unsolvable paradox
+must still hold (unless there are special provisions), because those
+arguments were based on the relationship between the two observers who
+themselves never traveled FTL (and thus never left the realm of our
+physics).
+     Thus, we very quickly see that with any such methods (as long as no
+special provisions apply) one can produce an unsolvable paradox.
+
+
+
+9.3 "Folding" Space (Without Special Provisions)
+
+     Another concept which pops into the minds of science fiction lovers
+when considering FTL travel is that of "folding" space. Basically, the idea
+is to bring two points in space closer together in some way so that you can
+travel between them quickly without having to "actually" travel faster than
+light. Of course, by our definition of FTL travel in Section 6.1 (where the
+light you are "racing" against goes through normal space between the
+starting and ending points) this would still be considered FTL travel.
+     A frequently used approach for picturing this idea is to think of two
+dimensions of space represented by a flat sheet of paper. Then consider
+yourself at some point on the paper (call this point "o"). If you want to
+travel to some distant point ("D"), you simply fold/bend/crumple/etc the
+paper and place "o" and "D" close to one another. Then its just a matter of
+traveling the now short distance between the points.
+     Again, we see an FTL concept which is built in order to get around the
+problem of the light speed barrier. However, we will see, once again, that
+the second problem of FTL travel is not so easily fixed.
+     We begin to understand this when we consider again the sheet of paper
+discussed above. Every object in that two dimensional space has a place on
+the paper. However, because objects may be moving, their position depends on
+the time at which you are considering them. Basically, if you are sitting at
+"o", you imagine every point on that sheet of paper as representing space as
+it is "right now" according to your frame of reference. However, as we have
+discussed, what is going on "right now" at a distant location TRULY depends
+on your frame of reference. Two observers at "o" in two different frames of
+reference will have two different ideas of what events should be represented
+on the paper as going on "right now". This difference in simultaneity
+between different frames of reference is what allowed for the "unsolvable
+paradox" problem to exist in the first place. Thus, even though you "fold"
+the paper so that you don't "actually" travel faster than light, you don't
+change the fact that you are connecting two events at distant points (your
+departure and your arrival) which in another frame of reference occur in the
+opposite order. (In the other frame of reference, you aren't just bending
+space, you're bending space-time such that you travel backwards in time.) It
+is that fact which allowed the unsolvable paradoxes to be produced.
+     In the end, unless special provisions are present, one can use this
+form of FTL travel in our FTL bullet example (I refer you back to the
+listing of events in Section 8.3). Op will fold space in his frame of
+reference to connect the passing event with the event "*", while the third
+observer will fold space from his frame of reference to connect the event
+"he sees the victim die" with an event "O learns of the victims death before
+the FTL bullet is sent". Thus, you can used this method to produce an
+unsolvable paradox as we discussed earlier.
+
+
+
+9.4 Space-Time Manipulation (Without Special Provisions)
+
+     The final concept we will discuss before looking at special provisions
+is what I call space-time manipulation. The idea is to change the
+relationship between space and time in a particular region so that the
+limitation of light speed no longer applies. This is basically confined to
+the realm of general relativity (though the more simplified concept of
+"changing the speed of light" can also be handled by the arguments in this
+section). We won't worry too much about the particulars of how GR can be
+used to produce the necessary space-time, because the arguments that will be
+made will apply regardless of how you manipulate space-time in the region of
+interest.
+     There are two general types of space-time manipulation to consider. The
+first I will call "localized", because the space-time that is effected is
+that surrounding your ship (or whatever it is that is traveling FTL). A
+basic example of this is the idea for FTL travel is presented in a paper by
+Miguel Alcubierre of the University of Wales (the paper is available via the
+world wide web
+(URL=http://www.astro.cf.ac.uk/groups/relativity/papers/abstracts/miguel94a.html)).
+In the paper, Alcubierre describes a way of using "exotic matter" (matter
+with certain properties which may or may not exist) to change the space time
+around a ship via general relativity. This altered space-time around the
+ship not only keeps the ship's clock ticking just as it would have if the
+ship remained "stationary" (in its original frame of reference), but it also
+"drives" the ship to an arbitrarily fast speed (with respect to the original
+frame of reference of the ship before it activated the FTL drive).
+     The second type is thus "non-localized", and it involves the
+manipulation of space-time which at least effects the departure and arrival
+points in space-time (and perhaps effects all the space-time between). A
+basic example of this is the idea of a wormhole. A wormhole is another
+general relativity concept. Again, exotic matter is used, but here
+space-time is effected so that two distant locations in space are causally
+connected. You can enter one "mouth" of the wormhole and exit from the other
+very distant "mouth" so as to travel FTL (by our definition in Section 6.1).
+     Both of these concepts get around the light speed barrier problem, but
+again we will argue the case for the problems with unsolvable paradoxes. To
+do this, we will first carefully describe the situation in which a couple of
+FTL trips will occur. Let's call the starting point of the first trip "A". B
+will then be the destination point of that trip. Also, consider a point (C)
+which is some distance to the "right" of B ("right" being defined by an
+observer traveling from A to B), and finally consider a corresponding point
+(D) which is to the right of A. Diagram 9-1 uses two dimensions of space (no
+time is shown in this diagram) to depict the situation (at least from some
+particular frame of reference).
+
+                                 Diagram 9-1
+
+                                y
+                                |
+                                | A          B
+                                |
+                                | D          C
+                                |
+                                +--------------x
+                      (x and y are spatial dimensions)
+
+
+     Now, let's go back to the FTL bullet example through which we first
+explained the unsolvable paradox problem. In this case, the FTL bullet
+travels from A to B through space-time manipulation. (The event "the bullet
+leaves A" is event (1) in our list from Section 8.3). This means that all
+the space-time along the bullet's path between A and B might be affected by
+the space-time manipulation. Thus, we can no longer assume (after the
+bullet's trip) that a space-time diagram such as those we have drawn (which
+only apply to special relativity, not GR) will still apply. However, the
+space between D and C does not have to be effected by the FTL drive. Because
+of that we can make our argument by considering the following events:
+
+   * (a) Op sends an FTL bullet from A to B (using space-time manipulation)
+     as the "passing event" occurs
+   * (b) The bullet strikes and kills a victim at B (event "*" in Diagram
+     8-1).
+   * (c) The third observer witnesses the death. However, now (because the
+     FTL travel of the bullet may have changed the space-time between A and
+     B, we can no longer assume that our space-time diagram of the situation
+     is correct. It may be that with the changed space-time, this third
+     observer's frame of reference no longer has the victim's death
+     occurring before the passing event. However, we can continue as
+     follows:
+   * (d) The third observer sends a signal over to C using ordinary
+     (slower-than-light) means.
+   * (e) An observer at C sends an FTL signal to D. Since the space-time
+     between C and D need not be effected by the bullet's FTL travel, our
+     space-time diagrams can be applied.
+   * (f) An observer at D receives the signal before event (a) (and thus
+     before the bullet effected any space-time).
+   * (g) The observer at D can now send a signal over to O, and O can
+     receive it before (a) occurs.
+
+     The above events show that even though the space-time may be changed
+between A and B during the bullet's trip, the O observer can still know
+about and use the fact that the victim was killed in order to prevent the
+victims death. We use the same arguments we did in the section concerning
+the "second problem" (Section 9.1 ), except that the two FTL portions (the
+bullet and the signal from the third observer) are sent from two different
+locations so that neither is affected by the other's effects on space-time.
+Thus, as long as there are no special provisions, this form of FTL travel
+will still allow for unsolvable paradoxes.
+
+
+
+9.5 Special Provisions
+
+     Thus far, we have seen that the second problem is not easily gotten
+around using any FTL concept. However, we have also insisted during our
+arguments that none of these FTL concepts include "special provisions". The
+specific provisions we were referring to will be discussed here. Basically,
+these are ideas which allow one to bypass the second problem in some way,
+and the ideas are generally not specific to any one form of FTL travel. They
+don't require that you bend space-time in some way or that you travel in
+some other universe or that you be made of some specific form of matter when
+you do your FTL traveling. What they do require is for the universe itself
+to have some particular property(ies) which, in conjunction with whatever
+form of FTL travel you use, will prevent unsolvable paradoxes.
+     There are four basic types of provisions, but we can express the
+general idea behind them all before we look at each one specifically. Recall
+that in producing the unsolvable paradox in our "FTL bullet" example, there
+was a series of events listed, each of which had to occur to produced the
+paradox. The provisions simply require that at least one of these events be
+prevented from occurring. With the first and second provisions we will
+discuss, no restrictions necessarily have to be placed on the actual FTL
+travel, and any of the events (even those not directly dealing with the FTL
+travel) can be the "disallowed" event. The other two provisions place
+restrictions on the actual FTL travel in certain cases in order to prevent
+the unsolvable paradox.
+
+
+
+9.5.1 Parallel Universes
+
+     In the first provision, one of the events in our list is not so much
+prevented as it is "transferred" to or from another (parallel) universe or
+reality. For example, say O has just received the information about the
+victim who dies at the "*" event, and O is waiting to stop Op from firing
+the FTL bullet. However, before he stops Op, he could find himself
+transferred to a parallel universe. In this universe he is able to stop Op
+from firing the bullet. The unsolvable paradox is resolved because the
+information about the death at "*" was not from the universe in which O
+stopped Op. Instead, O brought the information from a very similar parallel
+universe when he came over.
+     As another example, the bullet which killed the victim could have
+appeared from a parallel universe rather than being sent from Op in "our"
+universe. In this case, it is the "other universe bullet" which kills the
+victim. This bullet could seem to come from Op in our universe, though it
+actually came from an Op in the parallel universe. So, O is lead to believe
+that the bullet came from his own Op, and O stops Op from firing the FTL
+bullet. However, he doesn't prevent the death of the victim because the
+bullet which did the killing came from the "other universe Op". Again, the
+paradox is resolved.
+     Now, in that second case, the FTL bullet wasn't just performing FTL
+travel, but was involved with inter-dimensional travel. However, the second
+FTL signal in which the information is sent from the third observer to O
+(event number 4 in our list) was allowed. Thus, though this provision can
+effect the FTL trips, it doesn't have to forbid either of them.
+     In the end, as long as one of the events is forced to transfer to or
+from a parallel universe, there will be no unsolvable paradox (although why
+or how the inter-universe transfer would occur is left unanswered). Also, we
+should note that this provision could be applied with any of the FTL
+concepts we have discussed in order to allow them to exist without being
+self-inconsistent.
+
+
+
+9.5.2 Consistency Protection
+
+     The second provision is what I am calling "consistency protection". The
+idea is that the universe contains some sort of built-in mechanism whereby
+some event in our list of events would not be allowed to occur.
+     An example of such a mechanism can be found when we look at the
+situation through quantum mechanics. (A theory of Steven Hawking called the
+"chronology protection conjecture" (CPC) attempts to do just that--the jury
+is still out on this theory, by the way, and will probably be out for a long
+time.) In quantum mechanics (QM), we do not think in certain terms of
+whether or not an event will occur in the future given everything we can
+possibly know about the present. Instead we consider the probability of an
+event (or string of events) occurring. One form of consistency protection
+would insist that QM prevents the unsolvable paradoxes because the
+probability of all the events occurring so as to produce an unsolvable
+paradox is identically zero.
+     Under this explanation using QM, our bullet example would be resolved
+through arguments similar to this: It may be that the Op observer is unable
+to produce the FTL bullet (perhaps his FTL gun fails), thus averting the
+paradox. If he is able to get the FTL bullet on its way, then perhaps the
+bullet will end up missing its mark. If it does hit the victim, then perhaps
+the victim's friend will be unable to send an FTL signal back to the O
+observer (perhaps his FTL message sender fails). If the signal to O gets
+sent, it still might not be received by O. If O receives it, he may be
+unable to stop Op from firing the bullet. In any case, this particular QM
+explanation would insist that one of these events must not occur, because
+the quantum mechanics involved forces the probability of all of the events
+occurring to be zero.
+     To sum up, this provision requires that some mechanism exists in the
+universe that would prevent at least one of the events from occurring so
+that the unsolvable paradox does not come about. This mechanism does not
+have to specifically target any of the FTL trips/messages which one might
+want to make/send, but it could disallow any of the events which must be
+present for the unsolvable paradox to occur. We should also note that this
+provision (just like the last) can be apply regardless of the FTL concept
+used.
+
+
+
+9.5.3 "Producing" Restricted Space-Time Areas
+
+     This provision is sort of an extension on the previous one, but its
+mechanism specifically targets the FTL travel so as to restrict one of the
+FTL trips or messages one must use to produce an unsolvable paradox.
+Remember that in the list of events for our FTL bullet example, there were
+two different FTL portions (the FTL bullet and the FTL message from the
+third observer to O). This provision would cause the sending or receiving of
+one of these "messages" to strictly prohibit the sending or receiving of the
+other. I will try to illustrate the basic way in which such restrictions
+could work to always prevent unsolvable paradoxes. I will then give an
+example where this provision is implemented with a particular FTL concept.
+     For the illustration, we need to consider each of two possibilities
+within our FTL bullet example. In the first possibility, the Op observer is
+allowed to send his FTL bullet which strikes the victim, but that FTL trip
+must then restrict the third observer's ability to send the FTL message to
+O. In the second example, the third observer happens to decide to send some
+FTL signals to O at some point before the event "*" (which is the event in
+our example that usually marked the victim's death). Now, we let the third
+observer continue to send those FTL signals until some point after "*".
+Then, if the victim dies at "*" because of the FTL bullet, then since the
+third observer is sending FTL signals to O at that point, he would be able
+to tell O about the victim's death, and the paradox would still be possible.
+Thus, in this second case, the FTL bullet must not be allowed to strike the
+victim (the FTL travel of the bullet is restricted because the third
+observer sends FTL signals to O).
+     So, how would these restrictions work in these two possible cases?
+Well, as it turns out, if all unsolvable paradoxes are going to be averted
+while only placing restrictions on particular FTL trips, then there must be
+a very specific provision in place. To explain this, we will look at both
+possible situations, and consider diagrams which explain each one. (Note
+that these diagrams are drawn a little differently from Diagram 8-1 so as to
+better show the point I am trying to make here.)
+
+                                 Diagram 9-2
+
+                                      t     t'
+                                 .    |    /
+                               .      +   /
+                             .        |  /       __--x'
+       .                   .          + /   __C'-
+         .               .            |/__--
+      +---+.--+---+---+.--+---+---+-__o---+---+---+- x
+             .       .          __--./| .
+               .   .        __--  . / +   .
+                 *      __--    .  /  |     .
+                    __--      .   /   +       .
+                __--        .    /    |         .
+       (Case 1--The FTL bullet is allowed to strike at the event "*")
+
+
+     In this diagram we mean to illustrate case one in which the FTL bullet
+leaves the "passing event" (i.e. the origin, "o") and is "received" by the
+victim who immediately dies at event "*". Now, I have also drawn parts of
+two light cones (marked with dots). One part is the "upper half light cone
+of the event '*'," and the other is the "lower half light cone of the
+passing event, 'o'". The upper half light cone of "*" contains all events
+which an observer at "*" (like the third observer in our bullet example) can
+influence without having to travel FTL. All observers agree that all events
+in this area occur some time after "*" (as discussed in Section 2.8). Also,
+the lower half light cone of "o" contains all the events which could effect
+"o" (which, remember, is the event at which the FTL bullet is sent) through
+non-FTL means. Thus, as long as no FTL signal/traveler can leave as an event
+in the upper half light cone of "*" and be received as an event in the lower
+half light cone of "o", then all unsolvable paradoxes will be averted. There
+would be no way for the third observer to witness the death of the victim
+and afterwards get a signal to O before the bullet is fired.
+     Now, that seems to be straight forward. We just need to make this
+provision: When an FTL signal is transmitted as event T, and it is received
+as event R, then it must be impossible for any information to be sent as an
+event in R's upper ("future") light cone and end up being received as an
+event in T's lower ("past") light cone. If the universe restricted FTL
+travel in this way, it would be impossible to produce unsolvable paradoxes.
+     However, we can see that the matter can get a little complicated when
+we consider things from O's frame of reference (which is also the frame of
+the third observer). In this frame, after the third observer witnesses the
+victim's death at "*", the event "the bullet leaves" hasn't occurred yet. He
+might then argue that no FTL signal has yet been sent which would keep him
+from sending a FTL message to O. The problem with his argument is that he
+has already witnessed the result of the FTL bullet being sent (even if it
+hasn't occurred in his frame yet). Thus, any FTL signal he tries to send to
+O (in the lower half light cone of the origin/passing
+event/bullet-being-fired event) must be prevented from being received by O.
+     Ah, but what if he (the third observer) just happened to decide to
+start sending FTL signals to O (just to chat) before the bullet strikes the
+victim? That leads to our second case. Here, then, is a diagram we will use
+to describe this second case.
+
+                                 Diagram 9-3
+
+                                      t     t'
+                          .           |    /
+                            .         +   /     .
+                              .       |  /    .  __--x'
+                                .     + /   ._C'-
+                                  .   |/__.-
+      +---+---+---+---+---+---+---+-._o-.-+---+---+- x
+                                __-- /R
+                 T          __--    / |
+               . * .    __--       /  |
+             .   s  _.--          /   +
+           .    __--   .         /    |
+   (Case 2--The FTL bullet may not be allowed to strike at the event "*")
+
+
+     Now, there are a few extra events here. The point "s" marks the point
+where the third observer starts sending FTL signals to O while "T" marks the
+point where he finishes sending those FTL signals. The point "R" marks the
+point where O receives the last message which was sent at "T". Now, here we
+have drawn the upper and lower half light cones of interest, and according
+to our discussion above, it would be impossible for Op to send his bullet at
+the origin, "o" (which is in the upper half light cone of R) and have it
+"received" by the victim at "*" (which is in the lower half light cone of
+T). So, according to that argument, the bullet doesn't strike while the
+third observer is sending FTL signals to O, and so the third observer never
+tells O about the victim's death.
+     However, this doesn't HAVE to be what happens, and we might just end up
+back at the first case. You see, either (1) the signals sent by the third
+observer are all successful, and the FTL bullet is restricted from striking
+the victim at "*" (that's the second case); or (2) the FTL bullet does
+strike the victim at "*" and any FTL signals that the third observer sends
+after "*" are restricted from reaching the O observer before the bullet is
+fired (this is the first case, even though the third observer was sending
+signals to O just before the bullet hit). The obvious question, then, is
+"which one of these two cases actually occurs?" The answer happens to be,
+"it really doesn't matter." You see, as long as one or the other does occur,
+the situation remains self consistent and no self inconsistent paradoxes are
+produced. Roll some dice and pick one, if you like, or let some unknown
+force decide which happens. It really doesn't matter for our argument. Is
+that a bit odd? Yes. Is it self-inconsistent so as to produce unsolvable
+paradoxes? No.
+     Finally, as example to show this provision in action with a particular
+FTL concept, let's consider a case where space-time manipulation is used via
+a wormhole. Recall that in our discussion of this FTL concept in Section
+9.4, we showed that one can still produce unsolvable paradoxes. Notice, that
+there still must be two FTL parts (we discussed one FTL "trip"--the
+bullet--from A to B and another--an FTL message--from C to D). Now, to
+prevent the paradox, the existence of the wormhole that allows the bullet to
+travel from A to B could forbid the existence of the wormhole that allows
+the FTL message to go from C to D. This is a situation where case 1 applies,
+and here the way the provision is satisfied comes from the conceptual
+ability of one wormhole's existence to forbid the existence of another
+wormhole.
+
+     And so, we have a provision which simply restricts (in a very
+particular way) certain FTL trips because of other FTL trips. We have found
+that there doesn't have to be a discernible answer to the question of
+whether trip A disallows trip B or trip B disallows trip A, but as long as
+it is one case or the other, this provision will keep all situations self
+consistent and thus avoid unsolvable paradoxes.
+
+
+
+9.5.4 A Special Frame of Reference for the purpose of FTL Travel
+
+     The fourth and final provision is (again) something of an extension to
+the previous one. This provision also forbids certain FTL signals, but it
+does so in a very specific and interesting way (there will be no question as
+to which trips are allowed and which are not). To explain this provision, I
+will start by describing a situation through which the provision could be
+applied. I will then explain how the provision works, given that particular
+situation.
+     Now, as I describe the situation, I will use the idea of a "special
+field" to implement the "special frame of reference". However, it isn't
+necessary to have such a special field to imagine having a special frame of
+reference. I am simply using this to produce a clear illustration.
+
+     So, join me now on a journey of the imagination. Picture, if you will,
+a particular area of space (a rather large area--say, a few cubic
+light-years if you like) which is permeated with some sort of field. Let
+this field have some very particular frame of reference. Now, in our
+imaginary future, say we discover this field, and a way is found to
+manipulate the very makeup (fabric, if you will) of this field. When this
+"warping" is done, it is found that the field has a very special property.
+An observer inside the warped area can travel at any speed he wishes with
+respect to the field, and his frame of reference will always be the same as
+that of the field. This means that the x and t axes in a space-time diagram
+for the observer will be the same as the ones for the special field,
+regardless of the observer's motion. In our discussion of relativity, we saw
+that in normal space, a traveler's frame of reference depends on his speed
+with respect to the things he is observing. However, for a traveler in this
+warped space, this is no longer the case.
+     For example, consider two observers, A and B, who both start out
+stationary in the frame of reference of the field. Under normal
+circumstances, if A (who starts out next to B) began to travel with respect
+to B, then later turned around and returned to B, A would have aged less
+because of time dilation (this is fully explained in Section 4.1 of Part II
+if you are interested). However, if A uses the special property of this
+field we have introduced, his frame of reference will be the same as B's
+even while he is moving. Thus, there will be no time dilation effects, and
+A's clock will read the same as B's.
+     Now, for the provision we are discussing to work using this special
+field, we must require that all FTL travel be done while using this field's
+special property. How will that prevent unsolvable paradoxes? Well, to
+demonstrate how, let's go back to our FTL bullet example and consider one of
+two cases. In case 1, we will let Op's frame of reference be the same as the
+frame of reference of our special field. With this in mind, let's go through
+the events listed in Section 8.3 once again; only this time, we will require
+any FTL travel to use the special property of the field we have discussed.
+     So, here is the new list of events given that the special frame of
+reference of the field is the same as Op's frame. Remember, our new
+provision requires that any FTL trip will have to use the property of our
+special field, thus the object/person/message traveling FTL will be forced
+to take on the frame of reference of our special field (Op's frame in this
+example). (It may be good for you to review the original list before reading
+this one):
+
+  1. Again (just as in our original argument), as observers O and Op pass by
+     one another, Op uses some method to send out an FTL bullet. This time,
+     as the FTL method is activated, our new provision requires the bullet's
+     frame of reference to become the frame of reference of the special
+     field. However, since Op's frame is the same as that of the special
+     field in the case we are considering, the bullet will still be sent out
+     from Op's frame of reference, just as it was in our original argument.
+  2. Again, the event marked "*" occurs after the "passing event" in Op's
+     frame, so again the bullet can travel FTL to strike and kill a victim
+     at "*", and again that event occurs before the "passing event" in Os
+     frame.
+  3. Again, a third observer (who is in O's frame of reference) witnesses
+     the victim's death, and again the death will have occured before the
+     bullet was sent in his frame of reference. Thus again this third
+     observer will have information about an event which will happen in his
+     future.
+
+But that is where the "agains" stop. You see, in the original argument event
+(4) was possible in which the third observer sends this information about
+the future to O via an FTL signal. In the frame of reference of O (and the
+third observer), that FTL signal could be sent after the victim's death and
+arrive at O before the passing event (when the bullet was fired). But now,
+as the FTL signal is sent, it must take on the frame of reference of the
+special field. That frame of reference is the frame of Op, and in that frame
+the victim dies after the bullet is fired. So, in the new reference frame of
+the message (forced on it by the provision we are making) the bullet has
+already been sent, and thus the FTL message cannot be received by O before
+the bullet is sent.
+     From the frame of reference of the third observer, he simply cannot get
+the FTL signal to go fast enough (in his frame) to get to O before the
+bullet is sent. From Op's frame of reference (that of the special field) any
+FTL signal (even an instantaneous one) can theoretically be sent using our
+provision. However, from O's frame (and that of the third observer) some FTL
+signals simply can't be sent (specifically, signals that would send
+information back in time in Op's frame of reference--look again at Diagram
+8-1 to make this clear). This prevents the unsolvable paradox.
+     We can also consider case 2 in which the special frame of reference of
+the field is the same as O's frame of reference. In this case, any FTL
+traveler/signal/etc must take on O's frame of reference as it begins its FTL
+trip. Thus, as Op passes O and tries to send the FTL bullet from his frame
+of reference, the bullet will have to take on O's frame as it begins is FTL
+trip. But in O's frame of reference, the event "*" has already occurred by
+the time O and Op pass one another. Therefore, from the FTL bullet's new
+frame of reference (forced on it by the provision we are making), it cannot
+kill the victim at the event "*" since that event has already occurred in
+this frame. Thus, the paradox is obviously averted in this second case as
+well because of our provision.
+     So, in the end, if all FTL travelers/etc are required to take on a
+specific frame of reference when they begin their FTL trip, then there will
+be no way an unsolvable paradox can be produced. This is because it takes
+two different FTL trips from two _different_ frames of reference to produce
+the paradox. Under this provision, if you are sending tachyons, the tachyons
+must only travel FTL in the special frame of reference. If you are folding
+space, the folding must be done in the special frame of reference. If you
+are using the special field itself to allow FTL travel, then you must take
+on the field's frame of reference. Etc. If these are the cases, then there
+will be no way to produce an unsolvable paradox using any of the FTL
+concepts.
+     As a final note about this provision, we should realize that it does
+seem to directly contradict the idea of relativity because one particular
+frame of reference is given a special place in the universe. However, we are
+talking about FTL travel, and many FTL concepts "get around" relativity just
+to allow the FTL travel in the first place. Further, the special frame
+doesn't necessarily have to apply to any physics we know about today. All
+the physics we have today could still be completely relativistic. In our
+example, it is a special field that actually has a special place in the
+physics of FTL travel, and that field just happens to have some particular
+frame of reference. Thus, the special frame does not have to be "embedded"
+in the makeup of the universe, but it can be connected to something else
+which just happens to make that frame "special" for the specific purpose of
+FTL travel.
+
+     And so, we have seen the four provisions which would allow for the
+possibility of FTL travel without producing unsolvable paradoxes. For the
+case of the real world, there is no knowing which (if any) of the provisions
+are truly the case. For the purposes of science fiction, one may favor one
+of the provisions over the others, depending on the story one wishes to
+tell.
+
+
+
+
+
+Chapter 10: Some Comments on FTL Travel in Star Trek
+
+     Since this document is meant for the rec.arts.startrek.tech newsgroup,
+it seems appropriate to take all we have discussed and apply it to what we
+see in Star Trek. Of course, it would be foolish to assume (unfortunately)
+that the writers for the show take the time to learn as much about these
+concepts as we now know, and I am certainly not implying that a conscious
+effort was made to incorporate what we know to be true in a consistent way
+on the show (after all, this _is_ Star Trek :'). However, interestingly
+enough, if we apply the concepts correctly, we can explain most of what Star
+Trek has shown us. That is what I will try to do here.
+
+
+
+10.1 Which Provision is Best for Explaining Warp Travel
+
+     First, we might want to consider the four provisions and try to decide
+which one would best fit Trek so that everyday warp travel couldn't be used
+to produce unsolvable paradoxes.
+     So, let's consider both the first and second provisions. In these
+cases, neither of the two FTL trips in our FTL bullet example will
+necessarily be forbidden. So, if we consider that example yet again, we can
+make the following argument: Let Op be the Enterprise. Then, rather than
+sending a bullet, the Enterprise could itself travel from the origin to "*".
+It could then (through ordinary acceleration) change its frame of reference
+to match O's. Then it could travel from "*" (or just after "*"--we have to
+give them a little time to do their acceleration) back to the O observer,
+and it could get to O BEFORE it ever left for its first FTL trip (i.e. we
+put the Enterprise in place of the FTL signal sent by the third observer).
+Thus, since neither the first or second provision has to forbid any of these
+actions, the Enterprise could use everyday warp travel via this method to
+easily travel back in time without having to do something as dangerous as
+zipping around the sun (as they have had to do on the show).
+     In addition, if the first provision governed normal warp travel, then
+making different trips from different frames of reference would introduce
+the possibility that you would find yourself being transferred to another
+parallel universe to prevent unsolvable paradoxes. Also, if the second
+provision governed normal warp travel, it would require Star Trek ships to
+be careful as to which frames of reference they were in when they decided to
+enter warp. After all, they may not want to accidentally meet themselves
+from a previous trip (in which case the universe may destroy them to protect
+self consistency). So, there seems to be some daunting arguments against
+using either the first or second provision to keep ordinary warp travel from
+producing unsolvable paradoxes in Trek.
+     Okay, what about the third provision? With that provision it would be
+impossible to use ordinary warp travel as a "time machine". However, this
+provision does cause certain noticeable restrictions on some FTL trips
+(remember, it allows certain FTL trips to prevent other FTL trips). There
+could be cases where the Enterprise would be prevented from completing its
+warp trip on time because of an FTL signal sent by someone else. We
+certainly don't see that on the show (not surprisingly). So, considering
+this provision, I can't easily point out any arguments to support using it
+to keep warp travel from being self inconsistent.
+     This leaves us with the fourth provision, and I think you will see that
+it the provision of choice for the purposes of Trek. Of course, this fourth
+provision must involve some special frame of reference; therefore, we might
+first ask about where this special frame might come from. Thus, I will make
+a proposal for answering such a question in the next section, and then I
+will present what I believe are strong arguments for using the fourth
+provision to keep normal warp travel from being self inconsistent in Trek.
+
+
+
+10.2 Subspace as a Special Frame of Reference
+
+     When we discussed the fourth, "special frame of reference" provision, I
+introduced the idea of a field which had a particular frame of reference.
+For Star Trek, we can imagine subspace to be this field, and we can let it
+pervade all of known space. Then, subspace (or at least some property of
+subspace) would define a particular frame of reference at every point in
+space. When you entered warp, you would take on the frame of reference of
+subspace and keep it, regardless of your velocity with respect to subspace.
+This would ensure that normal, everyday warp travel would not produce
+unsolvable paradoxes (as we discussed in Section 9.5.4).
+     So, what does this provision give us that the third provision didn't?
+Well, by assuming that subspace defines a special frame of reference, we can
+explain some interesting points on the technical side of Trek. For example,
+in the "Star Trek the Next Generation Technical Manual" (and in other
+sources) we see that the different warp numbers correspond (in some way) to
+different FTL speeds. But when they say that Warp 3 is 39 times the speed of
+light, we must ask what frame of reference this speed is measured in. With
+subspace as a special frame of reference, it would be understood to mean "39
+times the speed of light in the frame of reference of subspace."
+     The same idea can be applied to references made to impulse-drive-only
+speeds. In the Technical Manual, they mention efficiency ratings for
+"velocities limited to 0.5c." They also mention the need for added power for
+"velocities above 0.75c." But these velocities are all relative, and so we
+must ask why these normal, slower than light velocity of the Enterprise
+should matter when considering efficiencies, etc. After all, the Enterprise
+is always traveling above 0.5 c in SOME frame of reference and above 0.75c
+in some other frame of reference. However, since impulse is supposed to use
+a subspace field to "lower the mass of the ship" (so that it is easier to
+propel), we could argue that the speed of the ship with respect to subspace
+(assuming subspace defines a special frame of reference) would effect
+efficiencies, etc.
+     Further, there is a much more documented example which refers to warp
+10. As many of you know, warp 10 is supposed to be infinite speed in the
+Next Generation shows. That means that the event "you leave your departure
+point" would be simultaneous with the event "you arrive at your
+destination". But, as we have discussed, the question of whether two events
+are simultaneous or not truly depends on the frame of reference you are in.
+So, we ask, in what frame of reference is warp 10 actually infinite speed.
+Again, we can use the frame of reference of subspace to resolve this issue.
+Warp 10 would be understood to be infinite speed in the frame of reference
+of subspace.
+     Finally, using this provision, there would be a standard, understood
+definition for measuring times, lengths, etc. Times would be measured just
+as it would tick on a clock in the frame of reference of subspace, and
+distances would be measured just as they would be by a ruler at rest in the
+subspace frame of reference. Basically, the feeling we have for the way
+things work in every day, non-relativistic life would be applicable to Trek
+by using the subspace frame of reference as a standard, understood reference
+frame.
+     And so, I believe that the fourth provision gives us the best
+explanation for how normal, everyday warp travel in Trek could be self
+consistent.
+
+
+
+10.3 The "Picture" this Gives Us of Warp Travel
+
+     Given the previous discussion, we see that the fourth provision seems
+to fit Star Trek like a glove. Thus, it may be best for us to view warp
+travel in Star Trek like this: Subspace is a field which defines a
+particular frame of reference at all points in known space. When you enter
+warp, you are using subspace such that you keep its frame of reference
+regardless of your speed. Not only does this mean that normal warp travel
+cannot be used to produce unsolvable paradoxes, but since in warp your frame
+of reference would no longer depend on your speed as it does in relativity,
+relativistic effects in general do not apply to travelers using warp. Since
+relativistic effects don't apply, you also have a general explanation as to
+why you can exceed the speed of light in the first place.
+     (As a note, this is similar to Alcubierre's idea for "warp" travel
+(mentioned earlier), but in his idea the traveler did not take on a
+"special" frame. Instead, he took on the frame he had before entering warp,
+but that allows two trips from two different frames of reference to produce
+an unsolvable paradox. If we add subspace as a special frame of reference to
+Alcubierre's idea, we could get a self consistent situation which would be
+very similar to what we see in Trek.)
+     For more information on how this might conceptually work in the science
+fiction world of Trek (at least one way I imagine it) you may want to read
+my other regular post, "Subspace Physics"
+(URL=http://www.physics.purdue.edu/~hinson/subphys/). Here, however, we can
+at least use this "picture" of warp to consider how the outside universe
+might appear to someone traveling at warp speed. Remember, at any point the
+warp traveler's frame of reference it is as if he is sitting still in
+subspace's reference frame. We could illustrate the way such an observer
+would picture a particular event by using the following idea: Picture a
+string of cameras, each a distance (d) away from the one before it. Let
+these cameras all be stationary in the frame of reference of subspace, and
+let them all be pointed at the event of interest. Further, let each camera
+have a clock on it, and let all the clocks be synchronized in the subspace
+frame. Then, we can set each camera to go off with the time between one
+camera flash and the next being d/v (where v is the FTL velocity of the
+observer we want to illustrate). Then, each picture is taken in the subspace
+frame of reference, but the string of pictures (one from each camera) would
+form a movie in which each frame was taken from a different place in space
+from the previous frame. Thus, we can use this to produce a film of how an
+event would look to a warp traveler.
+     Of course, in Trek they have subspace sensors which do all their seeing
+for them (faster than light, of course). However, the above does illustrate
+one's ability to use this view of warp travel to answer various technical
+questions.
+
+
+
+10.4 Some Notes on Non-Warp FTL Travel and Time Travel in Trek
+
+     Now, there are cases in Trek where FTL travel exists without
+necessarily using subspace (and thus the subspace frame of reference would
+not apply and would not prevent unsolvable paradoxes). For example, if the
+wormhole in Deep Space Nine is assumed to be the same as a wormhole we
+theorize about today, then it wouldn't need to deal with subspace to allow
+FTL travel. (Now, what they call a wormhole doesn't necessarily have to be
+what we call a wormhole, but for this illustration, let's assume it is). So,
+if the wormholes in Trek aren't bounded by the subspace frame of reference,
+we could imagine a situation whereby they could be used to cause unsolvable
+paradoxes. This is true for any form of FTL travel in Trek which might not
+use subspace. However, I propose that in cases where subspace isn't used (so
+that its special frame of reference could not prevent unsolvable paradoxes)
+then the first or second provision, "parallel universes" or "consistency
+protection", would apply. In that way, we can allow for
+non-warp/non-subspace-using FTL travel in Trek while still preventing
+unsolvable paradoxes.
+     Further, consider time travel in Trek. Actual time travel couldn't be
+accomplished by using subspace alone (the subspace frame along with the
+fourth provision would prevent it). However, I propose again that such
+travels in time should not be able to produce unsolvable paradoxes because
+the "parallel universes" or "consistency protection" provisions would apply
+(since subspace alone couldn't be in use to produce the time travel).
+     For example, consider the Star Trek: The Next Generation episode,
+"Time's Arrow" (in which Data's severed head is found on 24th century Earth,
+and Data eventually travels back in time to (unintentionally) leave his head
+behind to be found). Now, after the head was found, one of the crew (let's
+say Riker, just to use an example) could decide to try to produce an
+unsolvable paradox. Riker may decide to do everything in his power so as to
+keep Data from going back in time. He may even try to destroy Data and his
+head to accomplish this task. Of course, Riker isn't the type of person to
+do this, but what if he was? Well, in that case, he would be trying to
+produce an unsolvable paradox, and the first or second provision would
+prevent it. For the first provision, the head found in the 24th century
+might have actually come from a parallel universe. For the second provision,
+we could imagine various ways in which Riker might fail in his task of
+trying to keep data from going back in time. Further, we could consider the
+case in which he would succeed in producing an unsolvable paradox and we
+could insist that such situations would destroy themselves or prevent
+themselves from ever happening.
+     Such a situation is seen in a particular Voyager episode. In this
+episode, members of the crew are caught in a "subspace fissure", and they
+travel back in time. By the end of the episode, their trip back in time has
+produced a self-inconsistent situation. That series of events then becomes
+impossible and ceases to exist by the closing credits. This could be seen as
+a result of having the "consistency protection provision" apply to a case
+where the subspace frame of reference is bypassed via "subspace fissures".
+     So, even though we can be relatively sure that this was not the
+intention of the writers, the situations shown do seem to comply with the
+concepts we have developed.
+
+
+
+10.5 To sum up...
+
+     To sum up, we have found that by introducing a special frame of
+reference which would be "attached" to subspace, and by further insisting
+that any type of FTL/time travel done without using subspace be governed by
+the "parallel universe" or "consistency protection" provisions, we will not
+only have a self consistent universe for our Star Trek stories, but we can
+also (coincidentally) explain many of the "but how come...?" questions which
+some Star Trek episodes produce.
+
+
+
+
+
+Chapter 11: Conclusion
+
+     In Part I of this FAQ, I presented some of major concepts of special
+relativity, and here in Part IV, we have discussed the considerable havoc
+they play with the possibility of faster than light travel. I have argued
+that the possibility of producing unsolvable paradox is a very powerful
+deterrent to all FTL concepts. Further, we have introduced four basic
+provisions, at least one of which must be in place so that FTL trips/signals
+(sent using any of the FTL concepts) cannot be used to produce unsolvable
+paradoxes. Finally, we looked at the science fiction of Star Trek while
+considering all that we had discussed. We concluded that warp travel could
+be governed by the fourth provision (via subspace defining a special frame
+of reference) while all other FTL travel (or time travel) could be governed
+by the first or second provisions. This, I believe, best explains what we
+see on Star Trek.
+     If you have not read Part II or Part III of this FAQ, and you are
+interested in learning more about relativity (special and general), then you
+may want to give them a look.
+     As the end result of producing this FAQ, I hope that I have at least
+informed you to some extent (or perhaps just helped to clarified your own
+knowledge) concerning relativity and the problems it poses for FTL travel.
+
+
+
+Jason Hinson
+
+

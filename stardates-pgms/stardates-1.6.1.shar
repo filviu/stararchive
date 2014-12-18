@@ -1,0 +1,1755 @@
+#!/bin/sh
+# This is a shell archive (produced by GNU sharutils 4.2).
+# To extract the files from this archive, save it to some FILE, remove
+# everything before the `!/bin/sh' line above, then type `sh FILE'.
+#
+# Made on 1998-05-19 20:40 BST by <zefram@jormungandddr>.
+# Source directory was `/home/zefram/usr/startrek/stardates/progs'.
+#
+# Existing files will *not* be overwritten unless `-c' is specified.
+#
+# This shar contains:
+# length mode       name
+# ------ ---------- ------------------------------------------
+#  31759 -rw-r--r-- stardates-1.6.1/stardate.c
+#   6702 -rw-r--r-- stardates-1.6.1/stardate.1
+#   6072 -rw-r--r-- stardates-1.6.1/stardate.man
+#   7576 -rw-r--r-- stardates-1.6.1/README
+#
+save_IFS="${IFS}"
+IFS="${IFS}:"
+gettext_dir=FAILED
+locale_dir=FAILED
+first_param="$1"
+for dir in $PATH
+do
+  if test "$gettext_dir" = FAILED && test -f $dir/gettext \
+     && ($dir/gettext --version >/dev/null 2>&1)
+  then
+    set `$dir/gettext --version 2>&1`
+    if test "$3" = GNU
+    then
+      gettext_dir=$dir
+    fi
+  fi
+  if test "$locale_dir" = FAILED && test -f $dir/shar \
+     && ($dir/shar --print-text-domain-dir >/dev/null 2>&1)
+  then
+    locale_dir=`$dir/shar --print-text-domain-dir`
+  fi
+done
+IFS="$save_IFS"
+if test "$locale_dir" = FAILED || test "$gettext_dir" = FAILED
+then
+  echo=echo
+else
+  TEXTDOMAINDIR=$locale_dir
+  export TEXTDOMAINDIR
+  TEXTDOMAIN=sharutils
+  export TEXTDOMAIN
+  echo="$gettext_dir/gettext -s"
+fi
+touch -am 1231235999 $$.touch >/dev/null 2>&1
+if test ! -f 1231235999 && test -f $$.touch; then
+  shar_touch=touch
+else
+  shar_touch=:
+  echo
+  $echo 'WARNING: not restoring timestamps.  Consider getting and'
+  $echo "installing GNU \`touch', distributed in GNU File Utilities..."
+  echo
+fi
+rm -f 1231235999 $$.touch
+#
+if mkdir _sh14517; then
+  $echo 'x -' 'creating lock directory'
+else
+  $echo 'failed to create lock directory'
+  exit 1
+fi
+# ============= stardates-1.6.1/stardate.c ==============
+if test ! -d 'stardates-1.6.1'; then
+  $echo 'x -' 'creating directory' 'stardates-1.6.1'
+  mkdir 'stardates-1.6.1'
+fi
+if test -f 'stardates-1.6.1/stardate.c' && test "$first_param" != -c; then
+  $echo 'x -' SKIPPING 'stardates-1.6.1/stardate.c' '(file already exists)'
+else
+  $echo 'x -' extracting 'stardates-1.6.1/stardate.c' '(text)'
+  sed 's/^X//' << 'SHAR_EOF' > 'stardates-1.6.1/stardate.c' &&
+/*
+X *  stardate: convert between date formats
+X *  by Andrew Main <zefram@fysh.org>
+X *  1997-12-26, stardate [-30]0458.96
+X *
+X *  Stardate code is based on version 1 of the Stardates in Star Trek FAQ.
+X */
+X
+/*
+X * Copyright (c) 1996, 1997 Andrew Main.  All rights reserved.
+X *
+X * Redistribution and use, in source and binary forms, with or without
+X * modification, are permitted provided that the following conditions
+X * are met:
+X * 1. Redistributions of source code must retain the above copyright
+X *    notice, this list of conditions and the following disclaimer.
+X * 2. Redistributions in binary form must reproduce the above copyright
+X *    notice, this list of conditions and the following disclaimer
+X *    in the documentation and/or other materials provided with the
+X *    distribution.
+X * 3. All advertising materials mentioning features or use of this
+X *    software must display the following acknowledgement:
+X *        This product includes software developed by Andrew Main.
+X * 4. The name of Andrew Main may not be used to endorse or promote
+X *    products derived from this software without specific prior
+X *    written permission.
+X *
+X * THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED
+X * WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+X * MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+X * IN NO EVENT SHALL ANDREW MAIN BE LIABLE FOR ANY DIRECT, INDIRECT,
+X * INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+X * BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+X * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+X * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+X * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+X * ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+X * POSSIBILITY OF SUCH DAMAGE.
+X */
+X
+/*
+X *  Unix programmers, please excuse the occasional DOSism in this code.
+X *  DOS programmers, please excuse the Unixisms.  All programmers, please
+X *  excuse the ANSIisms.  This program should actually run anywhere; I've
+X *  tried to make it strictly conforming C.
+X */
+X
+/*
+X *  This program converts between dates in five formats:
+X *    - stardates
+X *    - the Julian calendar (with UTC time)
+X *    - the Gregorian calendar (with UTC time)
+X *    - the Quadcent calendar (see the Stardates FAQ for explanation)
+X *    - traditional Unix time (seconds since 1970-01-01T00:00Z)
+X *  Input and output can be in any of these formats.
+X */
+X
+#include <ctype.h>
+#include <errno.h>
+#include <limits.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+X
+/* compensate for ANSI-challenged <stdlib.h> */
+X
+#ifndef EXIT_SUCCESS
+# define EXIT_SUCCESS 0
+#endif
+#ifndef EXIT_FAILURE
+# define EXIT_FAILURE 1
+#endif
+X
+/* for convenience (isxxx() want an unsigned char input) */
+X
+#define ISDIGIT(c) isdigit((unsigned char)(c))
+#define ISALNUM(c) isalnum((unsigned char)(c))
+X
+/* atleast types */
+X
+typedef unsigned char uint1;
+X
+typedef unsigned int uint16;
+X
+typedef unsigned long uint32;
+#define UINT32_HIGH 0xffffffffUL
+X
+typedef struct {
+X  uint32 high; /* multiples of 2^32 */
+X  uint32 low; /* range 0-(2^32-1) */
+} uint64;
+#define UINT64_DIGITS 20
+X
+/* To avoid using the raw type name avoidably */
+X
+typedef int errnot;
+X
+/* Internal date format: an extended Unix-style date format.
+X * This consists of the number of seconds since 0001=01=01 stored in a
+X * 64 bit type, plus an additional 32 bit fraction of a second.
+X * Each of the date formats used for I/O has a pair of functions,
+X * used for converting from/to the internal format.
+X */
+X
+typedef struct {
+X  uint64 sec; /* seconds since 0001=01=01; unlimited range */
+X  uint32 frac; /* range 0-(2^32-1) */
+} intdate;
+X
+static void getcurdate(intdate *);
+static void output(intdate const *);
+X
+static uint16 sdin(char const *, intdate *);
+static uint16 julin(char const *, intdate *);
+static uint16 gregin(char const *, intdate *);
+static uint16 qcin(char const *, intdate *);
+static uint16 unixin(char const *, intdate *);
+X
+static char const *sdout(intdate const *);
+static char const *julout(intdate const *);
+static char const *gregout(intdate const *);
+static char const *qcout(intdate const *);
+static char const *unixdout(intdate const *);
+static char const *unixxout(intdate const *);
+X
+static struct format {
+X  char opt;
+X  uint1 sel;
+X  /* The `in' function takes a string, and interprets it.  It returns 0     *
+X   * if the string is unrecognisable, 1 if it was successfully interpreted, *
+X   * or 2 if the string was recognised but invalid.  The date is returned   *
+X   * in the intdate passed to the function.  The function should round the  *
+X   * fraction *up*, so that on output the downward rounding won't cause     *
+X   * wildly inaccurate changes of date.  This makes it theoretically        *
+X   * possible for a date output in a different format from the input to be  *
+X   * up to 1/2^32 second too late, but this is much less serious.           */
+X  uint16 (*in)(char const *, intdate *);
+X  /* The `out' function takes an internal date, and converts it to a string *
+X   * for output.  The string may be in static memory.                       */
+X  char const *(*out)(intdate const *);
+} formats[] = {
+X  { 's', 0, sdin,   sdout    },
+X  { 'j', 0, julin,  julout   },
+X  { 'g', 0, gregin, gregout  },
+X  { 'q', 0, qcin,   qcout    },
+X  { 'u', 0, unixin, unixdout },
+X  { 'x', 0, NULL,   unixxout },
+X  { 0, 0, NULL, NULL }
+};
+X
+static uint16 sddigits = 2;
+X
+static char const *progname;
+X
+int main(int argc, char **argv)
+{
+X  struct format *f;
+X  uint1 sel = 0, haderr = 0;
+X  char *ptr;
+X  intdate dt;
+X  if((ptr = strrchr(*argv, '/')) || (ptr = strrchr(*argv, '\\')))
+X    progname = ptr+1;
+X  else
+X    progname = *argv;
+X  if(!*progname)
+X    progname = "stardate";
+X  while(*++argv && **argv == '-')
+X    while(*++*argv) {
+X      for(f = formats; f->opt; f++)
+X	if(**argv == f->opt) {
+X	  f->sel = sel = 1;
+X	  goto got;
+X	}
+X      fprintf(stderr, "%s: bad option: -%c\n", progname, **argv);
+X      exit(EXIT_FAILURE);
+X      got:
+X      if(**argv == 's' && argv[0][1] >= '0' && argv[0][1] <= '6')
+X	sddigits = *++*argv - '0';
+X    }
+X  if(!sel)
+X    formats[0].sel = 1;
+X  if(!*argv) {
+X    getcurdate(&dt);
+X    output(&dt);
+X  } else {
+X    do {
+X      uint16 n = 0;
+X      for(f = formats; f->opt; f++) {
+X	errno = 0;
+X	if(f->in && (n = f->in(*argv, &dt)))
+X	  break;
+X      }
+X      haderr |= !(n & 1);
+X      if(!n)
+X	fprintf(stderr, "%s: date format unrecognised: %s\n", progname, *argv);
+X      else if(n == 1) {
+X	if(errno) {
+X	  fprintf(stderr, "%s: date is out of acceptable range: %s\n",
+X	      progname, *argv);
+X	  haderr = 1;
+X	} else
+X	  output(&dt);
+X      }
+X    } while(*++argv);
+X  }
+X  exit(haderr ? EXIT_FAILURE : EXIT_SUCCESS);
+}
+X
+static void getcurdate(intdate *dt)
+{
+X  time_t t = time(NULL);
+X  struct tm *tm = gmtime(&t);
+X  char utc[20];
+X  sprintf(utc, "%04d-%02d-%02dT%02d:%02d:%02d", tm->tm_year+1900, tm->tm_mon+1,
+X      tm->tm_mday, tm->tm_hour, tm->tm_min, tm->tm_sec);
+X  gregin(utc, dt);
+}
+X
+static void output(intdate const *dt)
+{
+X  struct format *f;
+X  uint1 d1 = 0;
+X  for(f = formats; f->opt; f++)
+X    if(f->sel) {
+X      if(d1)
+X	putchar(' ');
+X      d1 = 1;
+X      fputs(f->out(dt), stdout);
+X    }
+X  putchar('\n');
+}
+X
+#define UINT64INIT(high, low) { (high), (low) }
+#define uint64hval(n) ((n).high)
+#define uint64lval(n) ((n).low)
+static uint64 uint64mk(uint32, uint32);
+static uint1 uint64iszero(uint64);
+static uint1 uint64le(uint64, uint64);
+#define uint64lt(a, b) (!uint64le((b), (a)))
+#define uint64gt(a, b) (!uint64le((a), (b)))
+#define uint64ge(a, b) (uint64le((b), (a)))
+static uint1 uint64eq(uint64, uint64);
+#define uint64ne(a, b) (!uint64eq((a), (b)))
+static uint64 uint64inc(uint64);
+static uint64 uint64dec(uint64);
+static uint64 uint64add(uint64, uint64);
+static uint64 uint64sub(uint64, uint64);
+static uint64 uint64mul(uint64, uint32);
+static uint64 uint64div(uint64, uint32);
+static uint32 uint64mod(uint64, uint32);
+static char const *uint64str(uint64, uint16, uint16);
+static uint32 strtouint32(char const *, char **, uint16);
+static uint64 strtouint64(char const *, char **, uint16);
+X
+/* The length of one quadcent year, 12622780800 / 400 == 31556952 seconds. */
+#define QCYEAR 31556952UL
+#define STDYEAR 31536000UL
+X
+/* Definitions to help with leap years. */
+static uint16 nrmdays[12]={ 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+static uint16 lyrdays[12]={ 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+#define jleapyear(y) ( !((y)%4L) )
+#define gleapyear(y) ( !((y)%4L) && ( ((y)%100L) || !((y)%400L) ) )
+#define jdays(y) (jleapyear(y) ? lyrdays : nrmdays)
+#define gdays(y) (gleapyear(y) ? lyrdays : nrmdays)
+#define xdays(gp, y) (((gp) ? gleapyear(y) : jleapyear(y)) ? lyrdays : nrmdays)
+X
+/* The date 0323-01-01 (0323*01*01) is 117609 days after the internal   *
+X * epoch, 0001=01=01 (0000-12-30).  This is a difference of             *
+X * 117609*86400 (0x1cb69*0x15180) == 10161417600 (0x25daaed80) seconds. */
+static uint64 const qcepoch = UINT64INIT(0x2UL, 0x5daaed80UL);
+X
+/* The length of four centuries, 146097 days of 86400 seconds, is *
+X * 12622780800 (0x2f0605980) seconds.                             */
+static uint64 const quadcent = UINT64INIT(0x2UL, 0xf0605980UL);
+X
+/* The epoch for Unix time, 1970-01-01, is 719164 (0xaf93c) days after *
+X * our internal epoch, 0001=01=01 (0000-12-30).  This is a difference  *
+X * of 719164*86400 (0xaf93c*0x15180) == 62135769600 (0xe77949a00)      *
+X * seconds.                                                            */
+static uint64 const unixepoch = UINT64INIT(0xeUL, 0x77949a00UL);
+X
+/* The epoch for stardates, 2162-01-04, is 789294 (0xc0b2e) days after *
+X * the internal epoch.  This is 789294*86400 (0xc0b2e*0x15180) ==      *
+X * 68195001600 (0xfe0bd2500) seconds.                                  */
+static uint64 const ufpepoch = UINT64INIT(0xfUL, 0xe0bd2500UL);
+X
+/* The epoch for TNG-style stardates, 2323-01-01, is 848094 (0xcf0de) *
+X * days after the internal epoch.  This is 73275321600 (0x110f8cad00) *
+X * seconds.                                                           */
+static uint64 const tngepoch = UINT64INIT(0x11UL, 0x0f8cad00UL);
+X
+struct caldate {
+X  uint64 year;
+X  uint16 month, day;
+X  uint16 hour, min, sec;
+};
+static uint16 readcal(struct caldate *, char const *, char);
+X
+static uint16 sdin(char const *date, intdate *dt)
+{
+X  static uint64 const nineteen = UINT64INIT(0UL, 19UL);
+X  static uint64 const twenty = UINT64INIT(0UL, 20UL);
+X  uint64 nissue;
+X  uint32 integer, frac;
+X  char const *cptr = date;
+X  char *ptr;
+X  errnot oerrno;
+X  uint1 negi;
+X  char fracbuf[7];
+X  if(*cptr++ != '[')
+X    return 0;
+X  if(negi = (*cptr == '-'))
+X    cptr++;
+X  if(!ISDIGIT(*cptr))
+X    return 0;
+X  errno = 0;
+X  nissue = strtouint64(cptr, &ptr, 10);
+X  oerrno = errno;
+X  if(*ptr++ != ']' || !ISDIGIT(*ptr))
+X    return 0;
+X  integer = strtouint32(ptr, &ptr, 10);
+X  if(errno || integer > 99999UL ||
+X      (!negi && uint64eq(nissue, twenty) && integer > 5005UL) ||
+X      ((negi || uint64lt(nissue, twenty)) && integer > 9999UL)) {
+X    fprintf(stderr, "%s: integer part is out of range: %s\n", progname, date);
+X    return 2;
+X  }
+X  if(*ptr == '.') {
+X    char *b = fracbuf;
+X    strcpy(fracbuf, "000000");
+X    ptr++;
+X    while(*b && ISDIGIT(*ptr))
+X      *b++ = *ptr++;
+X    while(ISDIGIT(*ptr))
+X      ptr++;
+X    if(*ptr)
+X      return 0;
+X  } else if(*ptr)
+X    return 0;
+X  frac = strtouint32(fracbuf, NULL, 10);
+X  errno = oerrno;
+X  if(negi || uint64le(nissue, twenty)) {
+X    /* Pre-TNG stardate */
+X    uint64 f;
+X    if(!negi) {
+X      /* There are two changes in stardate rate to handle: *
+X       *       up to [19]7340      0.2 days/unit           *
+X       * [19]7340 to [19]7840     10   days/unit           *
+X       * [19]7840 to [20]5006      2   days/unit           *
+X       * we scale to the first of these.                   */
+X      if(uint64eq(nissue, twenty)) {
+X	nissue = nineteen;
+X	integer += 10000UL;
+X	goto fiddle;
+X      } else if(uint64eq(nissue, nineteen) && integer >= 7340UL) {
+X	fiddle:
+X	/* We have a stardate in the range [19]7340 to [19]15006.  First *
+X	 * we scale it to match the prior rate, so this range changes to *
+X	 * 7340 to 390640.                                               */
+X	integer = 7340UL + ((integer - 7340UL) * 50) + frac / (1000000UL/50);
+X	frac = (frac * 50UL) % 1000000UL;
+X	/* Next, if the stardate is greater than what was originally     *
+X	 * [19]7840 (now represented as 32340), it is in the 2 days/unit *
+X	 * range, so scale it back again.  The range affected, 32340 to  *
+X	 * 390640, changes to 32340 to 104000.                           */
+X	if(integer >= 32340UL) {
+X	  frac = frac/5UL + (integer%5UL) * (1000000UL/5);
+X	  integer = 32340UL + (integer - 32340UL) / 5;
+X	}
+X	/* The odd stardate has now been scaled to match the early stardate *
+X	 * type.  It could be up to [19]104000.  Fortunately this will not  *
+X	 * cause subsequent calculations to overflow.                       */
+X      }
+X      dt->sec = uint64add(ufpepoch, uint64mul(nissue, 2000UL*86400UL));
+X    } else {
+X      /* Negative stardate.  In order to avoid underflow in some cases, we *
+X       * actually calculate a date one issue (2000 days) too late, and     *
+X       * then subtract that much as the last stage.                        */
+X      dt->sec = uint64sub(ufpepoch,
+X	  uint64mul(uint64dec(nissue), 2000UL*86400UL));
+X    }
+X    dt->sec = uint64add(dt->sec, uint64mk(0, (86400UL/5UL) * integer));
+X    /* frac is scaled such that it is in the range 0-999999, and a value *
+X     * of 1000000 would represent 86400/5 seconds.  We want to put frac  *
+X     * in the top half of a uint64, multiply by 86400/5 and divide by    *
+X     * 1000000, in order to leave the uint64 containing (top half) a     *
+X     * number of seconds and (bottom half) a fraction.  In order to      *
+X     * avoid overflow, this scaling is cancelled down to a multiply by   *
+X     * 54 and a divide by 3125.                                          */
+X    f = uint64mul(uint64mk(frac, 0), 54UL);
+X    f = uint64div(uint64add(f, uint64mk(0, 3124UL)), 3125UL);
+X    dt->sec = uint64add(dt->sec, uint64mk(0, uint64hval(f)));
+X    dt->frac = uint64lval(f);
+X    if(negi) {
+X      /* Subtract off the issue that was added above. */
+X      dt->sec = uint64sub(dt->sec, uint64mk(0, 2000UL*86400UL));
+X    }
+X  } else {
+X    uint64 t;
+X    /* TNG stardate */
+X    nissue = uint64sub(nissue, uint64mk(0, 21UL));
+X    /* Each issue is 86400*146097/4 seconds long. */
+X    dt->sec = uint64add(tngepoch, uint64mul(nissue, (86400UL/4UL)*146097UL));
+X    /* 1 unit is (86400*146097/4)/100000 seconds, which isn't even. *
+X     * It cancels to 27*146097/125.                                 */
+X    t = uint64mul(uint64mk(0, integer), 1000000UL);
+X    t = uint64add(t, uint64mk(0, frac));
+X    t = uint64mul(t, 27UL*146097UL);
+X    dt->sec = uint64add(dt->sec, uint64div(t, 125000000UL));
+X    t = uint64mk(uint64mod(t, 125000000UL), 0UL);
+X    t = uint64div(uint64add(t, uint64mk(0, 124999999UL)), 125000000UL);
+X    dt->frac = uint64lval(t);
+X  }
+X  return 1;
+}
+X
+static uint16 calin(char const *, intdate *, uint1);
+X
+static uint16 julin(char const *date, intdate *dt)
+{
+X  return calin(date, dt, 0);
+}
+X
+static uint16 gregin(char const *date, intdate *dt)
+{
+X  return calin(date, dt, 1);
+}
+X
+static uint16 calin(char const *date, intdate *dt, uint1 gregp)
+{
+X  struct caldate c;
+X  uint64 t;
+X  uint1 low;
+X  uint16 cycle;
+X  uint16 n = readcal(&c, date, gregp ? '-' : '=');
+X  if(n != 1)
+X    return n;
+X  cycle = uint64mod(c.year, 400UL);
+X  if(c.day > xdays(gregp, cycle)[c.month - 1]) {
+X    fprintf(stderr, "%s: day is out of range: %s\n", progname, date);
+X    return 2;
+X  }
+X  if(low = (gregp && uint64iszero(c.year)))
+X    c.year = uint64mk(0, 399UL);
+X  else
+X    c.year = uint64dec(c.year);
+X  t = uint64mul(c.year, 365UL);
+X  if(gregp) {
+X    t = uint64sub(t, uint64div(c.year, 100UL));
+X    t = uint64add(t, uint64div(c.year, 400UL));
+X  }
+X  t = uint64add(t, uint64div(c.year, 4UL));
+X  n = 2*(uint16)gregp + c.day - 1;
+X  for(c.month--; c.month--; )
+X    n += xdays(gregp, cycle)[c.month];
+X  t = uint64add(t, uint64mk(0, n));
+X  if(low)
+X    t = uint64sub(t, uint64mk(0, 146097UL));
+X  t = uint64mul(t, 86400UL);
+X  dt->sec = uint64add(t, uint64mk(0, c.hour*3600UL + c.min*60UL + c.sec));
+X  dt->frac = 0;
+X  return 1;
+}
+X
+static uint16 qcin(char const *date, intdate *dt)
+{
+X  struct caldate c;
+X  uint64 secs, t, f;
+X  uint1 low;
+X  uint16 n = readcal(&c, date, '*');
+X  if(n != 1)
+X    return n;
+X  if(c.day > nrmdays[c.month - 1]) {
+X    fprintf(stderr, "%s: day is out of range: %s\n", progname, date);
+X    return 2;
+X  }
+X  if(low = uint64lt(c.year, uint64mk(0, 323UL)))
+X    c.year = uint64add(c.year, uint64mk(0, 400UL - 323UL));
+X  else
+X    c.year = uint64sub(c.year, uint64mk(0, 323UL));
+X  secs = uint64add(qcepoch, uint64mul(c.year, QCYEAR));
+X  for(n = c.day - 1, c.month--; c.month--; )
+X    n += nrmdays[c.month];
+X  t = uint64mk(0, n * 86400UL + c.hour * 3600UL + c.min * 60UL + c.sec);
+X  t = uint64mul(t, QCYEAR);
+X  f = uint64mk(uint64mod(t, STDYEAR), STDYEAR - 1);
+X  secs = uint64add(secs, uint64div(t, STDYEAR));
+X  if(low)
+X    secs = uint64sub(secs, quadcent);
+X  dt->sec = secs;
+X  dt->frac = uint64lval(uint64div(f, STDYEAR));
+X  return 1;
+}
+X
+static uint16 readcal(struct caldate *c, char const *date, char sep)
+{
+X  errnot oerrno;
+X  uint32 ul;
+X  char *ptr;
+X  char const *pos = date;
+X  if(!ISDIGIT(*pos))
+X    return 0;
+X  while(ISDIGIT(*++pos));
+X  if(*pos++ != sep || !ISDIGIT(*pos))
+X    return 0;
+X  while(ISDIGIT(*++pos));
+X  if(*pos++ != sep || !ISDIGIT(*pos))
+X    return 0;
+X  while(ISDIGIT(*++pos));
+X  if(*pos) {
+X    if((*pos != 'T' && *pos != 't') || !ISDIGIT(*++pos)) {
+X      badtime:
+X      fprintf(stderr, "%s: malformed time of day: %s\n", progname, date);
+X      return 2;
+X    }
+X    while(ISDIGIT(*++pos));
+X    if(*pos++ != ':' || !ISDIGIT(*pos))
+X      goto badtime;
+X    while(ISDIGIT(*++pos));
+X    if(*pos) {
+X      if(*pos++ != ':' || !ISDIGIT(*pos))
+X	goto badtime;
+X      while(ISDIGIT(*++pos));
+X      if(*pos)
+X	goto badtime;
+X    }
+X  }
+X  errno = 0;
+X  c->year = strtouint64(date, &ptr, 10);
+X  oerrno = errno;
+X  errno = 0;
+X  ul = strtouint32(ptr+1, &ptr, 10);
+X  if(errno || !ul || ul > 12UL) {
+X    fprintf(stderr, "%s: month is out of range: %s\n", progname, date);
+X    return 2;
+X  }
+X  c->month = ul;
+X  ul = strtouint32(ptr+1, &ptr, 10);
+X  if(errno || !ul || ul > 31UL) {
+X    fprintf(stderr, "%s: day is out of range: %s\n", progname, date);
+X    return 2;
+X  }
+X  c->day = ul;
+X  if(!*ptr) {
+X    c->hour = c->min = c->sec = 0;
+X    errno = oerrno;
+X    return 1;
+X  }
+X  ul = strtouint32(ptr+1, &ptr, 10);
+X  if(errno || ul > 23UL) {
+X    fprintf(stderr, "%s: hour is out of range: %s\n", progname, date);
+X    return 2;
+X  }
+X  c->hour = ul;
+X  ul = strtouint32(ptr+1, &ptr, 10);
+X  if(errno || ul > 59UL) {
+X    fprintf(stderr, "%s: minute is out of range: %s\n", progname, date);
+X    return 2;
+X  }
+X  c->min = ul;
+X  if(!*ptr) {
+X    c->sec = 0;
+X    errno = oerrno;
+X    return 1;
+X  }
+X  ul = strtouint32(ptr+1, &ptr, 10);
+X  if(errno || ul > 59UL) {
+X    fprintf(stderr, "%s: second is out of range: %s\n", progname, date);
+X    return 2;
+X  }
+X  c->sec = ul;
+X  errno = oerrno;
+X  return 1;
+}
+X
+static uint16 unixin(char const *date, intdate *dt)
+{
+X  char const *pos = date+1;
+X  uint16 radix = 10;
+X  uint1 neg;
+X  char *ptr;
+X  uint64 mag;
+X  if(date[0] != 'u' && date[0] != 'U')
+X    return 0;
+X  pos += neg = *pos == '-';
+X  if(pos[0] == '0' && (pos[1] == 'x' || pos[1] == 'X')) {
+X    pos += 2;
+X    radix = 16;
+X  }
+X  if(!ISALNUM(*pos)) {
+X    bad:
+X    fprintf(stderr, "%s: malformed Unix date: %s\n", progname, date);
+X    return 2;
+X  }
+X  mag = strtouint64(pos, &ptr, radix);
+X  if(*ptr)
+X    goto bad;
+X  dt->sec = (neg ? uint64sub : uint64add)(unixepoch, mag);
+X  dt->frac = 0;
+X  return 1;
+}
+X
+static char const *tngsdout(intdate const *);
+X
+static char const *sdout(intdate const *dt)
+{
+X  uint1 isneg;
+X  uint32 nissue, integer;
+X  uint64 frac;
+X  static char ret[18];
+X  if(uint64le(tngepoch, dt->sec))
+X    return tngsdout(dt);
+X  if(uint64lt(dt->sec, ufpepoch)) {
+X    /* Negative stardate */
+X    uint64 diff = uint64dec(uint64sub(ufpepoch, dt->sec));
+X    uint32 nsecs = 2000UL*86400UL - 1 - uint64mod(diff, 2000UL * 86400UL);
+X    isneg = 1;
+X    nissue = 1 + uint64lval(uint64div(diff, 2000UL * 86400UL));
+X    integer = nsecs / (86400UL/5);
+X    frac = uint64mul(uint64mk(nsecs % (86400UL/5), dt->frac), 50UL);
+X  } else if(uint64lt(dt->sec, tngepoch)) {
+X    /* Positive stardate */
+X    uint64 diff = uint64sub(dt->sec, ufpepoch);
+X    uint32 nsecs = uint64mod(diff, 2000UL * 86400UL);
+X    isneg = 0;
+X    nissue = uint64lval(uint64div(diff, 2000UL * 86400UL));
+X    if(nissue < 19 || (nissue == 19 && nsecs < 7340UL * (86400UL/5))) {
+X      /* TOS era */
+X      integer = nsecs / (86400UL/5);
+X      frac = uint64mul(uint64mk(nsecs % (86400UL/5), dt->frac), 50UL);
+X    } else {
+X      /* Film era */
+X      nsecs += (nissue - 19) * 2000UL*86400UL;
+X      nissue = 19;
+X      nsecs -= 7340UL * (86400UL/5);
+X      if(nsecs >= 5000UL*86400UL) {
+X	/* Late film era */
+X	nsecs -= 5000UL*86400UL;
+X	integer = 7840 + nsecs/(86400UL*2);
+X	if(integer >= 10000) {
+X	  integer -= 10000;
+X	  nissue++;
+X	}
+X	frac = uint64mul(uint64mk(nsecs % (86400UL*2), dt->frac), 5UL);
+X      } else {
+X	/* Early film era */
+X	integer = 7340 + nsecs/(86400UL*10);
+X	frac = uint64mk(nsecs % (86400UL*10), dt->frac);
+X      }
+X    }
+X  }
+X  sprintf(ret, "[%s%lu]%04lu", "-" + !isneg, nissue, integer);
+X  if(sddigits) {
+X    char *ptr = strchr(ret, 0);
+X    /* At this point, frac is a fractional part of a unit, in the range *
+X     * 0 to (2^32 * 864000)-1.  In order to represent this as a 6-digit *
+X     * decimal fraction, we need to scale this.  Mathematically, we     *
+X     * need to multiply by 1000000 and divide by (2^32 * 864000).  But  *
+X     * multiplying by 1000000 would cause overflow.  Cancelling the two *
+X     * values yields an algorithm of multiplying by 125 and dividing by *
+X     * (2^32*108).                                                      */
+X    frac = uint64div(uint64mul(frac, 125UL), 108UL);
+X    sprintf(ptr, ".%06lu", uint64hval(frac));
+X    ptr[sddigits + 1] = 0;
+X  }
+X  return ret;
+}
+X
+static char const *tngsdout(intdate const *dt)
+{
+X  static char ret[UINT64_DIGITS + 15];
+X  uint64 h, l;
+X  uint32 nsecs;
+X  uint64 diff = uint64sub(dt->sec, tngepoch);
+X  /* 1 issue is 86400*146097/4 seconds long, which just fits in 32 bits. */
+X  uint64 nissue = uint64add(uint64mk(0, 21UL),
+X      uint64div(diff, (86400UL/4)*146097UL));
+X  nsecs = uint64mod(diff, (86400UL/4)*146097UL);
+X  /* 1 unit is (86400*146097/4)/100000 seconds, which isn't even. *
+X   * It cancels to 27*146097/125.  For a six-figure fraction,     *
+X   * divide that by 1000000.                                      */
+X  h = uint64mul(uint64mk(0, nsecs), 125000000UL);
+X  l = uint64mul(uint64mk(0, dt->frac), 125000000UL);
+X  h = uint64add(h, uint64mk(0, uint64hval(l)));
+X  h = uint64div(h, 27UL*146097UL);
+X  sprintf(ret, "[%s]%05lu", uint64str(nissue, 10, 1),
+X      uint64lval(uint64div(h, 1000000UL)));
+X  if(sddigits) {
+X    char *ptr = strchr(ret, 0);
+X    sprintf(ptr, ".%06lu", uint64mod(h, 1000000UL));
+X    ptr[sddigits + 1] = 0;
+X  }
+X  return ret;
+}
+X
+static char const *calout(intdate const *, uint1);
+X
+static char const *julout(intdate const *dt)
+{
+X  return calout(dt, 0);
+}
+X
+static char const *gregout(intdate const *dt)
+{
+X  return calout(dt, 1);
+}
+X
+static char const *docalout(char, uint1, uint16, uint64, uint16, uint32);
+X
+static char const *calout(intdate const *dt, uint1 gregp)
+{
+X  uint32 tod = uint64mod(dt->sec, 86400UL);
+X  uint64 year, days = uint64div(dt->sec, 86400UL);
+X  /* We need the days number to be days since an xx01.01.01 to get the *
+X   * leap year cycle right.  For the Julian calendar, it is already    *
+X   * so (0001=01=01).  But for the Gregorian calendar, the epoch is    *
+X   * 0000-12-30, so we must add on 400 years minus 2 days.  The year   *
+X   * number gets corrected below.                                      */
+X  if(gregp)
+X    days = uint64add(days, uint64mk(0, 146095UL));
+X  /* Approximate the year number, underestimating but only by a limited *
+X   * amount.  days/366 is a first approximation, but it goes out by 1   *
+X   * day every non-leap year, and so will be a full year out after 366  *
+X   * non-leap years.  In the Julian calendar, we get 366 non-leap years *
+X   * every 488 years, so adding (days/366)/487 corrects for this.  In   *
+X   * the Gregorian calendar, it is not so simple: we get 400 years      *
+X   * every 146097 days, and then add on days/366 within that set of 400 *
+X   * years.                                                             */
+X  if(gregp)
+X    year = uint64add(uint64mul(uint64div(days, 146097UL), 400UL),
+X	uint64mk(0, uint64mod(days, 146097UL) / 366UL));
+X  else
+X    year = uint64add(uint64div(days, 366UL), uint64div(days, 366UL * 487UL));
+X  /* We then adjust the number of days remaining to match this *
+X   * approximation of the year.  Note that this approximation  *
+X   * will never be more than two years off the correct date,   *
+X   * so the number of days left no longer needs to be stored   *
+X   * in a uint64.                                              */
+X  if(gregp)
+X    days = uint64sub(uint64add(days, uint64div(year, 100UL)),
+X	uint64div(year, 400UL));
+X  days = uint64sub(days,
+X      uint64add(uint64mul(year, 365UL), uint64div(year, 4UL)));
+X  /* Now correct the year to an actual year number (see notes above). */
+X  if(gregp)
+X    year = uint64sub(year, uint64mk(0, 399UL));
+X  else
+X    year = uint64inc(year);
+X  return docalout(gregp ? '-' : '=', gregp, uint64mod(year, 400UL),
+X      year, uint64lval(days), tod);
+}
+X
+static char const *docalout(char sep, uint1 gregp, uint16 cycle,
+X    uint64 year, uint16 ndays, uint32 tod)
+{
+X  uint16 nmonth = 0;
+X  uint16 hr, min, sec;
+X  static char ret[UINT64_DIGITS + 16];
+X  /* Walk through the months, fixing the year, and as a side effect *
+X   * calculating the month number and day of the month.             */
+X  while(ndays >= xdays(gregp, cycle)[nmonth]) {
+X    ndays -= xdays(gregp, cycle)[nmonth];
+X    if(++nmonth == 12) {
+X      nmonth = 0;
+X      year = uint64inc(year);
+X      cycle++;
+X    }
+X  }
+X  ndays++;
+X  nmonth++;
+X  /* Now sort out the time of day. */
+X  hr = tod / 3600;
+X  tod %= 3600;
+X  min = tod / 60;
+X  sec = tod % 60;
+X  sprintf(ret, "%s%c%02d%c%02dT%02d:%02d:%02d",
+X      uint64str(year, 10, 4), sep, nmonth, sep, ndays, hr, min, sec);
+X  return ret;
+}
+X
+static char const *qcout(intdate const *dt)
+{
+X  uint64 secs = dt->sec;
+X  uint32 nsec;
+X  uint64 year, h, l;
+X  uint1 low;
+X  if(low = uint64lt(secs, qcepoch))
+X    secs = uint64add(secs, quadcent);
+X  secs = uint64sub(secs, qcepoch);
+X  nsec = uint64mod(secs, QCYEAR);
+X  secs = uint64div(secs, QCYEAR);
+X  if(low)
+X    year = uint64sub(secs, uint64mk(0, 400 - 323));
+X  else
+X    year = uint64add(secs, uint64mk(0, 323));
+X  /* We need to translate the nsec:dt->frac value (real seconds up to *
+X   * 31556952:0) into quadcent seconds.  This can be done by          *
+X   * multiplying by 146000 and dividing by 146097.  Normally this     *
+X   * would overflow, so we do this in two parts.                      */
+X  h = uint64mk(0, nsec);
+X  l = uint64mk(0, dt->frac);
+X  h = uint64mul(h, 146000);
+X  l = uint64mul(l, 146000);
+X  h = uint64add(h, uint64mk(0, uint64hval(l)));
+X  nsec = uint64lval(uint64div(h, 146097));
+X  return docalout('*', 0, 1, year, nsec / 86400, nsec % 86400UL);
+}
+X
+static char const *unixout(intdate const *, uint16, char const *);
+X
+static char const *unixdout(intdate const *dt)
+{
+X  return unixout(dt, 10, "");
+}
+X
+static char const *unixxout(intdate const *dt)
+{
+X  return unixout(dt, 16, "0x");
+}
+X
+static char const *unixout(intdate const *dt, uint16 radix, char const *prefix)
+{
+X  static char ret[UINT64_DIGITS + 3];
+X  char const *sgn;
+X  uint64 mag;
+X  if(uint64le(unixepoch, dt->sec)) {
+X    sgn = "";
+X    mag = uint64sub(dt->sec, unixepoch);
+X  } else {
+X    sgn = "-";
+X    mag = uint64sub(unixepoch, dt->sec);
+X  }
+X  sprintf(ret, "U%s%s%s", sgn, prefix, uint64str(mag, radix, 1));
+X  return ret;
+}
+X
+static uint64 uint64mk(uint32 h, uint32 l)
+{
+X  uint64 r;
+X  r.high = h;
+X  r.low = l;
+X  return r;
+}
+X
+static uint1 uint64iszero(uint64 n)
+{
+X  return !n.high && !n.low;
+}
+X
+static uint1 uint64le(uint64 a, uint64 b)
+{
+X  return a.high < b.high || (a.high == b.high && a.low <= b.low);
+}
+X
+static uint1 uint64eq(uint64 a, uint64 b)
+{
+X  return a.low == b.low && a.high == b.high;
+}
+X
+static uint64 uint64inc(uint64 n)
+{
+X  n.low++;
+X  if(!(n.low &= 0xffffffffUL)) {
+X    n.high = (n.high+1) & 0xffffffffUL;
+X    if(!n.high)
+X      errno = ERANGE;
+X  }
+X  return n;
+}
+X
+static uint64 uint64dec(uint64 n)
+{
+X  if(!n.low) {
+X    if(!n.high) {
+X      n.high = 0xffffffffUL;
+X      errno = ERANGE;
+X    } else
+X      n.high--;
+X    n.low = 0xffffffffUL;
+X  } else
+X    n.low--;
+X  return n;
+}
+X
+static uint64 uint64add(uint64 a, uint64 b)
+{
+X  uint64 r;
+X  r.low = (a.low + b.low) & 0xffffffffUL;
+X  r.high = (a.high + b.high + (r.low < a.low)) & 0xffffffffUL;
+X  if(r.high < a.high || r.high < b.high)
+X    errno = ERANGE;
+X  return r;
+}
+X
+static uint64 uint64sub(uint64 a, uint64 b)
+{
+X  uint64 r;
+X  r.high = (a.high - b.high - (a.low < b.low)) & 0xffffffffUL;
+X  if(b.high + (a.low < b.low) > a.high)
+X    errno = ERANGE;
+X  r.low = (a.low - b.low) & 0xffffffffUL;
+X  return r;
+}
+X
+static uint64 uint64mul(uint64 vl, uint32 mul)
+{
+X  uint64 r;
+X  uint16 ml = mul & 0xffffU, mh = mul >> 16;
+X  uint16 ll = vl.low & 0xffffU, lh = vl.low >> 16;
+X  uint32 rl = (uint32)ll * ml;
+X  uint32 rm = (rl >> 16) + (uint32)ll*mh + (uint32)lh*ml;
+X  rl &= 0xffffU;
+X  r.high = (vl.high*mul + (uint32)lh*mh + (rm >> 16)) & 0xffffffffUL;
+X  if(vl.high*mul/mul != vl.high || r.high < vl.high*mul || r.high < (uint32)lh*mh)
+X    errno = ERANGE;
+X  rm &= 0xffffU;
+X  r.low = (rm << 16) | rl;
+X  return r;
+}
+X
+static uint64 uint64div(uint64 n, uint32 div)
+{
+X  uint64 r, m;
+X  uint32 b = 0x80000000UL;
+X  r.high = n.high / div;
+X  r.low = 0;
+X  n.high %= div;
+X  m.high = div;
+X  m.low = 0;
+X  while(n.high) {
+X    m.low = (m.low >> 1) | ((m.high&1) << 31);
+X    m.high >>= 1;
+X    if(uint64le(m, n)) {
+X      n = uint64sub(n, m);
+X      r.low |= b;
+X    }
+X    b >>= 1;
+X  }
+X  r.low |= n.low / div;
+X  return r;
+}
+X
+static uint32 uint64mod(uint64 n, uint32 div)
+{
+X  uint64 m;
+X  n.high %= div;
+X  m.high = div;
+X  m.low = 0;
+X  while(n.high) {
+X    m.low = (m.low >> 1) | ((m.high&1) << 31);
+X    m.high >>= 1;
+X    if(m.high < n.high || (m.high == n.high && m.low <= n.low))
+X      n = uint64sub(n, m);
+X  }
+X  return n.low % div;
+}
+X
+static char const xdigits[] = "0123456789abcdef";
+static char const cdigits[] = "0123456789ABCDEF";
+X
+static char const *uint64str(uint64 n, uint16 radix, uint16 min)
+{
+X  static char ret[UINT64_DIGITS + 1];
+X  char *pos = ret + UINT64_DIGITS, *end = pos - min;
+X  *pos = 0;
+X  while(n.high || n.low) {
+X    *--pos = xdigits[uint64mod(n, radix)];
+X    n = uint64div(n, radix);
+X  }
+X  while(pos > end)
+X    *--pos = '0';
+X  return pos;
+}
+X
+static uint32 strtouint32(char const *str, char **ptr, uint16 radix)
+{
+X  errnot oerrno = errno;
+X  uint32 n = 0;
+X  for(; *str; str++) {
+X    char const *d;
+X    uint16 v;
+X    if((d = strchr(xdigits, *str)))
+X      v = d - xdigits;
+X    else if((d = strchr(cdigits, *str)))
+X      v = d - cdigits;
+X    else
+X      break;
+X    if(n > (UINT32_HIGH-v) / radix)
+X      oerrno = ERANGE;
+X    n = n*radix + v;
+X  }
+X  errno = oerrno;
+X  if(ptr)
+X    *ptr = (char *)str;
+X  return n;
+}
+X
+static uint64 strtouint64(char const *str, char **ptr, uint16 radix)
+{
+X  errnot oerrno = errno;
+X  uint64 n = UINT64INIT(0, 0);
+X  for(; *str; str++) {
+X    char const *d;
+X    uint16 v;
+X    if((d = strchr(xdigits, *str)))
+X      v = d - xdigits;
+X    else if((d = strchr(cdigits, *str)))
+X      v = d - cdigits;
+X    else
+X      break;
+X    errno = 0;
+X    n = uint64add(uint64mul(n, radix), uint64mk(0, v));
+X    if(errno)
+X      oerrno = errno;
+X  }
+X  errno = oerrno;
+X  if(ptr)
+X    *ptr = (char *)str;
+X  return n;
+}
+SHAR_EOF
+  $shar_touch -am 1226190197 'stardates-1.6.1/stardate.c' &&
+  chmod 0644 'stardates-1.6.1/stardate.c' ||
+  $echo 'restore of' 'stardates-1.6.1/stardate.c' 'failed'
+  if ( md5sum --help 2>&1 | grep 'sage: md5sum \[' ) >/dev/null 2>&1 \
+  && ( md5sum --version 2>&1 | grep -v 'textutils 1.12' ) >/dev/null; then
+    md5sum -c << SHAR_EOF >/dev/null 2>&1 \
+    || $echo 'stardates-1.6.1/stardate.c:' 'MD5 check failed'
+ab85a3e834edde5974ced0d08d9057a5  stardates-1.6.1/stardate.c
+SHAR_EOF
+  else
+    shar_count="`LC_ALL= LC_CTYPE= LANG= wc -c < 'stardates-1.6.1/stardate.c'`"
+    test 31759 -eq "$shar_count" ||
+    $echo 'stardates-1.6.1/stardate.c:' 'original size' '31759,' 'current size' "$shar_count!"
+  fi
+fi
+# ============= stardates-1.6.1/stardate.1 ==============
+if test -f 'stardates-1.6.1/stardate.1' && test "$first_param" != -c; then
+  $echo 'x -' SKIPPING 'stardates-1.6.1/stardate.1' '(file already exists)'
+else
+  $echo 'x -' extracting 'stardates-1.6.1/stardate.1' '(text)'
+  sed 's/^X//' << 'SHAR_EOF' > 'stardates-1.6.1/stardate.1' &&
+X.\"
+X.\" Copyright (c) 1996, 1997 Andrew Main.  All rights reserved.
+X.\"
+X.\" Redistribution and use, in source and binary forms, with or without
+X.\" modification, are permitted provided that the following conditions
+X.\" are met:
+X.\" 1. Redistributions of source code must retain the above copyright
+X.\"    notice, this list of conditions and the following disclaimer.
+X.\" 2. Redistributions in binary form must reproduce the above copyright
+X.\"    notice, this list of conditions and the following disclaimer
+X.\"    in the documentation and/or other materials provided with the
+X.\"    distribution.
+X.\" 3. All advertising materials mentioning features or use of this
+X.\"    software must display the following acknowledgement:
+X.\"        This product includes software developed by Andrew Main.
+X.\" 4. The name of Andrew Main may not be used to endorse or promote
+X.\"    products derived from this software without specific prior
+X.\"    written permission.
+X.\"
+X.\" THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED
+X.\" WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+X.\" MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+X.\" IN NO EVENT SHALL ANDREW MAIN BE LIABLE FOR ANY DIRECT, INDIRECT,
+X.\" INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+X.\" BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+X.\" LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+X.\" CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+X.\" LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+X.\" ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+X.\" POSSIBILITY OF SUCH DAMAGE.
+X.\"
+X.TH STARDATE 1 "9 February 1997, SD [-31]8857.62" "Stardates 1.6"
+X.SH NAME
+stardate \- convert between stardates and other calendars
+X.SH SYNOPSIS
+X.B stardate
+[
+X.I options
+] [
+X.I date
+\&... ]
+X.SH DESCRIPTION
+X.I stardate
+interprets the
+X.IR date s
+specified on its command line, and outputs them in the formats specified
+by the
+X.IR option s.
+X.PP
+If no
+X.IR date s
+are specified, the current time, read from the system clock, is used.
+If no
+X.IR option s
+are specified, dates are output in the form of stardates.
+Consequently, if
+X.I stardate
+is invoked with no arguments, it outputs the current time as
+a stardate.  This performs much the same job as
+X.IR date (1),
+but with a more interesting form of output.
+X.PP
+Dates on output are always rounded down, and
+so in some cases will generate different output if reused as input.
+This rounding is always such that the output date is the latest time,
+expressible in the format being used, that is no later than the time
+specified as input.
+X.PP
+This program handles dates from 0001=01=01 (Julian calendar)
+up to (currently) (2^64 - 1) seconds later, which is beyond the year
+(5 x 10^11).  Any date within this range can be input or output in any of
+the formats the program supports.
+Consequently, any date the program outputs will be accepted
+as input.  The only exception is for dates within the first half second
+of the acceptable range, where the value output in the quadcent calendar,
+X.RB `` 0000*12*31T02:03:16 ''
+(chosen due to the rounding mentioned above), is
+actually outside the acceptable range.
+X.PP
+The stardate code is based on information in version 1 of the
+X.IR "Stardates in Star Trek FAQ" ,
+which is regularly posted to the USENET newsgroup rec.arts.startrek.tech.
+X.SH OPTIONS
+X.TP
+X.BR \-s [\fIn\fR]
+Output the date as a stardate.
+X.IR n ,
+if given, specifies the number of digits output after the decimal point.
+If not specified, it defaults to 2.
+The output looks like
+X.IB \fR`` [ i ] nnnn . dd \fR''.
+X.RS
+X.PP
+When 2 decimal places are used,
+the output of the current time changes every 172.8 seconds.
+(Actually, because of the resolution of C time,
+four-fifths of the changes are 173 seconds after the previous change,
+and the other fifth are 172 seconds after.)
+X.RE
+X.TP
+X.BR -j
+Output the date as a date in the Julian calendar, with UTC time.
+The output looks like
+X.BI \fR`` yyyy = mm = dd T hh : mm : ss \fR''.
+X.TP
+X.BR -g
+Output the date as a date in the Gregorian calendar, with UTC time.
+The output looks like
+X.BI \fR`` yyyy - mm - dd T hh : mm : ss \fR''.
+X.TP
+X.BR -q
+Output the date as a date in the Quadcent calendar, with UTC time.
+The output looks like
+X.BI \fR`` yyyy * mm * dd T hh : mm : ss \fR''.
+X.RS
+X.PP
+This calendar is explained in detail in the
+X.IR "Stardates in Star Trek FAQ" .
+Briefly, it uses seconds that are approximately 1.00066 SI seconds long,
+and has no leap years.  Each 400 years in this calendar is exactly as long
+as 400 years in the Gregorian calendar, but all years in the quadcent
+calendar are the same length.
+X.RE
+X.TP
+X.BR -u
+Output the date in the form of the traditional Unix time.  This is
+a number of seconds since midnight UTC on 1970-01-01.
+The output looks like
+X.IB \fR`` U nnnnnnnnn \fR''.
+X.TP
+X.BR -x
+Output the date in the form of the traditional Unix time, in hexadecimal.
+The output looks like
+X.IB \fR`` U0x nnnnnnnnn \fR''.
+X.SH "INPUT FORMATS"
+X.IR date s
+may be specified in any of the output formats, as described above,
+with a few variations allowed.  More precisely, the following forms
+are permitted:
+X.TP
+X.BI [ issue ] nnnn
+X.PD 0
+X.TP
+X.BI [- issue ] nnnn
+X.TP
+X.BI [ issue ] nnnn . dd
+X.TP
+X.BI [- issue ] nnnn . dd
+X.PD
+A stardate.  The issue number, with the square brackets, is mandatory.
+The fractional part is optional.
+X.RS
+X.PP
+Stardate
+X.RB `` [0]0000.0 ''
+is midnight UTC on 2162-01-04; negative issue numbers indicate times before
+that.
+If
+X.I issue
+is less than 20, the number must be in the range [0, 10000).  If
+equal to 20, [0, 5006).  If greater than 20, [0, 100000).
+The FAQ explains these range changes.
+X.RE
+X.TP
+X.IB yyyy = mm = dd
+X.PD 0
+X.TP
+X.IB yyyy = mm = dd T hh : mm
+X.TP
+X.IB yyyy = mm = dd T hh : mm : ss
+X.PD
+A date in the Julian calendar, optionally with a time in UTC.
+X.TP
+X.IB yyyy - mm - dd
+X.PD 0
+X.TP
+X.IB yyyy - mm - dd T hh : mm
+X.TP
+X.IB yyyy - mm - dd T hh : mm : ss
+X.PD
+A date in the Gregorian calendar, optionally with a time in UTC.
+X.TP
+X.IB yyyy * mm * dd
+X.PD 0
+X.TP
+X.IB yyyy * mm * dd T hh : mm
+X.TP
+X.IB yyyy * mm * dd T hh : mm : ss
+X.PD
+A date in the Quadcent calendar, optionally with a time in UTC.
+X.TP
+X.BI U nnnnnnnnnn
+X.PD 0
+X.TP
+X.BI U- nnnnnnnnnn
+X.TP
+X.BI U0x nnnnnnnnnn
+X.TP
+X.BI U-0x nnnnnnnnnn
+X.PD
+A Unix time specification \- a number of seconds since 1970-01-01.
+A negative number indicates a time before 1970.  In the forms with
+X.RB `` 0x '',
+the number is in hexadecimal.
+X.PP
+Case of alphabetic characters in input is ignored.
+X.SH AUTHOR
+Andrew Main <zefram@fysh.org>
+X.SH "SEE ALSO"
+X.IR date (1),
+X.I Stardates in Star Trek FAQ
+X.SH BUGS
+This program will not handle dates BCE.
+SHAR_EOF
+  $shar_touch -am 0209123897 'stardates-1.6.1/stardate.1' &&
+  chmod 0644 'stardates-1.6.1/stardate.1' ||
+  $echo 'restore of' 'stardates-1.6.1/stardate.1' 'failed'
+  if ( md5sum --help 2>&1 | grep 'sage: md5sum \[' ) >/dev/null 2>&1 \
+  && ( md5sum --version 2>&1 | grep -v 'textutils 1.12' ) >/dev/null; then
+    md5sum -c << SHAR_EOF >/dev/null 2>&1 \
+    || $echo 'stardates-1.6.1/stardate.1:' 'MD5 check failed'
+e7475b6571949cc8cfa39fcb240daa5c  stardates-1.6.1/stardate.1
+SHAR_EOF
+  else
+    shar_count="`LC_ALL= LC_CTYPE= LANG= wc -c < 'stardates-1.6.1/stardate.1'`"
+    test 6702 -eq "$shar_count" ||
+    $echo 'stardates-1.6.1/stardate.1:' 'original size' '6702,' 'current size' "$shar_count!"
+  fi
+fi
+# ============= stardates-1.6.1/stardate.man ==============
+if test -f 'stardates-1.6.1/stardate.man' && test "$first_param" != -c; then
+  $echo 'x -' SKIPPING 'stardates-1.6.1/stardate.man' '(file already exists)'
+else
+  $echo 'x -' extracting 'stardates-1.6.1/stardate.man' '(text)'
+  sed 's/^X//' << 'SHAR_EOF' > 'stardates-1.6.1/stardate.man' &&
+X
+X
+X
+STARDATE(1)                                           STARDATE(1)
+X
+X
+NAME
+X       stardate - convert between stardates and other calendars
+X
+SYNOPSIS
+X       stardate [ options ] [ date ... ]
+X
+DESCRIPTION
+X       stardate  interprets  the  dates  specified on its command
+X       line, and outputs them in the  formats  specified  by  the
+X       options.
+X
+X       If no dates are specified, the current time, read from the
+X       system clock, is used.  If no options are specified, dates
+X       are  output  in  the  form of stardates.  Consequently, if
+X       stardate is invoked with no arguments, it outputs the cur-
+X       rent  time as a stardate.  This performs much the same job
+X       as date(1), but with a more interesting form of output.
+X
+X       Dates on output are always rounded down, and  so  in  some
+X       cases  will  generate different output if reused as input.
+X       This rounding is always such that the output date  is  the
+X       latest time, expressible in the format being used, that is
+X       no later than the time specified as input.
+X
+X       This program handles dates from 0001=01=01 (Julian  calen-
+X       dar)  up to (currently) (2^64 - 1) seconds later, which is
+X       beyond the year (5 x 10^11).  Any date within  this  range
+X       can  be  input or output in any of the formats the program
+X       supports.  Consequently, any date the program outputs will
+X       be  accepted  as  input.   The only exception is for dates
+X       within the first half  second  of  the  acceptable  range,
+X       where   the   value   output  in  the  quadcent  calendar,
+X       ``0000*12*31T02:03:16'' (chosen due to the  rounding  men-
+X       tioned above), is actually outside the acceptable range.
+X
+X       The  stardate code is based on information in version 1 of
+X       the Stardates in Star Trek FAQ, which is regularly  posted
+X       to the USENET newsgroup rec.arts.startrek.tech.
+X
+OPTIONS
+X       -s[n]  Output the date as a stardate.  n, if given, speci-
+X              fies the number of digits output after the  decimal
+X              point.   If  not  specified, it defaults to 2.  The
+X              output looks like ``[i]nnnn.dd''.
+X
+X              When 2 decimal places are used, the output  of  the
+X              current  time  changes every 172.8 seconds.  (Actu-
+X              ally, because of the resolution of  C  time,  four-
+X              fifths  of  the  changes  are 173 seconds after the
+X              previous change, and the other fifth are  172  sec-
+X              onds after.)
+X
+X       -j     Output  the  date as a date in the Julian calendar,
+X              with   UTC   time.    The   output    looks    like
+X
+X
+X
+Stardates 1.6    9 February 1997, SD [-31]8857.62               1
+X
+X
+X
+X
+X
+STARDATE(1)                                           STARDATE(1)
+X
+X
+X              ``yyyy=mm=ddThh:mm:ss''.
+X
+X       -g     Output  the  date as a date in the Gregorian calen-
+X              dar, with UTC time.  The output looks like  ``yyyy-
+X              mm-ddThh:mm:ss''.
+X
+X       -q     Output the date as a date in the Quadcent calendar,
+X              with   UTC   time.    The   output    looks    like
+X              ``yyyy*mm*ddThh:mm:ss''.
+X
+X              This  calendar  is explained in detail in the Star-
+X              dates in Star Trek FAQ.  Briefly, it  uses  seconds
+X              that are approximately 1.00066 SI seconds long, and
+X              has no leap years.  Each 400 years in this calendar
+X              is  exactly  as  long as 400 years in the Gregorian
+X              calendar, but all years in  the  quadcent  calendar
+X              are the same length.
+X
+X       -u     Output the date in the form of the traditional Unix
+X              time.  This is a number of seconds  since  midnight
+X              UTC   on   1970-01-01.    The   output  looks  like
+X              ``Unnnnnnnnn''.
+X
+X       -x     Output the date in the form of the traditional Unix
+X              time,   in  hexadecimal.   The  output  looks  like
+X              ``U0xnnnnnnnnn''.
+X
+INPUT FORMATS
+X       dates may be specified in any of the  output  formats,  as
+X       described above, with a few variations allowed.  More pre-
+X       cisely, the following forms are permitted:
+X
+X       [issue]nnnn
+X       [-issue]nnnn
+X       [issue]nnnn.dd
+X       [-issue]nnnn.dd
+X              A stardate.  The  issue  number,  with  the  square
+X              brackets,  is  mandatory.   The  fractional part is
+X              optional.
+X
+X              Stardate   ``[0]0000.0''   is   midnight   UTC   on
+X              2162-01-04;  negative  issue numbers indicate times
+X              before that.  If issue is less than 20, the  number
+X              must  be  in the range [0, 10000).  If equal to 20,
+X              [0, 5006).  If greater than 20, [0,  100000).   The
+X              FAQ explains these range changes.
+X
+X       yyyy=mm=dd
+X       yyyy=mm=ddThh:mm
+X       yyyy=mm=ddThh:mm:ss
+X              A  date  in  the Julian calendar, optionally with a
+X              time in UTC.
+X
+X
+X
+X
+X
+Stardates 1.6    9 February 1997, SD [-31]8857.62               2
+X
+X
+X
+X
+X
+STARDATE(1)                                           STARDATE(1)
+X
+X
+X       yyyy-mm-dd
+X       yyyy-mm-ddThh:mm
+X       yyyy-mm-ddThh:mm:ss
+X              A date in the Gregorian calendar, optionally with a
+X              time in UTC.
+X
+X       yyyy*mm*dd
+X       yyyy*mm*ddThh:mm
+X       yyyy*mm*ddThh:mm:ss
+X              A  date in the Quadcent calendar, optionally with a
+X              time in UTC.
+X
+X       Unnnnnnnnnn
+X       U-nnnnnnnnnn
+X       U0xnnnnnnnnnn
+X       U-0xnnnnnnnnnn
+X              A Unix time specification -  a  number  of  seconds
+X              since  1970-01-01.   A  negative number indicates a
+X              time before 1970.  In the forms  with  ``0x'',  the
+X              number is in hexadecimal.
+X
+X       Case of alphabetic characters in input is ignored.
+X
+AUTHOR
+X       Andrew Main <zefram@fysh.org>
+X
+SEE ALSO
+X       date(1), Stardates in Star Trek FAQ
+X
+BUGS
+X       This program will not handle dates BCE.
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+X
+Stardates 1.6    9 February 1997, SD [-31]8857.62               3
+X
+X
+SHAR_EOF
+  $shar_touch -am 0519204098 'stardates-1.6.1/stardate.man' &&
+  chmod 0644 'stardates-1.6.1/stardate.man' ||
+  $echo 'restore of' 'stardates-1.6.1/stardate.man' 'failed'
+  if ( md5sum --help 2>&1 | grep 'sage: md5sum \[' ) >/dev/null 2>&1 \
+  && ( md5sum --version 2>&1 | grep -v 'textutils 1.12' ) >/dev/null; then
+    md5sum -c << SHAR_EOF >/dev/null 2>&1 \
+    || $echo 'stardates-1.6.1/stardate.man:' 'MD5 check failed'
+58d272a39eb62f0adc55c215f469660b  stardates-1.6.1/stardate.man
+SHAR_EOF
+  else
+    shar_count="`LC_ALL= LC_CTYPE= LANG= wc -c < 'stardates-1.6.1/stardate.man'`"
+    test 6072 -eq "$shar_count" ||
+    $echo 'stardates-1.6.1/stardate.man:' 'original size' '6072,' 'current size' "$shar_count!"
+  fi
+fi
+# ============= stardates-1.6.1/README ==============
+if test -f 'stardates-1.6.1/README' && test "$first_param" != -c; then
+  $echo 'x -' SKIPPING 'stardates-1.6.1/README' '(file already exists)'
+else
+  $echo 'x -' extracting 'stardates-1.6.1/README' '(text)'
+  sed 's/^X//' << 'SHAR_EOF' > 'stardates-1.6.1/README' &&
+X                       =================================
+X                          STARDATES IN STAR TREK FAQ
+X                           Computer-Related Addenda
+X                                 Version 1.6.1
+X                       by Andrew Main <zefram@fysh.org>
+X                       1997-12-26, stardate [-30]0458.96
+X                       =================================
+X
+X
+1.  TABLE OF CONTENTS
+X
+1.  Table of contents
+2.  About the Stardates in Star Trek FAQ
+3.  The `stardate' program
+4.  Other versions of the `stardate' program
+5.  Adding a stardate header to email messages
+6.  Obtaining the latest version of the FAQ
+7.  Legal notice
+X
+X
+2.  ABOUT THE STARDATES IN STAR TREK FAQ
+X
+This package is based on the Stardates in Star Trek FAQ available on USENET.
+The FAQ describes a system of stardates, and how it was developed.  See
+section 6 for information on getting hold of the latest version.
+X
+The version numbers of this package and the FAQ will generally correspond.
+For example, this is version 1.6.1 of the Computer-Related Addenda package,
+and was prepared at the same time as version 1.6 of the FAQ.  Consequently, if
+you have differing version numbers, it probably means that whichever item you
+have with the lower version number is out of date.
+X
+X
+3.  THE `STARDATE' PROGRAM
+X
+The file `stardate.c' is a C program that will manipulate dates in various
+formats.  It can display the current date, or a date specified in one of five
+formats.  It can display dates in any of these five formats.  The date formats
+supported are stardates (of course), the Julian, Gregorian and Quadcent
+calendars, and the traditional Unix form of date specification.
+X
+Note that the previous version of this program, distributed in version 1.6 of
+this package, gave the wrong results in some cases when compiled in a 16-bit
+(or in fact anything up to 31-bit) environment (such as DOS).  This bug is
+fixed in this version.  All versions produce correct results in a 32-bit (or
+greater) environment.
+X
+`stardate.1' is the nroff source for the program's Unix-style manual page.
+(On Unix systems, this should be installed in the appropriate man directory.)
+`stardate.man' is a plain text formatted version of stardate.1.
+X
+Please do not ask me for an executable of this program.  I have the facilities
+to compile only for a few Unix platforms; definitely not DOS.  Similarly, do
+not ask me for a version in Pascal or any other language.  Some people have
+translated this program's predecessors into Pascal, Java, Haskell and other
+languages, and several people have bolted GUIs onto them, but I haven't kept
+track of these efforts.
+X
+X
+4.  OTHER VERSIONS OF THE `STARDATE' PROGRAM
+X
+As this stardate program is completely new (at the time of writing), this is
+the only implementation of it.  However, if past performances are repeated,
+this will only be a temporary situation.  If you are considering translating
+this program into another language, or reimplementing it with a different
+interface, please read this section.
+X
+Several people have asked me for permission to write programs based on the
+Stardates FAQ.  There is no need to do so.  While the FAQ itself is
+copyrighted, the stardate system it describes is not.  However, if you write
+such a program, please mention in its documentation that it is based on
+version 1 of the Stardates in Star Trek FAQ, and include some information on
+how to get hold of the FAQ.
+X
+In a change from my previous policy, I will now maintain a list of alternate
+versions of this stardate program.  So if you write such a program, feel free
+to send me a brief description.  Future versions of this package will include
+a list of other stardate programs.
+X
+X
+5.  ADDING A STARDATE HEADER TO EMAIL MESSAGES
+X
+If you use the Elm electronic mail reader to send email on a Unix system, it
+is possible to have an extra header line added to all your email messages,
+giving the stardate at which the message was sent.  To do this, you must make
+sure the `stardate' program is in your command path.  Then, add the following
+line to your ~/.elm/elmheaders file, or, if the file doesn't exist, create it
+containing only this line:
+X
+XX-Stardate: `stardate`
+X
+(Note the backquotes.)  An extra line will then be added to the header of all
+email messages sent using Elm.
+X
+X
+6.  OBTAINING THE LATEST VERSION OF THE FAQ
+X
+The Stardates in Star Trek FAQ is posted to the USENET newsgroup
+rec.arts.startrek.tech every 30 days.  It is cross-posted to rec.answers and
+news.answers.  It can be found by searching any of these newsgroups for the
+subject line "Stardates in Star Trek Mini-FAQ" (without the quotes).
+Depending on the configuration at your site, it is possible that it may be
+expired earlier than intended, and therefore not be available.
+X
+It is also available for anonymous FTP from rtfm.mit.edu (18.70.0.209) as file
+/pub/usenet/news.answers/star-trek/stardates.  This will contain the last
+version to be distributed via USENET.  rtfm.mit.edu also has a number of
+mirrors, in which it is archived as star-trek/stardates.  These URLs point to
+a selection of mirrors around the world -- pick the one closest to you:
+X
+<URL:ftp://rtfm.mit.edu/pub/usenet/news.answers/star-trek/stardates>
+<URL:ftp://src.doc.ic.ac.uk/usenet/news-faqs/news.answers/star-trek/stardates>
+<URL:ftp://ftp.pasteur.fr/pub/FAQ/star-trek/stardates>
+<URL:ftp://ftp.sunet.se/pub/usenet/news.answers/star-trek/stardates>
+<URL:ftp://hwarang.postech.ac.kr/pub/usenet/news.answers/star-trek/stardates>
+X
+If you do not have access to FTP, you can obtain a copy from rtfm.mit.edu by
+email.  To do so, send an email message to <mail-server@rtfm.mit.edu>
+containing the line:
+X
+send usenet/news.answers/star-trek/stardates
+X
+As a last resort, you can obtain the latest version direct from the author by
+email.  To do so, send an email message to <zefram@fysh.org>, with the subject
+line "send stardates".  Messages for the attention of the author should be
+sent to the same address, using some other subject line.
+X
+X
+7.  LEGAL NOTICE
+X
+Copyright (c) 1996, 1997 Andrew Main.  All rights reserved.
+X
+Redistribution and use, in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+1. Redistributions of source code must retain the above copyright
+X   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+X   notice, this list of conditions and the following disclaimer
+X   in the documentation and/or other materials provided with the
+X   distribution.
+3. All advertising materials mentioning features or use of this
+X   software must display the following acknowledgement:
+X       This product includes software developed by Andrew Main.
+4. The name of Andrew Main may not be used to endorse or promote
+X   products derived from this software without specific prior
+X   written permission.
+X
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESS OR IMPLIED
+WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+IN NO EVENT SHALL ANDREW MAIN BE LIABLE FOR ANY DIRECT, INDIRECT,
+INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+POSSIBILITY OF SUCH DAMAGE.
+SHAR_EOF
+  $shar_touch -am 0519204098 'stardates-1.6.1/README' &&
+  chmod 0644 'stardates-1.6.1/README' ||
+  $echo 'restore of' 'stardates-1.6.1/README' 'failed'
+  if ( md5sum --help 2>&1 | grep 'sage: md5sum \[' ) >/dev/null 2>&1 \
+  && ( md5sum --version 2>&1 | grep -v 'textutils 1.12' ) >/dev/null; then
+    md5sum -c << SHAR_EOF >/dev/null 2>&1 \
+    || $echo 'stardates-1.6.1/README:' 'MD5 check failed'
+f6fe319e19046c996f468d2a22315d8f  stardates-1.6.1/README
+SHAR_EOF
+  else
+    shar_count="`LC_ALL= LC_CTYPE= LANG= wc -c < 'stardates-1.6.1/README'`"
+    test 7576 -eq "$shar_count" ||
+    $echo 'stardates-1.6.1/README:' 'original size' '7576,' 'current size' "$shar_count!"
+  fi
+fi
+rm -fr _sh14517
+exit 0

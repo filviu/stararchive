@@ -1,0 +1,861 @@
+Newsgroups: rec.arts.startrek.tech
+Subject: REC.ARTS.STARTREK.TECH FAQ: Transporters, Replicators and Phasing
+From: inexorabletash@hotmail.com (Joshua Sean Bell)
+Reply-To: inexorabletash@hotmail.com (Joshua Sean Bell)
+Expires: 21 May 2003 00:01:16 CDT
+X-Original-File: transport-faq.htm
+Organization: Section 31
+
+                   Transporters, Replicators and Phasing FAQ
+                                       
+   Last modified: Friday, 25 April 2003 02:03 AM -0700
+   Maintained by: Joshua Bell, inexorabletash@hotmail.com
+   Archive site (WWW): http://www.calormen.net/Star_Trek/
+   FTP site (text versions): ftp://ftp.cc.umanitoba.ca/startrek/minifaqs/
+     _________________________________________________________________
+   
+   Copyright (c) 1994-2003, Joshua Bell. Not in the public domain.
+   Permission to distribute this document, unedited and including this
+   copyright notice is granted, provided no fees are charged for access
+   beyond charges for downloading or connection time from a commercial
+   information service. Publication of this document in a magazine or
+   journal (in any media format) must be approved by the author.
+   
+   Star Trek (R), Star Trek: The Next Generation (R), Star Trek: Deep Space
+   Nine (R) and Star Trek: Voyager (R) are trademarks of Paramount Pictures
+   registered in the United States Patent and Trademark Office.
+     _________________________________________________________________
+   
+Contents:
+
+     * 1. Transporters
+     * 2. Replicators
+     * 3. Phasing
+     * 4. Credits
+     * 5. References
+     _________________________________________________________________
+   
+1. Transporters
+
+   "How does the transporter work?"
+   
+   While there is no absolute canonical answer, we can piece one together
+   from various clues, that fits nearly everything seen on-screen, and in
+   the TNG Tech Manual.
+   
+   We have some evidence of the inner workings of transporters, but not
+   much. They employ Heisenberg compensators, pattern buffers, phase
+   transition coils, Biofilters, matter streams, confinement beams, and
+   matter-energy converters, and phased matter. As for what they do, we
+   know that you are conscious during transport (Star Trek II: The Wrath
+   of Khan, "Realm of Fear" [TNG]), but can also be held in stasis ("Day
+   of the Dove" [TOS], "Relics" [TNG]). Further, while in transport, you
+   appear whole to yourself.
+   
+   I hypothesize that the Annular Confinement Beam first locks onto, then
+   disassembles the subject into phased matter, via the phase transition
+   coils, causing it to take on a very energy-like state somewhat akin to
+   plasma, called phased matter. The matter stream is then fed into the
+   pattern buffer, piped through wave-guide conduits to one of the beam
+   emitters on the hull of the starship, and then relayed to a point on
+   the ground where the ACB reconstructs the subject.
+   
+   ....
+   
+   "Excuse me, Annular Confinement Beam?"
+   
+   Yes. The ACB is where the phrase "Beam me up, Scotty!" comes from. The
+   beam serves two purposes: The first is to maintain a "lock" on the
+   subject, so the transporter knows what to beam out, and what to leave
+   behind. The second purpose is to do the actual transporting, whilst
+   keeping the subject in one piece subjectively.
+   
+   ....
+   
+   "How does the transporter know what to take and what to leave?"
+   
+   In "The Enterprise Incident" [TOS], the ship's scanners are able to
+   differentiate a Vulcan from all of the Romulans aboard another ship.
+   They are very sensitive, but also take a great deal of time. In many
+   episodes, this sensitivity is not used. However, to scan at that level
+   of resolution would take perhaps far longer than the crew has.
+   
+   In any case, the ACB generators are able to scan the target subject,
+   and either using some best-guessing or asking the Transporter Chief,
+   decide what should be transported with the subject.
+   
+   As one r.a.st.tech poster put it, "One to beam up, hold the bunny
+   slippers." :)
+   
+   ....
+   
+   "So what is this pattern thing?"
+   
+   The pattern buffer is a cyclotron-like tank (TNG:TM) which holds the
+   whirling matrix of phased matter in the ACB while the subject is
+   beamed out and beamed in. In order to keep track of where every part
+   of the subject is, the computer constructs a pattern to keep track of
+   what bits of the stream end up where.
+   
+   An analogy would be the [left->right->left&down]->top pattern a
+   television electron gun follows to paint a picture on the phosphors of
+   the screen. The television (we're assuming an old analog no-frills
+   model) doesn't know and can't possibly store the information needed to
+   construct a one-hour program, but it has a pattern, and uses a
+   modulated matter (electron) stream to do it.
+   
+   In "Lonely Among Us" [TNG], Picard is recovered from being beamed away
+   as pure energy. The computer is able to reconstruct Picard by using
+   the pattern it had stored, working with the phased matter stream that
+   Picard's energy state itself supplied. Since the pattern was
+   pre-transport, the reformed Picard had no memories of the excursion.
+   
+   Similar to this is the transporter ID trace, which is kept for
+   verification purposes for a long time after transport. This is
+   probably a highly compressed sample of the pattern, plus the name of
+   the transportee, logs of the transport cycle, etc. (TNG "Data's Day".)
+   
+   ....
+   
+   "So what is a Heisenberg Compensator?"
+   
+   As Mike Okuda said when asked by Time (28 Nov 1994), "How do the
+   Heisenberg compensators work ?" "They work just fine, thank you."
+   [Benjamin Chee]
+   
+   In physics, the Heisenberg Principle states that you cannot know both
+   the position of a subatomic particle and its momentum to a precise
+   degree. The more you know about one, the less you know can about the
+   other.
+   
+   This comes into play when you consider that to know where everything
+   is coming from and going to, you pretty much have to know near-exactly
+   where everything is. By the 24th century, evidently, that's no longer
+   a problem. The Heisenberg Compensators are probably used to keep
+   everything in the matter stream exactly where it should be.
+   
+   Note that this doesn't mean that the Heisenberg Compensators tell you
+   the vital statistics of the particle; they could very well just
+   compensate for not knowing them and keep the system working just fine,
+   thank you.
+   
+   ....
+   
+   "How does that Biofilter gadget work?"
+   
+   The Biofilter is a good clue as to how the transport patterns work.
+   The filter looks for elements of the pattern which aren't found in
+   normal beings/equipment, or those of known viruses and bacteria. It
+   can simply erase those parts of the pattern, and those parts of the
+   matter stream won't beam back in.
+   
+   In "Unnatural Selection" [TNG], Pulaski is restored from an aged state
+   by the use of the Biofilter. If Pulaski's altered DNA could be tagged
+   as unwanted, the pattern could be tweaked to restore the DNA (its
+   pretty much all the same molecules anyway, just shuffle some
+   base-pairs around). As for her recovering instantly... well, it's a TV
+   show.
+   
+   ....
+   
+   "What is pattern degradation?"
+   
+   The pattern is probably highly complex. Pattern degradation occurs
+   because the Annular Confinement Beams aren't perfect, even with the
+   help of the Heisenberg Compensators. The matter stream comes out of
+   alignment with the computer's pattern predictions for where things
+   should be. Obviously, this is a bad thing.
+   
+   According to the TNG Tech Manual, a subject can be suspended in
+   transport for up to 420 seconds before the degradation is too severe
+   to attempt to reform the transportee. They push close to this limit in
+   "Realm of Fear".
+   
+   In "Relics" [TNG], we see that by keeping the transport controller
+   locked in a diagnostic loop, pattern degradation is kept to a minimum
+   - even with an old-style transporter, only 0.003% of the pattern was
+   lost after 75 years in stasis.
+   
+   In "Realm of Fear" [TNG], the most extraordinary development is the
+   reconstruction of the lost crew, and their appearance as the giant
+   slugs while in transport. I suspect that the phased-matter "bugs"
+   which reside in the plasma environment act as a natural ACB,
+   maintaining the pattern of those "lost" in transport. The computer is
+   able to use the Biofilter to rebuild the patterns and restore the
+   individuals.
+   
+   ....
+   
+   "Where are you during transport?"
+   
+   Inside the ACB. "Realm of Fear" [TNG] shows what it looks like - lots
+   of blue and silver sparkles. If you mean from an outside observer's
+   point of view, you're either in one of the pattern buffers, or in
+   transit to the beaming coordinates. In "The Gamesters of Triskelion"
+   [TOS], Kirk and crew are lost during transport. In the technobabble
+   that follows, Spock and McCoy discuss whether recovering the lost
+   crewmembers from the transport beam, thought to be zipping away from
+   the Enterprise, is possible. This means that if the beam was somehow
+   suspended, a smart computer could reconstruct the pattern and beam you
+   back in. This might be what happened in "Realm of Fear" [TNG]. If the
+   ACB environment is similar to a plasma field, the bugs could act as
+   stabilizers. Long shot, but hey.
+   
+   ....
+   
+   "So was Scotty conscious for 75 years?" ("Relics" [TNG])
+   
+   Nope, or he would have starved - if your brain is working, your heart
+   must be pumping blood, and it needs energy from somewhere. There are
+   three possibilities for how this was accomplished:
+   
+   1) All transporters have an optional "stasis" switch, that locks the
+   pattern of the subject during transport. In other words, they are
+   frozen on a quantum level.
+   
+   2) Old-style transporters, as seen in TOS, always transported the
+   subject under stasis. From watching the show, we can see the two
+   stages in a bream-out. First, a sparkly pattern appears over the chest
+   of the subject, and spreads to cover them. They are sometimes seen to
+   move during this process. Then they start to have these yellow blobs
+   appear as they fade out. They don't move during this second stage. We
+   can speculate that there's a stasis field employed for some reason
+   (technological limitations, safety, etc) during the actual transport
+   stage with old technology. This style of transporter was present on
+   the Jenolan ("Relics"), but is now obsolete.
+   
+   3) Putting the transport controller in a diagnostic loop imposes
+   stasis on the subject, as a byproduct of the process by which
+   degradation is minimized.
+   
+   Choice (3) is the most appealing to me.
+   
+   ....
+   
+   "What happens to the air when you beam in or beam out?"
+   
+   It is likely that during the beam-out process, air simply diffuses
+   into the space previously occupied by the subject under transport.
+   This happens slowly enough that there would be no pop, or any other
+   sound, except perhaps a small hum or tinkling noise, depending on the
+   dynamics of air interacting with the ACB.
+   
+   As for beaming in, the ACB lock on the target site probably gives the
+   air a gentle "shove" out of the way, again with minimal noise. In the
+   movies, we do see the beam sweep outwards before the subject
+   materializes.
+   
+   ....
+   
+   "Why do people who are sitting end when beamed out end up standing
+   when beamed in?" ("Tomorrow is Yesterday" [TOS])
+   
+   Something similar happened in "Bloodlines" [TNG] when Picard's "son"
+   was beamed off a cliff face and ended up standing on the transporter
+   pad. This implies that either the transporter can rearrange the
+   various components of your body, which implies that it has a deep
+   knowledge of biology (and this isn't supported), or that whilst in
+   transport, some sort of force field "nudges" the transportee into an
+   appropriate body position. So if you beam from the smooth transporter
+   pad to bumpy "Planet Hell", the surface you feel under your feet while
+   in transport distorts; you have time to adjust your balance before you
+   materialize. (This has been suggested a number of times on
+   rec.arts.startrek.tech, most recently by Ron Klapperich.)
+   
+   ....
+   
+   "How can you transport without a transporter at the receiving end?"
+   
+   According to the TNG Tech Manual, the Enterprise hull sports emitter
+   array pads at various sites on its surface. They utilize "long-range
+   virtual-focus molecular imaging scanners" to handle remote disassembly
+   of the subject, and facilitate reassembly. The ACB is tightly focused
+   onto the target area from the ship. This is limited - in the TNG era,
+   40,000 km is the safe range for transport.
+   
+   ....
+   
+   "So why in TOS episodes/classic films did they beam from transporter
+   room to transporter room?"
+   
+   Intra-ship transport in the TOS era was not very reliable. ("Day of
+   the Dove" [TOS]) Likely, when two compatible transport systems were
+   available, the surface emitters could "interlock", and the pattern
+   buffers would synchronize. One transport system would handle the
+   dematerialization, and hand off the ACB to the receiving end for the
+   rematerialization. This is much safer and likely requires less energy,
+   and can be used to get around certain environmental difficulties.
+   ("Realm of Fear" [TNG])
+   
+   ....
+   
+   "What happened at the start of Star Trek: The Motion Picture then, if
+   it's so safe?"
+   
+   When the power on the receiving end of the transport failed, the
+   transport computer on the Enterprise was unable to maintain the
+   pattern integrity of the matter stream. This is akin to catastrophic
+   degradation of the pattern. Kirk said "Boost your matter gain, we need
+   more signal!" - perhaps indicating that the ACB could have been used
+   to reconstruct the pattern. In any case, the hand-off appeared to have
+   been nearly complete when the transportees began reforming on the pad.
+   Since the Enterprise could not handle the transport, the matter stream
+   was sent back to Starfleet HQ, in the hopes that enough of the pattern
+   remained in the ACB to reconstruct them at the sending site. It
+   wasn't, and the subjects died shortly thereafter.
+   
+   ....
+   
+   "And why can't Trills be transported?" ("The Host" [TNG])
+   
+   Odan said that transport would kill him. However, in "The Alternate"
+   [DS9], Dax is transported by a Federation transporter (aboard the
+   Runabout), and suffers no ill effects. Since then she's been
+   transported many times. There are a few possibilities.
+   
+   The first is that Odan did not wish to reveal that he was a
+   host/symbiont pair, perhaps because the knowledge would disrupt the
+   negotiations, lead to suspicion, or because all Trill were keeping
+   their symbiont nature a secret at the time.
+   
+   The second is that, not knowing that Trill are a joined species, the
+   Biofilter might identify the slug part as a parasite and delete the
+   pattern, killing both the host and the symbiont. If this is true, then
+   simply by turning off/adjusting the Biofilter, Trills can transport
+   like anyone else. Surely, once the unique nature of the Trill was
+   revealed, the all Federation Biofilters would be reprogrammed to
+   ignore the symbiont.
+   
+   The third is that some Trill symbionts would be damaged by the
+   transport process, and others wouldn't be. This is proposed in the
+   Encyclopedia. Another possibility is that the link in an injured Trill
+   (host or symbiont) is susceptible to damage during transport.
+   
+   ....
+   
+   "Can you transport through subspace?"
+   
+   In "Data's Day" [TNG], the use of a subspace carrier wave was
+   mentioned as the method by which the transporter beam propagates.
+   
+   In "Bloodlines" [TNG], Bok has a subspace transporter, a technology
+   which was researched but later abandoned by the Federation. The range
+   is at least 300 billion kilometers, and at most several light years
+   and the subject is put into a state of molecular flux. Doesn't sound
+   healthy. How is this different than normal transport? Probably just a
+   deeper level of subspace.
+   
+   In "The High Ground" [TNG], transporting through folded space using a
+   subspace field coil made for instant, untraceable transports. The only
+   problem is that it causes slow, irreversible genetic damage to the
+   transport subject. It is a cumulative effect: one or two transports
+   would be harmless, but dozens or hundreds are fatal. The Federation
+   experimented with such technology in the 23rd Century, so this may be
+   what Bok was using as well. (Joseph M. Osborne)
+   
+   ....
+   
+   "Why can't you be transported through shields?"
+   
+   If you could be transported through shields, they'd be pretty lousy
+   shields. Just transport a bomb or boarding party over.
+   
+   Benjamin Chee:
+   
+     Just a thought here. Says in the TNG Tech Manual that phasers may
+     be fired one-way through the ship's own shields due to EM
+     polarization (whatever that means). If this holds true for other
+     forms of wavicle energy, then one might be able to transport out
+     one-way through shields, too.
+     
+   Benjamin points out that in Star Trek III: The Search For Spock,
+   Klingons transport while their Bird of Prey is cloaked, yet in "The
+   Search, Part 1" [DS9] the Defiant has to decloak to transport.
+   
+   Greg Moseley suggests that the differences between the Klingon and
+   Romulan cloaking devices may be responsible for the discrepancy; the
+   Defiant cloak is on loan from the Romulans in return for information
+   about the Gamma Quadrant.
+   
+   Benjamin adds that in "The Die Is Cast" [DS9] a Romulan ship decloaks
+   on top of a runabout before it can beam the occupants aboard. But in
+   "The Way of the Warrior" [DS9] an entire fleet of Klingon ships stays
+   cloaked until the battle warms up.
+   
+   And finally, more wisdom from Benjamin:
+   
+     One more point - the Klingon clunker in Generations had to decloak
+     before it could beam Soran aboard, didn't it ? We never really were
+     told why nor do we have much to conjecture from, but this is indeed
+     an exception to the rule. In a mail to Mike Okuda, he also admitted
+     that they never really kept track of the cloaks - might have been
+     coincidence all the way up till Generations.
+     
+   ....
+   
+   "But what about the time O'Brien used the shield frequencies..." ("The
+   Wounded" [TNG])
+   
+   Shields must allow some energy through to allow sensors to operate. To
+   be safe, these frequencies are cycled, allowing sensor windows. By
+   knowing the shield cycles, and the right frequencies, it is be
+   possible to adjust the transporter to work at those few open
+   frequencies, and slip past the shields.
+   
+   Of course, if the destination ship detects you trying to beam through,
+   they can alter the shield frequencies and end the transport suddenly,
+   with rather messy results.
+   
+   ....
+   
+   "What about in "Relics" [TNG] - they didn't do anything special!"
+   
+   One would imagine that shield and transporter technologies are in a
+   constant development race, as sensors and cloaks are. The "enemy" is
+   always trying to figure out a way to transport through your shields,
+   and thus you must always be trying to improve your shields to block
+   this. Hence, any 70-year-old shields, like those on the Jenolan, would
+   be practically transparent to modern transporters.
+   
+   Alternately, Geordi and Scotty knew that the Enterprise would have to
+   beam them off the ship, and turned off the "transport blocking"
+   frequencies in the shields.
+   
+   ....
+   
+   "Could surgery be performed with a transporter?"
+   
+   It all depends on the surgery. For example - could I suspend you in
+   transport, reform the pattern so that your arm is no longer broken,
+   your skin is no longer cut, etc? Yes. But in sickbay they already have
+   machines which do it near-instantly, and don't take the massive
+   resources of the transporter.
+   
+   For such things as removing a tumor, you must consider what replaces
+   the object being transported away. In all likelihood, a vacuum. Having
+   a small vacuum appear inside you body is probably more deadly than the
+   tumor was in the first place. It has been suggested that you could
+   synchronize two ACBs and beam in a saline solution in place of the
+   tumor you are transporting out, but again, why bother? There are
+   already medical devices which probably use micro-transporter
+   technology to effect the surgery.
+   
+   In "Deadlock" [VOY], a baby (Naomi Wildman) was transported out of its
+   mother when there were complications during delivery - so apparently
+   this sort of thing is performed in emergency situations when the
+   normal medical resources are inadequate for the task. (Thanks to Eur
+   van Andel for pointing that out.)
+   
+   ....
+   
+   "What about souls?"
+   
+   Heh. Well, if you've already decided that Star Trek transporters and
+   souls don't get along, then accept that your position has been made
+   abundantly clear in the past, and don't bother to follow-up. Souls
+   aren't precluded by transporters, they just require that somehow,
+   souls can (1) "tag along" with the physical body through transport,
+   (2) stay in stasis along with a body, and (3) be duplicated. Since
+   there isn't (and many maintain, there can't be) any way of analyzing
+   this hypothetical "soul", it makes little sense to argue about what it
+   can and cannot do.
+   
+   ....
+   
+   "Can you transport while in Warp?"
+   
+   Yes. According to the TM and "Best of Both Worlds, Part II", if you're
+   in Warp you can transport as long as you are both at the same Warp
+   value. The TM says "integral warp value", but in BOBW2 they were
+   chasing the Borg ship at, I believe, warp 9.6 or something similar.
+   
+   H. Peter Anvin offers:
+   
+     I think the intent of the phrase "integral warp value" means
+     anything with the same integer number, i.e. 8 <= warp < 9; so in
+     BOBW2 the big E would only have had to exceed Warp 9 in order to
+     make this possible. The TM makes it abundantly clear that a
+     transition occurs at integral warp factors (and we deduce that to
+     be the reason the warp scale changed between TOS and TNG) so I
+     think it makes a lot of sense.
+     
+   Possible. However, doesn't O'Brien say "Matching warp velocities for
+   transport" or something quite similar? They'd have to be going at
+   nearly the same velocity already to keep up with the Borg ship, so
+   matching velocities could only refer to fine tuning.
+   
+   In "Force of Nature" [TNG], they transport from a stationary ship
+   while falling out of warp in an area of massive subspace instability.
+   It could be that since they aren't actively generating a warp field of
+   any level they can get away with transport.
+   
+   ....
+   
+   "What happened in "The Schizoid Man" [TNG] ?"
+   
+   The Enterprise dropped out of warp for a fraction of a second, and
+   engage the transport system. Troi reported feeling like she was inside
+   the wall for a moment. It appears that the matter stream falls out of
+   the ACB before transport is quite complete. Definitely a nasty thing
+   if things aren't perfect.
+   
+   ....
+   
+   And in the transporter weaponry category:
+   
+   Transporter Scramblers: (from "Nor the Battle to the Strong" [DS9] &
+   "The Darkness and the Light" [DS9])
+   
+   Transporter Scramblers are electronic countermeasures that prohibit
+   transporter activity in a given area. There are no known ways to
+   overcome the scrambler, except through sabotage. Small scramblers can
+   protect a few rooms of a ship or station, while larger arrays can
+   block an entire planet. They are a standard part of Klingon ground
+   assaults and are used in the protection of certain spaces of DS9.
+   
+   Remat Detonators: (from "The Darkness and the Light" [DS9])
+   
+   Remat Detonators are a Romulan weapon, probably invented by the Tal
+   Shiar, that destroys a transporter pattern during rematerialization.
+   They are very small, only 2 cubic millimeters, and are hidden on the
+   person of the victim. Remat detonators are currently available on the
+   black market as assassination weapons. They are also undetectable to
+   most scans.
+   
+   Thanks to Joseph M. Osborne for these summaries.
+     _________________________________________________________________
+   
+2. Replicators
+
+   "How do replicators work?"
+   
+   Replicators are based on transporter technology. A sample object is
+   first "scanned" into the memory of a computer. Because even a simple
+   object takes up an enormous amount of memory, the object is only
+   resolved at a molecular level, not a quantum level. Further, the data
+   must be compressed using a lossy algorithm, meaning that small,
+   undetectable approximations are made to the data. This gives the
+   computer a pattern to create a duplicate of the original. (TNG TM)
+   
+   Starships have a small supply of bulk material that is constantly
+   recycled into needed materials and items. When a request is made at a
+   replicator terminal, the wave-guide conduit system on the ship relays
+   a small amount of bulk material to the replicator, which uses it to
+   create the materials called for in the pattern. The object is then
+   beamed in at the terminal.
+   
+   ....
+   
+   "Can replicators transmute elements?"
+   
+   Yes... sort of. There have been occasions on the show where some
+   required element cannot be replicated. The Tech Manual talks about
+   "quantum transformational manipulation", so they can do some quantum
+   twiddling to get new elements. However, it also says that the energy
+   costs are high for all forms of replication, and that food, since it's
+   usually just different arrangements of the same basic things (water,
+   proteins, lipids), is more practical to replicate from bulk matter
+   than to store.
+   
+   In "Night Terrors" [TNG], when a certain substance is needed, Data
+   says "We no longer have the power to reproduce complex elements in the
+   replicator." This is evidence for the above.
+   
+   ....
+   
+   "What about gold-pressed latinum?"
+   
+   In "Who Mourns for Morn?" [DS9], latinum is described as a clear,
+   viscous liquid. Morn has kept latinum in his second stomach for years.
+   It's pressed into gold to to handle it better. The gold is worth
+   nothing. 30 cc latinum is about 200 bricks worth. [Eur van Andel]
+   
+   So, why is it valuable? See above about energy costs and certain
+   elements - possibly latinum is a stable element that 24th century
+   technology can't transmute. Or, alternatively, it could take *exactly*
+   (perhaps by definition) the same amount of energy to replicate as it
+   takes to mine/ manufacture, making it a good standard for monetary
+   transactions.
+   
+   Here's what Mike Okuda and Rick Sternbach came up with when confronted
+   with this question in the book The Making of DS9, c/o Benjamin Chee:
+   
+     Q: How could it be so valuable if it could be churned out by any
+     replicator ?
+     
+     RS: Oh, well, Mike and I have had discussions about things like
+     this... it might be that, you know, that the particular molecular
+     structure just doesn't, you know, doesn't - Mike? Why can't you
+     replicate latinum ?
+     
+     MO: Uh, it's because - uh, when - uh, it's because the um, the, uh,
+     uh, the valence system and the molecular structure are, are
+     arranged - the, uh, the, the, uh, replicator reads certain valence
+     patterns - it recognizes that, that those are... copyguarded !
+     
+     Q: Copyguarded ?
+     
+     RS: Copyguarded! Oh, they're, they're 'nudged', sort of 'nudged
+     quanta' and if they're -
+     
+     MO: Hey, we talked about this before.
+     
+     RS: That's right, that's right. Yes, and if they're, they're
+     polarized in the, in the X plane, then they're, they're okay. If
+     they're polarized in the Y-Z plane, then they're bogus.
+     
+     MO: Right.
+     
+   Tom Luton writes:
+   
+     The novel "Balance of Power" (TNG #33, written by Dafydd Ab Hugh)
+     has a detailed description of why latinum cannot be replicated. I
+     don't have the novel with me, but as far as I can remember, latinum
+     has a highly complex molecular structure, and is extremely similar
+     to Chasenum. Any attempt to replicate Latinum will result in the
+     formation of Chasenum (I've forgotten the specific details, and I
+     don't even think I've spelled the name of the material
+     correctly).
+     
+   ....
+   
+   "What happens to the glasses when they're done with them?"
+   
+   The empty glasses, plates, etc, are put back in the replicator
+   terminal ("Timescape" [TNG]), and returned as raw materials to the
+   bulk matter store. It would make sense if they were only disassembled
+   on the molecular level, as the energy needed to reform new glasses
+   would be much lower than if they were broken down to the atomic level
+   or quantum level.
+   
+   ....
+   
+   "Why don't they use replicators to do instant ship repair?"
+   
+   For minor repair, it might be feasible, but we rarely see any sort of
+   repairs actually being done. When Geordi says "30 minutes at least,
+   Captain", they might be replicating various components and using a
+   transporter-effected swap-out. Recall, however, that the transporters
+   and replicators use a lot of power. The replicators go offline in
+   Alert situations, for example. It would be foolish to rely on such a
+   system to repair the ship in emergencies, but it is doubtless used at
+   other time.
+   
+   For large scale repair, I think the TNG Tech Manual says it best: "...
+   if you could make a starship at the touch of a button, you wouldn't
+   need to..."
+   
+   ....
+   
+   "Can you make two Datas with the transporter?"
+   
+   No. It is not possible (with 24th century technology, at least) to
+   replicate something at the quantum level. First, the amount of
+   information needed to define a living, thinking being at that level of
+   detail is incredibly large, far surpassing the computer capacity of
+   any 24th century database. (TNG TM)
+   
+   Presumably, Data and other Soong-type androids which use positronic
+   brains have components which function at a quantum, or sub-molecular
+   level which cannot be easily replicated.
+   
+   Secondly, there is no way to scan at quantum resolution without
+   destroying the subject. The transporter ACB need not know the precise
+   details of every particle being transported - where they are and what
+   they are doing is enough. Further, attempting to retrieve such
+   information from the ACB would destroy it.
+   
+   To duplicate a living being, a hypothetical effect, which I call an
+   Annular Confinement Beam-Splitter, would be needed. As the ACB was
+   passed through it, along with a supply of raw phased matter, it would
+   duplicate the ACB's contents in the raw stream.
+   
+   ....
+   
+   "Hey! What about "The Enemy Within" and "Second Chances" ?"
+   
+   For better or worse, no such device has been intentionally created by
+   24th century science. However, in "The Enemy Within" [TOS], Kirk's
+   duplication may have been caused by some accidental effect which
+   caused an ACBS to form in the normal transporter mechanism, with
+   disastrous results. The Encyclopedia says that damage to the the
+   transporter's ionizer was the cause of the split.
+   
+   In "Second Chances" [TNG], the mechanism by which Riker is duplicated
+   is explained in detail. During transport through severe atmospheric
+   interference, the transporter chief locked onto Riker's signal with a
+   second ACB. When it turned out not to be needed, the second signal was
+   abandoned. The atmospheric interference caused the second ACB to be
+   reflected back to the planet, and somehow the matter stream was
+   duplicated, using phased matter from the atmospheric interference
+   effect to provide the duplicate mass.
+   
+   ....
+   
+   "What about the time when... ?"
+   
+   Star Trek has "broken" the rules of transporters a number of times.
+   There are very few glaring examples of misuse of the transporter as a
+   plot device to save the day, but the worst include:
+   
+   "Rascals" [TNG] - Picard, Keiko, Guinan and Ro are turned into
+   children in a freak transporter accident, and later restored. I won't
+   even try. First off, the biology used in this episode is pure BS.
+   Secondly, if a quick fix like this can alter the aging process, then
+   by doing it intentionally, no-one will ever grow old and die again.
+   Amusing episode, but it gets a thumbs down in the Treknology category.
+   
+   "Unnatural Selection" [TNG] - The transporter magically rejuvenates
+   Pulaski. While the mechanism by which her cure works is relatively
+   sound, the fact that she recovers instantly is anomalous. (See "Man of
+   The People" [TNG] for a similar insta-heal.) Better to just not ask.
+   
+   "Tomorrow Is Yesterday" [TOS] - Somehow, the transporter is able to
+   erase the memories of people by transporting a newer version of
+   themselves over top of an older version. Talk about saving the day by
+   transporter abuse!
+   
+   "The Enemy Within" [TOS] - While I can buy the duplication effect, and
+   maybe even the two disparate personas of the two Kirks, I think the
+   recombination of the two was pushing the technology a little bit.
+     _________________________________________________________________
+   
+3. Phasing
+
+   "What is phasing? It seems to be mentioned everywhere these days!"
+   
+   Star Trek seems to have this notion of "phased" as a state or quality
+   of matter and energy. Things can be offset slightly in a time-like
+   dimension from our "phase" of the universe. The idea being that if you
+   and I have different "phases" we can't interact with each other
+   without using special particles or fields or the usual [TECH].
+   
+   This is borne out in "The Mind's Eye" [TNG], where Geordi lists the
+   five states in Sub-Quantum Transformational Relativity:
+     * asymmetrical
+     * inverted
+     * phased
+     * standing
+     * universal
+       
+   Phasers set on kill appear to work by violently phasing their target
+   into one (or more) different phases. Ouch. This explains rather nicely
+   why they just disappear and don't go "boom". Chronotons, which have
+   been linked to time travel and associated effects, are also mentioned
+   with regards to phasing a few times.
+   
+   "The Tholian Web" [TOS] - The U.S.S. Defiant and Captain Kirk get
+   trapped in an "interphase" rift, phasing in and out.
+   
+   "The Next Phase" [TNG] - Geordi and Ro and a Romulan get accidentally
+   phase-cloaked within the Enterprise. They can walk through walls and
+   people. (They don't fall through the floor, though.) A high-intensity
+   sweep with anyons return Geordi and Ro to normal phase.
+   
+   "Time's Arrow" [TNG] - Phased creatures from Devidia Two are
+   travelling through a portal to 19th Century Earth to steal neural
+   energy. A subspace field can be used to align the phases of the
+   Enterprise crew and the creatures.
+   
+   "The Pegasus" [TNG] - The Enterprise uses a phase-cloak developed
+   illegally many years ago by the Federation earlier to escape from an
+   asteroid. The cloaking device phases the entire ship.
+   
+   "Relics" [TNG] - Scotty couples the transporter phase inducers to the
+   pattern buffer to create the suspension effect. Given that
+   transporting involves conversion to a beam of matter and energy, and
+   that you can transport through walls, that beam better be phased or
+   there'll be some big nasty holes whenever people transport.
+     _________________________________________________________________
+   
+4. Credits:
+
+          Tom Luton
+          Eur van Andel, eur@xs4all.nl
+          Joseph M. Osborne jmosbo0@sac.uky.edu
+          Boris S., ibctel@ibctel.anet.cz
+          Greg Moseley, Gojira5757@aol.com
+          John F. Meyer Jr., gtd322a@prism.gatech.edu
+          Erik Ebert, erik_e1@verifone.com
+          H. Peter Anvin, hpa@nwu.edu
+          Benjamin Chee, cheeweit@iscs.nus.sg
+          Ron Klapperich, csk@spu.edu
+     _________________________________________________________________
+   
+5. References:
+
+   See the Reading List FAQ for more details on the reference volumes
+   mentioned above and below.
+   
+   The question of "what is canon" has been argued for years in the Star
+   Trek newsgroup hierarchy. In the realm of technical discussions, this
+   can be refined to the question of "what evidence is factual, and what
+   is apocryphal". These FAQs follow the currently dominant notion that
+   "canon" is aired live-action material and nothing more, with the
+   caveat that materials produced off-camera by the production crew are
+   often (but not always) reliable predictors of the direction future
+   canonical material will follow, and are therefore granted a special
+   "quasi-canonical" status. Any other material falls into the realm of
+   speculation - it may be perfectly well grounded speculation useful for
+   building up technical arguments, or wild flights of fancy that have no
+   rational basis.
+   
+   In addition, more recently presented information is considered to
+   supercede old information, unless the weight of the evidence supports
+   the original data. While this may seem highly biased and may be eyed
+   with some skepticism as a form of Orwellian "newthink", it is a more
+   useful predictor of what those directly responsible for the creation
+   of the series are likely to include as canonical material in the
+   future.
+   
+   For example, the excellent and groundbreaking Star Fleet Technical
+   Manual, by Franz Joseph created in the 1970's was a very well thought
+   out look at the technical world of Starfleet just slightly beyond what
+   was seen in the original series. Unfortunately, and perhaps for purely
+   arbitrary reasons, the future development of "canon" Star Trek
+   diverged from this speculation. This in no way implies that there was
+   anything wrong with that volume or any others, merely that due to
+   later "evidence", it can no longer be regarded as an authoritative
+   overview of Trek technology. On the other hand, the author performed a
+   lot of research to create it, and therefore its speculation should not
+   be dismissed out of hand.
+   
+   That said, we are dealing with a universe in the process of being
+   created by scores of (usually) non-technical people, aiming to provide
+   weekly entertainment for a mass audience. There are many
+   inconsistencies even amid the canonical material, and often times the
+   wildest speculation on the newsgroup makes more sense than what we see
+   in the episodes.
+   
+   Canonical material:
+     * Star Trek: Voyager [VOY]
+     * Star Trek: Deep Space Nine [DS9]
+     * Star Trek: The Next Generation [TNG]
+     * Star Trek feature films
+     * Classic Star Trek [TOS]
+       
+   Quasi-canonical material:
+     * The Star Trek Encyclopedia: A Reference Guide to the Future
+     * Star Trek Chronology: The History of the Future
+     * Star Trek: The Next Generation Technical Manual
+     * Star Trek: Deep Space Nine Technical Manual
+     * The Making of Star Trek
+     * Other "behind the scenes" information from the production crew,
+       including:
+          + Newsgroup postings
+          + Convention presentations
+          + Interviews
+          + Email conversations
+       
+   Highly regarded, but non-canonical material:
+     * Star Trek: The Animated Series [TAS]
+     * Mr. Scott's Guide to the Enterprise
+     * Star Fleet Technical Manual
+     * Starlog's Star Trek: The Next Generation Technical Journal
+     * Other "reference" guides
+     * Novels, incl. novelizations of films and episodes
+     * Blueprints, drawings, photographs, models, etc.
+     _________________________________________________________________
+   
+   Joshua Bell, inexorabletash@hotmail.com
+

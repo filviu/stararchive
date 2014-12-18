@@ -1,0 +1,157 @@
+Welcome to the Star Trek ASCII Art Archive
+
+All pictures are by Joshua Bell, unless marked with an asterisk (*) - those 
+files should be credited internally. Any corrections to the attributions would 
+be welcomed. 
+
+From the Jargon File (aka Hacker's Dictionary): 
+    ASCII art: n. The fine art of drawing diagrams using the ASCII character set 
+    (mainly `|', `-', `/', `\', and `+'). Also known as `character graphics' or 
+    `ASCII graphics' 
+
+This means that the images in this archive are not GIFs, JPEGs, AutoCad 
+blueprints, Lightwave renderings, or anything else of that nature. They're 
+comprised entirely of characters you can type on a keyboard. Please stop sending
+me email complaining that the images are made out of little dashes. It's an art 
+form, albeit a strange one. 
+
+
+    EVOLUTION: Enterprises past and present 
+
+
+
+Starships from Star Trek
+
+Cardassian 
+    Galor-class Warship Aldara * 
+    Keldon-class Warship 
+    Terok Nor - Deep Space 9 station * 
+
+Starfleet 
+    Akira-class - Thunderchild 
+    Ambassador-class - Excalibur NCC-26517 
+    Centaur-type - Centaur 
+    Cheyenne-class - Ahwannee NCC-73620 (Skybox TNG cards) 
+    Constellation-class - Stargazer NCC-2893 
+    Constitution-class - Enterprise NCC-1701 (TOS era) 
+    Constitution-class, refitted - Enterprise NCC-1701-A 
+    Daedalus-class - Essex NCC-173 (Chronology) 
+    Danube-class - Rio Grande NCC-72452 (Runabout) 
+    Defiant-class - Defiant NX-74205 
+    Excelsior-class - Enterprise NCC-1701-B (class variant) 
+    Excelsior-class - Excelsior NCC-2000 
+    Galaxy-class - Enterprise NCC-1701-D 
+    Galaxy-class, refitted - Enterprise NCC-1701-D ("All Good Things...") 
+    Hope-class - Pasteur NCC-58928 ("All Good Things...") 
+    Intrepid-class - Voyager NCC-74656 
+    Miranda-class - Reliant NCC-1864 
+    Miranda-class, refitted - Brattain NCC-21868 
+    Nebula-class - Sutherland NCC-72015 
+    New Orleans-class - Kyushu NCC-65491 (Encyclopedia) 
+    Norway-class - Budapest NCC-64923 
+    Nova-class Prototype (TNG Tech Manual) 
+    Oberth-class - Grissom NCC-636 
+    Renaissance-class - Aries NCC-45167 
+    Sovreign-class - Enterprise NCC-1701-E 
+    Soyuz-class - Bozeman NCC-1941 
+    Federation Shuttlecraft Types 6, 7, 8, 9 and 15 
+    Unknown ("Frankenstein" type) 
+
+Ferengi 
+    D'Kora-class Marauder Kreech-ta 
+
+Klingon 
+    B'rel-class Bird of Prey 
+    K't'inga-class Amar 
+    Vor'Cha-class Bortas 
+
+Romulan 
+    Bird of Prey (TOS era) 
+    D'Deridex-class, aka Warbird 
+    Early design, circa 2161 (from Encyclopedia) * 
+    Scout/Science ship, seen in "The Defector" 
+
+
+
+Other Stuff 
+
+Badges and Symbols 
+    Bajoran symbol/com badge 
+    Generations/Voyager com badge 
+    TNG com badge (from a FAQ) * 
+    TNG com badge (smaller) 
+    Klingon Empire 
+    Romulan Star Empire 
+    Romulan Star Empire (another) * 
+    United Federation of Planets 
+    TFS Transport Systems icon 
+    Starfleet logo * 
+    Starfleet logo * 
+
+Miscelaneous 
+    Old, large, sideways view of the NCC-1701 * 
+    Galaxy-class bridge 
+    Low-detail Borg ship? 
+    More-detailed Borg ship * 
+    Not really Trek, but similar to Q's * 
+    Misc Federation ships (from the net) * 
+    Misc Klingon ships (from the net) * 
+    Misc Romulan ships (from the net) * 
+    21st Century Vulcan Survey Ship 
+
+Equipment 
+    Klingon d'k tahg (ceremonial knife) 
+    TNG mini-phaser 
+    TNG "dustbuster" phaser 
+    Starfleet Probes * 
+    An open tricorder 
+
+Fan Designed Starships 
+    Declaration-class, a pre-Constitution vessel 
+    Dreadnought-class, from the Star Fleet Technical Manual * 
+    Explorer-class - A post-Excelsior, pre-Galaxy design * 
+    Hydra-class - experimental vessel, like Galaxy crossed with D'Deridex 
+    Ingram-class - Fan club, Excelsior-like ship * 
+    Modified Intrepid-class, with 3 nacelles and a "borg-buster" canon 
+    Lynx-class, c/o Starlog 
+    A fanfic TransWarp prototype ship, c/o Starlog 
+    Mediterranean-class, Proposed design; Excelsior components in a Nebula 
+    configuration 
+    Misc. designs from the Star Fleet Technical Manual * 
+    U.S.S Rickover, from an alt.startrek.creative story * 
+
+Series Logos 
+    Classic Star Trek 
+    The film series 
+    Star Trek: The Next Generation 
+    Star Trek: Deep Space Nine 
+    Prototype for the DS9 logo 
+    Star Trek: Generations (2 sizes) 
+
+People 
+	Mostly GIF->ASCII conversions 
+	(B/W) means it is best viewed with black text on a white background.
+	(W/B) means it is best viewed with white text on a black background.
+
+    (B/W) Leonard "Bones" McCoy * 
+    (B/W) Commander Beverly H. Crusher * 
+    (B/W) Lt. Commander Data * 
+    (B/W) Lt. Commander Data * 
+    (W/B) Captain James T. Kirk * 
+    (B/W) Captain Jean-Luc Picard * 
+    (W/B) Captain Jean-Luc Picard (by hand) * 
+    (W/B) Captain Jean-Luc Picard * 
+    (W/B) Captain Jean-Luc Picard (by hand) * 
+    (B/W) Commander William T. Riker * 
+    (B/W) Captain Montgommery "Scotty" Scott * 
+    (B/W) Admiral Spock 1 * 
+    (W/B) Admiral Spock 2 * 
+    (W/B) Admiral Spock 3 * 
+    (B/W) Spock (cartoon) * 
+    (W/B) Commander Deanna Troi * 
+    (B/W) Commander Deanna Troi * 
+    (B/W) Wesley Crusher * 
+
+
+
+Joshua Sean Bell, <joshb@microsoft.com> 

@@ -1,0 +1,264 @@
+From: hinson@london.physics.purdue.edu (Jason W. Hinson)
+Newsgroups: rec.arts.startrek.tech,rec.answers,news.answers
+Subject: Relativity and FTL Travel--Introduction
+Followup-To: rec.arts.startrek.tech
+Date: Thu, 11 Jan 2001 20:56:25 +0000 (UTC)
+
+Archive-name: star-trek/relativity_FTL/intro
+Posting-Frequency: bimonthly for r.a.s.tech, monthly for news.answers
+
+
+=============================================================================
+                          Relativity and FTL Travel
+                                 
+               by Jason W. Hinson (hinson@physics.purdue.edu)
+-----------------------------------------------------------------------------
+                                 
+                      Part 0: Introduction to the FAQ
+                                 
+=============================================================================
+Edition: 5.1
+Last Modified: August 26, 2000
+URL: http://www.physics.purdue.edu/~hinson/ftl/
+FTP (text version): ftp://ftp.cc.umanitoba.ca/startrek/relativity/
+
+
+
+
+     ------------------------------------------------------------------
+          Copyright(C) 1995, Jason W. Hinson. This document, including
+     all of its parts, is not in the public domain. Permission to
+     distribute this document in its entirety (unedited and including
+     this copyright notice) is granted, provided no fees are charged
+     for the distribution beyond charges for downloading and/or
+     connection time from a commercial information service. Permission
+     to distribute a partial version of this document containing only
+     this introduction along with parts I and IV is also granted under
+     the same restrictions. Publication of any part of this document in
+     a magazine or journal (in any media format) must be approved by
+     the author.
+          Star Trek(R) , Star Trek: The Next Generation(R) , and Star
+     Trek: Deep Space Nine(R) are trademarks of Paramount Pictures
+     registered in the United States Patent and Trademark Office. Star
+     Trek: Voyager(TM) is a trademark of Paramount Pictures.
+     ------------------------------------------------------------------
+
+
+
+Contents of this Introduction:
+0.1 What is this FAQ About, and Who Should Read It
+0.2 Edition Information
+0.3 The Versions
+
+A contents of the FAQ is also given below.
+
+
+
+0.1 What is this FAQ About, and Who Should Read It
+
+     The primary purpose of this FAQ is to discuss (in straight-forward,
+simple terms) the relationship between relativity and faster than light
+(FTL) travel. Part I introduces the information about special relativity
+which one needs to understand the discussion of FTL travel. One of its
+sections involves an introduction to space-time diagrams, which are used to
+make some significant points in the FTL travel discussion. Therefore, if you
+are not familiar with these diagrams, then this will be a very important
+section for you to read.
+     Parts II and III are what I call "optional reading" parts. If you do
+not want to read them, you can still understand the FTL travel discussion.
+Part II gives more information about special relativity and explains two
+"solvable paradoxes" which are associated with the theory, while Part III
+introduces and explores some of the major concepts in general relativity,
+and does so at considerable length.
+     Part IV is the part which discusses the question of FTL travel. There
+are two basic problems which are discussed, and while most ideas for FTL
+travel in science fiction address the first problem (the light speed
+barrier), many simply ignore the second (producing unsolvable paradoxes).
+Part IV also discusses various conceptual forms of FTL travel (each of which
+get around the "first problem"), and it introduces special provisions for
+getting around the "second problem". Finally, because this FAQ is meant for
+the rec.arts.startrek.tech newsgroup, I will apply the FTL discussion to
+explain how warp (as it is depicted in Trek) can allow FTL travel while
+getting around both of the problems mentioned above. As far as I can tell,
+it presents the best way of explaining everything the series has shown us.
+     I should also note that various diagrams are used throughout this FAQ,
+and so the HTML versions provide links to the diagrams when they are
+mentioned throughout the FAQ for convenience. However, if you are reading
+the LaTeX or text versions, it may be helpful for you to make a hard copy of
+the parts you are reading so that you can view the diagrams easily as you
+read various sections of the FAQ.
+     I hope you can learn a little something from reading this, or at least
+strengthen your understanding of that which you already know. Your comments
+and criticisms are welcome, especially if they indicate improvements that I
+can make for future posts. If any or all parts of this post do not show up
+at your site, or if any or all are cut short, let me know and I can e-mail
+you the parts you want.
+
+
+
+0.2 Edition Information
+
+     This is edition 5.1 of this FAQ. A couple of subsections have been
+added to the discussion of relativistic energy and momentum, and a few other
+minor corrections were made over the previous edition.
+     As usual, (although I'm no longer calling this edition a "beta"
+edition) I am sure it still contains mistakes here and there I have yet to
+catch. Therefore, as always, if you see any mistakes or if you think that
+any changes should be made, please let me know.
+     Edition 5.1 was completed on September 6, 1999. Any later modifications
+involve smaller changes and/or corrections.
+
+     Here is some information about previous editions: No detailed
+information was kept concerning changes in editions 1 through 3, but they
+were all single-part documents concerned mainly with giving the reader a
+quick introduction special relativity and explaining how FTL travel seemed
+impossible because of it. They also included only one "special provision"
+for getting around all the problems of relativity (that provision being the
+use of a special frame of reference).
+     In edition 4.0b, the FAQ was split into five parts (an introduction and
+four parts to the FAQ itself). In addition to one part which introduced
+special relativity and another part which discussed FTL travel, two
+completely new parts were added (one which looked further into special
+relativity and one which introduced general relativity). In this edition,
+the FAQ was also made available in an HTML version (though all diagrams and
+equations were still in ASCII).
+     In edition 4.1b (completed September 8, 1995) I added another "special
+prevision" in the FTL section.
+     As of edition 5.0b1 of this FAQ (completed on July 11, 1997), in
+addition to a text version and an HTML version with only ASCII graphics, it
+was also made available in a gif-graphics-rich HTML version and a LaTeX
+version! (See Section 0.3: The Versions to learn more about these versions.)
+In 5.0b1, I also made changes in various chapters (expanding some material
+and moving some into new sections) to help improve explanations and
+readability. In general, the basic information included has not changed, but
+the FAQ was hopefully made even more understandable to its readers.
+
+
+
+0.3 The Versions
+
+     As of edition 5.0b1, this FAQ was made available in the following
+versions: A plain text version allows for reading the FAQ on a simple ASCII
+screen, or the reader can print out the FAQ quite easily. All the graphics
+and equations are in simple ASCII. This is the version of the FAQ which is a
+regular posting on the rec.arts.startrek.tech newsgroup. It is also
+available to download via FTP from the site listed at the top of each part
+to this FAQ.
+     A non-gif HTML version of the FAQ is also available that includes links
+used throughout the FAQ which make studying the FAQ easier. All the graphics
+and equations in this version are in ASCII, which allows for faster
+download, but which may not be as readable as the gif graphics included in
+other versions. This version can be accessed from the URL listed at the top
+of each part of this FAQ.
+     A new HTML version including gif graphics for diagrams and equations is
+now available as well. While the parts of this version take longer to
+download, you will likely find the graphics easier to understand and more
+informative. This version is also accessible from the URL listed at the top
+of each FAQ part.
+     Finally, the FAQ has been converted to a LaTeX version as well. LaTeX
+is a package used with TeX which in turn is a high-quality typesetting
+program used to produce various scientific and technical documents.
+Documents written in LaTeX use a type of scripting language which includes
+various commands to tell the LaTeX program how to typeset the document. The
+final product of a LaTeX work is often a postscript file which contains the
+typeset document and is ready for printing. For more information on LaTeX, I
+would probably recommend looking at the "Hypertext Help with LaTeX" page
+(URL=http://molscat.giss.nasa.gov/LaTeX/).
+     If you are interested, the LaTeX version can be downloaded as a file
+ready for processing, or you can download the final postscript file which is
+ready for printing. Either of these files can be downloaded from the URL
+listed at the top of each part of this FAQ.
+     I also want to give a special note of thanks to Ricardo Aler Mur
+<aler@inf.uc3m.es> for his help in converting the original text into a LaTeX
+version. He provided a great starting point for the final LaTeX version, and
+without him I may have never gone through all the trouble.
+
+     Well, I hope the reader will find at least one of these formats to his
+or her liking.
+----------------------------------------------------------------------------
+
+ CONTENTS OF THE FAQ:
+
+
+Part I: Special Relativity
+Chapter 1: An Introduction to Special Relativity
+     1.1 Relativity Terminology
+     1.2 Reasoning for its Existence
+     1.3 Time Dilation and Length Contraction Effects
+     1.4 Introducing Gamma
+     1.5 Energy and Momentum Considerations
+          1.5.1 Rest Mass versus "Observed Mass"
+          1.5.2 The Energy and Momentum of a Photon (Where m = 0)
+     1.6 Experimental Support for the Theory
+Chapter 2: Space-Time Diagrams
+     2.1 What are Space-Time Diagrams?
+     2.2 Time as Another Dimension
+     2.3 Basic Information About the Diagrams we will Construct
+     2.4 Constructing One for a "Stationary" Observer
+     2.5 Constructing One for a "Moving" Observer
+     2.6 A Quick Comparison of the two Observers
+     2.7 Interchanging "Stationary" and "Moving"
+     2.8 "Future", "Past", and the Light Cone
+
+
+Part II: More on Special Relativity
+Chapter 3: Completing the Space-Time Diagram Discussion
+     3.1 Comparing Time for O and O'
+     3.2 Comparing Space for O and O'
+     3.3 Once Again: The Light Cone
+Chapter 4: Paradoxes and Solutions
+     4.1 The "Twin Paradox"
+          4.1.1 Viewing it with a Space-Time Diagram
+          4.1.2 Explaining the "First Part"
+          4.1.3 Explaining the "Second Part"
+          4.1.4 Some Additional Notes
+     4.2 The "Car and Barn Paradox"
+          4.2.1 Viewing it with a Space-Time Diagram
+          4.2.2 The explanation
+
+
+Part III: A Bit About General Relativity
+Chapter 5: Introduction to General Relativity
+     5.1 Reasoning for its Existence
+     5.2 The "New Inertial Frame"
+     5.3 The Global Break-Down of Special Relativity
+     5.4 Manifolds, Geodesics, Curvature, and Local Flatness
+     5.5 The Invariant Interval
+     5.6 A Bit About Tensors
+     5.7 The Metric Tensor and the Stress-Energy Tensor
+     5.8 Applying these Concepts to Gravity
+          5.8.1 The Basic Idea
+          5.8.2 Some Notes on the Physics and the Math
+          5.8.3 First Example: Back to SR
+          5.8.4 Second Example: Stars and Black Holes
+     5.9 Experimental Support for GR
+
+
+Part IV: Faster Than Light Travel--Concepts and Their "Problems"
+Chapter 6: Introduction to the FTL Discussion
+     6.1 A Few Notes On The Meaning of FTL Travel
+Chapter 7: The First Problem: The Light Speed Barrier
+     7.1 Effects as One Approaches the Speed of Light
+Chapter 8: The Second Problem: FTL, Causality, and Unsolvable Paradoxes
+     8.1 What is Meant Here by Causality and Unsolvable Paradoxes
+     8.2 How FTL Travel Implies Violation of Causality
+     8.3 How We Get Unsolvable Paradoxes
+Chapter 9: FTL Concepts with these Problems in Mind
+     9.1 Tachyons (Without Special Provisions)
+     9.2 Using a Special Field/Space/etc. (W/o Special Provisions)
+     9.3 "Folding" Space (Without Special Provisions)
+     9.4 Space-Time Manipulation (Without Special Provisions)
+     9.5 Special Provisions
+          9.5.1 Parallel Universes
+          9.5.2 Consistency Protection
+          9.5.3 "Producing" Restricted Space-Time Areas
+          9.5.4 A Special Frame of Reference for the purpose of FTL Travel
+Chapter 10: Some Comments on FTL Travel in Star Trek
+     10.1 Which Provision is Best for Explaining Warp Travel
+     10.2 Subspace as a Special Frame of Reference
+     10.3 The "Picture" this Gives Us of Warp Travel
+     10.4 Some Notes on Non-Warp FTL Travel and Time Travel in Trek
+     10.5 To sum up...
+Chapter 11: Conclusion
+
+
